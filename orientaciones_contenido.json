@@ -1,0 +1,198 @@
+{
+  "version": "2026-10-10.1",
+  "estado": "propuesta_pendiente_revision_docente",
+  "nota": "Orientaciones didácticas por contenido para guiar a la IA. Las redactó un asistente a partir de los títulos y síntesis de las fichas; Facundo debe revisarlas y corregirlas. No son citas de los NAP. Se pueden editar con cualquier editor de texto: guardar en UTF-8 y reiniciar Uvicorn.",
+  "contenidos": {
+    "N51": {
+      "foco": "Reconocer las operaciones de un proceso de traslado y distribución: carga, traslado, almacenamiento, entrega; origen, recorrido y destino.",
+      "requiere_construccion": false,
+      "la_prueba_debe_mostrar": "Que un objeto declarado llega desde un origen a un destino siguiendo un recorrido, y que los alumnos nombran cada operación (cargar, trasladar, descargar, entregar).",
+      "ideas_de_producto": [
+        "Con cartón o tubos: rampa o canaleta que lleva un objeto declarado (tapita, bolita) de una mesa a una caja de destino.",
+        "Con cajas: simulación de un centro de distribución que clasifica y entrega 'paquetes' a destinos marcados.",
+        "Sin materiales de construcción: esquema del recorrido de un producto real, indicando origen, operaciones y destino."
+      ],
+      "objetivos_ejemplo": [
+        "Identificar y nombrar en orden las operaciones de traslado de un objeto.",
+        "Representar el recorrido indicando origen, medio de traslado y destino."
+      ],
+      "evitar": ["Convertir la actividad en una prueba de resistencia o de carga de una estructura."],
+      "palabras_clave": ["traslad", "transport", "distribu", "origen", "destino", "recorrido", "entrega", "carga", "descarga"]
+    },
+    "N52": {
+      "foco": "Relacionar las partes de un mecanismo con el cambio de movimiento: movimiento de entrada, elemento que transmite o transforma, movimiento de salida (dirección, sentido, velocidad o tipo de movimiento).",
+      "requiere_construccion": true,
+      "la_prueba_debe_mostrar": "Que al accionar la entrada (girar una manivela, empujar una palanca) se produce un movimiento de salida observable, y que los alumnos describen entrada, transmisión y salida (por ejemplo, cuántas vueltas da la salida por cada vuelta de entrada o si cambia el sentido).",
+      "ideas_de_producto": [
+        "Con tapitas, varillas o sorbetes y bandas elásticas: dos poleas unidas por un elástico; comparar vueltas de entrada y de salida.",
+        "Con cartón y un eje: leva que convierte un giro en un movimiento de subir y bajar.",
+        "Con palitos o cartón: palanca que levanta un objeto declarado; comparar posiciones del punto de apoyo."
+      ],
+      "objetivos_ejemplo": [
+        "Señalar en el mecanismo construido la entrada, la transmisión y la salida del movimiento.",
+        "Describir cómo cambia el movimiento (sentido, velocidad o tipo) entre la entrada y la salida."
+      ],
+      "evitar": ["Evaluar solamente si la estructura es estable o resiste.", "Suponer engranajes, ejes o poleas si no fueron declarados."],
+      "palabras_clave": ["movimiento", "mecanismo", "transmi", "transforma", "entrada", "salida", "gira", "giro", "vuelta", "polea", "palanca", "engranaje", "leva", "manivela", "eje"]
+    },
+    "N53": {
+      "foco": "Comparar formas de almacenar energía (elásticos estirados o retorcidos, resortes, objetos elevados, pilas) y relacionar cuánto se carga con el efecto al liberarla.",
+      "requiere_construccion": true,
+      "la_prueba_debe_mostrar": "Una comparación: el mismo dispositivo cargado con distinta cantidad (por ejemplo 5 y 10 vueltas del elástico) produce efectos distintos (distancia recorrida, altura, tiempo de giro), medidos con una referencia reproducible.",
+      "ideas_de_producto": [
+        "Con elásticos, carretes o tapitas: carrito o carrete impulsado por un elástico retorcido.",
+        "Con elásticos y palitos: lanzador; comparar estiramientos y distancias.",
+        "Con hilo y un objeto declarado: peso que al bajar hace girar un eje."
+      ],
+      "objetivos_ejemplo": [
+        "Relacionar la carga del elástico (vueltas o estiramiento) con la distancia que recorre el dispositivo.",
+        "Explicar dónde se almacena la energía y en qué momento se libera."
+      ],
+      "evitar": ["Hablar de energía sin que haya un elemento que la almacene y la libere.", "Suponer pilas o motores si no fueron declarados."],
+      "palabras_clave": ["energia", "almacen", "acumul", "elastic", "resorte", "carga", "libera", "pila", "estir", "vueltas"]
+    },
+    "N54": {
+      "foco": "Comparar una misma tarea hecha a mano y con herramientas o máquinas: qué funciones pasan de la persona al artefacto y qué cambia en tiempo, esfuerzo, precisión y rol de las personas, en su contexto.",
+      "requiere_construccion": false,
+      "la_prueba_debe_mostrar": "Un registro comparativo (tabla oral o escrita) de la misma tarea realizada de dos maneras, con al menos dos criterios observables (cantidad en un tiempo fijo, calidad, esfuerzo) y una conclusión sobre qué función asumió la herramienta.",
+      "ideas_de_producto": [
+        "Hacer la misma tarea (perforar papeles, cortar tiras, trasladar objetos) con la mano y con una herramienta declarada; registrar y comparar.",
+        "Analizar imágenes o relatos de una tarea antes y después de su mecanización."
+      ],
+      "objetivos_ejemplo": [
+        "Comparar una tarea manual y una con herramienta usando al menos dos criterios observables.",
+        "Identificar qué acción de la persona realiza la herramienta o máquina."
+      ],
+      "evitar": ["Construir una estructura que no se relacione con la comparación de tareas."],
+      "palabras_clave": ["manual", "a mano", "herramienta", "maquina", "compar", "tarea", "funcion", "persona", "esfuerzo"]
+    },
+    "N55": {
+      "foco": "Organizar operaciones para fabricar varias unidades iguales: plantillas o guías, división de tareas, puestos en línea y control de calidad; comparar con la producción artesanal.",
+      "requiere_construccion": true,
+      "la_prueba_debe_mostrar": "Cuántas unidades iguales se fabrican en un tiempo fijo y cuántas pasan un control (por ejemplo, coinciden con la plantilla), comparando la forma artesanal con la organización en línea.",
+      "ideas_de_producto": [
+        "Con cartón o papel: fabricar tarjetas, sobres o piezas iguales usando una plantilla.",
+        "Organizar el grupo en puestos (marcar, cortar, plegar, controlar) y comparar con hacer todo una sola persona."
+      ],
+      "objetivos_ejemplo": [
+        "Organizar las operaciones en puestos para fabricar unidades iguales.",
+        "Aplicar un control de calidad con la plantilla y registrar cuántas unidades lo cumplen."
+      ],
+      "evitar": ["Fabricar una única pieza.", "Evaluar resistencia en lugar de organización y repetición."],
+      "palabras_clave": ["serie", "plantilla", "unidades", "iguales", "linea", "puesto", "operacion", "produc", "control"]
+    },
+    "N56": {
+      "foco": "Comunicar un procedimiento técnico para que otra persona pueda reproducirlo: secuencia de pasos, dibujos, símbolos y vocabulario preciso; interpretar instructivos.",
+      "requiere_construccion": false,
+      "la_prueba_debe_mostrar": "Que otro grupo, usando solo el instructivo (sin ayuda oral), reproduce el objeto o procedimiento, y que se identifican los pasos que generaron dudas.",
+      "ideas_de_producto": [
+        "Un grupo arma un objeto sencillo con materiales declarados y escribe o dibuja el instructivo; otro grupo lo sigue.",
+        "Interpretar un instructivo dado, detectar pasos faltantes y mejorarlo."
+      ],
+      "objetivos_ejemplo": [
+        "Elaborar un instructivo con pasos ordenados y dibujos que otro grupo pueda seguir.",
+        "Detectar y corregir pasos ambiguos a partir de la prueba con otro grupo."
+      ],
+      "evitar": ["Centrar la evaluación en el objeto en vez de la comunicación del procedimiento.", "Suponer papel y lápiz si no fueron declarados; si faltan, el instructivo es oral o con objetos ordenados."],
+      "palabras_clave": ["instructivo", "instruccion", "paso", "secuencia", "dibujo", "comunic", "reproduc", "procedimiento"]
+    },
+    "N57": {
+      "foco": "Relacionar la forma y la disposición de los elementos (plegados, perfiles en L, U o tubo, triangulación, base) con la resistencia y la estabilidad de una estructura.",
+      "requiere_construccion": true,
+      "la_prueba_debe_mostrar": "Una comparación entre dos formas o disposiciones del mismo material, aplicando una carga con elementos declarados (cantidad y lugar indicados) o, si no hay carga declarada, empujando de manera reproducible, y registrando cuál resiste o se mantiene estable.",
+      "ideas_de_producto": [
+        "Con papel o cartón: columnas o vigas plegadas en distintos perfiles; comparar.",
+        "Con palitos o sorbetes: marco cuadrado y marco triangulado; comparar deformación al empujar."
+      ],
+      "objetivos_ejemplo": [
+        "Comparar la resistencia de dos perfiles construidos con el mismo material.",
+        "Explicar cómo la triangulación o el plegado modifica la resistencia."
+      ],
+      "evitar": ["Aplicar 'un peso' sin decir qué elemento declarado, cuántos y dónde."],
+      "palabras_clave": ["estructur", "resist", "estabil", "perfil", "plegad", "triangul", "forma", "carga", "deform"]
+    },
+    "N61": {
+      "foco": "Analizar cómo se obtiene energía a partir de un recurso (viento, agua, sol, combustibles): captación, transformación y uso; distinguir recursos renovables y no renovables.",
+      "requiere_construccion": false,
+      "la_prueba_debe_mostrar": "La cadena recurso → captación → transformación → uso explicada sobre un modelo o dispositivo. Si hay un molinete o turbina: que gire con el recurso disponible (soplido, por ejemplo) y se compare una condición (más o menos aspas, distinta inclinación). Solo si hay motor, LED o tester y cables declarados se puede intentar observar electricidad, y debe aclararse que el resultado no está asegurado.",
+      "ideas_de_producto": [
+        "Con cartón, papel o botellas y un eje (sorbete, palito): molinete o rueda de paletas que gira con soplido; comparar diseños de aspas.",
+        "Maqueta o esquema de una central (eólica, hidráulica, solar) señalando recurso, captación, transformación y uso.",
+        "Con motor de corriente continua, LED y cables declarados: girar el eje del motor a mano o con un molinete y observar si el LED destella (modelo exploratorio, resultado no garantizado)."
+      ],
+      "objetivos_ejemplo": [
+        "Identificar en el modelo el recurso, la parte que capta, la transformación y el uso de la energía.",
+        "Comparar cómo cambia el giro del molinete al modificar una característica de las aspas."
+      ],
+      "evitar": [
+        "Convertir la actividad en una prueba de estabilidad o resistencia de estructuras.",
+        "Afirmar que una maqueta de cartón genera electricidad.",
+        "Suponer paneles, cables, pilas, LED o instrumentos no declarados."
+      ],
+      "palabras_clave": ["energia", "recurso", "fuente", "transforma", "genera", "obten", "viento", "sol", "agua", "molin", "turbina", "aspa", "renovable", "central"]
+    },
+    "N62": {
+      "foco": "Comparar sistemas controlados por una persona (manual) con sistemas que actúan solos ante una señal (automático): quién detecta, quién decide y quién acciona; sensores, topes, temporizadores.",
+      "requiere_construccion": true,
+      "la_prueba_debe_mostrar": "El mismo sistema funcionando en modo manual y en modo automático (o dos versiones), y una descripción de qué hace la persona en cada caso y qué señal dispara la acción automática.",
+      "ideas_de_producto": [
+        "Con cartón: barrera que se levanta tirando de un hilo (manual) y otra que se levanta sola cuando un objeto declarado empuja una palanca (automático mecánico).",
+        "Con pila, LED e interruptor declarados: encendido manual; con sensor de luz o final de carrera declarado: encendido automático.",
+        "Sin construcción: analizar casos cotidianos (luz de escalera, semáforo, canilla) en una tabla manual/automático."
+      ],
+      "objetivos_ejemplo": [
+        "Distinguir en el dispositivo qué acciones realiza la persona y cuáles el sistema.",
+        "Identificar la señal que activa el control automático."
+      ],
+      "evitar": ["Evaluar solamente la resistencia del montaje.", "Suponer sensores, placas o pilas no declarados."],
+      "palabras_clave": ["control", "manual", "automat", "sensor", "senal", "interruptor", "accion", "detect", "operador"]
+    },
+    "N63": {
+      "foco": "Diseñar una máquina sencilla que resuelva un problema concreto, eligiendo el motor (manual, elástico, peso o eléctrico declarado) y los mecanismos para controlar su movimiento (arrancar, detener, cambiar sentido o velocidad).",
+      "requiere_construccion": true,
+      "la_prueba_debe_mostrar": "Que la máquina cumple una tarea definida y medible (elevar un objeto declarado hasta una marca, avanzar hasta una línea) y que los alumnos pueden controlar su movimiento (detenerla o invertir el sentido), justificando la elección del motor.",
+      "ideas_de_producto": [
+        "Con carretes, hilo y una manivela: grúa o elevador que sube un objeto declarado.",
+        "Con elástico como motor: vehículo que debe llegar a una línea marcada.",
+        "Con motorreductor, portapilas y cables declarados: elevador o vehículo; cambiar el sentido invirtiendo la conexión."
+      ],
+      "objetivos_ejemplo": [
+        "Elegir y justificar un tipo de motor para la tarea planteada.",
+        "Controlar el movimiento de la máquina para cumplir la tarea medible."
+      ],
+      "evitar": ["Evaluar estabilidad en lugar del cumplimiento de la tarea.", "Suponer motores, pilas o cables no declarados."],
+      "palabras_clave": ["maquina", "motor", "disen", "problema", "tarea", "mecanismo", "control", "movimiento", "eleva", "sentido"]
+    },
+    "N64": {
+      "foco": "Analizar y debatir cómo cambian el trabajo, los saberes y la vida de las personas cuando una tarea de control pasa de manual a automática (antes y ahora, quién gana y quién pierde, nuevos oficios).",
+      "requiere_construccion": false,
+      "la_prueba_debe_mostrar": "Un cuadro comparativo, línea de tiempo o debate en el que los alumnos argumentan al menos una consecuencia social positiva y una negativa de un caso concreto de automatización.",
+      "ideas_de_producto": [
+        "Juego de roles: el guardabarrera, el ascensorista o el operador telefónico antes y después de la automatización.",
+        "Línea de tiempo de un sistema de control cotidiano (semáforo, riego, peaje).",
+        "Si hay materiales: simular la tarea manual y luego la automática para alimentar el debate."
+      ],
+      "objetivos_ejemplo": [
+        "Explicar qué cambió para las personas cuando una tarea de control se automatizó.",
+        "Argumentar una consecuencia positiva y una negativa con ejemplos."
+      ],
+      "evitar": ["Reducir la actividad a construir un dispositivo sin análisis social."],
+      "palabras_clave": ["social", "persona", "trabajo", "cambio", "automatiz", "antes", "ahora", "consecuencia", "oficio", "debate"]
+    },
+    "N65": {
+      "foco": "Representar un proceso mediante diagramas (de flujo o de bloques): operaciones en orden, insumos, productos y decisiones, usando símbolos acordados.",
+      "requiere_construccion": false,
+      "la_prueba_debe_mostrar": "Que otro grupo reconstruye o explica el proceso leyendo solo el diagrama, y que las operaciones, insumos y productos están identificados.",
+      "ideas_de_producto": [
+        "Diagramar un proceso conocido (hacer pan, reciclar papel, armar un sándwich) con tarjetas de cartón y flechas.",
+        "Representar un proceso que el grupo realiza en el aula y comparar con el diagrama de otro grupo."
+      ],
+      "objetivos_ejemplo": [
+        "Ordenar las operaciones de un proceso en un diagrama con insumos y productos.",
+        "Interpretar el diagrama de otro grupo y explicar el proceso representado."
+      ],
+      "evitar": ["Construir un objeto sin representar el proceso.", "Suponer papel o marcadores no declarados: si faltan, el diagrama se arma con tarjetas u objetos."],
+      "palabras_clave": ["diagrama", "proceso", "operacion", "flujo", "secuencia", "simbolo", "represent", "insumo", "producto", "bloque"]
+    }
+  }
+}

@@ -1,0 +1,578 @@
+{
+  "ejes": [
+    {
+      "id": "PT",
+      "nombre": "Procesos tecnológicos"
+    },
+    {
+      "id": "MT",
+      "nombre": "Medios técnicos"
+    },
+    {
+      "id": "RS",
+      "nombre": "Tecnología y sociedad"
+    }
+  ],
+  "contenidos": [
+    {
+      "id": "N51",
+      "grado": 5,
+      "eje_id": "PT",
+      "titulo": "Transporte y distribución",
+      "pagina_impresa": 73,
+      "pagina_pdf": 74,
+      "sintesis": "Reconocer operaciones de traslado y entrega.",
+      "fuente_url": "https://www.educ.ar/recursos/adjuntos/descarga/22424/nap-educacion-primaria-segundo-ciclo?disposition=inline",
+      "tipo_texto": "Paráfrasis didáctica; título de organización propio",
+      "referencia_cotejada": true
+    },
+    {
+      "id": "N52",
+      "grado": 5,
+      "eje_id": "MT",
+      "titulo": "Mecanismos y movimientos",
+      "pagina_impresa": 74,
+      "pagina_pdf": 75,
+      "sintesis": "Relacionar partes de máquinas con cambios del movimiento.",
+      "fuente_url": "https://www.educ.ar/recursos/adjuntos/descarga/22424/nap-educacion-primaria-segundo-ciclo?disposition=inline",
+      "tipo_texto": "Paráfrasis didáctica; título de organización propio",
+      "referencia_cotejada": true
+    },
+    {
+      "id": "N53",
+      "grado": 5,
+      "eje_id": "MT",
+      "titulo": "Almacenamiento de energía",
+      "pagina_impresa": 75,
+      "pagina_pdf": 76,
+      "sintesis": "Comparar elásticos, pesos y pilas como reservas energéticas.",
+      "fuente_url": "https://www.educ.ar/recursos/adjuntos/descarga/22424/nap-educacion-primaria-segundo-ciclo?disposition=inline",
+      "tipo_texto": "Paráfrasis didáctica; título de organización propio",
+      "referencia_cotejada": true
+    },
+    {
+      "id": "N54",
+      "grado": 5,
+      "eje_id": "RS",
+      "titulo": "Herramientas y máquinas",
+      "pagina_impresa": 75,
+      "pagina_pdf": 76,
+      "sintesis": "Comparar tareas manuales y mecanizadas en su contexto.",
+      "fuente_url": "https://www.educ.ar/recursos/adjuntos/descarga/22424/nap-educacion-primaria-segundo-ciclo?disposition=inline",
+      "tipo_texto": "Paráfrasis didáctica; título de organización propio",
+      "referencia_cotejada": true
+    },
+    {
+      "id": "N61",
+      "grado": 6,
+      "eje_id": "PT",
+      "titulo": "Generación de energía",
+      "pagina_impresa": 77,
+      "pagina_pdf": 78,
+      "sintesis": "Analizar recursos y operaciones para obtener energía.",
+      "fuente_url": "https://www.educ.ar/recursos/adjuntos/descarga/22424/nap-educacion-primaria-segundo-ciclo?disposition=inline",
+      "tipo_texto": "Paráfrasis didáctica; título de organización propio",
+      "referencia_cotejada": true
+    },
+    {
+      "id": "N62",
+      "grado": 6,
+      "eje_id": "MT",
+      "titulo": "Control manual y automático",
+      "pagina_impresa": 78,
+      "pagina_pdf": 79,
+      "sintesis": "Comparar intervención humana y dispositivos de control.",
+      "fuente_url": "https://www.educ.ar/recursos/adjuntos/descarga/22424/nap-educacion-primaria-segundo-ciclo?disposition=inline",
+      "tipo_texto": "Paráfrasis didáctica; título de organización propio",
+      "referencia_cotejada": true
+    },
+    {
+      "id": "N63",
+      "grado": 6,
+      "eje_id": "MT",
+      "titulo": "Diseño de máquinas",
+      "pagina_impresa": 79,
+      "pagina_pdf": 80,
+      "sintesis": "Elegir motores y controlar movimientos al resolver problemas.",
+      "fuente_url": "https://www.educ.ar/recursos/adjuntos/descarga/22424/nap-educacion-primaria-segundo-ciclo?disposition=inline",
+      "tipo_texto": "Paráfrasis didáctica; título de organización propio",
+      "referencia_cotejada": true
+    },
+    {
+      "id": "N64",
+      "grado": 6,
+      "eje_id": "RS",
+      "titulo": "Cambios en el control",
+      "pagina_impresa": 80,
+      "pagina_pdf": 81,
+      "sintesis": "Debatir consecuencias sociales de nuevas formas de control.",
+      "fuente_url": "https://www.educ.ar/recursos/adjuntos/descarga/22424/nap-educacion-primaria-segundo-ciclo?disposition=inline",
+      "tipo_texto": "Paráfrasis didáctica; título de organización propio",
+      "referencia_cotejada": true
+    },
+    {
+      "id": "N55",
+      "grado": 5,
+      "eje_id": "PT",
+      "titulo": "Producción en serie",
+      "pagina_impresa": 73,
+      "pagina_pdf": 74,
+      "sintesis": "Reorganizar tareas para fabricar unidades semejantes.",
+      "fuente_url": "https://www.educ.ar/recursos/adjuntos/descarga/22424/nap-educacion-primaria-segundo-ciclo?disposition=inline",
+      "tipo_texto": "Paráfrasis didáctica; título de organización propio",
+      "referencia_cotejada": true
+    },
+    {
+      "id": "N56",
+      "grado": 5,
+      "eje_id": "PT",
+      "titulo": "Comunicación del procedimiento",
+      "pagina_impresa": 74,
+      "pagina_pdf": 75,
+      "sintesis": "Interpretar instructivos y representaciones del trabajo.",
+      "fuente_url": "https://www.educ.ar/recursos/adjuntos/descarga/22424/nap-educacion-primaria-segundo-ciclo?disposition=inline",
+      "tipo_texto": "Paráfrasis didáctica; título de organización propio",
+      "referencia_cotejada": true
+    },
+    {
+      "id": "N65",
+      "grado": 6,
+      "eje_id": "PT",
+      "titulo": "Representación de procesos",
+      "pagina_impresa": 78,
+      "pagina_pdf": 79,
+      "sintesis": "Comunicar operaciones mediante gráficos y diagramas.",
+      "fuente_url": "https://www.educ.ar/recursos/adjuntos/descarga/22424/nap-educacion-primaria-segundo-ciclo?disposition=inline",
+      "tipo_texto": "Paráfrasis didáctica; título de organización propio",
+      "referencia_cotejada": true
+    },
+    {
+      "id": "N57",
+      "grado": 5,
+      "eje_id": "PT",
+      "titulo": "Resistencia de estructuras",
+      "pagina_impresa": 73,
+      "pagina_pdf": 74,
+      "sintesis": "Relacionar disposición de elementos y resistencia.",
+      "fuente_url": "https://www.educ.ar/recursos/adjuntos/descarga/22424/nap-educacion-primaria-segundo-ciclo?disposition=inline",
+      "tipo_texto": "Paráfrasis didáctica; título de organización propio",
+      "referencia_cotejada": true
+    }
+  ],
+  "vinculos": [
+    {
+      "contenido_id": "N51",
+      "tipo": "proyecto",
+      "recurso_id": "U021",
+      "justificacion": "El artefacto permite representar traslado de una carga.",
+      "consigna_enfoque": "Dibujar el recorrido de un objeto, indicando origen, traslado y destino.",
+      "evidencia": "Esquema del recorrido y explicación de las operaciones.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N51",
+      "tipo": "proyecto",
+      "recurso_id": "U029",
+      "justificacion": "El artefacto permite representar traslado de una carga.",
+      "consigna_enfoque": "Dibujar el recorrido de un objeto, indicando origen, traslado y destino.",
+      "evidencia": "Esquema del recorrido y explicación de las operaciones.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N51",
+      "tipo": "proyecto",
+      "recurso_id": "U032",
+      "justificacion": "El artefacto permite representar traslado de una carga.",
+      "consigna_enfoque": "Dibujar el recorrido de un objeto, indicando origen, traslado y destino.",
+      "evidencia": "Esquema del recorrido y explicación de las operaciones.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N51",
+      "tipo": "proyecto",
+      "recurso_id": "U057",
+      "justificacion": "El artefacto permite representar traslado de una carga.",
+      "consigna_enfoque": "Dibujar el recorrido de un objeto, indicando origen, traslado y destino.",
+      "evidencia": "Esquema del recorrido y explicación de las operaciones.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N51",
+      "tipo": "proyecto",
+      "recurso_id": "U098",
+      "justificacion": "El artefacto permite representar traslado de una carga.",
+      "consigna_enfoque": "Dibujar el recorrido de un objeto, indicando origen, traslado y destino.",
+      "evidencia": "Esquema del recorrido y explicación de las operaciones.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N52",
+      "tipo": "proyecto",
+      "recurso_id": "U038",
+      "justificacion": "Sus partes permiten discutir transmisión o transformación del movimiento.",
+      "consigna_enfoque": "Identificar entrada, mecanismo y salida del movimiento en un boceto.",
+      "evidencia": "Boceto anotado y comparación entre entrada y salida.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N52",
+      "tipo": "proyecto",
+      "recurso_id": "U042",
+      "justificacion": "Sus partes permiten discutir transmisión o transformación del movimiento.",
+      "consigna_enfoque": "Identificar entrada, mecanismo y salida del movimiento en un boceto.",
+      "evidencia": "Boceto anotado y comparación entre entrada y salida.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N52",
+      "tipo": "proyecto",
+      "recurso_id": "U043",
+      "justificacion": "Sus partes permiten discutir transmisión o transformación del movimiento.",
+      "consigna_enfoque": "Identificar entrada, mecanismo y salida del movimiento en un boceto.",
+      "evidencia": "Boceto anotado y comparación entre entrada y salida.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N52",
+      "tipo": "proyecto",
+      "recurso_id": "U044",
+      "justificacion": "Sus partes permiten discutir transmisión o transformación del movimiento.",
+      "consigna_enfoque": "Identificar entrada, mecanismo y salida del movimiento en un boceto.",
+      "evidencia": "Boceto anotado y comparación entre entrada y salida.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N52",
+      "tipo": "proyecto",
+      "recurso_id": "U047",
+      "justificacion": "Sus partes permiten discutir transmisión o transformación del movimiento.",
+      "consigna_enfoque": "Identificar entrada, mecanismo y salida del movimiento en un boceto.",
+      "evidencia": "Boceto anotado y comparación entre entrada y salida.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N52",
+      "tipo": "proyecto",
+      "recurso_id": "U048",
+      "justificacion": "Sus partes permiten discutir transmisión o transformación del movimiento.",
+      "consigna_enfoque": "Identificar entrada, mecanismo y salida del movimiento en un boceto.",
+      "evidencia": "Boceto anotado y comparación entre entrada y salida.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N52",
+      "tipo": "proyecto",
+      "recurso_id": "U059",
+      "justificacion": "Sus partes permiten discutir transmisión o transformación del movimiento.",
+      "consigna_enfoque": "Identificar entrada, mecanismo y salida del movimiento en un boceto.",
+      "evidencia": "Boceto anotado y comparación entre entrada y salida.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N52",
+      "tipo": "proyecto",
+      "recurso_id": "U060",
+      "justificacion": "Sus partes permiten discutir transmisión o transformación del movimiento.",
+      "consigna_enfoque": "Identificar entrada, mecanismo y salida del movimiento en un boceto.",
+      "evidencia": "Boceto anotado y comparación entre entrada y salida.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N52",
+      "tipo": "proyecto",
+      "recurso_id": "U068",
+      "justificacion": "Sus partes permiten discutir transmisión o transformación del movimiento.",
+      "consigna_enfoque": "Identificar entrada, mecanismo y salida del movimiento en un boceto.",
+      "evidencia": "Boceto anotado y comparación entre entrada y salida.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N52",
+      "tipo": "proyecto",
+      "recurso_id": "U071",
+      "justificacion": "Sus partes permiten discutir transmisión o transformación del movimiento.",
+      "consigna_enfoque": "Identificar entrada, mecanismo y salida del movimiento en un boceto.",
+      "evidencia": "Boceto anotado y comparación entre entrada y salida.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N53",
+      "tipo": "proyecto",
+      "recurso_id": "U008",
+      "justificacion": "Propone usar energía almacenada en un elástico o un peso.",
+      "consigna_enfoque": "Predecir cómo cambia el funcionamiento al variar la reserva de energía; contrastar en un prototipo revisado.",
+      "evidencia": "Registro de predicciones y observaciones.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N53",
+      "tipo": "proyecto",
+      "recurso_id": "U085",
+      "justificacion": "Propone usar energía almacenada en un elástico o un peso.",
+      "consigna_enfoque": "Predecir cómo cambia el funcionamiento al variar la reserva de energía; contrastar en un prototipo revisado.",
+      "evidencia": "Registro de predicciones y observaciones.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N53",
+      "tipo": "proyecto",
+      "recurso_id": "U097",
+      "justificacion": "Propone usar energía almacenada en un elástico o un peso.",
+      "consigna_enfoque": "Predecir cómo cambia el funcionamiento al variar la reserva de energía; contrastar en un prototipo revisado.",
+      "evidencia": "Registro de predicciones y observaciones.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N54",
+      "tipo": "proyecto",
+      "recurso_id": "U043",
+      "justificacion": "Permite comparar una acción manual con una tarea asistida por un artefacto.",
+      "consigna_enfoque": "Comparar quién aporta el esfuerzo y quién controla una tarea manual y su versión mecanizada.",
+      "evidencia": "Cuadro de tareas, esfuerzo y decisiones humanas.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N54",
+      "tipo": "proyecto",
+      "recurso_id": "U057",
+      "justificacion": "Permite comparar una acción manual con una tarea asistida por un artefacto.",
+      "consigna_enfoque": "Comparar quién aporta el esfuerzo y quién controla una tarea manual y su versión mecanizada.",
+      "evidencia": "Cuadro de tareas, esfuerzo y decisiones humanas.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N54",
+      "tipo": "proyecto",
+      "recurso_id": "U058",
+      "justificacion": "Permite comparar una acción manual con una tarea asistida por un artefacto.",
+      "consigna_enfoque": "Comparar quién aporta el esfuerzo y quién controla una tarea manual y su versión mecanizada.",
+      "evidencia": "Cuadro de tareas, esfuerzo y decisiones humanas.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N61",
+      "tipo": "proyecto",
+      "recurso_id": "U091",
+      "justificacion": "Permite diferenciar un recurso energético y su aprovechamiento.",
+      "consigna_enfoque": "Trazar el recorrido de la energía y diferenciar generar electricidad de utilizarla.",
+      "evidencia": "Diagrama de transformaciones y explicación oral.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N61",
+      "tipo": "proyecto",
+      "recurso_id": "U095",
+      "justificacion": "Permite diferenciar un recurso energético y su aprovechamiento.",
+      "consigna_enfoque": "Trazar el recorrido de la energía y diferenciar generar electricidad de utilizarla.",
+      "evidencia": "Diagrama de transformaciones y explicación oral.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N62",
+      "tipo": "proyecto",
+      "recurso_id": "U081",
+      "justificacion": "Ofrece distintos modos de activar o controlar una acción.",
+      "consigna_enfoque": "Identificar qué detecta o decide la persona y qué hace el dispositivo; no estudiar internamente el sensor.",
+      "evidencia": "Tabla de entrada, decisión, acción y responsable del control.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N62",
+      "tipo": "proyecto",
+      "recurso_id": "U082",
+      "justificacion": "Ofrece distintos modos de activar o controlar una acción.",
+      "consigna_enfoque": "Identificar qué detecta o decide la persona y qué hace el dispositivo; no estudiar internamente el sensor.",
+      "evidencia": "Tabla de entrada, decisión, acción y responsable del control.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N62",
+      "tipo": "proyecto",
+      "recurso_id": "U083",
+      "justificacion": "Ofrece distintos modos de activar o controlar una acción.",
+      "consigna_enfoque": "Identificar qué detecta o decide la persona y qué hace el dispositivo; no estudiar internamente el sensor.",
+      "evidencia": "Tabla de entrada, decisión, acción y responsable del control.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N62",
+      "tipo": "proyecto",
+      "recurso_id": "U084",
+      "justificacion": "Ofrece distintos modos de activar o controlar una acción.",
+      "consigna_enfoque": "Identificar qué detecta o decide la persona y qué hace el dispositivo; no estudiar internamente el sensor.",
+      "evidencia": "Tabla de entrada, decisión, acción y responsable del control.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N62",
+      "tipo": "proyecto",
+      "recurso_id": "U093",
+      "justificacion": "Ofrece distintos modos de activar o controlar una acción.",
+      "consigna_enfoque": "Identificar qué detecta o decide la persona y qué hace el dispositivo; no estudiar internamente el sensor.",
+      "evidencia": "Tabla de entrada, decisión, acción y responsable del control.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N62",
+      "tipo": "proyecto",
+      "recurso_id": "U094",
+      "justificacion": "Ofrece distintos modos de activar o controlar una acción.",
+      "consigna_enfoque": "Identificar qué detecta o decide la persona y qué hace el dispositivo; no estudiar internamente el sensor.",
+      "evidencia": "Tabla de entrada, decisión, acción y responsable del control.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N62",
+      "tipo": "proyecto",
+      "recurso_id": "U099",
+      "justificacion": "Ofrece distintos modos de activar o controlar una acción.",
+      "consigna_enfoque": "Identificar qué detecta o decide la persona y qué hace el dispositivo; no estudiar internamente el sensor.",
+      "evidencia": "Tabla de entrada, decisión, acción y responsable del control.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N63",
+      "tipo": "proyecto",
+      "recurso_id": "U041",
+      "justificacion": "Permite plantear un problema de diseño con movimiento y restricciones.",
+      "consigna_enfoque": "Definir una tarea y comparar dos soluciones antes de elegir un motor o mecanismo.",
+      "evidencia": "Bocetos alternativos y argumento de elección.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N63",
+      "tipo": "proyecto",
+      "recurso_id": "U043",
+      "justificacion": "Permite plantear un problema de diseño con movimiento y restricciones.",
+      "consigna_enfoque": "Definir una tarea y comparar dos soluciones antes de elegir un motor o mecanismo.",
+      "evidencia": "Bocetos alternativos y argumento de elección.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N63",
+      "tipo": "proyecto",
+      "recurso_id": "U044",
+      "justificacion": "Permite plantear un problema de diseño con movimiento y restricciones.",
+      "consigna_enfoque": "Definir una tarea y comparar dos soluciones antes de elegir un motor o mecanismo.",
+      "evidencia": "Bocetos alternativos y argumento de elección.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N63",
+      "tipo": "proyecto",
+      "recurso_id": "U047",
+      "justificacion": "Permite plantear un problema de diseño con movimiento y restricciones.",
+      "consigna_enfoque": "Definir una tarea y comparar dos soluciones antes de elegir un motor o mecanismo.",
+      "evidencia": "Bocetos alternativos y argumento de elección.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N63",
+      "tipo": "proyecto",
+      "recurso_id": "U053",
+      "justificacion": "Permite plantear un problema de diseño con movimiento y restricciones.",
+      "consigna_enfoque": "Definir una tarea y comparar dos soluciones antes de elegir un motor o mecanismo.",
+      "evidencia": "Bocetos alternativos y argumento de elección.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N63",
+      "tipo": "proyecto",
+      "recurso_id": "U057",
+      "justificacion": "Permite plantear un problema de diseño con movimiento y restricciones.",
+      "consigna_enfoque": "Definir una tarea y comparar dos soluciones antes de elegir un motor o mecanismo.",
+      "evidencia": "Bocetos alternativos y argumento de elección.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N63",
+      "tipo": "proyecto",
+      "recurso_id": "U059",
+      "justificacion": "Permite plantear un problema de diseño con movimiento y restricciones.",
+      "consigna_enfoque": "Definir una tarea y comparar dos soluciones antes de elegir un motor o mecanismo.",
+      "evidencia": "Bocetos alternativos y argumento de elección.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N63",
+      "tipo": "proyecto",
+      "recurso_id": "U085",
+      "justificacion": "Permite plantear un problema de diseño con movimiento y restricciones.",
+      "consigna_enfoque": "Definir una tarea y comparar dos soluciones antes de elegir un motor o mecanismo.",
+      "evidencia": "Bocetos alternativos y argumento de elección.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N63",
+      "tipo": "proyecto",
+      "recurso_id": "U097",
+      "justificacion": "Permite plantear un problema de diseño con movimiento y restricciones.",
+      "consigna_enfoque": "Definir una tarea y comparar dos soluciones antes de elegir un motor o mecanismo.",
+      "evidencia": "Bocetos alternativos y argumento de elección.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N64",
+      "tipo": "proyecto",
+      "recurso_id": "U083",
+      "justificacion": "Sirve como caso para discutir diferentes responsabilidades en el control.",
+      "consigna_enfoque": "Comparar control manual y automático: quién decide, qué trabajo cambia y qué límites tiene cada solución.",
+      "evidencia": "Argumentación sobre ventajas, límites y cambios en el trabajo.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N64",
+      "tipo": "proyecto",
+      "recurso_id": "U084",
+      "justificacion": "Sirve como caso para discutir diferentes responsabilidades en el control.",
+      "consigna_enfoque": "Comparar control manual y automático: quién decide, qué trabajo cambia y qué límites tiene cada solución.",
+      "evidencia": "Argumentación sobre ventajas, límites y cambios en el trabajo.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N64",
+      "tipo": "proyecto",
+      "recurso_id": "U094",
+      "justificacion": "Sirve como caso para discutir diferentes responsabilidades en el control.",
+      "consigna_enfoque": "Comparar control manual y automático: quién decide, qué trabajo cambia y qué límites tiene cada solución.",
+      "evidencia": "Argumentación sobre ventajas, límites y cambios en el trabajo.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N57",
+      "tipo": "guia",
+      "recurso_id": "A01",
+      "justificacion": "La consigna de la guía trabaja este contenido.",
+      "consigna_enfoque": "Usar la guía y revisar sus criterios de evaluación.",
+      "evidencia": "Producciones y registros previstos en la guía.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N55",
+      "tipo": "guia",
+      "recurso_id": "A02",
+      "justificacion": "La consigna de la guía trabaja este contenido.",
+      "consigna_enfoque": "Usar la guía y revisar sus criterios de evaluación.",
+      "evidencia": "Producciones y registros previstos en la guía.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N56",
+      "tipo": "guia",
+      "recurso_id": "A03",
+      "justificacion": "La consigna de la guía trabaja este contenido.",
+      "consigna_enfoque": "Usar la guía y revisar sus criterios de evaluación.",
+      "evidencia": "Producciones y registros previstos en la guía.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    {
+      "contenido_id": "N65",
+      "tipo": "guia",
+      "recurso_id": "A04",
+      "justificacion": "La consigna de la guía trabaja este contenido.",
+      "consigna_enfoque": "Usar la guía y revisar sus criterios de evaluación.",
+      "evidencia": "Producciones y registros previstos en la guía.",
+      "estado": "propuesta_pendiente_revision"
+    }
+  ]
+}

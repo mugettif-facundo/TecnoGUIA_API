@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TecnoGUIA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f5f8;
+      color: #203247;
+      margin: 0;
+      padding: 24px;
+    }
+    main {
+      max-width: 760px;
+      margin: auto;
+      background: white;
+      padding: 28px;
+      border-radius: 16px;
+    }
+    label { display: block; margin-top: 18px; font-weight: bold; }
+    input, select, textarea, button {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 12px;
+      margin-top: 6px;
+      font: inherit;
+      border: 1px solid #bccbd6;
+      border-radius: 8px;
+    }
+    button { background: #176b70; color: white; cursor: pointer; }
+    button:disabled { opacity: 0.6; cursor: wait; }
+    #estado { white-space: pre-wrap; }
+    #resultado { line-height: 1.6; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>TecnoGUIA</h1>
+  <p>Completá los datos para preparar una propuesta de actividad.</p>
+  <p>Primera versión: actividad base sobre construcción de estructuras.</p>
+
+  <form id="formulario">
+    <label for="grado">Grado</label>
+    <select id="grado">
+      <option value="5">5.º grado</option>
+      <option value="6" selected>6.º grado</option>
+    </select>
+
+    <label for="contenido">Contenido</label>
+    <input id="contenido" value="Construcción de estructuras"
+           required minlength="3">
+
+    <label for="duracion">Duración en minutos</label>
+    <input id="duracion" type="number" value="80" min="1" required>
+
+    <label for="alumnos">Cantidad de alumnos</label>
+    <input id="alumnos" type="number" value="25" min="1" required>
+
+    <label for="materiales">Materiales disponibles, separados por comas</label>
+    <textarea id="materiales" required>papel, cartón, cinta adhesiva</textarea>
+
+    <button id="boton" type="submit">Preparar actividad</button>
+  </form>
+
+  <p id="estado" role="status" aria-live="polite"></p>
+  <article id="resultado"></article>
+</main>
+
+<script>
+  const campo = id => document.getElementById(id);
+  const resultado = campo("resultado");
+
+  function agregar(etiqueta, texto) {
+    const elemento = document.createElement(etiqueta);
+    elemento.textContent = texto;
+    resultado.appendChild(elemento);
+  }
+
+  function lista(titulo, elementos) {
+    agregar("h3", titulo);
+    const ul = document.createElement("ul");
+    for (const texto of elementos) {
+      const li = document.createElement("li");
+      li.textContent = texto;
+      ul.appendChild(li);
+    }
+    resultado.appendChild(ul);
+  }
+
+  campo("formulario").addEventListener("submit", async evento => {
+    evento.preventDefault();
+    resultado.replaceChildren();
+    campo("estado").textContent = "Preparando actividad…";
+    campo("boton").disabled = true;
+
+    const datos = {
+      grado: Number(campo("grado").value),
+      contenido: campo("contenido").value.trim(),
+      duracion_minutos: Number(campo("duracion").value),
+      cantidad_alumnos: Number(campo("alumnos").value),
+      materiales: campo("materiales").value
+        .split(",").map(m => m.trim()).filter(Boolean)
+    };
+
+    try {
+      const respuesta = await fetch("/actividades/generar", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(datos)
+      });
+      const actividad = await respuesta.json();
+
+      if (!respuesta.ok) {
+        const detalle = actividad.detail;
+        let mensaje;
+
+        if (typeof detalle === "string") {
+          mensaje = detalle;
+        } else if (Array.isArray(detalle)) {
+          mensaje = "Revisá que todos los campos tengan datos válidos.";
+        } else {
+          mensaje = detalle?.mensaje || "No se pudo preparar la actividad.";
+          if (detalle?.materiales_faltantes) {
+            mensaje += "\nFaltan: " + detalle.materiales_faltantes.join(", ");
+          }
+          if (detalle?.contenidos_disponibles) {
+            mensaje += "\nDisponibles: " + detalle.contenidos_disponibles.join(", ");
+          }
+        }
+
+        campo("estado").textContent = mensaje;
+        return;
+      }
+
+      campo("estado").textContent = "Propuesta lista para revisar.";
+      agregar("h2", actividad.titulo);
+      agregar("p", `${actividad.grado}.º grado · ${actividad.duracion_minutos} minutos`);
+      agregar("p", `${actividad.organizacion.cantidad_grupos} grupos. ${actividad.organizacion.indicacion}`);
+      agregar("h3", "Consigna");
+      agregar("p", actividad.consigna);
+
+      lista("Objetivos", actividad.objetivos);
+      lista("Preparación del docente", actividad.preparacion_docente);
+      lista("Materiales por grupo", actividad.materiales_por_grupo);
+
+      for (const etapa of actividad.etapas) {
+        lista(`${etapa.nombre} — ${etapa.minutos} minutos`, etapa.acciones);
+      }
+
+      lista("Seguridad", actividad.seguridad);
+      lista("Evidencias", actividad.evidencias);
+      lista("Criterios de evaluación", actividad.criterios_evaluacion);
+      lista("Antes de usar la propuesta", actividad.avisos);
+    } catch {
+      campo("estado").textContent =
+        "No se pudo completar el pedido. Comprobá que el servidor siga abierto.";
+    } finally {
+      campo("boton").disabled = false;
+    }
+  });
+</script>
+</body>
+</html>

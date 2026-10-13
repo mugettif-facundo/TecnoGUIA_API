@@ -1,0 +1,112 @@
+ACTIVAR IA LOCAL EN TECNOGUIA
+
+1. Instalá Ollama para Windows desde https://ollama.com/download/windows
+   Abrí la aplicación. Cerrá y volvé a abrir CMD después de instalar.
+2. En CMD descargá el modelo (requiere Internet durante la descarga):
+
+ollama pull qwen3:1.7b
+
+3. Detené Uvicorn con Ctrl+C. Copiá los archivos de este ZIP en:
+   C:\Users\MakerCompetencia\TecnoGUIA_API
+   Reemplazá los archivos del programa. La base tecnoguia.db no viene en
+   el ZIP: tu base y tus propuestas se conservan.
+4. Abrí CMD en esa carpeta y ejecutá:
+
+cd /d C:\Users\MakerCompetencia\TecnoGUIA_API
+.venv\Scripts\python.exe comprobar_ia.py
+.venv\Scripts\python.exe -m uvicorn main:app --reload
+
+5. En http://127.0.0.1:8000/formulario presioná Ctrl+F5.
+   Dejá Generar una actividad nueva con IA.
+   Elegí grado, eje y contenido curricular; escribí el tema o propósito.
+   Escribí materiales y herramientas disponibles, separados por comas o líneas.
+   La IA propondrá cantidades; confirmá que alcanzan antes de la clase.
+   Completá duración, alumnos, tamaño de grupo, conocimientos y dificultad.
+   Presioná Comprobar IA local y luego Generar actividad con IA.
+
+QUÉ HACE ESTA VERSIÓN
+- Recupera una ficha curricular por grado y contenido de SQLite.
+- Envía el eje, contenido, tema y contexto a Ollama local.
+- Envía exclusivamente los recursos seleccionados del catálogo.
+- Genera objetivos, preparación, materiales con cantidades, consigna,
+  etapas con acciones concretas, prueba y criterio de éxito, explicación,
+  seguridad, evidencias, criterios, preguntas y orientaciones.
+- Puede generar para un contenido cargado aunque no tenga guía existente.
+- Comprueba estructura, suma de tiempos, IDs de recursos y cantidades
+  declaradas. No comprueba físicamente el montaje ni reconoce todos los
+  materiales implícitos o mencionados solamente en texto libre.
+- Permite revisar, editar, guardar, recuperar y exportar el borrador.
+- Las ediciones requieren volver a revisar los recursos y seguridad.
+- Si Ollama falla, informa el error; no muestra una plantilla como si fuera IA.
+
+Los contenidos son síntesis curriculares con referencias de página. La
+recuperación es por selección exacta, no una búsqueda semántica con vectores.
+No entrenamos un modelo nuevo con los NAP ni con tu lista de materiales:
+se incorporan como contexto de la solicitud al modelo ya entrenado.
+La pertinencia del tema, los pasos y la seguridad requieren revisión docente.
+Si el tema no corresponde al contenido elegido, corregí la selección antes
+ de generar. Las 100 fichas del PDF se mantienen en el banco de ideas.
+La opción Buscar una guía existente conserva el flujo anterior.
+
+CATÁLOGO DE RECURSOS
+Se incorporan 249 entradas de tu planilla de 250 recursos, unificando
+Periódicos / Papel de diario como un material con alias. Se conservan las
+variantes y equivalencias que dependen de especificaciones: módulo LDR o
+componente, cintas, adhesivos, tipos de pelacables y soldadura. No se sustituyen
+silicona fría y caliente. Pistola y barras son recursos separados.
+
+CONFIGURACIÓN OPCIONAL
+El modelo predeterminado es qwen3:1.7b. Para otro modelo compatible con JSON
+estructurado y think:false, descargalo y configurá su nombre antes de iniciar:
+
+set TECNOGUIA_MODELO=nombre-del-modelo
+
+El servicio se consulta solamente en http://127.0.0.1:11434.
+No se requiere una clave API de terceros ni nuevas dependencias de Python.
+Ollama debe estar funcionando. No ejecutes otra instancia si ya está abierto.
+
+COMPROBACIONES
+Probados: protocolo con servidor simulado, recuperación curricular, campos
+conservados, formato inválido, modelo ausente, desconexión, tiempo agotado,
+solicitudes concurrentes, edición y persistencia de sugerencias.
+No se ejecutó un modelo real en el entorno de preparación. Falta probar
+rendimiento y calidad con Ollama en tu PC y con docentes.
+
+Fuentes técnicas oficiales:
+https://docs.ollama.com/windows
+https://docs.ollama.com/api/chat
+https://ollama.com/library/qwen3:1.7b
+
+DIAGNÓSTICO DE DEMORAS
+El límite del programa se amplió de 120 a 600 segundos. El formulario espera
+620 segundos y muestra tiempo transcurrido, sin indicar progreso del modelo.
+Se piden textos más breves y se solicita keep_alive=10m para evitar recargar
+el modelo entre solicitudes cercanas. Esto no acelera por sí solo el hardware
+ni asegura terminar una actividad en ese plazo.
+En CMD, sin una generación en curso, ejecutá:
+
+.venv\Scripts\python.exe diagnosticar_ia.py
+
+La prueba realiza dos respuestas cortas: informa carga, preparación del texto,
+velocidad y ollama ps. La columna PROCESSOR permite distinguir CPU y GPU.
+No cambies de modelo ni compres hardware sin revisar primero estos datos.
+Tras un timeout, Ollama puede seguir trabajando en el pedido anterior; si
+continúa ocupado, salí de Ollama desde su icono y volvé a abrirlo antes de
+realizar el diagnóstico. No inicies varias pruebas o generaciones en paralelo.
+Documentación: https://docs.ollama.com/faq y https://docs.ollama.com/api/usage
+
+FORMULARIO SIMPLIFICADO
+Se reemplazó el selector por categorías por un campo editable de materiales
+y herramientas. Ejemplo: cartón, papel, lápices, cinta adhesiva, tijeras.
+Las cantidades se consideran desconocidas hasta que el docente las confirme.
+El catálogo original sigue disponible como referencia interna, sin limitar
+los nombres que podés escribir. La API también conserva los IDs anteriores.
+
+CALIDAD DE LAS ACTIVIDADES
+La nueva generación pide un producto específico, piezas y uniones concretas,
+detalle de cantidades, una prueba definida y problemas frecuentes.
+Si declarás adhesivo caliente sin pistola, se excluye ese adhesivo y se avisa;
+la IA trabaja con los demás recursos. No equivale a sustituirlo por otro.
+Los controles de seguridad reconocen algunos casos explícitos, no todos.
+Esta actualización se probó con respuestas simuladas; su calidad real debe
+comprobarse con una nueva generación en tu PC. No cambia propuestas guardadas.

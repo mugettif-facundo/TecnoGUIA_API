@@ -1,0 +1,1751 @@
+{
+  "fuente": "materiales_proyectos_final.xlsx",
+  "materiales": [
+    {
+      "id": "MA02",
+      "nombre": "Cartón corrugado",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A2"
+    },
+    {
+      "id": "MB02",
+      "nombre": "Palitos de madera",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B2"
+    },
+    {
+      "id": "MC02",
+      "nombre": "Cinta de enmascarar",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C2"
+    },
+    {
+      "id": "MD02",
+      "nombre": "Tijeras de papel",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D2"
+    },
+    {
+      "id": "ME02",
+      "nombre": "Motor de corriente continua",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E2"
+    },
+    {
+      "id": "MA03",
+      "nombre": "Botellas plásticas PET",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A3"
+    },
+    {
+      "id": "MB03",
+      "nombre": "Ejes de plástico",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B3"
+    },
+    {
+      "id": "MC03",
+      "nombre": "Pegamento vinílico",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C3"
+    },
+    {
+      "id": "MD03",
+      "nombre": "Regla metálica",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D3"
+    },
+    {
+      "id": "ME03",
+      "nombre": "Pilas AA",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E3"
+    },
+    {
+      "id": "MA04",
+      "nombre": "Tapitas de plástico",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A4"
+    },
+    {
+      "id": "MB04",
+      "nombre": "Ruedas de juguete",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B4"
+    },
+    {
+      "id": "MC04",
+      "nombre": "Silicona fría",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C4"
+    },
+    {
+      "id": "MD04",
+      "nombre": "Perforadora de papel",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D4"
+    },
+    {
+      "id": "ME04",
+      "nombre": "Diodos LED de colores",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E4"
+    },
+    {
+      "id": "MA05",
+      "nombre": "Tubos de cartón",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A5"
+    },
+    {
+      "id": "MB05",
+      "nombre": "Hilo de algodón",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B5"
+    },
+    {
+      "id": "MC05",
+      "nombre": "Silicona caliente",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C5"
+    },
+    {
+      "id": "MD05",
+      "nombre": "Pistola de silicona",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D5"
+    },
+    {
+      "id": "ME05",
+      "nombre": "Cables de puente Jumper",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E5"
+    },
+    {
+      "id": "MA06",
+      "nombre": "Envases de Tetra Brik",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A6"
+    },
+    {
+      "id": "MB06",
+      "nombre": "Bandas elásticas",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B6"
+    },
+    {
+      "id": "MC06",
+      "nombre": "Cinta aisladora",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C6"
+    },
+    {
+      "id": "MD06",
+      "nombre": "Cúter o trinchante",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D6"
+    },
+    {
+      "id": "ME06",
+      "nombre": "Placa Arduino Uno",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E6"
+    },
+    {
+      "id": "MA07",
+      "nombre": "Maples de huevo",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A7"
+    },
+    {
+      "id": "MB07",
+      "nombre": "Abrazaderas plásticas",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B7"
+    },
+    {
+      "id": "MC07",
+      "nombre": "Cinta doble faz",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C7"
+    },
+    {
+      "id": "MD07",
+      "nombre": "Alicate de corte",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D7"
+    },
+    {
+      "id": "ME07",
+      "nombre": "Sensor ultrasónico",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E7"
+    },
+    {
+      "id": "MA08",
+      "nombre": "Cajas de zapatos",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A8"
+    },
+    {
+      "id": "MB08",
+      "nombre": "Alambre galvanizado",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B8"
+    },
+    {
+      "id": "MC08",
+      "nombre": "Pegamento de contacto",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C8"
+    },
+    {
+      "id": "MD08",
+      "nombre": "Pinza de punta fina",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D8"
+    },
+    {
+      "id": "ME08",
+      "nombre": "Servomotor SG90",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E8"
+    },
+    {
+      "id": "MA09",
+      "nombre": "Latas de aluminio",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A9"
+    },
+    {
+      "id": "MB09",
+      "nombre": "Tanzas de pesca",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B9"
+    },
+    {
+      "id": "MC09",
+      "nombre": "Cinta de embalar",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C9"
+    },
+    {
+      "id": "MD09",
+      "nombre": "Destornillador Phillips",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D9"
+    },
+    {
+      "id": "ME09",
+      "nombre": "Portapilas AA",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E9"
+    },
+    {
+      "id": "MA10",
+      "nombre": "Latas de conserva",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A10"
+    },
+    {
+      "id": "MB10",
+      "nombre": "Precintos plásticos",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B10"
+    },
+    {
+      "id": "MC10",
+      "nombre": "Cinta de papel",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C10"
+    },
+    {
+      "id": "MD10",
+      "nombre": "Destornillador plano",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D10"
+    },
+    {
+      "id": "ME10",
+      "nombre": "Protoboard media",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E10"
+    },
+    {
+      "id": "MA11",
+      "nombre": "Frascos de vidrio",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A11"
+    },
+    {
+      "id": "MB11",
+      "nombre": "Varillas de madera",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B11"
+    },
+    {
+      "id": "MC11",
+      "nombre": "Pegamento en barra",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C11"
+    },
+    {
+      "id": "MD11",
+      "nombre": "Pelacables",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D11"
+    },
+    {
+      "id": "ME11",
+      "nombre": "Potenciómetro 10k",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E11"
+    },
+    {
+      "id": "MA12",
+      "nombre": "Botes de yogur",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A12"
+    },
+    {
+      "id": "MB12",
+      "nombre": "Planchas de telgopor",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B12"
+    },
+    {
+      "id": "MC12",
+      "nombre": "Masilla epoxi",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C12"
+    },
+    {
+      "id": "MD12",
+      "nombre": "Pistola de calor",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D12"
+    },
+    {
+      "id": "ME12",
+      "nombre": "Resistencias eléctricas",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E12"
+    },
+    {
+      "id": "MA13",
+      "nombre": "Potes de helado de telgopor",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A13"
+    },
+    {
+      "id": "MB13",
+      "nombre": "Arandelas metálicas",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B13"
+    },
+    {
+      "id": "MC13",
+      "nombre": "Cemento de caucho",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C13"
+    },
+    {
+      "id": "MD13",
+      "nombre": "Soldador de estaño",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D13"
+    },
+    {
+      "id": "ME13",
+      "nombre": "Transistor NPN",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E13"
+    },
+    {
+      "id": "MA14",
+      "nombre": "Bandejas de plástico",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A14"
+    },
+    {
+      "id": "MB14",
+      "nombre": "Tornillos pequeños",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B14"
+    },
+    {
+      "id": "MC14",
+      "nombre": "Cinta teflón",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C14"
+    },
+    {
+      "id": "MD14",
+      "nombre": "Lima para metal",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D14"
+    },
+    {
+      "id": "ME14",
+      "nombre": "Sensor de luz LDR",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E14"
+    },
+    {
+      "id": "MA15",
+      "nombre": "CDs viejos",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A15"
+    },
+    {
+      "id": "MB15",
+      "nombre": "Tuercas",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B15"
+    },
+    {
+      "id": "MC15",
+      "nombre": "Adhesivo instantáneo",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C15"
+    },
+    {
+      "id": "MD15",
+      "nombre": "Lija para madera",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D15"
+    },
+    {
+      "id": "ME15",
+      "nombre": "Zumbador piezoeléctrico (Buzzer)",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E15"
+    },
+    {
+      "id": "MA16",
+      "nombre": "Bolsas de papel",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A16"
+    },
+    {
+      "id": "MB16",
+      "nombre": "Tacos de madera",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B16"
+    },
+    {
+      "id": "MC16",
+      "nombre": "Cinta de tela (Duct tape)",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C16"
+    },
+    {
+      "id": "MD16",
+      "nombre": "Martillo pequeño",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D16"
+    },
+    {
+      "id": "ME16",
+      "nombre": "Interruptor deslizante",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E16"
+    },
+    {
+      "id": "MA17",
+      "nombre": "Revistas viejas",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A17"
+    },
+    {
+      "id": "MB17",
+      "nombre": "Clavos finos",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B17"
+    },
+    {
+      "id": "MC17",
+      "nombre": "Pegamento para PVC",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C17"
+    },
+    {
+      "id": "MD17",
+      "nombre": "Punzón",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D17"
+    },
+    {
+      "id": "ME17",
+      "nombre": "Placa Arduino Nano",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E17"
+    },
+    {
+      "id": "MA18",
+      "nombre": "Periódicos",
+      "categoria": "Reciclados",
+      "alias": [
+        "Papel de diario"
+      ],
+      "celda_origen": "A18"
+    },
+    {
+      "id": "MB18",
+      "nombre": "Ganchos mariposa",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B18"
+    },
+    {
+      "id": "MC18",
+      "nombre": "Goma laca",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C18"
+    },
+    {
+      "id": "MD18",
+      "nombre": "Calibre digital",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D18"
+    },
+    {
+      "id": "ME18",
+      "nombre": "Módulo Bluetooth HC-05",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E18"
+    },
+    {
+      "id": "MA19",
+      "nombre": "Corchos de vino",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A19"
+    },
+    {
+      "id": "MB19",
+      "nombre": "Bajalenguas de madera",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B19"
+    },
+    {
+      "id": "MC19",
+      "nombre": "Silicona en barra",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C19"
+    },
+    {
+      "id": "MD19",
+      "nombre": "Escuadra",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D19"
+    },
+    {
+      "id": "ME19",
+      "nombre": "Sensor de humedad de suelo",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E19"
+    },
+    {
+      "id": "MA20",
+      "nombre": "Palitos de helado de madera",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A20"
+    },
+    {
+      "id": "MB20",
+      "nombre": "Sorbetes de cartón",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B20"
+    },
+    {
+      "id": "MC20",
+      "nombre": "Grapas metálicas",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C20"
+    },
+    {
+      "id": "MD20",
+      "nombre": "Compás",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D20"
+    },
+    {
+      "id": "ME20",
+      "nombre": "Motorreductor amarillo",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E20"
+    },
+    {
+      "id": "MA21",
+      "nombre": "Cajas de fósforos",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A21"
+    },
+    {
+      "id": "MB21",
+      "nombre": "Sorbetes gruesos",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B21"
+    },
+    {
+      "id": "MC21",
+      "nombre": "Adhesivo universal",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C21"
+    },
+    {
+      "id": "MD21",
+      "nombre": "Cinta métrica",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D21"
+    },
+    {
+      "id": "ME21",
+      "nombre": "Rueda loca",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E21"
+    },
+    {
+      "id": "MA22",
+      "nombre": "Cajones de fruta de madera",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A22"
+    },
+    {
+      "id": "MB22",
+      "nombre": "Poleas plásticas",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B22"
+    },
+    {
+      "id": "MC22",
+      "nombre": "Masilla para modelar",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C22"
+    },
+    {
+      "id": "MD22",
+      "nombre": "Gubia",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D22"
+    },
+    {
+      "id": "ME22",
+      "nombre": "Microcontrolador ESP32",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E22"
+    },
+    {
+      "id": "MA23",
+      "nombre": "Tubos de papas Pringles",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A23"
+    },
+    {
+      "id": "MB23",
+      "nombre": "Engranajes de juguete",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B23"
+    },
+    {
+      "id": "MC23",
+      "nombre": "Cinta magnética",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C23"
+    },
+    {
+      "id": "MD23",
+      "nombre": "Pinzas de fuerza",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D23"
+    },
+    {
+      "id": "ME23",
+      "nombre": "Sensor infrarrojo de línea",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E23"
+    },
+    {
+      "id": "MA24",
+      "nombre": "Bidones de agua 5L",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A24"
+    },
+    {
+      "id": "MB24",
+      "nombre": "Placas de acrílico",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B24"
+    },
+    {
+      "id": "MC24",
+      "nombre": "Resina epoxi",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C24"
+    },
+    {
+      "id": "MD24",
+      "nombre": "Prensa en C pequeña",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D24"
+    },
+    {
+      "id": "ME24",
+      "nombre": "Display LCD 16x2",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E24"
+    },
+    {
+      "id": "MA25",
+      "nombre": "Envases de champú",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A25"
+    },
+    {
+      "id": "MB25",
+      "nombre": "Resortes pequeños",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B25"
+    },
+    {
+      "id": "MC25",
+      "nombre": "Poliuretano expandido",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C25"
+    },
+    {
+      "id": "MD25",
+      "nombre": "Mini torno de mano",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D25"
+    },
+    {
+      "id": "ME25",
+      "nombre": "Batería de 9V",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E25"
+    },
+    {
+      "id": "MA26",
+      "nombre": "Tapitas de metal",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A26"
+    },
+    {
+      "id": "MB26",
+      "nombre": "Goma eva",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B26"
+    },
+    {
+      "id": "MC26",
+      "nombre": "Pasta de soldar",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C26"
+    },
+    {
+      "id": "MD26",
+      "nombre": "Tester o multímetro",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D26"
+    },
+    {
+      "id": "ME26",
+      "nombre": "Conector de batería 9V",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E26"
+    },
+    {
+      "id": "MA27",
+      "nombre": "Retazos de tela",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A27"
+    },
+    {
+      "id": "MB27",
+      "nombre": "Cartón pluma",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B27"
+    },
+    {
+      "id": "MC27",
+      "nombre": "Soldadura de estaño",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C27"
+    },
+    {
+      "id": "MD27",
+      "nombre": "Extractor de estaño",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D27"
+    },
+    {
+      "id": "ME27",
+      "nombre": "Teclado matricial 4x4",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E27"
+    },
+    {
+      "id": "MA28",
+      "nombre": "Botones viejos",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A28"
+    },
+    {
+      "id": "MB28",
+      "nombre": "Mangueras de acuario",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B28"
+    },
+    {
+      "id": "MC28",
+      "nombre": "Pegamento escolar líquido",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C28"
+    },
+    {
+      "id": "MD28",
+      "nombre": "Pinceles",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D28"
+    },
+    {
+      "id": "ME28",
+      "nombre": "Sensor de temperatura DHT11",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E28"
+    },
+    {
+      "id": "MA29",
+      "nombre": "Bolsas de alimento de mascota",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A29"
+    },
+    {
+      "id": "MB29",
+      "nombre": "Chuzas de madera",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B29"
+    },
+    {
+      "id": "MC29",
+      "nombre": "Cinta transparente",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C29"
+    },
+    {
+      "id": "MD29",
+      "nombre": "Brocas pequeñas",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D29"
+    },
+    {
+      "id": "ME29",
+      "nombre": "Módulo relé de 1 canal",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E29"
+    },
+    {
+      "id": "MA30",
+      "nombre": "Carretes de hilo vacíos",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A30"
+    },
+    {
+      "id": "MB30",
+      "nombre": "Tubos de PVC delgados",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B30"
+    },
+    {
+      "id": "MC30",
+      "nombre": "Cola de carpintero",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C30"
+    },
+    {
+      "id": "MD30",
+      "nombre": "Arco de sierra",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D30"
+    },
+    {
+      "id": "ME30",
+      "nombre": "Giroscopio MPU6050",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E30"
+    },
+    {
+      "id": "MA31",
+      "nombre": "Blísters de medicamentos",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A31"
+    },
+    {
+      "id": "MB31",
+      "nombre": "Láminas de acetato",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B31"
+    },
+    {
+      "id": "MC31",
+      "nombre": "Remaches",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C31"
+    },
+    {
+      "id": "MD31",
+      "nombre": "Serritas de mano",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D31"
+    },
+    {
+      "id": "ME31",
+      "nombre": "Sensor PIR de movimiento",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E31"
+    },
+    {
+      "id": "MA32",
+      "nombre": "Sorbetes plásticos",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A32"
+    },
+    {
+      "id": "MB32",
+      "nombre": "Tiras de velcro",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B32"
+    },
+    {
+      "id": "MC32",
+      "nombre": "Precintos de alambre",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C32"
+    },
+    {
+      "id": "MD32",
+      "nombre": "Atornillador eléctrico",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D32"
+    },
+    {
+      "id": "ME32",
+      "nombre": "Encoder óptico",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E32"
+    },
+    {
+      "id": "MA33",
+      "nombre": "Envases de desodorante",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A33"
+    },
+    {
+      "id": "MB33",
+      "nombre": "Cordones de zapatillas",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B33"
+    },
+    {
+      "id": "MC33",
+      "nombre": "Cinta vulcanizada",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C33"
+    },
+    {
+      "id": "MD33",
+      "nombre": "Pinzas de depilar (precisión)",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D33"
+    },
+    {
+      "id": "ME33",
+      "nombre": "Driver de motores L298N",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E33"
+    },
+    {
+      "id": "MA34",
+      "nombre": "Tapas de frascos de vidrio",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A34"
+    },
+    {
+      "id": "MB34",
+      "nombre": "Lana",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B34"
+    },
+    {
+      "id": "MC34",
+      "nombre": "Velcro adhesivo",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C34"
+    },
+    {
+      "id": "MD34",
+      "nombre": "Nivel de burbuja",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D34"
+    },
+    {
+      "id": "ME34",
+      "nombre": "Capacitores cerámicos",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E34"
+    },
+    {
+      "id": "MA35",
+      "nombre": "Film plástico limpio",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A35"
+    },
+    {
+      "id": "MB35",
+      "nombre": "Hilo piolín",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B35"
+    },
+    {
+      "id": "MC35",
+      "nombre": "Sellador de silicona",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C35"
+    },
+    {
+      "id": "MD35",
+      "nombre": "Tijeras de hojalata",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D35"
+    },
+    {
+      "id": "ME35",
+      "nombre": "Capacitores electrolíticos",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E35"
+    },
+    {
+      "id": "MA36",
+      "nombre": "Cajas de cereal",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A36"
+    },
+    {
+      "id": "MB36",
+      "nombre": "Ventosas de plástico",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B36"
+    },
+    {
+      "id": "MC36",
+      "nombre": "Masilla de pintor",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C36"
+    },
+    {
+      "id": "MD36",
+      "nombre": "Lápiz de carpintero",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D36"
+    },
+    {
+      "id": "ME36",
+      "nombre": "Diodos rectificadores",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E36"
+    },
+    {
+      "id": "MA37",
+      "nombre": "Bolsas de supermercado",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A37"
+    },
+    {
+      "id": "MB37",
+      "nombre": "Tachuelas",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B37"
+    },
+    {
+      "id": "MC37",
+      "nombre": "Fijador de roscas",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C37"
+    },
+    {
+      "id": "MD37",
+      "nombre": "Marcador permanente",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D37"
+    },
+    {
+      "id": "ME37",
+      "nombre": "Pulsadores de cuatro pines",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E37"
+    },
+    {
+      "id": "MA38",
+      "nombre": "Cubiertos plásticos usados",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A38"
+    },
+    {
+      "id": "MB38",
+      "nombre": "Bisagras miniatura",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B38"
+    },
+    {
+      "id": "MC38",
+      "nombre": "Cinta de pintor",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C38"
+    },
+    {
+      "id": "MD38",
+      "nombre": "Tapa boca / barbijo",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D38"
+    },
+    {
+      "id": "ME38",
+      "nombre": "Final de carrera (Microswitch)",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E38"
+    },
+    {
+      "id": "MA39",
+      "nombre": "Vasos plásticos",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A39"
+    },
+    {
+      "id": "MB39",
+      "nombre": "Clips sujetapapeles",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B39"
+    },
+    {
+      "id": "MC39",
+      "nombre": "Pegamento para tela",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C39"
+    },
+    {
+      "id": "MD39",
+      "nombre": "Gafas de seguridad",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D39"
+    },
+    {
+      "id": "ME39",
+      "nombre": "Módulo lector RFID RC522",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E39"
+    },
+    {
+      "id": "MA40",
+      "nombre": "Frascos de café",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A40"
+    },
+    {
+      "id": "MB40",
+      "nombre": "Bandas de goma anchas",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B40"
+    },
+    {
+      "id": "MC40",
+      "nombre": "Adhesivo en spray",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C40"
+    },
+    {
+      "id": "MD40",
+      "nombre": "Organizador de tornillos",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D40"
+    },
+    {
+      "id": "ME40",
+      "nombre": "Mini panel solar",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E40"
+    },
+    {
+      "id": "MA41",
+      "nombre": "Frascos de perfume",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A41"
+    },
+    {
+      "id": "MB41",
+      "nombre": "Ganchos de carpeta",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B41"
+    },
+    {
+      "id": "MC41",
+      "nombre": "Cemento de contacto líquido",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C41"
+    },
+    {
+      "id": "MD41",
+      "nombre": "Cuchilla rotativa",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D41"
+    },
+    {
+      "id": "ME41",
+      "nombre": "Sensor de sonido",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E41"
+    },
+    {
+      "id": "MA42",
+      "nombre": "Frascos de comida de bebé",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A42"
+    },
+    {
+      "id": "MB42",
+      "nombre": "Chapas de madera fina",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B42"
+    },
+    {
+      "id": "MC42",
+      "nombre": "Masilla de doble componente",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C42"
+    },
+    {
+      "id": "MD42",
+      "nombre": "Base de corte",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D42"
+    },
+    {
+      "id": "ME42",
+      "nombre": "Joystick analógico",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E42"
+    },
+    {
+      "id": "MA43",
+      "nombre": "Papel de aluminio limpio",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A43"
+    },
+    {
+      "id": "MB43",
+      "nombre": "Bolas de telgopor",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B43"
+    },
+    {
+      "id": "MC43",
+      "nombre": "Tiras adhesivas",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C43"
+    },
+    {
+      "id": "MD43",
+      "nombre": "Engrapadora de mano",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D43"
+    },
+    {
+      "id": "ME43",
+      "nombre": "Circuito integrado 555",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E43"
+    },
+    {
+      "id": "MA44",
+      "nombre": "Ganchos de ropa de alambre",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A44"
+    },
+    {
+      "id": "MB44",
+      "nombre": "Tubos de silicona vacíos",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B44"
+    },
+    {
+      "id": "MC44",
+      "nombre": "Alambre de amarre",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C44"
+    },
+    {
+      "id": "MD44",
+      "nombre": "Soplador de aire manual",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D44"
+    },
+    {
+      "id": "ME44",
+      "nombre": "Fotoresistencia",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E44"
+    },
+    {
+      "id": "MA45",
+      "nombre": "Llaves viejas",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A45"
+    },
+    {
+      "id": "MB45",
+      "nombre": "Tapones de goma",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B45"
+    },
+    {
+      "id": "MC45",
+      "nombre": "Cinta espuma doble cara",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C45"
+    },
+    {
+      "id": "MD45",
+      "nombre": "Desoldador de bomba",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D45"
+    },
+    {
+      "id": "ME45",
+      "nombre": "Regulador de voltaje 7805",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E45"
+    },
+    {
+      "id": "MA46",
+      "nombre": "Cápsulas de café",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A46"
+    },
+    {
+      "id": "MB46",
+      "nombre": "Correas de goma",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B46"
+    },
+    {
+      "id": "MC46",
+      "nombre": "Goma de pegar",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C46"
+    },
+    {
+      "id": "MD46",
+      "nombre": "Tercera mano con lupa",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D46"
+    },
+    {
+      "id": "ME46",
+      "nombre": "Placa de circuito perforada",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E46"
+    },
+    {
+      "id": "MA47",
+      "nombre": "Bandejas de telgopor",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A47"
+    },
+    {
+      "id": "MB47",
+      "nombre": "Plástico burbuja",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B47"
+    },
+    {
+      "id": "MC47",
+      "nombre": "Líquido soldador",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C47"
+    },
+    {
+      "id": "MD47",
+      "nombre": "Llave ajustable (francesa)",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D47"
+    },
+    {
+      "id": "ME47",
+      "nombre": "Tiras de pines macho",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E47"
+    },
+    {
+      "id": "MB48",
+      "nombre": "Alambre de cobre dulce",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B48"
+    },
+    {
+      "id": "MC48",
+      "nombre": "Colofonia",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C48"
+    },
+    {
+      "id": "MD48",
+      "nombre": "Llave Allen",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D48"
+    },
+    {
+      "id": "ME48",
+      "nombre": "Tiras de pines hembra",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E48"
+    },
+    {
+      "id": "MA49",
+      "nombre": "Sachet de leche",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A49"
+    },
+    {
+      "id": "MB49",
+      "nombre": "Tensores",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B49"
+    },
+    {
+      "id": "MC49",
+      "nombre": "Grapas de plástico",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C49"
+    },
+    {
+      "id": "MD49",
+      "nombre": "Pela cables automático",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D49"
+    },
+    {
+      "id": "ME49",
+      "nombre": "Termistor NTC",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E49"
+    },
+    {
+      "id": "MA50",
+      "nombre": "Tubos de pasta de dientes",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A50"
+    },
+    {
+      "id": "MB50",
+      "nombre": "Soportes en L pequeños",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B50"
+    },
+    {
+      "id": "MC50",
+      "nombre": "Clips metálicos de unión",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C50"
+    },
+    {
+      "id": "MD50",
+      "nombre": "Luz de trabajo de inspección",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D50"
+    },
+    {
+      "id": "ME50",
+      "nombre": "Sensor de gas MQ2",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E50"
+    },
+    {
+      "id": "MA51",
+      "nombre": "Redes de fruta",
+      "categoria": "Reciclados",
+      "alias": [],
+      "celda_origen": "A51"
+    },
+    {
+      "id": "MB51",
+      "nombre": "Tiras de cuero",
+      "categoria": "Construcción",
+      "alias": [],
+      "celda_origen": "B51"
+    },
+    {
+      "id": "MC51",
+      "nombre": "Pegamento termofusible negro",
+      "categoria": "Uniones",
+      "alias": [],
+      "celda_origen": "C51"
+    },
+    {
+      "id": "MD51",
+      "nombre": "Tijeras de costura",
+      "categoria": "Herramientas",
+      "alias": [],
+      "celda_origen": "D51"
+    },
+    {
+      "id": "ME51",
+      "nombre": "Módulo lector de tarjeta MicroSD",
+      "categoria": "Electrónica y robótica",
+      "alias": [],
+      "celda_origen": "E51"
+    }
+  ],
+  "nota": "Se unificaron Periódicos y Papel de diario. Se conservan variantes y posibles equivalencias que requieren confirmar especificaciones."
+}

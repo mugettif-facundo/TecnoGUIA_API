@@ -1,0 +1,260 @@
+[
+  {
+    "id": "A02",
+    "contenido_id": "C05",
+    "titulo": "Una pequeña fábrica de tarjetas",
+    "duracion_minima": 60,
+    "alumnos_por_grupo": 4,
+    "materiales": [
+      {
+        "nombre": "papel",
+        "cantidad_por_grupo": 10,
+        "unidad": "hojas"
+      },
+      {
+        "nombre": "lápiz",
+        "cantidad_por_grupo": 2,
+        "unidad": "unidades"
+      }
+    ],
+    "guia": {
+      "objetivos": [
+        "Reconocer cómo cambia la organización al producir varias unidades iguales.",
+        "Identificar tareas y revisar la calidad de los productos."
+      ],
+      "preparacion_docente": [
+        "Preparar diez hojas del mismo tamaño y dos lápices por grupo.",
+        "Doblar una hoja y dibujar una estrella para disponer de un modelo de referencia.",
+        "Acordar tres criterios: una sola doblez, bordes alineados y estrella en la cara exterior."
+      ],
+      "consigna": "Produzcan ocho tarjetas iguales: una hoja doblada por la mitad y una estrella dibujada en la cara exterior. Comparen el trabajo individual con una línea de producción.",
+      "etapas": [
+        {
+          "nombre": "Inicio",
+          "minutos": 10,
+          "acciones": [
+            "Presentar la consigna y distribuir los roles."
+          ]
+        },
+        {
+          "nombre": "Trabajo práctico",
+          "minutos": 30,
+          "acciones": [
+            "Cada grupo usa dos hojas para producir dos tarjetas de forma individual, realizando todas las operaciones.",
+            "Observar las dos tarjetas y acordar qué operaciones se repiten.",
+            "Distribuir cuatro roles: entregar la hoja, doblar, dibujar la estrella y revisar.",
+            "Producir otras ocho tarjetas pasando cada unidad de un puesto al siguiente.",
+            "Registrar los roles en el reverso de una de las tarjetas terminadas.",
+            "Si un puesto acumula tarjetas pendientes, detener la producción y acordar un cambio de organización."
+          ]
+        },
+        {
+          "nombre": "Prueba y revisión",
+          "minutos": 15,
+          "acciones": [
+            "Revisar cada tarjeta con los tres criterios acordados.",
+            "Separar las que cumplen de las que requieren una corrección y contar ambas cantidades.",
+            "Corregir las tarjetas posibles sin agregar nuevas hojas.",
+            "Comparar qué cambió entre realizar todas las tareas y especializar los puestos; no afirmar que fue más rápido sin medir."
+          ]
+        },
+        {
+          "nombre": "Cierre",
+          "minutos": 5,
+          "acciones": [
+            "Explicar cómo se distribuyeron las tareas y qué ajuste ayudó a organizarse."
+          ]
+        }
+      ],
+      "explicacion": "La producción en serie requiere distribuir operaciones y coordinar su secuencia. La revisión permite detectar diferencias entre lo producido y el modelo.",
+      "seguridad": [
+        "Trabajar sobre mesas despejadas.",
+        "Usar los lápices para escribir y dibujar; no apuntarlos hacia otras personas."
+      ],
+      "evidencias": [
+        "Producción del grupo y resultado de la prueba.",
+        "Explicación oral de las decisiones y ajustes."
+      ],
+      "criterios_evaluacion": [
+        "Distingue operaciones y roles.",
+        "Justifica un cambio de organización.",
+        "Aplica criterios concretos al revisar las tarjetas."
+      ],
+      "avisos": [
+        "Confirmar las cantidades de materiales y adecuar las consignas al grupo."
+      ]
+    }
+  },
+  {
+    "id": "A03",
+    "contenido_id": "C06",
+    "titulo": "Un instructivo que otro grupo pueda seguir",
+    "duracion_minima": 60,
+    "alumnos_por_grupo": 4,
+    "materiales": [
+      {
+        "nombre": "papel",
+        "cantidad_por_grupo": 4,
+        "unidad": "hojas"
+      },
+      {
+        "nombre": "lápiz",
+        "cantidad_por_grupo": 2,
+        "unidad": "unidades"
+      }
+    ],
+    "guia": {
+      "objetivos": [
+        "Comunicar un procedimiento mediante pasos y dibujos.",
+        "Revisar un instructivo a partir de su uso por otro grupo."
+      ],
+      "preparacion_docente": [
+        "Preparar cuatro hojas y dos lápices por grupo.",
+        "Ensayar pliegues alternados antes de la clase.",
+        "Organizar el intercambio de instructivos; si hay un solo grupo, el docente actuará como lector."
+      ],
+      "consigna": "Escriban y dibujen un instructivo para que otro grupo transforme una hoja en un acordeón de papel sin recibir explicaciones orales.",
+      "etapas": [
+        {
+          "nombre": "Inicio",
+          "minutos": 10,
+          "acciones": [
+            "Presentar la consigna y distribuir los roles."
+          ]
+        },
+        {
+          "nombre": "Trabajo práctico",
+          "minutos": 30,
+          "acciones": [
+            "Tomar la primera hoja y doblar una franja del ancho aproximado de un dedo.",
+            "Dar vuelta la hoja y doblar la franja siguiente en sentido opuesto.",
+            "Repetir los pliegues alternados hasta completar la hoja y abrirla parcialmente.",
+            "En la segunda hoja, numerar las instrucciones, usar verbos de acción y dibujar los movimientos.",
+            "Indicar qué cara queda hacia arriba y cuándo se debe dar vuelta la hoja.",
+            "Entregar el instructivo al grupo vecino sin explicaciones adicionales."
+          ]
+        },
+        {
+          "nombre": "Prueba y revisión",
+          "minutos": 15,
+          "acciones": [
+            "El grupo receptor usa su tercera hoja para seguir el instructivo recibido.",
+            "Señalar en el instructivo los pasos que generaron dudas.",
+            "Devolver los comentarios y corregir el texto o los dibujos.",
+            "Repetir la construcción con la cuarta hoja y comprobar que puedan realizarse al menos cinco pliegues alternados siguiendo el instructivo."
+          ]
+        },
+        {
+          "nombre": "Cierre",
+          "minutos": 5,
+          "acciones": [
+            "Compartir una instrucción que se volvió más clara después de la prueba."
+          ]
+        }
+      ],
+      "explicacion": "Un instructivo comunica acciones, orden y condiciones. Probarlo con un lector permite detectar información que sus autores daban por supuesta.",
+      "seguridad": [
+        "Trabajar sobre mesas despejadas.",
+        "Usar los lápices para escribir y dibujar; no apuntarlos hacia otras personas."
+      ],
+      "evidencias": [
+        "Producción del grupo y resultado de la prueba.",
+        "Explicación oral de las decisiones y ajustes."
+      ],
+      "criterios_evaluacion": [
+        "Ordena las acciones de forma comprensible.",
+        "Combina texto y dibujo para comunicar el procedimiento.",
+        "Revisa instrucciones a partir de dificultades observadas."
+      ],
+      "avisos": [
+        "Confirmar las cantidades de materiales y adecuar las consignas al grupo."
+      ]
+    }
+  },
+  {
+    "id": "A04",
+    "contenido_id": "C12",
+    "titulo": "Del procedimiento al diagrama",
+    "duracion_minima": 60,
+    "alumnos_por_grupo": 4,
+    "materiales": [
+      {
+        "nombre": "papel",
+        "cantidad_por_grupo": 3,
+        "unidad": "hojas"
+      },
+      {
+        "nombre": "lápiz",
+        "cantidad_por_grupo": 2,
+        "unidad": "unidades"
+      }
+    ],
+    "guia": {
+      "objetivos": [
+        "Representar el orden de operaciones mediante un diagrama.",
+        "Incluir una decisión y comprobar sus recorridos."
+      ],
+      "preparacion_docente": [
+        "Preparar tres hojas y dos lápices por grupo.",
+        "Ensayar un ejemplo de decisión con dos salidas: sí y no.",
+        "Acordar que un rectángulo representa una acción y un rombo una pregunta."
+      ],
+      "consigna": "Representen cómo producir y revisar una tarjeta: recibir una hoja, doblarla, dibujar una estrella, revisar y aceptar o corregir.",
+      "etapas": [
+        {
+          "nombre": "Inicio",
+          "minutos": 10,
+          "acciones": [
+            "Presentar la consigna y distribuir los roles."
+          ]
+        },
+        {
+          "nombre": "Trabajo práctico",
+          "minutos": 30,
+          "acciones": [
+            "En la primera hoja, escribir las operaciones en el orden en que se realizarían.",
+            "En la segunda hoja, dibujar un rectángulo por operación y unirlos con flechas.",
+            "Agregar un rombo con la pregunta: ¿la tarjeta cumple el modelo?",
+            "Rotular una salida sí hacia aceptar y otra no hacia corregir.",
+            "Unir corregir con revisar para representar una nueva comprobación.",
+            "Usar la tercera hoja para construir una tarjeta de prueba, siguiendo las acciones del diagrama."
+          ]
+        },
+        {
+          "nombre": "Prueba y revisión",
+          "minutos": 15,
+          "acciones": [
+            "Recorrer el diagrama señalando cada paso con el dedo.",
+            "Simular una tarjeta correcta y comprobar que el recorrido termina en aceptar.",
+            "Simular una tarjeta sin estrella y comprobar que conduce a corregir y después a revisar.",
+            "Corregir flechas o acciones que resulten ambiguas; ambos casos deben tener un recorrido completo."
+          ]
+        },
+        {
+          "nombre": "Cierre",
+          "minutos": 5,
+          "acciones": [
+            "Explicar qué muestra el diagrama sobre el orden y las decisiones del proceso."
+          ]
+        }
+      ],
+      "explicacion": "Un diagrama representa relaciones entre operaciones. Las flechas comunican el orden y la decisión muestra recorridos alternativos según una condición.",
+      "seguridad": [
+        "Trabajar sobre mesas despejadas.",
+        "Usar los lápices para escribir y dibujar; no apuntarlos hacia otras personas."
+      ],
+      "evidencias": [
+        "Producción del grupo y resultado de la prueba.",
+        "Explicación oral de las decisiones y ajustes."
+      ],
+      "criterios_evaluacion": [
+        "Representa el orden de las operaciones.",
+        "Distingue acciones y decisiones.",
+        "Comprueba y corrige los recorridos del diagrama."
+      ],
+      "avisos": [
+        "Confirmar las cantidades de materiales y adecuar las consignas al grupo."
+      ]
+    }
+  }
+]

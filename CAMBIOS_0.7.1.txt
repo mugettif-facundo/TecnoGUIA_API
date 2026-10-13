@@ -1,0 +1,111 @@
+TecnoGUIA 0.7.1 — ACENTOS ROTOS (12/10/2026)
+============================================
+Síntoma: en el formulario aparecía "Procesos tecnolÃ³gicos" o "GeneraciÃ³n de
+energÃa" en lugar de las letras con tilde.
+Causa: asociar_nap.py leía vinculos_nap.json sin indicar UTF-8. En Windows eso
+guardó mal los ejes, los contenidos y los vínculos NAP en la base. Además, la
+IA recibía esos nombres rotos.
+Corrección:
+  - asociar_nap.py ya lee en UTF-8 (para instalaciones nuevas).
+  - reparar_acentos.py arregla la base que ya tenés (ver abajo).
+
+PASOS
+1. Detené Uvicorn (Ctrl+C).
+2. Copiá los archivos del ZIP en TecnoGUIA_API (la base no viene en el ZIP).
+3. Ver qué se va a corregir, sin cambiar nada:
+     .venv\Scripts\python.exe reparar_acentos.py --simular
+4. Reparar (crea antes un respaldo tecnoguia_respaldo_FECHA.db):
+     .venv\Scripts\python.exe reparar_acentos.py
+5. Opcional: si avisa que hay propuestas guardadas con acentos rotos y querés
+   corregirlas también (solo cambia acentos, no el contenido):
+     .venv\Scripts\python.exe reparar_acentos.py --incluir-propuestas
+6. Iniciá Uvicorn y recargá el formulario con Ctrl+F5.
+
+TecnoGUIA 0.7.0 — CAMBIOS (10/10/2026)
+=========================================
+
+QUÉ CAMBIA
+----------
+1. Orientación didáctica por contenido (archivo nuevo: orientaciones_contenido.json)
+   Antes la IA recibía de cada contenido una sola línea (ej. N61: "Analizar
+   recursos y operaciones para obtener energía"). Ahora recibe además, solo
+   para el contenido elegido: foco, si requiere construcción, qué debe mostrar
+   la prueba, ideas de producto según materiales, objetivos de ejemplo y
+   desvíos a evitar. Las 12 orientaciones son una PROPUESTA: revisalas y
+   corregilas vos (se editan con el Bloc de notas, guardando en UTF-8; reiniciar
+   Uvicorn después).
+
+2. Plan antes de escribir (ia_generadora.py)
+   El modelo escribe los campos en orden. Ahora empieza por: título, PLAN
+   (producto o proceso, relación con el contenido, qué se observa, alcance) y
+   PRUEBA FINAL; recién después objetivos, materiales y etapas. Así los pasos
+   se ajustan a la prueba y no al revés. El plan se muestra en pantalla y en el
+   texto descargable.
+
+3. Instrucciones más cortas y ordenadas
+   Pasaron de unas 40 reglas mezcladas (~4.000 caracteres) a 7 pasos + reglas
+   de recursos (~2.800). Ya no se envían a la vez las reglas de energía,
+   mecanismos y estructuras: lo específico llega por la orientación.
+
+4. No se pierde una generación de varios minutos por un error reparable
+   Antes, un ID mal puesto o un material mencionado de más daba error 502/422
+   y había que volver a generar. Ahora:
+   - IDs inventados: se quitan.
+   - Recursos declarados que un paso usa pero faltaban en materiales: se agregan.
+   - Cantidades mayores a las informadas, materiales no declarados en el texto,
+     cargas sin identificar: se avisan.
+   Todo eso aparece arriba, en un recuadro "Revisión obligatoria antes de usar",
+   con el prefijo ATENCIÓN. La salida original del modelo se guarda en
+   ia.salida_cruda para poder comparar.
+
+5. Control de desvío curricular
+   Se busca el vocabulario propio del contenido en plan, objetivos y prueba.
+   Si no aparece (ej. una actividad de energía que solo evalúa estabilidad), se
+   marca como posible desvío. Es un control simple: no reemplaza tu lectura.
+
+6. Detección de listas mal separadas, más general
+   Además de "carton motores", detecta "tijeras y silicona", "sorbetes palitos",
+   etc. Respeta nombres compuestos: "silicona caliente", "motor de corriente
+   continua", "cinta de papel" y los 249 nombres del catálogo.
+
+7. Pruebas y evaluación
+   - pruebas\test_generador.py: 11 pruebas con Ollama simulado.
+   - evaluar_casos.py: corre 8 casos fijos con Ollama REAL y deja una planilla
+     para tu evaluación docente.
+
+QUÉ NO CAMBIA
+-------------
+Formulario, edición, guardado, recuperación, impresión y descarga. La base
+tecnoguia.db NO está en el ZIP y no se modifica. Las propuestas guardadas se
+conservan.
+
+CÓMO ACTUALIZAR
+---------------
+1. Detené Uvicorn (Ctrl+C).
+2. Copiá la carpeta TecnoGUIA_API completa a TecnoGUIA_API_respaldo_0.6.
+3. Descomprimí el ZIP dentro de TecnoGUIA_API y reemplazá los archivos.
+4. Reiniciá:  .venv\Scripts\python.exe -m uvicorn main:app --reload
+5. En el navegador: Ctrl+F5 en http://127.0.0.1:8000/formulario
+
+CÓMO PROBAR
+-----------
+Pruebas rápidas (sin IA, segundos):
+   .venv\Scripts\python.exe -m unittest pruebas.test_generador -v
+
+Evaluación real (con Ollama abierto y SIN generar desde el formulario):
+   .venv\Scripts\python.exe evaluar_casos.py
+Tarda varios minutos por caso. Deja resultados en la carpeta evaluaciones\.
+Completá en planilla_docente.csv las columnas de pertinencia, realizable,
+cantidades y prueba. Para comparar con un modelo más grande (si la PC lo
+soporta):
+   ollama pull qwen3:4b
+   .venv\Scripts\python.exe evaluar_casos.py --modelo qwen3:4b
+Si el 4b da mejores resultados en un tiempo aceptable, se usa en el formulario
+así:
+   set TECNOGUIA_MODELO=qwen3:4b
+   .venv\Scripts\python.exe -m uvicorn main:app --reload
+
+LÍMITES
+-------
+Estos cambios se probaron con respuestas simuladas, no con el modelo real.
+La mejora de calidad hay que comprobarla con evaluar_casos.py en tu PC.

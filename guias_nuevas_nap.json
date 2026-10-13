@@ -1,0 +1,443 @@
+[
+  {
+    "id": "A06",
+    "contenido_id": "N52",
+    "titulo": "Pinza extendida para recoger papel",
+    "duracion_minima": 80,
+    "alumnos_por_grupo": 4,
+    "estado": "borrador",
+    "origen": "Adaptación simplificada nueva de U060; no reproduce su mecanismo articulado original.",
+    "materiales": [
+      {
+        "nombre": "pinza de ropa",
+        "cantidad_por_grupo": 1,
+        "unidad": "unidades de madera con resorte"
+      },
+      {
+        "nombre": "palito de helado",
+        "cantidad_por_grupo": 2,
+        "unidad": "unidades recortadas a 6 cm"
+      },
+      {
+        "nombre": "papel",
+        "cantidad_por_grupo": 1,
+        "unidad": "hojas"
+      },
+      {
+        "nombre": "lápiz",
+        "cantidad_por_grupo": 1,
+        "unidad": "unidades"
+      },
+      {
+        "nombre": "regla",
+        "cantidad_por_grupo": 1,
+        "unidad": "unidades"
+      },
+      {
+        "nombre": "pistola de silicona caliente",
+        "cantidad_por_grupo": null,
+        "unidad": "equipo docente compartido"
+      },
+      {
+        "nombre": "barras de silicona",
+        "cantidad_por_grupo": null,
+        "unidad": "barras compatibles; confirmar consumo"
+      }
+    ],
+    "guia": {
+      "objetivos": [
+        "Distinguir mordazas, apoyo y resorte en una pinza.",
+        "Relacionar la presión sobre los mangos con la apertura de las mordazas.",
+        "Evaluar el alcance de las extensiones y su capacidad de sujetar una carga de papel."
+      ],
+      "preparacion_docente": [
+        "Por grupo disponer una pinza de madera completa y dos palitos de 6 cm con extremos lisos, preparados por el docente. No desarmar el resorte.",
+        "Probar el montaje: los palitos se fijan a las caras internas de las mordazas, con 2 cm superpuestos y 4 cm hacia delante. Ajustar las medidas si la pinza no abre lo suficiente.",
+        "Preparar un puesto docente de silicona caliente, separado de las mesas de trabajo; confirmar cantidad de barras según el prototipo.",
+        "Repartir una hoja: usar media para una bola de unos 3 cm y media para el boceto y registro. La carga de prueba es esa bola.",
+        "Comprobar antes de clase que el resorte mantiene presión sobre la bola y que las extensiones no se desprenden."
+      ],
+      "consigna": "Agreguen dos extensiones a una pinza de ropa para recoger una bola de papel sin tocarla con la mano. Comparen el alcance con la pinza original y expliquen qué cambia.",
+      "etapas": [
+        {
+          "nombre": "Exploración y boceto",
+          "minutos": 10,
+          "acciones": [
+            "Abrir y cerrar la pinza original. Identificar mangos, mordazas y resorte.",
+            "Dibujar la ubicación de las extensiones y anticipar dónde se moverán."
+          ]
+        },
+        {
+          "nombre": "Construcción",
+          "minutos": 35,
+          "acciones": [
+            "Presentar un palito en la cara interna de cada mordaza: dejar 2 cm superpuestos y 4 cm sobresaliendo, con ambos palitos alineados.",
+            "Pedir al docente que pegue cada extensión con silicona caliente, evitando el resorte y el punto de giro. No mantener los dedos junto al adhesivo.",
+            "Esperar a que las uniones enfríen. Presionar los mangos originales para abrir y soltar para cerrar; comprobar que las puntas se aproximan sin cruzarse.",
+            "Formar una bola con media hoja de papel, de aproximadamente 3 cm de diámetro.",
+            "Si las puntas se cruzan o una extensión se mueve, detener la prueba y pedir al docente que revise la unión."
+          ]
+        },
+        {
+          "nombre": "Prueba y mejora",
+          "minutos": 25,
+          "acciones": [
+            "Marcar dos zonas de la mesa separadas 10 cm y una referencia de altura de 5 cm usando la regla.",
+            "Tomar la bola, elevarla 5 cm, trasladarla a la otra zona y depositarla; repetir tres veces. Manipular solamente los mangos de la pinza.",
+            "Prueba lograda: completa los tres traslados sin soltar la bola antes de llegar y sin que se desprendan las extensiones.",
+            "Registrar si la falla proviene de alineación, presión o unión. Corregir con ayuda docente y repetir.",
+            "Comparar el alcance de la pinza original y el de la extendida. No concluir que mayor alcance significa mayor fuerza."
+          ]
+        },
+        {
+          "nombre": "Explicación y cierre",
+          "minutos": 10,
+          "acciones": [
+            "Señalar en el boceto las piezas que giran y el resorte.",
+            "Explicar por qué las extensiones deben fijarse a las mordazas y no al resorte.",
+            "Describir una mejora y el resultado de repetir la prueba."
+          ]
+        }
+      ],
+      "explicacion": "Al presionar los mangos, las dos partes de la pinza giran alrededor de su apoyo y las mordazas se separan. El resorte permite que se cierren al soltar. Las extensiones aumentan el alcance; no se presentan como un aumento de fuerza ni como un brazo articulado.",
+      "seguridad": [
+        "El docente recorta los palitos y aplica toda la silicona caliente. Esperar a que las uniones enfríen.",
+        "No desarmar el resorte ni apuntar la pinza a personas. Mantener los dedos fuera de las mordazas.",
+        "Tomar solamente la bola de papel declarada; no probar con objetos frágiles ni pesados."
+      ],
+      "evidencias": [
+        "Boceto con mangos, mordazas, resorte y extensiones.",
+        "Registro de tres traslados y problemas observados.",
+        "Comparación de alcance y explicación de una mejora."
+      ],
+      "criterios_evaluacion": [
+        "Relaciona la acción sobre los mangos con la apertura de las mordazas.",
+        "Distingue aumento de alcance y capacidad de sujeción.",
+        "Prueba usando el criterio acordado y justifica una modificación."
+      ],
+      "avisos": [
+        "Borrador didáctico pendiente de prueba física y revisión docente.",
+        "80 minutos estimados con piezas preparadas. La disponibilidad declarada no confirma tamaños, cantidades ni compatibilidad.",
+        "Adaptación simplificada de U060: utiliza una pinza y dos extensiones, sin eslabones en serie ni accionamiento por hilo."
+      ]
+    },
+    "vinculo": {
+      "contenido_id": "N52",
+      "tipo": "guia",
+      "recurso_id": "A06",
+      "justificacion": "La pinza transforma la acción sobre los mangos en apertura de sus mordazas.",
+      "consigna_enfoque": "Comparar el alcance de la pinza original y la extendida.",
+      "evidencia": "Boceto y registro de sujeción y traslado.",
+      "estado": "propuesta_pendiente_revision"
+    }
+  },
+  {
+    "id": "A07",
+    "contenido_id": "N53",
+    "titulo": "Barco impulsado por una banda elástica",
+    "duracion_minima": 80,
+    "alumnos_por_grupo": 4,
+    "estado": "borrador",
+    "origen": "Desarrollo didáctico propio basado en U085; montaje pendiente de prueba física.",
+    "materiales": [
+      {
+        "nombre": "envase de leche",
+        "cantidad_por_grupo": 1,
+        "unidad": "unidades de cartón de 1 litro limpias y secas"
+      },
+      {
+        "nombre": "palito de madera",
+        "cantidad_por_grupo": 2,
+        "unidad": "unidades planas de unos 15 cm"
+      },
+      {
+        "nombre": "banda elástica",
+        "cantidad_por_grupo": 1,
+        "unidad": "unidades compatibles con la separación de los soportes"
+      },
+      {
+        "nombre": "tarjeta plástica",
+        "cantidad_por_grupo": 1,
+        "unidad": "piezas lisas de 5 × 3 cm, precortadas"
+      },
+      {
+        "nombre": "cinta adhesiva",
+        "cantidad_por_grupo": null,
+        "unidad": "cantidad según montaje probado"
+      },
+      {
+        "nombre": "recipiente para agua",
+        "cantidad_por_grupo": null,
+        "unidad": "bandeja compartida de al menos 50 × 25 cm"
+      },
+      {
+        "nombre": "agua",
+        "cantidad_por_grupo": null,
+        "unidad": "hasta 4 cm de profundidad; cantidad según bandeja"
+      },
+      {
+        "nombre": "papel",
+        "cantidad_por_grupo": 1,
+        "unidad": "hojas"
+      },
+      {
+        "nombre": "lápiz",
+        "cantidad_por_grupo": 1,
+        "unidad": "unidades"
+      },
+      {
+        "nombre": "regla",
+        "cantidad_por_grupo": 1,
+        "unidad": "unidades"
+      }
+    ],
+    "guia": {
+      "objetivos": [
+        "Reconocer la banda elástica como un modo de almacenar energía.",
+        "Relacionar el desenrollado de la banda con el movimiento de la paleta y el barco.",
+        "Comparar pruebas manteniendo iguales las condiciones salvo el número de vueltas."
+      ],
+      "preparacion_docente": [
+        "Lavar y secar los envases; por grupo el docente abre una ventana en una cara ancha del envase de 1 litro, conservando el fondo y las paredes. Revisar bordes y pérdidas.",
+        "Preparar dos listones planos de unos 15 cm con extremos lisos. Elegirlos de modo que puedan fijarse firmemente a ambos costados y sobresalir unos 4 cm detrás del casco.",
+        "El docente prepara una muesca superficial en cada extremo posterior para retener la banda, sin bordes cortantes.",
+        "Recortar una pieza plástica lisa de 5 × 3 cm y redondear sus esquinas. Será una paleta única; no se arma una rueda de varias paletas.",
+        "Probar el conjunto: la banda debe sostenerse entre ambos extremos, la paleta debe girar libremente sin tocar el casco y alcanzar el agua. Ajustar medidas antes de distribuir.",
+        "Preparar una bandeja común de al menos 50 × 25 cm con agua hasta 4 cm de profundidad; situarla en una mesa estable con piso seco y espacio para turnos.",
+        "Comprobar que el casco flota, no entra agua y la cinta mantiene los soportes durante varias pruebas. Repartir una hoja para boceto y registro."
+      ],
+      "consigna": "Construyan un barco que avance al soltar una paleta movida por una banda elástica. Comparen qué ocurre al darle tres y cinco vueltas, sin empujarlo con la mano.",
+      "etapas": [
+        {
+          "nombre": "Exploración y boceto",
+          "minutos": 10,
+          "acciones": [
+            "Observar el prototipo docente y localizar casco, soportes, banda y paleta.",
+            "Dibujar el montaje y anticipar qué hará la banda después de darle vueltas."
+          ]
+        },
+        {
+          "nombre": "Construcción",
+          "minutos": 35,
+          "acciones": [
+            "Ubicar un listón a cada lado del casco, paralelos entre sí, con sus extremos sobresaliendo unos 4 cm por detrás.",
+            "Fijar los listones a las caras exteriores secas con cinta adhesiva; mantener libres las muescas de los extremos.",
+            "Colocar la banda formando un lazo entre ambos extremos posteriores. Verificar que no se salga y que no quede excesivamente estirada.",
+            "Introducir la pieza plástica entre los dos tramos de la banda, centrada entre los soportes. La banda debe sujetarla al girar sin deslizamiento.",
+            "Dar una vuelta lenta a la paleta fuera del agua y comprobar que puede girar sin golpear el casco ni los soportes.",
+            "Con ayuda docente, poner el casco en el agua sin cargar la banda: comprobar flotación, estabilidad y que parte de la paleta llegue al agua. Si no ocurre, revisar el montaje."
+          ]
+        },
+        {
+          "nombre": "Prueba comparativa",
+          "minutos": 25,
+          "acciones": [
+            "Marcar junto a la bandeja una línea de salida y una referencia a 10 cm, usando la regla.",
+            "Girar la paleta tres vueltas completas, manteniéndola sujeta. Colocar el barco en la salida y soltar solamente la paleta, sin empujar el casco.",
+            "Si avanza en dirección contraria, invertir el sentido de carga de la banda. Registrar el cambio.",
+            "Repetir dos veces con tres vueltas y dos veces con cinco, usando la misma salida, agua y barco. No añadir vueltas si la banda se deforma, se sale o amenaza con romperse.",
+            "Prueba funcional lograda: avanza al menos 10 cm sin empuje manual en dos intentos con la misma carga de vueltas, manteniendo banda y soportes en su posición.",
+            "Anotar la distancia de cada intento. Si hay pérdidas de agua, roces o cinta desprendida, retirar el barco y corregir antes de repetir."
+          ]
+        },
+        {
+          "nombre": "Explicación y cierre",
+          "minutos": 10,
+          "acciones": [
+            "Explicar de dónde proviene la energía al cargar la banda y cómo llega a la paleta.",
+            "Comparar los intentos y mencionar qué condiciones se mantuvieron iguales.",
+            "No afirmar que más vueltas siempre producen más avance: describir lo observado y las limitaciones del montaje."
+          ]
+        }
+      ],
+      "explicacion": "La mano realiza trabajo al girar la paleta y retorcer la banda. Esta almacena energía elástica; al soltarla, mueve la paleta, que empuja el agua y puede impulsar el casco. Esta guía utiliza una paleta sencilla, no una rueda completa.",
+      "seguridad": [
+        "El docente abre los envases, recorta la tarjeta y prepara las muescas de los listones.",
+        "Mantener la banda lejos de la cara; dejar de cargarla si se ve dañada o excesivamente tensionada.",
+        "Probar en bandeja poco profunda y estable, por turnos; retirar inmediatamente el agua derramada.",
+        "Mantener agua y bandeja lejos de enchufes, equipos eléctricos y del puesto de silicona de otras actividades.",
+        "Usar envases limpios; no beber el agua de prueba."
+      ],
+      "evidencias": [
+        "Boceto de casco, soportes, banda y paleta.",
+        "Tabla de vueltas, sentido de carga y distancia de cuatro intentos.",
+        "Explicación del almacenamiento y aprovechamiento de energía."
+      ],
+      "criterios_evaluacion": [
+        "Identifica dónde se almacena energía y qué pieza la aprovecha.",
+        "Realiza una comparación controlando las condiciones de prueba.",
+        "Registra fallas y propone mejoras relacionadas con sus observaciones."
+      ],
+      "avisos": [
+        "Borrador didáctico pendiente de prueba física y revisión docente.",
+        "80 minutos estimados con piezas preparadas. La disponibilidad declarada no confirma tamaños, cantidades ni compatibilidad.",
+        "Basada en U085, con una paleta sencilla como adaptación; validar flotación, adhesión y dimensiones antes de la clase."
+      ]
+    },
+    "vinculo": {
+      "contenido_id": "N53",
+      "tipo": "guia",
+      "recurso_id": "A07",
+      "justificacion": "La banda permite analizar una reserva de energía que acciona un artefacto.",
+      "consigna_enfoque": "Comparar tres y cinco vueltas manteniendo las demás condiciones.",
+      "evidencia": "Tabla de pruebas y explicación del recorrido de la energía.",
+      "estado": "propuesta_pendiente_revision"
+    }
+  },
+  {
+    "id": "A08",
+    "contenido_id": "N63",
+    "titulo": "Clasificador de fichas por tamaño",
+    "duracion_minima": 80,
+    "alumnos_por_grupo": 4,
+    "estado": "borrador",
+    "origen": "Adaptación de U090 con tamices apilados y fichas de cartulina, pendiente de prueba física.",
+    "materiales": [
+      {
+        "nombre": "cartón rígido",
+        "cantidad_por_grupo": null,
+        "unidad": "tres bases y doce paredes precortadas por grupo"
+      },
+      {
+        "nombre": "cartulina",
+        "cantidad_por_grupo": 1,
+        "unidad": "hojas para doce fichas precortadas"
+      },
+      {
+        "nombre": "papel",
+        "cantidad_por_grupo": 1,
+        "unidad": "hojas para registro y boceto"
+      },
+      {
+        "nombre": "lápiz",
+        "cantidad_por_grupo": 1,
+        "unidad": "unidades"
+      },
+      {
+        "nombre": "regla",
+        "cantidad_por_grupo": 1,
+        "unidad": "unidades"
+      },
+      {
+        "nombre": "pistola de silicona caliente",
+        "cantidad_por_grupo": null,
+        "unidad": "equipo docente compartido"
+      },
+      {
+        "nombre": "barras de silicona",
+        "cantidad_por_grupo": null,
+        "unidad": "barras compatibles; confirmar consumo"
+      }
+    ],
+    "guia": {
+      "objetivos": [
+        "Resolver un problema de clasificación mediante aberturas de distintos tamaños.",
+        "Justificar dimensiones y orden de las bandejas según las piezas a clasificar.",
+        "Evaluar resultados, detectar errores y proponer una modificación."
+      ],
+      "preparacion_docente": [
+        "Por grupo, recortar tres bases cuadradas de cartón rígido de 15 × 15 cm y doce tiras de 15 × 3 cm para sus paredes. Ajustar las longitudes de las paredes al grosor del cartón para que cierren las esquinas.",
+        "En la base superior abrir cuatro agujeros circulares de 28 mm de diámetro y en la intermedia cuatro de 20 mm. Ubicar los centros a 5 y 10 cm de cada borde. La tercera base queda sin agujeros. El docente realiza todos los cortes.",
+        "Preparar doce fichas de cartulina: cuatro de 16 mm, cuatro de 24 mm y cuatro de 32 mm de diámetro. Evitar fichas flexibles o bordes irregulares; confirmar medidas con las plantillas usadas para cortar.",
+        "Probar una ficha de cada tamaño: 16 y 24 mm pasan por un agujero de 28 mm; solamente 16 mm pasa por uno de 20 mm. Los valores son de partida y requieren comprobar tolerancias con los materiales reales.",
+        "Ensayar el apilado antes de clase: cada bandeja se apoya de forma estable sobre las paredes de la inferior, dejando espacio para que caigan las fichas. No pegar entre sí las bandejas.",
+        "Disponer un puesto docente de silicona caliente para formar las bandejas; para muchos grupos, preparar las paredes pegadas antes de clase y reservar al alumnado la revisión y prueba.",
+        "Preparar una hoja de registro y boceto por grupo. Las doce fichas son toda la carga de prueba; no agregar monedas ni objetos diferentes."
+      ],
+      "consigna": "Diseñen y prueben un clasificador que separe doce fichas de tres tamaños en tres bandejas. Expliquen por qué cada tamaño queda en un nivel y cómo corregirían un error de clasificación.",
+      "etapas": [
+        {
+          "nombre": "Problema y boceto",
+          "minutos": 10,
+          "acciones": [
+            "Comparar las tres fichas de muestra y las dos aberturas. Anticipar cuáles pasarán por cada una.",
+            "Dibujar las bandejas en el orden que propone el grupo y explicar cómo llegarán las fichas a cada nivel."
+          ]
+        },
+        {
+          "nombre": "Montaje",
+          "minutos": 30,
+          "acciones": [
+            "Presentar cuatro paredes alrededor de cada base. Pedir al docente que las fije con silicona caliente si aún no están preparadas; esperar a que enfríen.",
+            "Marcar las bandejas: superior, agujeros de 28 mm; intermedia, agujeros de 20 mm; recolectora, sin agujeros.",
+            "Apilar la recolectora abajo, la intermedia sobre ella y la superior arriba. Las bandejas deben poder retirarse para contar las fichas; no pegarlas entre sí.",
+            "Comprobar que las paredes sostienen el conjunto y que los agujeros no están tapados por refuerzos, bordes de otra bandeja ni silicona.",
+            "Ensayar con una ficha de cada tamaño antes de mezclar las doce. Si el recorrido no coincide con el boceto, revisar dimensiones y orden."
+          ]
+        },
+        {
+          "nombre": "Prueba y mejora",
+          "minutos": 30,
+          "acciones": [
+            "Mezclar las doce fichas en la bandeja superior. Mover el conjunto suavemente sobre la mesa para acercarlas a los agujeros, sin doblarlas ni empujarlas por las aberturas.",
+            "Retirar con cuidado la bandeja superior y contar sus fichas. Repetir con la intermedia y la recolectora.",
+            "Resultado esperado: cuatro fichas de 32 mm arriba, cuatro de 24 mm en el nivel intermedio y cuatro de 16 mm abajo.",
+            "Registrar para cada bandeja cantidad, tamaños correctos y errores. La prueba se considera lograda cuando las doce quedan en su nivel correspondiente en dos intentos seguidos.",
+            "Si falla, identificar si el problema es una abertura, una ficha deformada, un atasco o el orden de las bandejas. Registrar una hipótesis y pedir al docente cualquier corte o pegado adicional.",
+            "Cambiar una condición por vez, volver a mezclar y repetir; comparar resultados con el primer intento."
+          ]
+        },
+        {
+          "nombre": "Diagrama y explicación",
+          "minutos": 10,
+          "acciones": [
+            "Representar dos decisiones: ¿pasa por 28 mm?; si pasó, ¿pasa por 20 mm? Indicar el destino de cada respuesta.",
+            "Explicar por qué el filtro depende del tamaño y por qué las fichas deben mantenerse planas y sin deformarse.",
+            "Presentar la mejora realizada y la evidencia que permite evaluar su resultado."
+          ]
+        }
+      ],
+      "explicacion": "Los agujeros actúan como filtros por tamaño. Con las fichas planas, las mayores quedan en la primera bandeja; las medianas atraviesan el primer filtro y quedan en el segundo; las menores llegan a la recolectora. La gravedad permite la caída y el movimiento manual acerca las fichas a las aberturas. No se trata de un robot automático.",
+      "seguridad": [
+        "El docente realiza cortes, perforaciones y pegados con silicona caliente; esperar a que las uniones enfríen.",
+        "Mover las bandejas suavemente sobre la mesa, sin lanzarlas ni sacudirlas cerca de compañeros.",
+        "Usar solamente las fichas preparadas; mantenerlas fuera de la boca y recuperar las doce al terminar."
+      ],
+      "evidencias": [
+        "Boceto con medidas y orden de bandejas.",
+        "Registro de cantidades correctas y errores en al menos dos intentos.",
+        "Diagrama de decisiones y explicación de una mejora."
+      ],
+      "criterios_evaluacion": [
+        "Justifica tamaños y orden de los filtros según las fichas.",
+        "Evalúa la clasificación con el criterio acordado, conservando el conjunto de doce fichas.",
+        "Propone una modificación basada en una falla y compara los resultados.",
+        "Representa el recorrido y las decisiones del proceso."
+      ],
+      "avisos": [
+        "Adaptación propia de U090: sustituye monedas y rampa por fichas y tamices apilados. La ficha original se conserva.",
+        "80 minutos estimados con cortes preparados; el montaje y la tolerancia de medidas requieren prueba física docente.",
+        "Es una guía en borrador: la clasificación no se verificó con un prototipo real."
+      ]
+    },
+    "vinculo": {
+      "contenido_id": "N63",
+      "tipo": "guia",
+      "recurso_id": "A08",
+      "justificacion": "Permite diseñar un artefacto con especificaciones de tamaño y restricciones de paso.",
+      "consigna_enfoque": "Elegir dimensiones y orden de filtros, probar y justificar una mejora.",
+      "evidencia": "Boceto, conteo de errores y registro de modificación.",
+      "estado": "propuesta_pendiente_revision"
+    },
+    "vinculos_adicionales": [
+      {
+        "contenido_id": "N65",
+        "tipo": "guia",
+        "recurso_id": "A08",
+        "justificacion": "El recorrido de cada ficha puede representarse mediante decisiones y destinos.",
+        "consigna_enfoque": "Representar el proceso de clasificación con un diagrama y comprobarlo con las fichas.",
+        "evidencia": "Diagrama con preguntas, respuestas y destinos coherentes.",
+        "estado": "propuesta_pendiente_revision"
+      },
+      {
+        "contenido_id": "N63",
+        "tipo": "proyecto",
+        "recurso_id": "U090",
+        "justificacion": "La idea del clasificador ofrece un problema de diseño sujeto a dimensiones y tolerancias.",
+        "consigna_enfoque": "Analizar tamaños de objetos y aberturas antes de elegir una solución.",
+        "evidencia": "Boceto con restricciones y explicación del criterio de clasificación.",
+        "estado": "propuesta_pendiente_revision"
+      }
+    ]
+  }
+]

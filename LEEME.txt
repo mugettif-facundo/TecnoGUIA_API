@@ -1,0 +1,252 @@
+CORRECCIÓN DE TEMA Y LECTURA DE MATERIALES
+El formulario muestra los recursos que interpreta. Cartón motores no se
+asume como dos materiales: el programa pide separarlos antes de llamar a IA.
+Se quitaron ejemplos de estabilidad usados para orientar todos los objetivos.
+Cada prueba debe corresponder al contenido: energía, mecanismos, procesos o
+resistencia, según la ficha seleccionada. Las maquetas no se presentan como
+generadores de electricidad. Conocimientos previos no declaran recursos.
+Se agregan controles puntuales para herramientas y adhesivos mencionados
+fuera del listado y para cargas genéricas sin identificar. No son exhaustivos
+ni comprueban pertinencia pedagógica; la revisión docente sigue siendo necesaria.
+Las propuestas anteriores no se modifican. Generar una nueva para evaluar
+la respuesta real del modelo, que no se ejecutó en las pruebas del programa.
+
+MEJORA DE INSTRUCCIONES Y RECURSOS
+La IA recibe instrucciones para elegir un producto específico, describir
+piezas y uniones, detallar insumos por grupo y compartir las herramientas.
+Agrega problemas frecuentes con revisión y corrección, que podés editar,
+guardar y exportar. Se piden objetivos y criterios observables.
+Una prueba de carga debe identificar el recurso, cantidad y ubicación; si
+no hay carga declarada, se pide una prueba de estabilidad y se distingue
+su alcance. Esto orienta al modelo; no garantiza calidad pedagógica.
+
+Si no se declara pistola, los adhesivos calientes se excluyen del contexto
+y la propuesta muestra un aviso. No se sustituyen por silicona fría.
+Si se utiliza adhesivo caliente con pistola declarada, se registra la pistola
+como recurso compartido y se incorporan uso exclusivo docente y enfriamiento.
+Se eliminan negaciones explícitas de calor detectadas en Seguridad. Estos
+controles no reconocen todas las contradicciones ni reemplazan tu revisión.
+Las propuestas ya guardadas se conservan tal como están; revisá su contenido.
+
+CORRECCIÓN DE TIEMPOS GENERADOS
+Si los minutos propuestos por IA no suman el total solicitado, el programa
+los distribuye proporcionalmente, conservando enteros positivos y registrando
+los tiempos originales y ajustados. No hace un nuevo pedido a Ollama.
+La propuesta incluye un aviso: el docente debe comprobar que construcción,
+preparación y prueba se puedan realizar en esos tiempos. No es una medición
+física ni una garantía de factibilidad. Las instrucciones se conservan.
+Si hay menos minutos que etapas, se pide aumentar la duración.
+Actualizar los archivos del ZIP, reiniciar Uvicorn y presionar Ctrl+F5.
+
+ACTUALIZACIÓN DEL FORMULARIO
+Se quitaron el buscador de recursos y las categorías de selección. Ahora
+escribís directamente materiales y herramientas separados por comas o líneas.
+Se mantienen grado, eje, contenido, tema y contexto. Las cantidades propuestas
+por IA requieren confirmación docente. Reiniciá Uvicorn y presioná Ctrl+F5.
+
+CORRECCIÓN DE ESPERA DE IA
+Se amplía la espera a diez minutos, se pide una salida más breve y se solicita
+conservar el modelo cargado diez minutos. Nuevo: diagnosticar_ia.py.
+Ver ACTIVAR_IA.txt para ejecutar la prueba de carga y velocidad.
+Estas mejoras no garantizan rendimiento en un equipo aún sin diagnosticar.
+
+ACTUALIZACIÓN: GENERAR UNA ACTIVIDAD NUEVA CON IA
+Esta versión agrega /actividades/crear-ia y el catálogo /materiales.
+El formulario abre en generación completa: grado, eje, contenido y tema,
+recursos seleccionados, duración, alumnos y contexto -> borrador nuevo.
+Ver ACTIVAR_IA.txt para Ollama y el modelo qwen3:1.7b.
+
+ACTUALIZAR SIN CAMBIAR LA BASE
+Detené Uvicorn con Ctrl+C. Copiá los archivos de este ZIP en
+C:\Users\MakerCompetencia\TecnoGUIA_API reemplazando los anteriores.
+La base tecnoguia.db no está incluida y tus propuestas se conservan.
+No se requiere una migración ni nuevos paquetes de Python para esta versión.
+Reiniciá con .venv\Scripts\python.exe -m uvicorn main:app --reload
+Abrí http://127.0.0.1:8000/formulario y presioná Ctrl+F5.
+
+PRUEBAS
+Se comprobó generación con respuestas de Ollama simuladas, rechazo de
+materiales fuera de selección, cantidades insuficientes, tiempos incoherentes,
+errores del servicio, guardado y recuperación. Se verificó el formulario con
+DOM simulado incluyendo selección, edición, descarga e impresión.
+No se ejecutó el modelo real durante estas pruebas. Su calidad, velocidad
+ y comportamiento deben comprobarse en tu equipo con revisión docente.
+
+INSTRUCCIONES ANTERIORES DEL CATÁLOGO
+
+TECNOGUIA — AMPLIACIÓN CON 100 PROYECTOS
+
+INSTALACIÓN EN TU PROYECTO WINDOWS
+1. Detené Uvicorn con Ctrl+C.
+2. Guardá una copia de tu main.py y de tecnoguia.db, si existe.
+3. Extraé este ZIP. Copiá sus archivos dentro de:
+   C:\Users\MakerCompetencia\TecnoGUIA_API
+   Reemplazá main.py cuando Windows lo pregunte.
+   Este ZIP no incluye una base tecnoguia.db: conserva la tuya.
+4. Abrí CMD en esa carpeta y ejecutá, uno por uno:
+
+.venv\Scripts\python.exe crear_base.py
+.venv\Scripts\python.exe importar_actividades.py
+.venv\Scripts\python.exe agregar_actividades.py
+.venv\Scripts\python.exe importar_unicos.py
+.venv\Scripts\python.exe asociar_nap.py
+.venv\Scripts\python.exe agregar_grua.py
+.venv\Scripts\python.exe agregar_guias_nap.py
+.venv\Scripts\python.exe preparar_guardado.py
+.venv\Scripts\python.exe -m uvicorn main:app --reload
+
+5. Abrí http://127.0.0.1:8000/formulario
+   La consola debe permanecer abierta.
+   Documentación API: http://127.0.0.1:8000/docs
+
+QUÉ CONTIENE
+- 100 proyectos del PDF, con título, materiales, principio técnico original y página.
+- Buscador de proyectos por título o materiales.
+- 8 guías desarrolladas como borradores: torre de papel, fábrica de tarjetas,
+  instructivo compartido, diagrama de proceso, grúa manual, pinza extendida, barco elástico y clasificador de fichas.
+- Las 12 guías y los 13 fragmentos del catálogo anterior se conservan.
+- Los importadores pueden ejecutarse otra vez sin reemplazar tus ediciones.
+
+Las 100 fichas del nuevo PDF son un banco de proyectos para desarrollar.
+Se conservan materiales y principios técnicos del documento, sin inventar
+pasos de construcción. Las fichas quedan pendientes de revisión docente,
+prueba técnica y clasificación curricular. El PDF presenta el conjunto para
+5.º y 6.º, pero no asigna un grado individual a cada proyecto.
+
+El nuevo banco se guarda en proyectos_unicos_pdf. Si ya habías importado
+el PDF anterior, su tabla proyectos_pdf se conserva; /proyectos muestra
+la nueva versión después de ejecutar importar_unicos.py.
+El importador anterior también se incluye como archivo de respaldo, pero
+no hace falta ejecutarlo para instalar esta versión.
+
+USO DEL FORMULARIO
+Elegí grado, eje de los NAP, contenido y una actividad relacionada.
+Hay 12 contenidos organizados con títulos didácticos propios, 31 proyectos
+vinculados, ocho guías y 52 relaciones muchos-a-muchos. Cada relación
+explica el enfoque, la consigna y la evidencia: son propuestas para revisar.
+Los otros 69 proyectos permanecen en el banco completo, aún sin asociaciones.
+Las referencias NAP se cotejaron con el documento oficial; los proyectos no
+fueron validados técnicamente ni se asignaron como actividades oficiales.
+Fuente: https://www.educ.ar/recursos/adjuntos/descarga/22424/nap-educacion-primaria-segundo-ciclo?disposition=inline
+Páginas impresas 73 a 80 (el archivo tiene una página inicial extra).
+El tercer eje se muestra con el nombre abreviado Tecnología y sociedad.
+Los nuevos contenidos NAP se guardan separados del inventario previo del TFG.
+
+Al elegir un proyecto, Ver proyecto y enfoque muestra la ficha, la consigna
+didáctica y lo que falta desarrollar. No inventa una guía de construcción.
+Al elegir una guía, Preparar guía adapta el borrador existente.
+
+Para una guía, Comprobá los materiales indicados.
+Para probar las tres propuestas nuevas: papel, lápiz; 80 minutos; 25 alumnos.
+La torre requiere papel y cinta adhesiva, y corresponde a 5.º en este inventario.
+Cuando cambiás los materiales, prepará la actividad otra vez. Si faltan materiales
+la API responde con el motivo y el formulario lo muestra.
+
+El modo catálogo usa plantillas guardadas en SQLite. El modo IA local
+recupera una guía y su ficha curricular y consulta Ollama. Ver ACTIVAR_IA.txt.
+Las propuestas y referencias curriculares mantienen su estado de revisión.
+La API anterior queda reemplazada por la versión que acompaña este paquete;
+si agregaste otras rutas a main.py, conservá tu copia para integrarlas después.
+
+VERIFICACIÓN
+Probadas rutas FastAPI, recuperación de los 100 registros de la nueva fuente, generación de las
+5 guías, rechazo por materiales/tiempo/grado, suma de tiempos, integridad SQLite
+y conservación de ediciones al volver a importar. JavaScript verificado.
+Estas pruebas se hicieron en el entorno de preparación, no en tu PC Windows.
+
+ACTUALIZACIÓN GRÚA MANUAL
+A05: 5.º → Medios técnicos → Mecanismos y movimientos.
+Se suma una quinta guía en borrador. Ejecutá agregar_grua.py después de
+asociar_nap.py. El carretel se pega al eje; el eje gira libre dentro de guías
+de sorbete. Silicona caliente aplicada por el docente. La versión es manual,
+sin engranaje ni motor; no sustituye la ficha eléctrica original U043.
+Tiempo estimado: 80 minutos, con piezas precortadas y soportes preparados.
+Pistola y barras son recursos compartidos: confirmar consumo y disponibilidad.
+Las dimensiones y el tiempo requieren prueba física antes del uso en clase.
+
+DOS GUÍAS NUEVAS
+A06: Pinza extendida para recoger papel — 5.º → Medios técnicos → Mecanismos y movimientos.
+A07: Barco impulsado por una banda elástica — 5.º → Medios técnicos → Almacenamiento de energía.
+Ejecutá agregar_guias_nap.py después de asociar_nap.py. Ambas son desarrollos
+didácticos nuevos y adaptaciones explícitas de las ideas U060 y U085.
+Las fichas originales permanecen en el banco sin modificación.
+Tiempo estimado: 80 minutos, grupos de hasta 4, piezas preparadas por docente.
+Las guías necesitan prueba física; no se verificó el montaje con materiales reales.
+
+GUÍA NUEVA DE 6.º
+A08: Clasificador de fichas por tamaño.
+6.º → Medios técnicos → Diseño de máquinas.
+También aparece en 6.º → Procesos tecnológicos → Representación de procesos.
+Importar con agregar_guias_nap.py; se conserva cualquier edición previa.
+Es una adaptación de U090 con dos tamices y una recolectora, no una rampa
+de monedas. Usa fichas de cartulina. No es un robot automático.
+La prueba exige clasificar doce fichas en dos intentos consecutivos;
+medidas, tolerancias y montaje requieren prueba física docente.
+
+EDITAR, GUARDAR, RECUPERAR Y DESCARGAR
+Ejecutá preparar_guardado.py una vez; puede repetirse sin borrar propuestas.
+Prepará una guía en /formulario y abrí Editar esta propuesta. Podés cambiar
+título, consigna, explicación, listas y etapas; en las listas, un punto por línea.
+Actualizar vista previa muestra las ediciones sin guardarlas. Los minutos de
+las etapas deben sumar la duración total. El servidor vuelve a comprobarlo.
+Guardar como nueva propuesta crea una copia en propuestas_guardadas de SQLite.
+El catálogo original y las copias anteriores no se modifican.
+En Mis propuestas guardadas elegí una copia y presioná Abrir propuesta.
+La propuesta conserva grado, fuente, organización y enfoque didáctico.
+Descargar guía en texto exporta las ediciones actuales a un archivo .txt.
+La descarga no equivale a guardar la propuesta en la base.
+Si cambias datos del formulario, la vista actual se limpia: guardá primero
+las ediciones que quieras conservar.
+API: POST /propuestas; GET /propuestas; GET /propuestas/{id}.
+
+IMPRESIÓN Y PDF
+Prepará o recuperá una propuesta. Podés editarla antes de exportar.
+Ver versión para imprimir abre una hoja sin formulario ni banco de proyectos.
+Imprimir / guardar PDF abre la ventana de impresión del navegador. Elegí
+Guardar como PDF como destino, papel A4 y escala 100 %. Podés desactivar
+encabezados y pies del navegador para quitar la URL y la fecha.
+La versión incluye las ediciones actuales, materiales, pasos, revisión y
+referencia curricular. También comprueba la suma de tiempos antes de abrir.
+Volver al formulario conserva las ediciones. Imprimir no guarda en SQLite;
+usá Guardar como nueva propuesta si querés recuperarla después.
+La paginación final depende del navegador y se revisa en su vista previa.
+
+CONTEXTO DE CLASE
+El formulario agrega conocimientos previos, modalidad y dificultad.
+Los conocimientos previos se guardan como información del docente y se
+pide comprobarlos al inicio; no se infieren habilidades automáticamente.
+Inicial: demostración y controles paso a paso. Intermedia: guía con apoyo
+puntual. Avanzada: comparación de dos alternativas y justificación, sin
+agregar materiales ni retirar controles docentes de seguridad.
+El total de minutos se conserva; revisar la viabilidad de la comparación
+dentro del tiempo disponible.
+Modalidades: A01-A04 requieren grupos; A05 admite parejas o grupos;
+A06-A08 admiten individual, parejas o grupos. Las opciones incompatibles
+se deshabilitan y el servidor también rechaza una solicitud incompatible.
+Los kits se calculan por unidad de trabajo: para 25 alumnos, A06 requiere
+7 kits en grupos de hasta 4, 13 en parejas o 25 en modalidad individual.
+Con cantidad impar en parejas, el último puesto necesita apoyo docente.
+Revisar disponibilidad de materiales y turnos al cambiar modalidad.
+El contexto se conserva al editar, guardar, recuperar, descargar e imprimir.
+Las propuestas antiguas siguen abriéndose, aunque no tengan estos campos.
+No hay migración de base: copiar los archivos nuevos y reiniciar el servidor.
+La API admite solicitudes anteriores; usa grupos e intermedia por defecto.
+
+INTEGRACIÓN DE IA LOCAL
+Leer ACTIVAR_IA.txt para instalar Ollama, descargar el modelo y activar
+el modo Adaptar con IA local. El modo catálogo sigue funcionando sin IA.
+
+ACTUALIZACIÓN: BÚSQUEDA POR MATERIALES
+En /formulario elegí grado, eje y contenido; ingresá los materiales, tiempo
+y modalidad. Presioná Buscar actividades con estos materiales. El selector
+solo muestra guías que cumplen esos requisitos. Si cambiás los materiales,
+el tiempo, la modalidad o el contenido, volvé a buscar.
+Se comparan nombres de materiales, no cantidades; confirmá cantidades,
+herramientas y condiciones antes de realizar la actividad. Los sinónimos
+hojas/hojas de papel, lápices y cinta están contemplados. Silicona caliente
+y fría no se sustituyen entre sí. No se agregan materiales automáticamente.
+Si no hay coincidencias se indican los requisitos que faltan. Las 100 fichas
+del PDF siguen disponibles como ideas, sin afirmar compatibilidad hasta
+desarrollar sus guías y requisitos estructurados.
+API: POST /actividades/buscar (grado, contenido_nap_id, materiales,
+duracion_minutos y modalidad). No requiere migrar la base existente.

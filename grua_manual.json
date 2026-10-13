@@ -1,0 +1,150 @@
+{
+  "id": "A05",
+  "contenido_id": "N52",
+  "titulo": "Grúa de hilo con manivela manual",
+  "duracion_minima": 80,
+  "alumnos_por_grupo": 4,
+  "materiales": [
+    {
+      "nombre": "cartón rígido",
+      "cantidad_por_grupo": null,
+      "unidad": "piezas precortadas"
+    },
+    {
+      "nombre": "varilla de madera",
+      "cantidad_por_grupo": 1,
+      "unidad": "unidades de 22 cm"
+    },
+    {
+      "nombre": "sorbete",
+      "cantidad_por_grupo": 1,
+      "unidad": "unidades para cortar dos tramos de 4 cm"
+    },
+    {
+      "nombre": "carretel",
+      "cantidad_por_grupo": 1,
+      "unidad": "unidades de aproximadamente 3 cm de ancho"
+    },
+    {
+      "nombre": "hilo",
+      "cantidad_por_grupo": 1,
+      "unidad": "metros"
+    },
+    {
+      "nombre": "palito de helado",
+      "cantidad_por_grupo": 1,
+      "unidad": "unidades"
+    },
+    {
+      "nombre": "papel",
+      "cantidad_por_grupo": 1,
+      "unidad": "hojas"
+    },
+    {
+      "nombre": "lápiz",
+      "cantidad_por_grupo": 1,
+      "unidad": "unidades"
+    },
+    {
+      "nombre": "regla",
+      "cantidad_por_grupo": 1,
+      "unidad": "unidades"
+    },
+    {
+      "nombre": "pistola de silicona caliente",
+      "cantidad_por_grupo": null,
+      "unidad": "equipo compartido del docente"
+    },
+    {
+      "nombre": "barras de silicona",
+      "cantidad_por_grupo": null,
+      "unidad": "barras compatibles; cantidad a probar"
+    }
+  ],
+  "guia": {
+    "objetivos": [
+      "Identificar eje, carretel, manivela y soportes, explicando la función de cada parte.",
+      "Relacionar el giro de la manivela con el ascenso y descenso de una carga.",
+      "Detectar y corregir rozamiento, deslizamiento y falta de estabilidad."
+    ],
+    "preparacion_docente": [
+      "Probar un prototipo completo antes de clase; las medidas son de partida y deben ajustarse al carretel y al grosor del cartón disponibles.",
+      "Por grupo, cortar una base de cartón rígido de 25 × 20 cm, dos tiras de 18 × 16 cm para formar columnas y cuatro triángulos de refuerzo de 6 × 6 cm. Usar cartón corrugado firme; duplicar la base si flexiona.",
+      "En cada tira marcar cuatro caras de 4 cm y una solapa de 2 cm; plegar para formar una columna cuadrada de 16 cm de altura. El docente encola la solapa con silicona caliente.",
+      "Preparar agujeros alineados, a 13 cm de la base, en dos caras opuestas de cada columna. Los agujeros deben admitir un tramo de sorbete de 4 cm como guía horizontal del eje.",
+      "Comprobar que la varilla de 22 cm atraviese los sorbetes sin trabarse y que el carretel entre por la varilla. Elegir un conjunto compatible antes de repartirlo; no forzar ni perforar con alumnos.",
+      "Disponer un puesto docente de pegado, con base resistente al calor, pistola, barras compatibles y alimentación eléctrica segura. La pistola y las barras son recursos compartidos, no uno por grupo.",
+      "Preparar una hoja por grupo: media hoja para una pequeña carga de papel y media para el boceto y registro. La única carga de prueba será esa misma bola de papel.",
+      "Para grupos numerosos preparar las columnas y guías con anticipación; el puesto de pegado puede demorar la clase. Pedir carreteles y cartón la clase anterior si se van a recuperar."
+    ],
+    "consigna": "Construyan una grúa de manivela que eleve y baje una bola de papel. Expliquen qué piezas giran juntas y cuáles permiten sostener el eje sin impedir su giro.",
+    "etapas": [
+      {
+        "nombre": "Exploración y boceto",
+        "minutos": 10,
+        "acciones": [
+          "Observar el modelo docente y señalar eje, carretel, guías y manivela.",
+          "Dibujar dónde irá cada pieza y anticipar qué ocurre al girar hacia cada lado."
+        ]
+      },
+      {
+        "nombre": "Construcción",
+        "minutos": 40,
+        "acciones": [
+          "Marcar en la base dos centros separados 12 cm; ubicar las columnas con las guías de sorbete orientadas en una misma línea horizontal.",
+          "Presentar las columnas y pedir al docente que las fije a la base con silicona caliente, reforzando cada columna con dos triángulos. Esperar a que las uniones enfríen.",
+          "Pasar la varilla por el primer sorbete, introducir el carretel en el espacio entre columnas y continuar por el segundo sorbete. Dejar el carretel centrado, separado de ambos soportes.",
+          "Antes de pegar, girar la varilla para comprobar que se mueve libremente. Pedir al docente que aplique pequeñas cantidades de silicona en la unión carretel-varilla; el carretel debe girar con el eje. Mantener el adhesivo lejos de las guías y esperar a que enfríe.",
+          "Pedir al docente que fije el centro del palito de helado transversalmente en un extremo exterior de la varilla. Esta barra será la manivela; comprobar que no roce la columna al girar.",
+          "Atar un extremo del hilo al cuerpo del carretel y dar tres vueltas iniciales, dejando el hilo colgar en el espacio entre las columnas.",
+          "Formar una pequeña bola con media hoja de papel, rodearla con un lazo y atarla al extremo libre del hilo. No añadir monedas, piedras ni otras cargas.",
+          "Girar lentamente la manivela, sosteniendo la base, para enrollar y desenrollar el hilo. Si se desplaza el carretel, se traba el eje o flexiona la estructura, detenerse y registrar qué hay que corregir."
+        ]
+      },
+      {
+        "nombre": "Prueba y mejora",
+        "minutos": 20,
+        "acciones": [
+          "Marcar dos alturas separadas 10 cm junto al recorrido del hilo, usando la regla.",
+          "Elevar la bola de papel 10 cm y bajarla tres veces seguidas, manteniendo la mano en la manivela. Un compañero sostiene la base sin tocar el eje.",
+          "Considerar lograda la prueba si el hilo permanece en el carretel, las uniones no se deslizan y la estructura no vuelca ni se desprende.",
+          "Si falla, revisar alineación, exceso de adhesivo, firmeza de uniones y enrollado; pedir al docente cualquier nuevo pegado. Registrar la modificación y repetir la prueba."
+        ]
+      },
+      {
+        "nombre": "Explicación y cierre",
+        "minutos": 10,
+        "acciones": [
+          "Señalar en el boceto el eje y el carretel que giran juntos y las guías que permanecen fijas.",
+          "Explicar cómo el giro enrolla el hilo y por qué no se debe pegar el eje a los soportes.",
+          "Comparar la primera prueba y la posterior a una mejora."
+        ]
+      }
+    ],
+    "explicacion": "La mano hace girar la manivela y el eje. Como el carretel está fijado al eje, gira con él y enrolla o desenrolla el hilo. Los sorbetes funcionan como guías fijas: permiten girar al eje mientras las columnas lo sostienen. Esta versión no incluye engranajes ni poleas; no debe describirse como una grúa que reduce el esfuerzo mediante una polea fija.",
+    "seguridad": [
+      "El docente realiza cortes, perforaciones y todos los pegados con silicona caliente. Los alumnos no tocan la boquilla ni el adhesivo caliente.",
+      "Dejar enfriar cada unión antes de manipularla; no intentar sostener con los dedos piezas durante el pegado.",
+      "Usar varillas con extremos romos preparados por el docente; mantener hilo, cabello y ropa lejos del eje.",
+      "Probar únicamente la bola de papel declarada; sostener la base y mantener la carga sobre la mesa.",
+      "No soltar la manivela con la carga elevada: esta versión no incorpora freno. Desenrollar de forma controlada."
+    ],
+    "evidencias": [
+      "Boceto con partes y funciones señaladas.",
+      "Registro de tres ascensos y descensos, problemas encontrados y cambios realizados.",
+      "Explicación oral sobre qué debe pegarse y qué debe quedar libre."
+    ],
+    "criterios_evaluacion": [
+      "Reconoce las partes y distingue piezas solidarias del eje y soportes fijos.",
+      "Relaciona giro y desplazamiento de la carga.",
+      "Registra una prueba con el criterio acordado y fundamenta una mejora."
+    ],
+    "avisos": [
+      "Adaptación manual nueva del proyecto U043, cuyo planteo original es eléctrico. No se usa motor en esta guía.",
+      "Prototipo didáctico pendiente de prueba física y revisión docente; 80 minutos estimados con piezas preparadas.",
+      "La lista de materiales expresa disponibilidad, no verifica existencias ni dimensiones. El docente confirma cantidades y compatibilidad."
+    ]
+  },
+  "estado": "borrador",
+  "origen": "Adaptación manual nueva basada en U043; construcción pendiente de prueba física"
+}

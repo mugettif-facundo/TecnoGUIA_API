@@ -1,0 +1,11 @@
+# Entorno virtual y caché de Python
+.venv/
+__pycache__/
+*.pyc
+
+# Bases de datos locales y respaldos (contienen tus propuestas)
+*.db
+
+# Resultados de evaluaciones locales
+evaluaciones/
+evaluacion_log.txt

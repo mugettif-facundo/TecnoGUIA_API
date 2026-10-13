@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "U001",
+    "numero": 1,
+    "titulo": "Cepillobot Clásico",
+    "materiales_originales": "Cepillo de dientes viejo, motor de vibración (bichito), pila de botón 3V.",
+    "principio_original": "Circuito básico directo y vibración por desequilibrio de masa.",
+    "pagina_pdf": 1,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U002",
+    "numero": 2,
+    "titulo": "Garabato Mecánico (Art-Bot)",
+    "materiales_originales": "Vaso de plástico invertido, 3 marcadores viejos, motor de 3V con tapita descentrada.",
+    "principio_original": "Transformación de vibración en patrones circulares de dibujo.",
+    "pagina_pdf": 1,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U003",
+    "numero": 3,
+    "titulo": "Insecto de Alambre Reciclado",
+    "materiales_originales": "Clips para papel, corcho de botella, motor de 3V, hélice plástica recortada.",
+    "principio_original": "Propulsión por vibración y patas elásticas de baja fricción.",
+    "pagina_pdf": 1,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U004",
+    "numero": 4,
+    "titulo": "Eco-Mariquita Saltarinas",
+    "materiales_originales": "Mitad de huevo de plástico, motor de vibración, patitas de bombilla de jugo.",
+    "principio_original": "Estabilidad estática con centro de gravedad bajo y saltos erráticos.",
+    "pagina_pdf": 1,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U005",
+    "numero": 5,
+    "titulo": "Robot Escoba Limpiador",
+    "materiales_originales": "Cabezal de escobillón viejo, portapilas AA, interruptor deslizante, motor grande de 3V.",
+    "principio_original": "Desplazamiento unidireccional por cerdas inclinadas y vibración pesada.",
+    "pagina_pdf": 1,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U006",
+    "numero": 6,
+    "titulo": "Robot Araña de Latita",
+    "materiales_originales": "Lata de refresco vacía, 6 patitas de limpiapipas o cable viejo, motor excéntrico.",
+    "principio_original": "Distribución de peso en múltiples puntos de apoyo flexibles.",
+    "pagina_pdf": 1,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U007",
+    "numero": 7,
+    "titulo": "Helicóptero de Corcho Flotante",
+    "materiales_originales": "Corcho, palitos de helado cruzados, motor con trozo de goma de borrar en el eje.",
+    "principio_original": "Vibración vertical simulando sustentación mecánica.",
+    "pagina_pdf": 1,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U008",
+    "numero": 8,
+    "titulo": "Rana Saltarina de Cartón",
+    "materiales_originales": "Caja de fósforos grande, liga elástica, motor de 3V con contrapeso de tuerca.",
+    "principio_original": "Liberación de energía elástica combinada con vibración asíncrona.",
+    "pagina_pdf": 1,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U009",
+    "numero": 9,
+    "titulo": "Robot Esquiador de Bajalenguas",
+    "materiales_originales": "Dos palitos bajalenguas, envase de yogur, motor de vibración en la base.",
+    "principio_original": "Fricción reducida en superficies planas mediante perfiles paralelos.",
+    "pagina_pdf": 1,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U010",
+    "numero": 10,
+    "titulo": "Micro-Bicho de Tapita",
+    "materiales_originales": "Tapita de botella, micro motor, pila de reloj, patas de cerdas de cepillo.",
+    "principio_original": "Miniaturización de circuitos y ligereza para máxima velocidad.",
+    "pagina_pdf": 1,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U011",
+    "numero": 11,
+    "titulo": "Robot Pingüino Balanceante",
+    "materiales_originales": "Botella pequeña de champú vacía, motor excéntrico superior, base curva.",
+    "principio_original": "Movimiento de balanceo por oscilación del eje de gravedad.",
+    "pagina_pdf": 1,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U012",
+    "numero": 12,
+    "titulo": "El Monstruo de las Esponjas",
+    "materiales_originales": "Esponja de cocina usada, ojos de botones, motor central con palito descentrado.",
+    "principio_original": "Amortiguación del sonido y transmisión suave de micro-vibraciones.",
+    "pagina_pdf": 1,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U013",
+    "numero": 13,
+    "titulo": "Cangrejo de Tapas de Gualicho",
+    "materiales_originales": "Tapón ancho de desodorante, patas de sorbetes doblados, motor excéntrico.",
+    "principio_original": "Desplazamiento lateral debido a la asimetría estructural de las patas.",
+    "pagina_pdf": 1,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U014",
+    "numero": 14,
+    "titulo": "Robot Rodante de Tubo de Cartón",
+    "materiales_originales": "Tubo de rollo higiénico, motor interno flotante colgando de una gomita.",
+    "principio_original": "Punto de masa descentrado que obliga al cilindro exterior a rodar.",
+    "pagina_pdf": 1,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U015",
+    "numero": 15,
+    "titulo": "Bicho de Cáscara de Nuez",
+    "materiales_originales": "Media cáscara de nuez, vibrador de celular viejo, pila de botón.",
+    "principio_original": "Uso de estructuras naturales cóncavas para resonancia de vibración.",
+    "pagina_pdf": 1,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U016",
+    "numero": 16,
+    "titulo": "Nave Espacial de CD",
+    "materiales_originales": "CD viejo rayado, tapón de botella, motor superior que hace vibrar la base.",
+    "principio_original": "Deslizamiento por colchón de aire mínimo y vibración sobre plano horizontal.",
+    "pagina_pdf": 1,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U017",
+    "numero": 17,
+    "titulo": "Robot Oruga de Tapitas en Línea",
+    "materiales_originales": "4 tapitas perforadas unidas por alambre, motor trasero excéntrico.",
+    "principio_original": "Propulsión secuencial por transferencia de onda a lo largo de un eje flexible.",
+    "pagina_pdf": 1,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U018",
+    "numero": 18,
+    "titulo": "Robot Medusa Flotante",
+    "materiales_originales": "Bolsa plástica recortada en tiras, vaso térmico, motor de vibración superior.",
+    "principio_original": "Efecto visual de tentáculos movidos por la inercia de la cabeza oscilante.",
+    "pagina_pdf": 2,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U019",
+    "numero": 19,
+    "titulo": "Robot Sapo de Caja de Té",
+    "materiales_originales": "Caja de té vacía, patas de cartón corrugado en acordeón, motor con tuerca pesada.",
+    "principio_original": "Efecto resorte del cartón corrugado activado por frecuencias vibratorias.",
+    "pagina_pdf": 2,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U020",
+    "numero": 20,
+    "titulo": "Robot Boxeador Vibrante",
+    "materiales_originales": "Dos tubos de cartón articulados con hilo, motor central único.",
+    "principio_original": "Movimiento caótico de extremidades colgantes mediante vibración central.",
+    "pagina_pdf": 2,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U021",
+    "numero": 21,
+    "titulo": "Carro de Cajas de Leche",
+    "materiales_originales": "Caja de leche (Tetra Brik), 4 tapas de leche, motor de 3V, polea de goma.",
+    "principio_original": "Transmisión por fricción directa desde el eje del motor a la rueda posterior.",
+    "pagina_pdf": 2,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U022",
+    "numero": 22,
+    "titulo": "Auto Propulsado por Hélice",
+    "materiales_originales": "Chasis de cartón plano, ruedas de CD, hélice hecha con botella plástica, motor 3V.",
+    "principio_original": "Propulsión mecánica mediante empuje de aire (acción y reacción).",
+    "pagina_pdf": 2,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U023",
+    "numero": 23,
+    "titulo": "Rover Lunar de Tres Ruedas",
+    "materiales_originales": "Envase de helado, 3 ruedas de tapitas gruesas, motorreductor casero de cartón.",
+    "principio_original": "Estabilidad de tres puntos para terrenos irregulares a baja velocidad.",
+    "pagina_pdf": 2,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U024",
+    "numero": 24,
+    "titulo": "Bici-Robot de Alambre",
+    "materiales_originales": "Alambre grueso de percha, 2 ruedas de tapitas, motor acoplado a la rueda trasera.",
+    "principio_original": "Equilibrio dinámico y alineación geométrica de ejes paralelos.",
+    "pagina_pdf": 2,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U025",
+    "numero": 25,
+    "titulo": "Tractor con Orugas de Goma",
+    "materiales_originales": "Caja de zapatos, 4 rodillos de corcho, bandas elásticas anchas como orugas, motor.",
+    "principio_original": "Distribución de presión y tracción continua sobre superficies rugosas.",
+    "pagina_pdf": 2,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U026",
+    "numero": 26,
+    "titulo": "Vehículo Anfibio de Telgopor",
+    "materiales_originales": "Bandeja de telgopor de fiambre, ruedas de vasos plásticos, motor con paletas.",
+    "principio_original": "Flotabilidad combinada con propulsión por paletas rotativas en agua/tierra.",
+    "pagina_pdf": 2,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U027",
+    "numero": 27,
+    "titulo": "Carro a Dinamo de Hilo",
+    "materiales_originales": "Chasis de cartón, ruedas plásticas, carrete de hilo pegado al eje, motor 3V.",
+    "principio_original": "Almacenamiento e inversión de giro mediante tracción de cordel.",
+    "pagina_pdf": 2,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U028",
+    "numero": 28,
+    "titulo": "Auto Cohete de Globo Eléctrico",
+    "materiales_originales": "Soporte de cartón, motor que abre una compuerta por hélice liberando aire de un globo.",
+    "principio_original": "Combinación de energía neumática y control electromecánico básico.",
+    "pagina_pdf": 2,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U029",
+    "numero": 29,
+    "titulo": "Camión con Volquete Mecánico",
+    "materiales_originales": "Dos cajas de fósforos, eje de palito de brochette, motor con polea que enrolla hilo.",
+    "principio_original": "Conversión de movimiento rotatorio del motor en elevación lineal (cabrestante).",
+    "pagina_pdf": 2,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U030",
+    "numero": 30,
+    "titulo": "Carro Eólico Inverso",
+    "materiales_originales": "Estructura de sorbetes, ruedas de tapas, vela de papel, motor que mueve la vela.",
+    "principio_original": "Modificación de la aerodinámica del vehículo mediante un actuador eléctrico.",
+    "pagina_pdf": 2,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U031",
+    "numero": 31,
+    "titulo": "Rodillo Compactador de Lata",
+    "materiales_originales": "Lata de conservas como rueda gigante, motor interno fijado a un contrapeso de piedra.",
+    "principio_original": "Rotación por desequilibrio interno confinado en un cilindro.",
+    "pagina_pdf": 2,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U032",
+    "numero": 32,
+    "titulo": "Monorriel de Percha",
+    "materiales_originales": "Percha plástica invertida, motor con polea de goma rodando sobre una cuerda tensa.",
+    "principio_original": "Estabilidad por gravedad suspendida y tracción lineal sobre cable.",
+    "pagina_pdf": 2,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U033",
+    "numero": 33,
+    "titulo": "Auto de Tracción Cruzada",
+    "materiales_originales": "Cartón grueso, 4 ruedas, motor descentrado con ligas cruzadas hacia los dos ejes.",
+    "principio_original": "Tracción integral en las cuatro ruedas (4x4) mediante bandas elásticas.",
+    "pagina_pdf": 2,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U034",
+    "numero": 34,
+    "titulo": "Dragster de Chasis de Regla",
+    "materiales_originales": "Regla de plástico vieja rota, ruedas traseras gigantes (tapas de frasco), motor 3V.",
+    "principio_original": "Configuración aerodinámica de aceleración con distribución de peso trasera.",
+    "pagina_pdf": 2,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U035",
+    "numero": 35,
+    "titulo": "Locomotora de Latas en Tándem",
+    "materiales_originales": "Dos latas unidas por un eslabón de alambre, motor en la lata delantera.",
+    "principio_original": "Arrastre de carga muerta mediante articulación pivotante de un solo eje.",
+    "pagina_pdf": 2,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U036",
+    "numero": 36,
+    "titulo": "Carro Cortadora de Césped (Juguete)",
+    "materiales_originales": "Caja de cartón pequeña, motor inferior con tiras de hilo de pescar como aspas.",
+    "principio_original": "Fuerza centrífuga aplicada a elementos flexibles sin peligro.",
+    "pagina_pdf": 2,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U037",
+    "numero": 37,
+    "titulo": "Vehículo con Rueda Loca Trasera",
+    "materiales_originales": "Placa de cartón de pizza, 2 ruedas motrices delanteras, 1 canica como rueda loca.",
+    "principio_original": "Direccionamiento simplificado y reducción de fricción en el punto de apoyo libre.",
+    "pagina_pdf": 2,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U038",
+    "numero": 38,
+    "titulo": "Auto de Transmisión por Engrane de Goma",
+    "materiales_originales": "Chasis de madera balsa o bajalenguas, engranajes hechos de tapas con muescas.",
+    "principio_original": "Multiplicación de torque mediante acoplamiento directo por fricción dentada.",
+    "pagina_pdf": 3,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U039",
+    "numero": 39,
+    "titulo": "Escarabajo Rodante Bidireccional",
+    "materiales_originales": "Envase redondo de desodorante a bolilla cortado, motor con interruptor de polo doble.",
+    "principio_original": "Inversión de polaridad eléctrica para cambiar el sentido de marcha mecánico.",
+    "pagina_pdf": 3,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U040",
+    "numero": 40,
+    "titulo": "Carro de Vela Solar Simbólico",
+    "materiales_originales": "Chasis de cartón, panel solar educativo pequeño, motor acoplado a rueda de CD.",
+    "principio_original": "Transformación directa de energía lumínica en energía mecánica rotatoria.",
+    "pagina_pdf": 3,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U041",
+    "numero": 41,
+    "titulo": "Brazo Robótico de Cartón Hidráulico",
+    "materiales_originales": "Tiras de cartón, 2 jeringas usadas limpias, tubo de pecera flexible, agua.",
+    "principio_original": "Transmisión de fuerza por presión de fluidos (Principio de Pascal).",
+    "pagina_pdf": 3,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U042",
+    "numero": 42,
+    "titulo": "Pinza Mecánica de Cable de Frenos",
+    "materiales_originales": "Cartón grueso, cable de acero viejo o hilo de pescar, resorte de lapicera.",
+    "principio_original": "Mecanismo de tracción simple con retorno automático por resorte.",
+    "pagina_pdf": 3,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U043",
+    "numero": 43,
+    "titulo": "Grúa de Hilo con Manivela Eléctrica",
+    "materiales_originales": "Estructura de palitos de helado, polea de carretel de hilo, motor 3V.",
+    "principio_original": "Ganancia mecánica mediante el uso de poleas fijas para elevar cargas.",
+    "pagina_pdf": 3,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U044",
+    "numero": 44,
+    "titulo": "Elevador de Tijera de Bajalenguas",
+    "materiales_originales": "6 palitos bajalenguas perforados en X, tuercas de plástico, motor con tornillo.",
+    "principio_original": "Transformación de movimiento horizontal en gran desplazamiento vertical.",
+    "pagina_pdf": 3,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U045",
+    "numero": 45,
+    "titulo": "Garra de Tres Dedos de Alambre",
+    "materiales_originales": "Tubos de sorbete, alambre fino de amarre, base de vaso plástico.",
+    "principio_original": "Mecanismo de articulación múltiple concurrente para agarre concéntrico.",
+    "pagina_pdf": 3,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U046",
+    "numero": 46,
+    "titulo": "Catapulta Automática de Elásticos",
+    "materiales_originales": "Cuchara plástica, pinza de ropa, motor con leva de cartón que libera el brazo.",
+    "principio_original": "Almacenamiento elástico y disparo temporizado por leva rotativa.",
+    "pagina_pdf": 3,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U047",
+    "numero": 47,
+    "titulo": "Puente Levadizo de Cartón Corrugado",
+    "materiales_originales": "Caja de zapatos grande, hilos, motor que funciona como malacate o cabrestante.",
+    "principio_original": "Sistema de palanca de tercer género accionado por tensión lineal.",
+    "pagina_pdf": 3,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U048",
+    "numero": 48,
+    "titulo": "Prensa Mecánica de Cremallera Casera",
+    "materiales_originales": "Tira de cartón dentada (cremallera), rueda con dientes de cartón, motor.",
+    "principio_original": "Conversión de movimiento rotatorio continuo en movimiento lineal potente.",
+    "pagina_pdf": 3,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U049",
+    "numero": 49,
+    "titulo": "Barrera de Estacionamiento Automatizada",
+    "materiales_originales": "Sorberte grueso, caja pequeña, motor, interruptor de contacto manual.",
+    "principio_original": "Palanca de primer grado balanceada con contrapeso de plastilina.",
+    "pagina_pdf": 3,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U050",
+    "numero": 50,
+    "titulo": "Marioneta con Hilos Eléctricos",
+    "materiales_originales": "Cruceta de madera, hilos, motores independientes que tensan cada extremidad.",
+    "principio_original": "Control cinemático remoto por actuadores de tensión independientes.",
+    "pagina_pdf": 3,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U051",
+    "numero": 51,
+    "titulo": "Escultura Cinética de Alambre",
+    "materiales_originales": "Alambres retorcidos, figuras de papel maché, motor inferior con levas.",
+    "principio_original": "Automatización de movimientos orgánicos usando un árbol de levas casero.",
+    "pagina_pdf": 3,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U052",
+    "numero": 52,
+    "titulo": "El Masticador de Cartón",
+    "materiales_originales": "Silueta de dinosaurio en cartón, mandíbula móvil conectada a biela y motor.",
+    "principio_original": "Mecanismo de biela-manivela para transformar rotación en oscilación.",
+    "pagina_pdf": 3,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U053",
+    "numero": 53,
+    "titulo": "Ventilador de Aspas Ajustables",
+    "materiales_originales": "Botella plástica (aspas), motor 3V, junta de alambre para cambiar ángulo.",
+    "principio_original": "Modificación manual del plano de rotación mediante rótula de fricción.",
+    "pagina_pdf": 3,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U054",
+    "numero": 54,
+    "titulo": "Radar Giratorio de Cartón",
+    "materiales_originales": "Plato de cartón, motor central de rotación lenta (reducción por poleas de tapas).",
+    "principio_original": "Disminución de velocidad angular para aumentar el torque de giro.",
+    "pagina_pdf": 3,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U055",
+    "numero": 55,
+    "titulo": "Extractor de Aire Casero",
+    "materiales_originales": "Tubo de papas fritas (Pringles), motor interno con hélice de lata cortada.",
+    "principio_original": "Flujo de aire axial confinado dentro de un cilindro para generar vacío.",
+    "pagina_pdf": 3,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U056",
+    "numero": 56,
+    "titulo": "Caja de Música Mecánica con LED",
+    "materiales_originales": "Lata redonda, interruptores de alambre que tocan relieve de cartón, luces LED.",
+    "principio_original": "Programación mecánica analógica mediante tambor de muescas.",
+    "pagina_pdf": 4,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U057",
+    "numero": 57,
+    "titulo": "Ascensor de Caja de Leche",
+    "materiales_originales": "Caja de leche vertical (torre), cajita de fósforos (cabina), poleas e hilo.",
+    "principio_original": "Sistema de contrapeso balanceado para ahorro de energía motriz.",
+    "pagina_pdf": 4,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U058",
+    "numero": 58,
+    "titulo": "Agitador de Pintura de Laboratorio",
+    "materiales_originales": "Plataforma de cartón, cuatro resortes de lapicera en las esquinas, motor excéntrico.",
+    "principio_original": "Mesa de vibración confinada para mezcla por agitación armónica.",
+    "pagina_pdf": 4,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U059",
+    "numero": 59,
+    "titulo": "Limpiaparabrisas Automático",
+    "materiales_originales": "Tira plástica flexible, motor de 3V, varillaje doble de alambre de clip.",
+    "principio_original": "Mecanismo de cuatro barras para lograr un movimiento angular oscilante.",
+    "pagina_pdf": 4,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U060",
+    "numero": 60,
+    "titulo": "Brazo Extensor de Pinzas de Ropa",
+    "materiales_originales": "4 pinzas de madera desarmadas y pegadas en serie, accionamiento por piola.",
+    "principio_original": "Amplificación de alcance mediante eslabones articulados paralelos.",
+    "pagina_pdf": 4,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U061",
+    "numero": 61,
+    "titulo": "Robot Oruga de Fuelle de Papel",
+    "materiales_originales": "Papel plegado en acordeón, dos motores con trinquetes hechos de tarjetas plásticas.",
+    "principio_original": "Desplazamiento por fricción asimétrica unidireccional (tipo trinquete).",
+    "pagina_pdf": 4,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U062",
+    "numero": 62,
+    "titulo": "Araña de 8 Patas de Alambre",
+    "materiales_originales": "Cuerpo de cartón de huevo, 8 patas de alambre, eje central excéntrico doble.",
+    "principio_original": "Sincronización de patas en dos grupos alternos para caminata estable.",
+    "pagina_pdf": 4,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U063",
+    "numero": 63,
+    "titulo": "Caminante de Cuatro Patas (Quadruped)",
+    "materiales_originales": "Bajalenguas, pasadores de alambre, motor con dos manivelas opuestas a 180°.",
+    "principio_original": "Locomoción cuadrúpeda básica por desfase de fases de pisada.",
+    "pagina_pdf": 4,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U064",
+    "numero": 64,
+    "titulo": "Robot Saltamontes Mecánico",
+    "materiales_originales": "Alambre de percha (patas traseras largas), liga elástica de alta tensión, motor.",
+    "principio_original": "Acumulación de energía lenta y liberación rápida mediante gatillo de leva.",
+    "pagina_pdf": 4,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U065",
+    "numero": 65,
+    "titulo": "Tortuga Marina de Cartón",
+    "materiales_originales": "Cuerpo plano de cartón, aletas de plástico de botella, motor con cigüeñal.",
+    "principio_original": "Transformación de rotación en aleteo elíptico síncrono.",
+    "pagina_pdf": 4,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U066",
+    "numero": 66,
+    "titulo": "Serpiente Articulada de Tapitas",
+    "materiales_originales": "10 tapitas unidas por hilo elástico, motor delantero con rueda descentrada.",
+    "principio_original": "Propulsión por onda sinuoidal pasiva generada por el tirón de la cabeza.",
+    "pagina_pdf": 4,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U067",
+    "numero": 67,
+    "titulo": "Robot Ciempiés Modular",
+    "materiales_originales": "Varios bloques de cartón unidos por ganchos mariposa, motores en cada bloque.",
+    "principio_original": "Tracción distribuida en múltiples ejes independientes articulados.",
+    "pagina_pdf": 4,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U068",
+    "numero": 68,
+    "titulo": "Pájaro Flapeador de Papel",
+    "materiales_originales": "Silueta de cartulina ligera, varillas de sorbete, motor central ligero.",
+    "principio_original": "Mecanismo de conversión rotación-aleteo por articulaciones flotantes.",
+    "pagina_pdf": 4,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U069",
+    "numero": 69,
+    "titulo": "Robot Dino-Caminante",
+    "materiales_originales": "Poliestireno expandido reciclado, patas de cartón grueso, motor con reducción.",
+    "principio_original": "Centro de gravedad dinámico balanceado durante la fase de apoyo.",
+    "pagina_pdf": 4,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U070",
+    "numero": 70,
+    "titulo": "Insecto de Agua (Zapatero)",
+    "materiales_originales": "Sorbetes sellados con aire, motor de vibración superior muy ligero.",
+    "principio_original": "Desplazamiento aprovechando la tensión superficial del agua y micro-golpes.",
+    "pagina_pdf": 4,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U071",
+    "numero": 71,
+    "titulo": "Robot Caminante Klann (Básico)",
+    "materiales_originales": "Palitos de helado medidos con precisión, pasadores de clip, motor central.",
+    "principio_original": "Simulación de pata biológica usando el mecanismo de varillaje de Klann.",
+    "pagina_pdf": 4,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U072",
+    "numero": 72,
+    "titulo": "Robot Nadador de Hélice Trasera",
+    "materiales_originales": "Botella de plástico vacía sellada, motor trasero impermeabilizado con plastilina.",
+    "principio_original": "Empuje hidrodinámico por hélice sumergida de eje directo.",
+    "pagina_pdf": 4,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U073",
+    "numero": 73,
+    "titulo": "Robot Lagartija Escaladora",
+    "materiales_originales": "Chasis ligero, patas con goma espuma de alta fricción o cinta bifaz gastada.",
+    "principio_original": "Aumento del coeficiente de fricción para avance en rampas inclinadas.",
+    "pagina_pdf": 4,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U074",
+    "numero": 74,
+    "titulo": "Robot Cangrejo de Río",
+    "materiales_originales": "Caja plana, patas anguladas que empujan hacia atrás, motor central.",
+    "principio_original": "Locomoción por empuje inclinado trasero con retorno aéreo libre.",
+    "pagina_pdf": 4,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U075",
+    "numero": 75,
+    "titulo": "Caminante de Dos Patas (Bipedo)",
+    "materiales_originales": "Dos bloques de madera o cartón denso, un solo motor que balancea el torso.",
+    "principio_original": "Caminata bípeda por caída controlada y balanceo alternado de peso.",
+    "pagina_pdf": 5,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U076",
+    "numero": 76,
+    "titulo": "Oruga de Ventosas de Goma",
+    "materiales_originales": "Tubo flexible de aspiradora viejo, ventosas manuales de juguetes, motor e hilo.",
+    "principio_original": "Simulación de contracción muscular mediante tensión interna de cable.",
+    "pagina_pdf": 5,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U077",
+    "numero": 77,
+    "titulo": "Insecto Volador de Alambre (Suspendido)",
+    "materiales_originales": "Hilo de pescar atado al techo, robot ligero con motor y alas que gira en círculos.",
+    "principio_original": "Fuerza centrípeta combinada con sustentación aerodinámica elemental.",
+    "pagina_pdf": 5,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U078",
+    "numero": 78,
+    "titulo": "Robot Escarabajo Pelotero",
+    "materiales_originales": "Esfera de telgopor, motor interno fijado a un lado, patas externas decorativas.",
+    "principio_original": "Desplazamiento por rotación de la carcasa esférica debido a masa interna.",
+    "pagina_pdf": 5,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U079",
+    "numero": 79,
+    "titulo": "Robot Perro con Cola Balanceante",
+    "materiales_originales": "Cuerpo de cartón, cola de alambre pesado conectada directamente al eje del motor.",
+    "principio_original": "Estabilización de marcha y cambio de inercia por contrapeso dinámico.",
+    "pagina_pdf": 5,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U080",
+    "numero": 80,
+    "titulo": "Robot Calamar de Cables",
+    "materiales_originales": "Cables eléctricos viejos trenzados, motor central que hace girar un eje con nudos.",
+    "principio_original": "Propulsión caótica por latigazo de extremidades flexibles.",
+    "pagina_pdf": 5,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U081",
+    "numero": 81,
+    "titulo": "Robot Esquiva-Obstáculos Mecánico",
+    "materiales_originales": "Chasis de cartón, parachoques de alambre que mueve físicamente la pila trasera.",
+    "principio_original": "Desconexión mecánica del motor del lado del choque al tocar una pared.",
+    "pagina_pdf": 5,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U082",
+    "numero": 82,
+    "titulo": "Alarma de Puerta de Circuito Abierto",
+    "materiales_originales": "Pinza de ropa con contactos de aluminio, hilo atado a la puerta, zumbador (buzzer).",
+    "principio_original": "Circuito cerrado por remoción de aislante (sistema de seguridad elemental).",
+    "pagina_pdf": 5,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U083",
+    "numero": 83,
+    "titulo": "Seguidor de Línea Manual (Desafío)",
+    "materiales_originales": "Carro eléctrico con dos interruptores de palanca largos operados por el niño.",
+    "principio_original": "Coordinación ojo-mano para entender el bucle de control de un robot real.",
+    "pagina_pdf": 5,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U084",
+    "numero": 84,
+    "titulo": "Robot con Sensor de Luz Casero",
+    "materiales_originales": "LDR (Fotorresistencia) vieja de lámpara de jardín, transistor BC547, motor, pila.",
+    "principio_original": "Circuito de control automático analógico (robótica BEAM clásica).",
+    "pagina_pdf": 5,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U085",
+    "numero": 85,
+    "titulo": "Barco con Rueda de Paletas de Goma",
+    "materiales_originales": "Bote de brik de leche, banda elástica tensada, paletas de tarjeta plástica.",
+    "principio_original": "Almacenamiento de energía mecánica potencial en torsión elástica.",
+    "pagina_pdf": 5,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U086",
+    "numero": 86,
+    "titulo": "Robot Grúa con Electroimán Casero",
+    "materiales_originales": "Tornillo grande, cable de cobre esmaltado enrollado (bobina), caja de cartón.",
+    "principio_original": "Generación de campo magnético controlado por corriente eléctrica.",
+    "pagina_pdf": 5,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U087",
+    "numero": 87,
+    "titulo": "Caja Fuerte con Combinación Eléctrica",
+    "materiales_originales": "Caja de zapatos, círculos de cartón con papel aluminio que deben alinearse.",
+    "principio_original": "Circuito lógico AND en serie: la corriente pasa solo si todos los discos coinciden.",
+    "pagina_pdf": 5,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U088",
+    "numero": 88,
+    "titulo": "Robot Lanzador de Papelitos",
+    "materiales_originales": "Dos motores de 3V enfrentados con ruedas de tapita rodando a milímetros, cartón.",
+    "principio_original": "Aceleración de objetos por fricción doble concéntrica (Lanzador de discos).",
+    "pagina_pdf": 5,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U089",
+    "numero": 89,
+    "titulo": "Indicador de Nivel de Agua Eléctrico",
+    "materiales_originales": "Vaso plástico, cables flotantes a distinta altura, luces LED con resistencias.",
+    "principio_original": "Conductividad eléctrica del agua utilizada como interruptor de niveles.",
+    "pagina_pdf": 5,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U090",
+    "numero": 90,
+    "titulo": "Robot Clasificador de Monedas Mecánico",
+    "materiales_originales": "Rampa de cartón con ranuras de diferentes tamaños calculadas al milímetro.",
+    "principio_original": "Filtrado físico por tamaño y gravedad sin componentes electrónicos.",
+    "pagina_pdf": 5,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U091",
+    "numero": 91,
+    "titulo": "Ventilador Solar Directo",
+    "materiales_originales": "Panel solar pequeño de juguete, motor de lector de CD viejo, hélice de botella.",
+    "principio_original": "Conversión fotovoltaica pura sin almacenamiento intermedio de energía.",
+    "pagina_pdf": 5,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U092",
+    "numero": 92,
+    "titulo": "Teatrito de Sombras Automatizado",
+    "materiales_originales": "Caja de zapatos con papel manteca, siluetas mecánicas movidas por motor inferior.",
+    "principio_original": "Uso de sistemas de reducción de velocidad para animación de cuadros escénicos.",
+    "pagina_pdf": 5,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U093",
+    "numero": 93,
+    "titulo": "Semáforo Manual de Discos Conductores",
+    "materiales_originales": "Cilindro de cartón cubierto de aluminio cortado por zonas, contactos de clips, 3 LED.",
+    "principio_original": "Programador de secuencias cíclicas (Precursor mecánico del chip de tiempo).",
+    "pagina_pdf": 5,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U094",
+    "numero": 94,
+    "titulo": "Robot Sumo de Cables (Control Alámbrico)",
+    "materiales_originales": "Caja pesada, motor potente de juguete roto, cables largos hasta un interruptor de mano.",
+    "principio_original": "Introducción al control remoto alámbrico y torque de empuje.",
+    "pagina_pdf": 6,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U095",
+    "numero": 95,
+    "titulo": "Generador Eólico de Juguete",
+    "materiales_originales": "Motor de 3V usado como alternador, hélice grande de botella, luz LED testigo.",
+    "principio_original": "Inversión del principio del motor: movimiento mecánico genera electricidad.",
+    "pagina_pdf": 6,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U096",
+    "numero": 96,
+    "titulo": "Laberinto Eléctrico de Alambre (Pulso)",
+    "materiales_originales": "Alambre ondulado conductor, argolla de alambre, zumbador de 3V, batería.",
+    "principio_original": "Circuito de juego de habilidad basado en el cierre instantáneo de contactos.",
+    "pagina_pdf": 6,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U097",
+    "numero": 97,
+    "titulo": "Robot de Tracción por Gravedad (Sin Motor)",
+    "materiales_originales": "Carro con peso colgante de una cuerda enrollada al eje que cae de la mesa.",
+    "principio_original": "Conversión de energía potencial gravitatoria en energía cinética lineal.",
+    "pagina_pdf": 6,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U098",
+    "numero": 98,
+    "titulo": "Robot Mensajero de Cable Aéreo",
+    "materiales_originales": "Teleférico de cartón, motor superior con polea profunda corriendo por un hilo inclinado.",
+    "principio_original": "Estudio de pendientes, fricción de ranura y centro de masa suspendido.",
+    "pagina_pdf": 6,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U099",
+    "numero": 99,
+    "titulo": "Alarma Sísmica de Péndulo",
+    "materiales_originales": "Estructura de cartón, péndulo de tuerca de metal colgando dentro de un aro de alambre.",
+    "principio_original": "Detección de oscilación horizontal por cierre de circuito inercial.",
+    "pagina_pdf": 6,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  },
+  {
+    "id": "U100",
+    "numero": 100,
+    "titulo": "Reloj de Arena de Agua con Boya Eléctrica",
+    "materiales_originales": "Dos botellas unidas, flotador de telgopor con contacto de aluminio que toca un LED.",
+    "principio_original": "Transducción de volumen de fluido a señal eléctrica de fin de ciclo.",
+    "pagina_pdf": 6,
+    "fuente": "100_proyectos_robotica_unicos.pdf",
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "pasos_originales": [],
+    "revision_pendiente": [
+      "Desarrollar pasos de construcción, cantidades, tiempos y evaluación.",
+      "Comprobar el principio técnico y vincular el proyecto con el contenido curricular.",
+      "Revisar seguridad y probar un prototipo antes de usarlo en clase."
+    ]
+  }
+]

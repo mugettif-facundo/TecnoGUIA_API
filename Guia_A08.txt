@@ -1,0 +1,77 @@
+Clasificador de fichas por tamaño
+6.º grado — 80 minutos estimados — grupos de hasta 4
+Borrador pendiente de prueba física.
+
+MATERIALES
+cartón rígido: confirmar disponibilidad tres bases y doce paredes precortadas por grupo
+cartulina: 1 hojas para doce fichas precortadas
+papel: 1 hojas para registro y boceto
+lápiz: 1 unidades
+regla: 1 unidades
+pistola de silicona caliente: confirmar disponibilidad equipo docente compartido
+barras de silicona: confirmar disponibilidad barras compatibles; confirmar consumo
+
+PREPARACIÓN
+Por grupo, recortar tres bases cuadradas de cartón rígido de 15 × 15 cm y doce tiras de 15 × 3 cm para sus paredes. Ajustar las longitudes de las paredes al grosor del cartón para que cierren las esquinas.
+En la base superior abrir cuatro agujeros circulares de 28 mm de diámetro y en la intermedia cuatro de 20 mm. Ubicar los centros a 5 y 10 cm de cada borde. La tercera base queda sin agujeros. El docente realiza todos los cortes.
+Preparar doce fichas de cartulina: cuatro de 16 mm, cuatro de 24 mm y cuatro de 32 mm de diámetro. Evitar fichas flexibles o bordes irregulares; confirmar medidas con las plantillas usadas para cortar.
+Probar una ficha de cada tamaño: 16 y 24 mm pasan por un agujero de 28 mm; solamente 16 mm pasa por uno de 20 mm. Los valores son de partida y requieren comprobar tolerancias con los materiales reales.
+Ensayar el apilado antes de clase: cada bandeja se apoya de forma estable sobre las paredes de la inferior, dejando espacio para que caigan las fichas. No pegar entre sí las bandejas.
+Disponer un puesto docente de silicona caliente para formar las bandejas; para muchos grupos, preparar las paredes pegadas antes de clase y reservar al alumnado la revisión y prueba.
+Preparar una hoja de registro y boceto por grupo. Las doce fichas son toda la carga de prueba; no agregar monedas ni objetos diferentes.
+
+OBJETIVOS
+Resolver un problema de clasificación mediante aberturas de distintos tamaños.
+Justificar dimensiones y orden de las bandejas según las piezas a clasificar.
+Evaluar resultados, detectar errores y proponer una modificación.
+
+CONSIGNA
+Diseñen y prueben un clasificador que separe doce fichas de tres tamaños en tres bandejas. Expliquen por qué cada tamaño queda en un nivel y cómo corregirían un error de clasificación.
+
+Problema y boceto (10 minutos)
+1. Comparar las tres fichas de muestra y las dos aberturas. Anticipar cuáles pasarán por cada una.
+2. Dibujar las bandejas en el orden que propone el grupo y explicar cómo llegarán las fichas a cada nivel.
+
+Montaje (30 minutos)
+1. Presentar cuatro paredes alrededor de cada base. Pedir al docente que las fije con silicona caliente si aún no están preparadas; esperar a que enfríen.
+2. Marcar las bandejas: superior, agujeros de 28 mm; intermedia, agujeros de 20 mm; recolectora, sin agujeros.
+3. Apilar la recolectora abajo, la intermedia sobre ella y la superior arriba. Las bandejas deben poder retirarse para contar las fichas; no pegarlas entre sí.
+4. Comprobar que las paredes sostienen el conjunto y que los agujeros no están tapados por refuerzos, bordes de otra bandeja ni silicona.
+5. Ensayar con una ficha de cada tamaño antes de mezclar las doce. Si el recorrido no coincide con el boceto, revisar dimensiones y orden.
+
+Prueba y mejora (30 minutos)
+1. Mezclar las doce fichas en la bandeja superior. Mover el conjunto suavemente sobre la mesa para acercarlas a los agujeros, sin doblarlas ni empujarlas por las aberturas.
+2. Retirar con cuidado la bandeja superior y contar sus fichas. Repetir con la intermedia y la recolectora.
+3. Resultado esperado: cuatro fichas de 32 mm arriba, cuatro de 24 mm en el nivel intermedio y cuatro de 16 mm abajo.
+4. Registrar para cada bandeja cantidad, tamaños correctos y errores. La prueba se considera lograda cuando las doce quedan en su nivel correspondiente en dos intentos seguidos.
+5. Si falla, identificar si el problema es una abertura, una ficha deformada, un atasco o el orden de las bandejas. Registrar una hipótesis y pedir al docente cualquier corte o pegado adicional.
+6. Cambiar una condición por vez, volver a mezclar y repetir; comparar resultados con el primer intento.
+
+Diagrama y explicación (10 minutos)
+1. Representar dos decisiones: ¿pasa por 28 mm?; si pasó, ¿pasa por 20 mm? Indicar el destino de cada respuesta.
+2. Explicar por qué el filtro depende del tamaño y por qué las fichas deben mantenerse planas y sin deformarse.
+3. Presentar la mejora realizada y la evidencia que permite evaluar su resultado.
+
+EXPLICACIÓN
+Los agujeros actúan como filtros por tamaño. Con las fichas planas, las mayores quedan en la primera bandeja; las medianas atraviesan el primer filtro y quedan en el segundo; las menores llegan a la recolectora. La gravedad permite la caída y el movimiento manual acerca las fichas a las aberturas. No se trata de un robot automático.
+
+SEGURIDAD
+El docente realiza cortes, perforaciones y pegados con silicona caliente; esperar a que las uniones enfríen.
+Mover las bandejas suavemente sobre la mesa, sin lanzarlas ni sacudirlas cerca de compañeros.
+Usar solamente las fichas preparadas; mantenerlas fuera de la boca y recuperar las doce al terminar.
+
+EVIDENCIAS
+Boceto con medidas y orden de bandejas.
+Registro de cantidades correctas y errores en al menos dos intentos.
+Diagrama de decisiones y explicación de una mejora.
+
+CRITERIOS
+Justifica tamaños y orden de los filtros según las fichas.
+Evalúa la clasificación con el criterio acordado, conservando el conjunto de doce fichas.
+Propone una modificación basada en una falla y compara los resultados.
+Representa el recorrido y las decisiones del proceso.
+
+REVISIÓN
+Adaptación propia de U090: sustituye monedas y rampa por fichas y tamices apilados. La ficha original se conserva.
+80 minutos estimados con cortes preparados; el montaje y la tolerancia de medidas requieren prueba física docente.
+Es una guía en borrador: la clasificación no se verificó con un prototipo real.

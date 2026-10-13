@@ -1,0 +1,2502 @@
+[
+  {
+    "id": "P001",
+    "numero": 1,
+    "titulo": "Cepillobot Básico (Bristlebot)",
+    "bloque": 1,
+    "pagina_pdf": 1,
+    "materiales_originales": "Cabezal de cepillo de dientes viejo o tapitas, mini motor vibrador (de celular viejo o juguete), pila de botón de 3V y cinta de dos caras.",
+    "instrucciones_originales": "1. Corta el mango del cepillo para quedarte con el cabezal. 2. Pega el mini motor vibrador sobre el cabezal con cinta doble faz. 3. Conecta uno de los cables del motor al polo inferior de la pila de botón. 4. Fija la pila al cepillo y pega el otro cable en el polo superior para cerrar el circuito. El robot comenzará a vibrar y moverse velozmente.",
+    "pasos_originales": [
+      "1. Corta el mango del cepillo para quedarte con el cabezal.",
+      "2. Pega el mini motor vibrador sobre el cabezal con cinta doble faz.",
+      "3. Conecta uno de los cables del motor al polo inferior de la pila de botón.",
+      "4. Fija la pila al cepillo y pega el otro cable en el polo superior para cerrar el circuito. El robot comenzará a vibrar y moverse velozmente."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 5,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 4 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P002",
+    "numero": 2,
+    "titulo": "Escarabajo Vibrador con Tapitas",
+    "bloque": 1,
+    "pagina_pdf": 1,
+    "materiales_originales": "Cabezal de cepillo de dientes viejo o tapitas, mini motor vibrador (de celular viejo o juguete), pila de botón de 3V y cinta de dos caras.",
+    "instrucciones_originales": "1. Corta el mango del cepillo para quedarte con el cabezal. 2. Pega el mini motor vibrador sobre el cabezal con cinta doble faz. 3. Conecta uno de los cables del motor al polo inferior de la pila de botón. 4. Fija la pila al cepillo y pega el otro cable en el polo superior para cerrar el circuito. El robot comenzará a vibrar y moverse velozmente.",
+    "pasos_originales": [
+      "1. Corta el mango del cepillo para quedarte con el cabezal.",
+      "2. Pega el mini motor vibrador sobre el cabezal con cinta doble faz.",
+      "3. Conecta uno de los cables del motor al polo inferior de la pila de botón.",
+      "4. Fija la pila al cepillo y pega el otro cable en el polo superior para cerrar el circuito. El robot comenzará a vibrar y moverse velozmente."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 5,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 4 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P003",
+    "numero": 3,
+    "titulo": "Mini Insecto Corredor",
+    "bloque": 1,
+    "pagina_pdf": 2,
+    "materiales_originales": "Cabezal de cepillo de dientes viejo o tapitas, mini motor vibrador (de celular viejo o juguete), pila de botón de 3V y cinta de dos caras.",
+    "instrucciones_originales": "1. Corta el mango del cepillo para quedarte con el cabezal. 2. Pega el mini motor vibrador sobre el cabezal con cinta doble faz. 3. Conecta uno de los cables del motor al polo inferior de la pila de botón. 4. Fija la pila al cepillo y pega el otro cable en el polo superior para cerrar el circuito. El robot comenzará a vibrar y moverse velozmente.",
+    "pasos_originales": [
+      "1. Corta el mango del cepillo para quedarte con el cabezal.",
+      "2. Pega el mini motor vibrador sobre el cabezal con cinta doble faz.",
+      "3. Conecta uno de los cables del motor al polo inferior de la pila de botón.",
+      "4. Fija la pila al cepillo y pega el otro cable en el polo superior para cerrar el circuito. El robot comenzará a vibrar y moverse velozmente."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 5,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 4 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P004",
+    "numero": 4,
+    "titulo": "Robot Dibujante con Marcadores",
+    "bloque": 1,
+    "pagina_pdf": 2,
+    "materiales_originales": "Vaso de plástico o cartón, 3 marcadores de colores, motor DC de 3V-6V, portapilas con 2 baterías AA, una tapita de botella desalineada (para generar vibración) y pegamento.",
+    "instrucciones_originales": "1. Pega los 3 marcadores alrededor del vaso boca abajo como si fueran patas. 2. Coloca el motor en la parte superior del vaso y pega la tapita plástica descentrada en el eje del motor. 3. Conecta el portapilas al motor con un interruptor casero de clip. 4. Destapa los marcadores, colócalo sobre un papel grande y enciéndelo para ver los patrones de dibujo.",
+    "pasos_originales": [
+      "1. Pega los 3 marcadores alrededor del vaso boca abajo como si fueran patas.",
+      "2. Coloca el motor en la parte superior del vaso y pega la tapita plástica descentrada en el eje del motor.",
+      "3. Conecta el portapilas al motor con un interruptor casero de clip.",
+      "4. Destapa los marcadores, colócalo sobre un papel grande y enciéndelo para ver los patrones de dibujo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 4,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 3 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P005",
+    "numero": 5,
+    "titulo": "Lata Volcadora Automática",
+    "bloque": 1,
+    "pagina_pdf": 2,
+    "materiales_originales": "Caja pequeña de cartón o botella, 4 tapitas de gaseosa (ruedas), 2 sorbetes, 2 palitos de brochette (ejes), motor de 3V con hélice hecha de botella, batería AA.",
+    "instrucciones_originales": "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón. 2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas. 3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica. 4. Conecta la batería al motor para que el viento empuje el auto.",
+    "pasos_originales": [
+      "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón.",
+      "2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas.",
+      "3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica.",
+      "4. Conecta la batería al motor para que el viento empuje el auto."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 14,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 13 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P006",
+    "numero": 6,
+    "titulo": "Monstruo de Esponja Saltarín",
+    "bloque": 1,
+    "pagina_pdf": 2,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P007",
+    "numero": 7,
+    "titulo": "Limpiador de Escritorio Vibrante",
+    "bloque": 1,
+    "pagina_pdf": 2,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P008",
+    "numero": 8,
+    "titulo": "Abeja Zumbadora de Juguete",
+    "bloque": 1,
+    "pagina_pdf": 3,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P009",
+    "numero": 9,
+    "titulo": "Cucaracha de Cartón Veloz",
+    "bloque": 1,
+    "pagina_pdf": 3,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P010",
+    "numero": 10,
+    "titulo": "Vibro-Bot de Vaso Plástico",
+    "bloque": 1,
+    "pagina_pdf": 3,
+    "materiales_originales": "Cabezal de cepillo de dientes viejo o tapitas, mini motor vibrador (de celular viejo o juguete), pila de botón de 3V y cinta de dos caras.",
+    "instrucciones_originales": "1. Corta el mango del cepillo para quedarte con el cabezal. 2. Pega el mini motor vibrador sobre el cabezal con cinta doble faz. 3. Conecta uno de los cables del motor al polo inferior de la pila de botón. 4. Fija la pila al cepillo y pega el otro cable en el polo superior para cerrar el circuito. El robot comenzará a vibrar y moverse velozmente.",
+    "pasos_originales": [
+      "1. Corta el mango del cepillo para quedarte con el cabezal.",
+      "2. Pega el mini motor vibrador sobre el cabezal con cinta doble faz.",
+      "3. Conecta uno de los cables del motor al polo inferior de la pila de botón.",
+      "4. Fija la pila al cepillo y pega el otro cable en el polo superior para cerrar el circuito. El robot comenzará a vibrar y moverse velozmente."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 5,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 4 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P011",
+    "numero": 11,
+    "titulo": "Saltamontes Eléctrico",
+    "bloque": 1,
+    "pagina_pdf": 3,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P012",
+    "numero": 12,
+    "titulo": "Erizo con Palillos",
+    "bloque": 1,
+    "pagina_pdf": 3,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P013",
+    "numero": 13,
+    "titulo": "Gato Loco de Corcho",
+    "bloque": 1,
+    "pagina_pdf": 4,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P014",
+    "numero": 14,
+    "titulo": "Mini Ventilador de Mano",
+    "bloque": 1,
+    "pagina_pdf": 4,
+    "materiales_originales": "Vaso de plástico o cartón, 3 marcadores de colores, motor DC de 3V-6V, portapilas con 2 baterías AA, una tapita de botella desalineada (para generar vibración) y pegamento.",
+    "instrucciones_originales": "1. Pega los 3 marcadores alrededor del vaso boca abajo como si fueran patas. 2. Coloca el motor en la parte superior del vaso y pega la tapita plástica descentrada en el eje del motor. 3. Conecta el portapilas al motor con un interruptor casero de clip. 4. Destapa los marcadores, colócalo sobre un papel grande y enciéndelo para ver los patrones de dibujo.",
+    "pasos_originales": [
+      "1. Pega los 3 marcadores alrededor del vaso boca abajo como si fueran patas.",
+      "2. Coloca el motor en la parte superior del vaso y pega la tapita plástica descentrada en el eje del motor.",
+      "3. Conecta el portapilas al motor con un interruptor casero de clip.",
+      "4. Destapa los marcadores, colócalo sobre un papel grande y enciéndelo para ver los patrones de dibujo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 4,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 3 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P015",
+    "numero": 15,
+    "titulo": "Bailarín Eléctrico de Alambre",
+    "bloque": 1,
+    "pagina_pdf": 4,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P016",
+    "numero": 16,
+    "titulo": "Barquito Flotante a Vibración",
+    "bloque": 1,
+    "pagina_pdf": 4,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P017",
+    "numero": 17,
+    "titulo": "Robot Cangrejo con Cucharas",
+    "bloque": 1,
+    "pagina_pdf": 4,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P018",
+    "numero": 18,
+    "titulo": "Araña de Limpiapipas",
+    "bloque": 1,
+    "pagina_pdf": 5,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P019",
+    "numero": 19,
+    "titulo": "Sacudidor de Polvo Eléctrico",
+    "bloque": 1,
+    "pagina_pdf": 5,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P020",
+    "numero": 20,
+    "titulo": "Vibro-Platillo Volador",
+    "bloque": 1,
+    "pagina_pdf": 5,
+    "materiales_originales": "Cabezal de cepillo de dientes viejo o tapitas, mini motor vibrador (de celular viejo o juguete), pila de botón de 3V y cinta de dos caras.",
+    "instrucciones_originales": "1. Corta el mango del cepillo para quedarte con el cabezal. 2. Pega el mini motor vibrador sobre el cabezal con cinta doble faz. 3. Conecta uno de los cables del motor al polo inferior de la pila de botón. 4. Fija la pila al cepillo y pega el otro cable en el polo superior para cerrar el circuito. El robot comenzará a vibrar y moverse velozmente.",
+    "pasos_originales": [
+      "1. Corta el mango del cepillo para quedarte con el cabezal.",
+      "2. Pega el mini motor vibrador sobre el cabezal con cinta doble faz.",
+      "3. Conecta uno de los cables del motor al polo inferior de la pila de botón.",
+      "4. Fija la pila al cepillo y pega el otro cable en el polo superior para cerrar el circuito. El robot comenzará a vibrar y moverse velozmente."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 5,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 4 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P021",
+    "numero": 21,
+    "titulo": "Auto con Propulsión a Elcho",
+    "bloque": 2,
+    "pagina_pdf": 5,
+    "materiales_originales": "Caja pequeña de cartón o botella, 4 tapitas de gaseosa (ruedas), 2 sorbetes, 2 palitos de brochette (ejes), motor de 3V con hélice hecha de botella, batería AA.",
+    "instrucciones_originales": "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón. 2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas. 3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica. 4. Conecta la batería al motor para que el viento empuje el auto.",
+    "pasos_originales": [
+      "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón.",
+      "2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas.",
+      "3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica.",
+      "4. Conecta la batería al motor para que el viento empuje el auto."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 14,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 13 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P022",
+    "numero": 22,
+    "titulo": "Carrito con Motor de CD y Engranaje",
+    "bloque": 2,
+    "pagina_pdf": 6,
+    "materiales_originales": "Caja pequeña de cartón o botella, 4 tapitas de gaseosa (ruedas), 2 sorbetes, 2 palitos de brochette (ejes), motor de 3V con hélice hecha de botella, batería AA.",
+    "instrucciones_originales": "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón. 2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas. 3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica. 4. Conecta la batería al motor para que el viento empuje el auto.",
+    "pasos_originales": [
+      "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón.",
+      "2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas.",
+      "3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica.",
+      "4. Conecta la batería al motor para que el viento empuje el auto."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 14,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 13 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P023",
+    "numero": 23,
+    "titulo": "Velero Terrestre Eléctrico",
+    "bloque": 2,
+    "pagina_pdf": 6,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P024",
+    "numero": 24,
+    "titulo": "Camión de Cajas de Cartón",
+    "bloque": 2,
+    "pagina_pdf": 6,
+    "materiales_originales": "Caja pequeña de cartón o botella, 4 tapitas de gaseosa (ruedas), 2 sorbetes, 2 palitos de brochette (ejes), motor de 3V con hélice hecha de botella, batería AA.",
+    "instrucciones_originales": "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón. 2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas. 3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica. 4. Conecta la batería al motor para que el viento empuje el auto.",
+    "pasos_originales": [
+      "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón.",
+      "2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas.",
+      "3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica.",
+      "4. Conecta la batería al motor para que el viento empuje el auto."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 14,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 13 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P025",
+    "numero": 25,
+    "titulo": "Lancha con Hélice de Botella Reciclada",
+    "bloque": 2,
+    "pagina_pdf": 6,
+    "materiales_originales": "Caja pequeña de cartón o botella, 4 tapitas de gaseosa (ruedas), 2 sorbetes, 2 palitos de brochette (ejes), motor de 3V con hélice hecha de botella, batería AA.",
+    "instrucciones_originales": "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón. 2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas. 3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica. 4. Conecta la batería al motor para que el viento empuje el auto.",
+    "pasos_originales": [
+      "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón.",
+      "2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas.",
+      "3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica.",
+      "4. Conecta la batería al motor para que el viento empuje el auto."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 14,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 13 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P026",
+    "numero": 26,
+    "titulo": "Mini Quad de Sorbetes",
+    "bloque": 2,
+    "pagina_pdf": 6,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P027",
+    "numero": 27,
+    "titulo": "Tractor con Ruedas de Tapita",
+    "bloque": 2,
+    "pagina_pdf": 7,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P028",
+    "numero": 28,
+    "titulo": "Submarino Casero Flotante",
+    "bloque": 2,
+    "pagina_pdf": 7,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P029",
+    "numero": 29,
+    "titulo": "Helicóptero de Cartón con Motor",
+    "bloque": 2,
+    "pagina_pdf": 7,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P030",
+    "numero": 30,
+    "titulo": "Compactadora de Basura Mini",
+    "bloque": 2,
+    "pagina_pdf": 7,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P031",
+    "numero": 31,
+    "titulo": "Anfibio Todoterreno",
+    "bloque": 2,
+    "pagina_pdf": 7,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P032",
+    "numero": 32,
+    "titulo": "Triciclo de Alambre y Motor",
+    "bloque": 2,
+    "pagina_pdf": 8,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P033",
+    "numero": 33,
+    "titulo": "Auto Cohete a Aire Constante",
+    "bloque": 2,
+    "pagina_pdf": 8,
+    "materiales_originales": "Caja pequeña de cartón o botella, 4 tapitas de gaseosa (ruedas), 2 sorbetes, 2 palitos de brochette (ejes), motor de 3V con hélice hecha de botella, batería AA.",
+    "instrucciones_originales": "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón. 2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas. 3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica. 4. Conecta la batería al motor para que el viento empuje el auto.",
+    "pasos_originales": [
+      "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón.",
+      "2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas.",
+      "3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica.",
+      "4. Conecta la batería al motor para que el viento empuje el auto."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 14,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 13 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P034",
+    "numero": 34,
+    "titulo": "Tren de Cajas de Té",
+    "bloque": 2,
+    "pagina_pdf": 8,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P035",
+    "numero": 35,
+    "titulo": "Elevador Hidráulico de Juguete",
+    "bloque": 2,
+    "pagina_pdf": 8,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P036",
+    "numero": 36,
+    "titulo": "Grúa Elevadora con Hilo",
+    "bloque": 2,
+    "pagina_pdf": 8,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P037",
+    "numero": 37,
+    "titulo": "Pala Mecánica Simple",
+    "bloque": 2,
+    "pagina_pdf": 9,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P038",
+    "numero": 38,
+    "titulo": "Deslizador de Nieve Eléctrico",
+    "bloque": 2,
+    "pagina_pdf": 9,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P039",
+    "numero": 39,
+    "titulo": "Auto Seguidor de Luz Análogo",
+    "bloque": 2,
+    "pagina_pdf": 9,
+    "materiales_originales": "Caja pequeña de cartón o botella, 4 tapitas de gaseosa (ruedas), 2 sorbetes, 2 palitos de brochette (ejes), motor de 3V con hélice hecha de botella, batería AA.",
+    "instrucciones_originales": "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón. 2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas. 3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica. 4. Conecta la batería al motor para que el viento empuje el auto.",
+    "pasos_originales": [
+      "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón.",
+      "2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas.",
+      "3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica.",
+      "4. Conecta la batería al motor para que el viento empuje el auto."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 14,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 13 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P040",
+    "numero": 40,
+    "titulo": "Bote a Paletas de Motor",
+    "bloque": 2,
+    "pagina_pdf": 9,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P041",
+    "numero": 41,
+    "titulo": "Brazo de Cartón Articulado",
+    "bloque": 3,
+    "pagina_pdf": 10,
+    "materiales_originales": "Cartón rígido, palitos de helado, hilos de pescar o piola, chinches o tornillos pequeños, sorbetes y elásticos de goma.",
+    "instrucciones_originales": "1. Recorta tiras de cartón de igual tamaño y conéctalas en forma de X usando chinches para crear un mecanismo de tijera extensible. 2. En un extremo, diseña dos garras fijas. 3. En el otro extremo, coloca un tirador hecho con sorbete e hilo. 4. Al tirar del hilo, el mecanismo se estirará abriendo o cerrando las pinzas para agarrar objetos livianos de plástico.",
+    "pasos_originales": [
+      "1. Recorta tiras de cartón de igual tamaño y conéctalas en forma de X usando chinches para crear un mecanismo de tijera extensible.",
+      "2. En un extremo, diseña dos garras fijas.",
+      "3. En el otro extremo, coloca un tirador hecho con sorbete e hilo.",
+      "4. Al tirar del hilo, el mecanismo se estirará abriendo o cerrando las pinzas para agarrar objetos livianos de plástico."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 4,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 3 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P042",
+    "numero": 42,
+    "titulo": "Pinza Extensible con Palitos",
+    "bloque": 3,
+    "pagina_pdf": 10,
+    "materiales_originales": "Cartón rígido, palitos de helado, hilos de pescar o piola, chinches o tornillos pequeños, sorbetes y elásticos de goma.",
+    "instrucciones_originales": "1. Recorta tiras de cartón de igual tamaño y conéctalas en forma de X usando chinches para crear un mecanismo de tijera extensible. 2. En un extremo, diseña dos garras fijas. 3. En el otro extremo, coloca un tirador hecho con sorbete e hilo. 4. Al tirar del hilo, el mecanismo se estirará abriendo o cerrando las pinzas para agarrar objetos livianos de plástico.",
+    "pasos_originales": [
+      "1. Recorta tiras de cartón de igual tamaño y conéctalas en forma de X usando chinches para crear un mecanismo de tijera extensible.",
+      "2. En un extremo, diseña dos garras fijas.",
+      "3. En el otro extremo, coloca un tirador hecho con sorbete e hilo.",
+      "4. Al tirar del hilo, el mecanismo se estirará abriendo o cerrando las pinzas para agarrar objetos livianos de plástico."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 4,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 3 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P043",
+    "numero": 43,
+    "titulo": "Garra Hidráulica de Jeringas",
+    "bloque": 3,
+    "pagina_pdf": 10,
+    "materiales_originales": "Cartón rígido, palitos de helado, hilos de pescar o piola, chinches o tornillos pequeños, sorbetes y elásticos de goma.",
+    "instrucciones_originales": "1. Recorta tiras de cartón de igual tamaño y conéctalas en forma de X usando chinches para crear un mecanismo de tijera extensible. 2. En un extremo, diseña dos garras fijas. 3. En el otro extremo, coloca un tirador hecho con sorbete e hilo. 4. Al tirar del hilo, el mecanismo se estirará abriendo o cerrando las pinzas para agarrar objetos livianos de plástico.",
+    "pasos_originales": [
+      "1. Recorta tiras de cartón de igual tamaño y conéctalas en forma de X usando chinches para crear un mecanismo de tijera extensible.",
+      "2. En un extremo, diseña dos garras fijas.",
+      "3. En el otro extremo, coloca un tirador hecho con sorbete e hilo.",
+      "4. Al tirar del hilo, el mecanismo se estirará abriendo o cerrando las pinzas para agarrar objetos livianos de plástico."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 4,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 3 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P044",
+    "numero": 44,
+    "titulo": "Mano Robótica de Sorbetes e Hilos",
+    "bloque": 3,
+    "pagina_pdf": 10,
+    "materiales_originales": "Cartón rígido, palitos de helado, hilos de pescar o piola, chinches o tornillos pequeños, sorbetes y elásticos de goma.",
+    "instrucciones_originales": "1. Recorta tiras de cartón de igual tamaño y conéctalas en forma de X usando chinches para crear un mecanismo de tijera extensible. 2. En un extremo, diseña dos garras fijas. 3. En el otro extremo, coloca un tirador hecho con sorbete e hilo. 4. Al tirar del hilo, el mecanismo se estirará abriendo o cerrando las pinzas para agarrar objetos livianos de plástico.",
+    "pasos_originales": [
+      "1. Recorta tiras de cartón de igual tamaño y conéctalas en forma de X usando chinches para crear un mecanismo de tijera extensible.",
+      "2. En un extremo, diseña dos garras fijas.",
+      "3. En el otro extremo, coloca un tirador hecho con sorbete e hilo.",
+      "4. Al tirar del hilo, el mecanismo se estirará abriendo o cerrando las pinzas para agarrar objetos livianos de plástico."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 4,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 3 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P045",
+    "numero": 45,
+    "titulo": "Catapulta Automática de Banda",
+    "bloque": 3,
+    "pagina_pdf": 10,
+    "materiales_originales": "Caja pequeña de cartón o botella, 4 tapitas de gaseosa (ruedas), 2 sorbetes, 2 palitos de brochette (ejes), motor de 3V con hélice hecha de botella, batería AA.",
+    "instrucciones_originales": "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón. 2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas. 3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica. 4. Conecta la batería al motor para que el viento empuje el auto.",
+    "pasos_originales": [
+      "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón.",
+      "2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas.",
+      "3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica.",
+      "4. Conecta la batería al motor para que el viento empuje el auto."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 14,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 13 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P046",
+    "numero": 46,
+    "titulo": "Ascensor Eléctrico de Cartón",
+    "bloque": 3,
+    "pagina_pdf": 11,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P047",
+    "numero": 47,
+    "titulo": "Puente Levadizo Motorizado",
+    "bloque": 3,
+    "pagina_pdf": 11,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P048",
+    "numero": 48,
+    "titulo": "Excavadora de Palitos de Helado",
+    "bloque": 3,
+    "pagina_pdf": 11,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P049",
+    "numero": 49,
+    "titulo": "Poderosa Grúa de Torre Reciclada",
+    "bloque": 3,
+    "pagina_pdf": 11,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P050",
+    "numero": 50,
+    "titulo": "Clasificador de Canicas por Gravedad",
+    "bloque": 3,
+    "pagina_pdf": 11,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P051",
+    "numero": 51,
+    "titulo": "Prensa de Cartón Manual",
+    "bloque": 3,
+    "pagina_pdf": 12,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P052",
+    "numero": 52,
+    "titulo": "Títere Automatizado",
+    "bloque": 3,
+    "pagina_pdf": 12,
+    "materiales_originales": "Caja pequeña de cartón o botella, 4 tapitas de gaseosa (ruedas), 2 sorbetes, 2 palitos de brochette (ejes), motor de 3V con hélice hecha de botella, batería AA.",
+    "instrucciones_originales": "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón. 2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas. 3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica. 4. Conecta la batería al motor para que el viento empuje el auto.",
+    "pasos_originales": [
+      "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón.",
+      "2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas.",
+      "3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica.",
+      "4. Conecta la batería al motor para que el viento empuje el auto."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 14,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 13 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P053",
+    "numero": 53,
+    "titulo": "Lanzador de Aviones de Papel",
+    "bloque": 3,
+    "pagina_pdf": 12,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P054",
+    "numero": 54,
+    "titulo": "Dispensador de Caramelos",
+    "bloque": 3,
+    "pagina_pdf": 12,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P055",
+    "numero": 55,
+    "titulo": "Ventilador Oscilante Casero",
+    "bloque": 3,
+    "pagina_pdf": 12,
+    "materiales_originales": "Vaso de plástico o cartón, 3 marcadores de colores, motor DC de 3V-6V, portapilas con 2 baterías AA, una tapita de botella desalineada (para generar vibración) y pegamento.",
+    "instrucciones_originales": "1. Pega los 3 marcadores alrededor del vaso boca abajo como si fueran patas. 2. Coloca el motor en la parte superior del vaso y pega la tapita plástica descentrada en el eje del motor. 3. Conecta el portapilas al motor con un interruptor casero de clip. 4. Destapa los marcadores, colócalo sobre un papel grande y enciéndelo para ver los patrones de dibujo.",
+    "pasos_originales": [
+      "1. Pega los 3 marcadores alrededor del vaso boca abajo como si fueran patas.",
+      "2. Coloca el motor en la parte superior del vaso y pega la tapita plástica descentrada en el eje del motor.",
+      "3. Conecta el portapilas al motor con un interruptor casero de clip.",
+      "4. Destapa los marcadores, colócalo sobre un papel grande y enciéndelo para ver los patrones de dibujo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 4,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 3 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P056",
+    "numero": 56,
+    "titulo": "Molino de Viento Generador",
+    "bloque": 3,
+    "pagina_pdf": 13,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P057",
+    "numero": 57,
+    "titulo": "Sismógrafo de Caja de Zapatos",
+    "bloque": 3,
+    "pagina_pdf": 13,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P058",
+    "numero": 58,
+    "titulo": "Alarma de Agua Reciclada",
+    "bloque": 3,
+    "pagina_pdf": 13,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P059",
+    "numero": 59,
+    "titulo": "Caja Fuerte con Combinación de Cartón",
+    "bloque": 3,
+    "pagina_pdf": 13,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P060",
+    "numero": 60,
+    "titulo": "Radar Giratorio Falso",
+    "bloque": 3,
+    "pagina_pdf": 13,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P061",
+    "numero": 61,
+    "titulo": "Oruga Caminante",
+    "bloque": 4,
+    "pagina_pdf": 14,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P062",
+    "numero": 62,
+    "titulo": "Perro Robot de Cartón con Ejes",
+    "bloque": 4,
+    "pagina_pdf": 14,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P063",
+    "numero": 63,
+    "titulo": "Dinosaurio Articulado",
+    "bloque": 4,
+    "pagina_pdf": 14,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P064",
+    "numero": 64,
+    "titulo": "Pájaro Aleteador Mecánico",
+    "bloque": 4,
+    "pagina_pdf": 14,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P065",
+    "numero": 65,
+    "titulo": "Cangrejo Caminante Lateral",
+    "bloque": 4,
+    "pagina_pdf": 15,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P066",
+    "numero": 66,
+    "titulo": "Araña de Ocho Patas Motorizada",
+    "bloque": 4,
+    "pagina_pdf": 15,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P067",
+    "numero": 67,
+    "titulo": "Rana Saltarina de Elásticos",
+    "bloque": 4,
+    "pagina_pdf": 15,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P068",
+    "numero": 68,
+    "titulo": "Tortuga Nadadora de Botella",
+    "bloque": 4,
+    "pagina_pdf": 15,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P069",
+    "numero": 69,
+    "titulo": "Mandíbula de Tiburón de Cartón",
+    "bloque": 4,
+    "pagina_pdf": 15,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P070",
+    "numero": 70,
+    "titulo": "Ojos Animatrónicos con Palancas",
+    "bloque": 4,
+    "pagina_pdf": 16,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P071",
+    "numero": 71,
+    "titulo": "Serpiente Ondulante Mecánica",
+    "bloque": 4,
+    "pagina_pdf": 16,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P072",
+    "numero": 72,
+    "titulo": "Robot Caminante de Dos Motores",
+    "bloque": 4,
+    "pagina_pdf": 16,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P073",
+    "numero": 73,
+    "titulo": "Mono Escalador de Cuerda",
+    "bloque": 4,
+    "pagina_pdf": 16,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P074",
+    "numero": 74,
+    "titulo": "Pingüino Balanceador",
+    "bloque": 4,
+    "pagina_pdf": 16,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P075",
+    "numero": 75,
+    "titulo": "Mariposa con Alas Eléctricas",
+    "bloque": 4,
+    "pagina_pdf": 17,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P076",
+    "numero": 76,
+    "titulo": "Dragón Escupe 'Fuego' de Luces",
+    "bloque": 4,
+    "pagina_pdf": 17,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P077",
+    "numero": 77,
+    "titulo": "Robot Bigfoot Box",
+    "bloque": 4,
+    "pagina_pdf": 17,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P078",
+    "numero": 78,
+    "titulo": "Muñeco Reciclado Aplaudidor",
+    "bloque": 4,
+    "pagina_pdf": 17,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P079",
+    "numero": 79,
+    "titulo": "Bicho de Luz Led Intermitente",
+    "bloque": 4,
+    "pagina_pdf": 18,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P080",
+    "numero": 80,
+    "titulo": "Monstruo de Basura con Boca Móvil",
+    "bloque": 4,
+    "pagina_pdf": 18,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P081",
+    "numero": 81,
+    "titulo": "Robot Esquiva-Obstáculos Mecánico",
+    "bloque": 5,
+    "pagina_pdf": 18,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P082",
+    "numero": 82,
+    "titulo": "Clasificador de Colores Manual",
+    "bloque": 5,
+    "pagina_pdf": 18,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P083",
+    "numero": 83,
+    "titulo": "Luz Nocturna Automática",
+    "bloque": 5,
+    "pagina_pdf": 18,
+    "materiales_originales": "Caja pequeña de cartón o botella, 4 tapitas de gaseosa (ruedas), 2 sorbetes, 2 palitos de brochette (ejes), motor de 3V con hélice hecha de botella, batería AA.",
+    "instrucciones_originales": "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón. 2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas. 3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica. 4. Conecta la batería al motor para que el viento empuje el auto.",
+    "pasos_originales": [
+      "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón.",
+      "2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas.",
+      "3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica.",
+      "4. Conecta la batería al motor para que el viento empuje el auto."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 14,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 13 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P084",
+    "numero": 84,
+    "titulo": "Alarma de Intrusos para Puertas",
+    "bloque": 5,
+    "pagina_pdf": 19,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P085",
+    "numero": 85,
+    "titulo": "Robot Limpiaparabrisas",
+    "bloque": 5,
+    "pagina_pdf": 19,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P086",
+    "numero": 86,
+    "titulo": "Lanzador de Pelotas de Ping Pong",
+    "bloque": 5,
+    "pagina_pdf": 19,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P087",
+    "numero": 87,
+    "titulo": "Guitarra Eléctrica de Cartón con Circuitos",
+    "bloque": 5,
+    "pagina_pdf": 19,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P088",
+    "numero": 88,
+    "titulo": "Piano de Teclas de Aluminio Casero",
+    "bloque": 5,
+    "pagina_pdf": 20,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P089",
+    "numero": 89,
+    "titulo": "Luz de Tránsito con Interruptor",
+    "bloque": 5,
+    "pagina_pdf": 20,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P090",
+    "numero": 90,
+    "titulo": "Laberinto Eléctrico con Alarma",
+    "bloque": 5,
+    "pagina_pdf": 20,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P091",
+    "numero": 91,
+    "titulo": "Ventilador Inteligente de Sensor",
+    "bloque": 5,
+    "pagina_pdf": 20,
+    "materiales_originales": "Vaso de plástico o cartón, 3 marcadores de colores, motor DC de 3V-6V, portapilas con 2 baterías AA, una tapita de botella desalineada (para generar vibración) y pegamento.",
+    "instrucciones_originales": "1. Pega los 3 marcadores alrededor del vaso boca abajo como si fueran patas. 2. Coloca el motor en la parte superior del vaso y pega la tapita plástica descentrada en el eje del motor. 3. Conecta el portapilas al motor con un interruptor casero de clip. 4. Destapa los marcadores, colócalo sobre un papel grande y enciéndelo para ver los patrones de dibujo.",
+    "pasos_originales": [
+      "1. Pega los 3 marcadores alrededor del vaso boca abajo como si fueran patas.",
+      "2. Coloca el motor en la parte superior del vaso y pega la tapita plástica descentrada en el eje del motor.",
+      "3. Conecta el portapilas al motor con un interruptor casero de clip.",
+      "4. Destapa los marcadores, colócalo sobre un papel grande y enciéndelo para ver los patrones de dibujo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 4,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 3 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P092",
+    "numero": 92,
+    "titulo": "Maqueta de Ciudad Autosustentable",
+    "bloque": 5,
+    "pagina_pdf": 20,
+    "materiales_originales": "Caja pequeña de cartón o botella, 4 tapitas de gaseosa (ruedas), 2 sorbetes, 2 palitos de brochette (ejes), motor de 3V con hélice hecha de botella, batería AA.",
+    "instrucciones_originales": "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón. 2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas. 3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica. 4. Conecta la batería al motor para que el viento empuje el auto.",
+    "pasos_originales": [
+      "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón.",
+      "2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas.",
+      "3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica.",
+      "4. Conecta la batería al motor para que el viento empuje el auto."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 14,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 13 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P093",
+    "numero": 93,
+    "titulo": "Invernadero Automatizado Escala",
+    "bloque": 5,
+    "pagina_pdf": 21,
+    "materiales_originales": "Caja pequeña de cartón o botella, 4 tapitas de gaseosa (ruedas), 2 sorbetes, 2 palitos de brochette (ejes), motor de 3V con hélice hecha de botella, batería AA.",
+    "instrucciones_originales": "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón. 2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas. 3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica. 4. Conecta la batería al motor para que el viento empuje el auto.",
+    "pasos_originales": [
+      "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón.",
+      "2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas.",
+      "3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica.",
+      "4. Conecta la batería al motor para que el viento empuje el auto."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 14,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 13 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P094",
+    "numero": 94,
+    "titulo": "Barco Solar de Botellas",
+    "bloque": 5,
+    "pagina_pdf": 21,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P095",
+    "numero": 95,
+    "titulo": "Auto Eólico",
+    "bloque": 5,
+    "pagina_pdf": 21,
+    "materiales_originales": "Caja pequeña de cartón o botella, 4 tapitas de gaseosa (ruedas), 2 sorbetes, 2 palitos de brochette (ejes), motor de 3V con hélice hecha de botella, batería AA.",
+    "instrucciones_originales": "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón. 2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas. 3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica. 4. Conecta la batería al motor para que el viento empuje el auto.",
+    "pasos_originales": [
+      "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón.",
+      "2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas.",
+      "3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica.",
+      "4. Conecta la batería al motor para que el viento empuje el auto."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 14,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 13 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P096",
+    "numero": 96,
+    "titulo": "Robot Robotizado Porta Lapiceras",
+    "bloque": 5,
+    "pagina_pdf": 21,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P097",
+    "numero": 97,
+    "titulo": "Cajero Automático de Cartón",
+    "bloque": 5,
+    "pagina_pdf": 21,
+    "materiales_originales": "Caja pequeña de cartón o botella, 4 tapitas de gaseosa (ruedas), 2 sorbetes, 2 palitos de brochette (ejes), motor de 3V con hélice hecha de botella, batería AA.",
+    "instrucciones_originales": "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón. 2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas. 3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica. 4. Conecta la batería al motor para que el viento empuje el auto.",
+    "pasos_originales": [
+      "1. Pega los dos sorbetes de forma paralela debajo de la caja de cartón.",
+      "2. Pasa los palitos de brochette por dentro de los sorbetes y fija las tapitas en los extremos como ruedas.",
+      "3. En la parte superior de la caja, monta el motor DC acoplado a la hélice plástica.",
+      "4. Conecta la batería al motor para que el viento empuje el auto."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 14,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 13 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P098",
+    "numero": 98,
+    "titulo": "Lámpara de Proyección Giratoria",
+    "bloque": 5,
+    "pagina_pdf": 22,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P099",
+    "numero": 99,
+    "titulo": "Robot de Saludo con Sensor",
+    "bloque": 5,
+    "pagina_pdf": 22,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  },
+  {
+    "id": "P100",
+    "numero": 100,
+    "titulo": "Lanza Confeti Motorizado",
+    "bloque": 5,
+    "pagina_pdf": 22,
+    "materiales_originales": "Cartón reciclado, interruptor de clip, cables de cobre finos, motor de corriente directa (DC), luces LED opcionales y pegamento escolar.",
+    "instrucciones_originales": "1. Arma la estructura exterior con cajas de cartón limpias según el diseño. 2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie. 3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva. 4. Enciende el circuito para activar la función robótica interactiva del dispositivo.",
+    "pasos_originales": [
+      "1. Arma la estructura exterior con cajas de cartón limpias según el diseño.",
+      "2. Realiza el cableado básico conectando el motor al interruptor y las baterías en serie.",
+      "3. Ajusta las partes mecánicas móviles (ejes o palancas) asegurando que no haya fricción excesiva.",
+      "4. Enciende el circuito para activar la función robótica interactiva del dispositivo."
+    ],
+    "estado": "pendiente_revision",
+    "contenido_id": null,
+    "fuente": "100_proyectos_robotica_reciclada (1).pdf",
+    "cantidad_con_mismos_pasos": 73,
+    "revision_pendiente": [
+      "Comparte el procedimiento con 72 otros títulos del PDF.",
+      "Confirmar correspondencia entre título y procedimiento.",
+      "Completar preparación, cantidades, seguridad y prueba final.",
+      "Revisar vinculación curricular y grado antes de habilitar."
+    ]
+  }
+]

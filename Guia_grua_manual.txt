@@ -1,0 +1,84 @@
+Grúa de hilo con manivela manual
+5.º — Medios técnicos — Mecanismos y movimientos
+80 minutos estimados; grupos de hasta 4. Borrador pendiente de prueba física.
+
+MATERIALES
+cartón rígido: confirmar disponibilidad piezas precortadas
+varilla de madera: 1 unidades de 22 cm
+sorbete: 1 unidades para cortar dos tramos de 4 cm
+carretel: 1 unidades de aproximadamente 3 cm de ancho
+hilo: 1 metros
+palito de helado: 1 unidades
+papel: 1 hojas
+lápiz: 1 unidades
+regla: 1 unidades
+pistola de silicona caliente: confirmar disponibilidad equipo compartido del docente
+barras de silicona: confirmar disponibilidad barras compatibles; cantidad a probar
+
+PREPARACIÓN DOCENTE
+Probar un prototipo completo antes de clase; las medidas son de partida y deben ajustarse al carretel y al grosor del cartón disponibles.
+Por grupo, cortar una base de cartón rígido de 25 × 20 cm, dos tiras de 18 × 16 cm para formar columnas y cuatro triángulos de refuerzo de 6 × 6 cm. Usar cartón corrugado firme; duplicar la base si flexiona.
+En cada tira marcar cuatro caras de 4 cm y una solapa de 2 cm; plegar para formar una columna cuadrada de 16 cm de altura. El docente encola la solapa con silicona caliente.
+Preparar agujeros alineados, a 13 cm de la base, en dos caras opuestas de cada columna. Los agujeros deben admitir un tramo de sorbete de 4 cm como guía horizontal del eje.
+Comprobar que la varilla de 22 cm atraviese los sorbetes sin trabarse y que el carretel entre por la varilla. Elegir un conjunto compatible antes de repartirlo; no forzar ni perforar con alumnos.
+Disponer un puesto docente de pegado, con base resistente al calor, pistola, barras compatibles y alimentación eléctrica segura. La pistola y las barras son recursos compartidos, no uno por grupo.
+Preparar una hoja por grupo: media hoja para una pequeña carga de papel y media para el boceto y registro. La única carga de prueba será esa misma bola de papel.
+Para grupos numerosos preparar las columnas y guías con anticipación; el puesto de pegado puede demorar la clase. Pedir carreteles y cartón la clase anterior si se van a recuperar.
+
+OBJETIVOS
+Identificar eje, carretel, manivela y soportes, explicando la función de cada parte.
+Relacionar el giro de la manivela con el ascenso y descenso de una carga.
+Detectar y corregir rozamiento, deslizamiento y falta de estabilidad.
+
+CONSIGNA
+Construyan una grúa de manivela que eleve y baje una bola de papel. Expliquen qué piezas giran juntas y cuáles permiten sostener el eje sin impedir su giro.
+
+Exploración y boceto (10 minutos)
+1. Observar el modelo docente y señalar eje, carretel, guías y manivela.
+2. Dibujar dónde irá cada pieza y anticipar qué ocurre al girar hacia cada lado.
+
+Construcción (40 minutos)
+1. Marcar en la base dos centros separados 12 cm; ubicar las columnas con las guías de sorbete orientadas en una misma línea horizontal.
+2. Presentar las columnas y pedir al docente que las fije a la base con silicona caliente, reforzando cada columna con dos triángulos. Esperar a que las uniones enfríen.
+3. Pasar la varilla por el primer sorbete, introducir el carretel en el espacio entre columnas y continuar por el segundo sorbete. Dejar el carretel centrado, separado de ambos soportes.
+4. Antes de pegar, girar la varilla para comprobar que se mueve libremente. Pedir al docente que aplique pequeñas cantidades de silicona en la unión carretel-varilla; el carretel debe girar con el eje. Mantener el adhesivo lejos de las guías y esperar a que enfríe.
+5. Pedir al docente que fije el centro del palito de helado transversalmente en un extremo exterior de la varilla. Esta barra será la manivela; comprobar que no roce la columna al girar.
+6. Atar un extremo del hilo al cuerpo del carretel y dar tres vueltas iniciales, dejando el hilo colgar en el espacio entre las columnas.
+7. Formar una pequeña bola con media hoja de papel, rodearla con un lazo y atarla al extremo libre del hilo. No añadir monedas, piedras ni otras cargas.
+8. Girar lentamente la manivela, sosteniendo la base, para enrollar y desenrollar el hilo. Si se desplaza el carretel, se traba el eje o flexiona la estructura, detenerse y registrar qué hay que corregir.
+
+Prueba y mejora (20 minutos)
+1. Marcar dos alturas separadas 10 cm junto al recorrido del hilo, usando la regla.
+2. Elevar la bola de papel 10 cm y bajarla tres veces seguidas, manteniendo la mano en la manivela. Un compañero sostiene la base sin tocar el eje.
+3. Considerar lograda la prueba si el hilo permanece en el carretel, las uniones no se deslizan y la estructura no vuelca ni se desprende.
+4. Si falla, revisar alineación, exceso de adhesivo, firmeza de uniones y enrollado; pedir al docente cualquier nuevo pegado. Registrar la modificación y repetir la prueba.
+
+Explicación y cierre (10 minutos)
+1. Señalar en el boceto el eje y el carretel que giran juntos y las guías que permanecen fijas.
+2. Explicar cómo el giro enrolla el hilo y por qué no se debe pegar el eje a los soportes.
+3. Comparar la primera prueba y la posterior a una mejora.
+
+EXPLICACIÓN
+La mano hace girar la manivela y el eje. Como el carretel está fijado al eje, gira con él y enrolla o desenrolla el hilo. Los sorbetes funcionan como guías fijas: permiten girar al eje mientras las columnas lo sostienen. Esta versión no incluye engranajes ni poleas; no debe describirse como una grúa que reduce el esfuerzo mediante una polea fija.
+
+SEGURIDAD
+El docente realiza cortes, perforaciones y todos los pegados con silicona caliente. Los alumnos no tocan la boquilla ni el adhesivo caliente.
+Dejar enfriar cada unión antes de manipularla; no intentar sostener con los dedos piezas durante el pegado.
+Usar varillas con extremos romos preparados por el docente; mantener hilo, cabello y ropa lejos del eje.
+Probar únicamente la bola de papel declarada; sostener la base y mantener la carga sobre la mesa.
+No soltar la manivela con la carga elevada: esta versión no incorpora freno. Desenrollar de forma controlada.
+
+EVIDENCIAS
+Boceto con partes y funciones señaladas.
+Registro de tres ascensos y descensos, problemas encontrados y cambios realizados.
+Explicación oral sobre qué debe pegarse y qué debe quedar libre.
+
+CRITERIOS
+Reconoce las partes y distingue piezas solidarias del eje y soportes fijos.
+Relaciona giro y desplazamiento de la carga.
+Registra una prueba con el criterio acordado y fundamenta una mejora.
+
+REVISIÓN
+Adaptación manual nueva del proyecto U043, cuyo planteo original es eléctrico. No se usa motor en esta guía.
+Prototipo didáctico pendiente de prueba física y revisión docente; 80 minutos estimados con piezas preparadas.
+La lista de materiales expresa disponibilidad, no verifica existencias ni dimensiones. El docente confirma cantidades y compatibilidad.
