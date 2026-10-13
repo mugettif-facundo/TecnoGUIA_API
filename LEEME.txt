@@ -70,7 +70,7 @@ materiales fuera de selección, cantidades insuficientes, tiempos incoherentes,
 errores del servicio, guardado y recuperación. Se verificó el formulario con
 DOM simulado incluyendo selección, edición, descarga e impresión.
 No se ejecutó el modelo real durante estas pruebas. Su calidad, velocidad
- y comportamiento deben comprobarse en tu equipo con revisión docente.
+y comportamiento deben comprobarse en tu equipo con revisión docente.
 
 INSTRUCCIONES ANTERIORES DEL CATÁLOGO
 
@@ -195,7 +195,7 @@ En Mis propuestas guardadas elegí una copia y presioná Abrir propuesta.
 La propuesta conserva grado, fuente, organización y enfoque didáctico.
 Descargar guía en texto exporta las ediciones actuales a un archivo .txt.
 La descarga no equivale a guardar la propuesta en la base.
-Si cambias datos del formulario, la vista actual se limpia: guardá primero
+Si cambiás datos del formulario, la vista actual se limpia: guardá primero
 las ediciones que quieras conservar.
 API: POST /propuestas; GET /propuestas; GET /propuestas/{id}.
 
