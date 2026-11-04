@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TecnoGUIA · Ingresar</title>
+<style>
+body{margin:0;background:#eef4f3;color:#213d37;font:16px/1.6 Arial,sans-serif;padding:24px}
+main{max-width:420px;margin:8vh auto 0;background:white;padding:28px;border-radius:14px}
+h1{color:#176b62;margin:0 0 4px}h2{font-size:19px;margin:18px 0 0}
+label{display:block;font-weight:bold;margin-top:14px}
+input,button{box-sizing:border-box;width:100%;padding:12px;font:inherit;border:1px solid #bbcbc6;border-radius:7px;margin-top:5px}
+button{background:#176b62;color:white;border:none;margin-top:20px;cursor:pointer;font-weight:bold}button:disabled{opacity:.6}
+.etiqueta{font-size:14px;color:#4a635d}.error{color:#9f1c1c;font-weight:bold;min-height:1.4em}
+[hidden]{display:none!important}
+</style>
+</head>
+<body><main>
+<h1>TecnoGUIA</h1>
+<p class="etiqueta">Generador de actividades de Educación Tecnológica</p>
+
+<form id="form_ingreso">
+<h2>Ingresar</h2>
+<label for="usuario">Usuario</label><input id="usuario" autocomplete="username" required maxlength="40" autofocus>
+<label for="clave">Contraseña</label><input id="clave" type="password" autocomplete="current-password" required maxlength="200">
+<button id="boton_ingreso">Ingresar</button>
+<p id="error_ingreso" class="error" role="alert"></p>
+<p class="etiqueta">Si olvidaste tu contraseña, pedile al administrador que te asigne una temporal.</p>
+</form>
+
+<form id="form_clave" hidden>
+<h2>Cambiar contraseña</h2>
+<p id="motivo_clave" class="etiqueta">Elegí una contraseña nueva.</p>
+<label for="actual">Contraseña actual</label><input id="actual" type="password" autocomplete="current-password" required maxlength="200">
+<label for="nueva">Contraseña nueva</label><input id="nueva" type="password" autocomplete="new-password" required minlength="8" maxlength="200">
+<label for="repetida">Repetí la contraseña nueva</label><input id="repetida" type="password" autocomplete="new-password" required minlength="8" maxlength="200">
+<p class="etiqueta">Al menos 8 caracteres, combinando letras con números o símbolos. No puede contener tu usuario.</p>
+<button id="boton_clave">Guardar contraseña</button>
+<p id="error_clave" class="error" role="alert"></p>
+</form>
+<script>
+const $=id=>document.getElementById(id);
+async function pedir(url,opciones={}){
+ const r=await fetch(url,{...opciones,headers:{'Content-Type':'application/json','X-TecnoGUIA':'1'}});
+ let d={};try{d=await r.json();}catch(e){}
+ if(!r.ok){const e=d.detail;throw Object.assign(new Error(typeof e==='string'?e:e?.mensaje||'No se pudo completar la operación.'),{estado:r.status});}
+ return d;
+}
+function mostrarCambio(motivo,actual=''){
+ $('form_ingreso').hidden=true;$('form_clave').hidden=false;$('motivo_clave').textContent=motivo;
+ $('actual').value=actual;if(actual){$('actual').closest('form').querySelector('label[for=actual]').hidden=true;$('actual').hidden=true;$('nueva').focus();}else $('actual').focus();
+}
+$('form_ingreso').onsubmit=async ev=>{
+ ev.preventDefault();$('boton_ingreso').disabled=true;$('error_ingreso').textContent='';
+ try{const d=await pedir('/sesion',{method:'POST',body:JSON.stringify({usuario:$('usuario').value.trim(),clave:$('clave').value})});
+  if(d.usuario.debe_cambiar_clave)mostrarCambio('Estás usando una contraseña temporal. Para continuar, elegí una propia.',$('clave').value);
+  else location.href='/formulario';
+ }catch(e){$('error_ingreso').textContent=e.message;$('clave').value='';$('clave').focus();}
+ finally{$('boton_ingreso').disabled=false;}
+};
+$('form_clave').onsubmit=async ev=>{
+ ev.preventDefault();$('error_clave').textContent='';
+ if($('nueva').value!==$('repetida').value){$('error_clave').textContent='Las contraseñas nuevas no coinciden.';return;}
+ $('boton_clave').disabled=true;
+ try{await pedir('/sesion/clave',{method:'POST',body:JSON.stringify({actual:$('actual').value,nueva:$('nueva').value})});location.href='/formulario';}
+ catch(e){if(e.estado===401){location.href='/ingresar';return;}$('error_clave').textContent=e.message;}
+ finally{$('boton_clave').disabled=false;}
+};
+// Si ya hay sesión: ir al formulario, o pedir el cambio de contraseña.
+(async()=>{try{const d=await pedir('/sesion');
+ if(new URLSearchParams(location.search).has('cambiar'))mostrarCambio('Elegí una contraseña nueva.');
+ else if(d.usuario.debe_cambiar_clave)mostrarCambio('Tenés que cambiar la contraseña temporal antes de continuar.');
+ else location.href='/formulario';
+}catch(e){if(e.estado===503)$('error_ingreso').textContent=e.message;}})();
+</script>
+</main></body></html>

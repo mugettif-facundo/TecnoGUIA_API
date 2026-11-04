@@ -42,6 +42,9 @@ CASOS = {
         conocimientos_previos='Leyeron recetas', materiales=mats('cartón corrugado', 'marcador permanente', 'tijeras de papel')),
     'estructuras_silicona_sin_pistola': dict(grado=5, contenido_nap_id='N57', tema='Estructuras con cartón y silicona',
         conocimientos_previos='', materiales=mats('cartón corrugado', 'silicona caliente', 'tijeras de papel')),
+    'energia_san_luis': dict(grado=6, contenido_nap_id='N61', tema='Cómo se obtiene energía del viento',
+        contexto_escuela='Escuela de La Punta; varios alumnos viajaron por la ruta y vieron aerogeneradores.',
+        conocimientos_previos='Conocen molinos de viento del campo', materiales=mats('cartón corrugado', 'sorbetes plásticos', 'palitos de madera', 'tijeras de papel', 'cinta de papel')),
     'lista_mal_separada': dict(grado=6, contenido_nap_id='N61', tema='Construcción de energía renovable',
         conocimientos_previos='', materiales=mats('carton motores')),
 }

@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TecnoGUIA · Catálogo de actividades</title>
+<style>
+body{margin:0;background:#eef4f3;color:#213d37;font:16px/1.6 Arial,sans-serif;padding:24px}main{max-width:900px;margin:auto;background:white;padding:28px;border-radius:14px}h1{color:#176b62}label{display:block;font-weight:bold;margin-top:14px}input,select,textarea,button{box-sizing:border-box;width:100%;padding:12px;font:inherit;border:1px solid #bbcbc6;border-radius:7px;margin-top:5px}button{background:#176b62;color:white;cursor:pointer}button:disabled{opacity:.5;cursor:wait}.fila{display:grid;grid-template-columns:1fr 1fr;gap:16px}.aviso{background:#fff4dc;padding:12px;border-left:4px solid #d38e37}#estado{white-space:pre-wrap}details{border:1px solid #d8e4df;border-radius:8px;padding:12px;margin:12px 0}summary{cursor:pointer;font-weight:bold}.etiqueta{font-size:14px;color:#52665f}article{margin-top:24px}pre{white-space:pre-wrap;font:inherit}a{color:#176b62}@media(max-width:600px){body{padding:10px}main{padding:18px}.fila{grid-template-columns:1fr}}
+
+[hidden]{display:none!important}.recurso{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px;align-items:center;margin:8px 0}.recurso label{margin:0;font-weight:normal}.recurso input[type=checkbox]{width:auto;margin-right:8px}.recurso input{padding:7px}@media(max-width:600px){.recurso{grid-template-columns:1fr 1fr}.recurso label{grid-column:1/-1}}
+#version_impresion{display:none}body.vista_impresion main{display:none}body.vista_impresion #version_impresion{display:block;max-width:800px;margin:auto;background:white;padding:30px;border-radius:10px;color:#222}
+#version_impresion h1{color:#176b62;font-size:26px}#version_impresion h2{font-size:19px;margin-top:24px}#version_impresion li{margin-bottom:6px}#version_impresion .referencia_impresa{font-size:13px;border-top:1px solid #ddd;padding-top:12px}#version_impresion .revision_impresa{background:#fff4dc;padding:12px}
+@page{size:A4;margin:16mm}
+@media print{body{padding:0;margin:0;background:white;color:black;font:11pt/1.4 Arial,sans-serif}main{display:none!important}#version_impresion,body.vista_impresion #version_impresion{display:block!important;padding:0;margin:0;max-width:none;border-radius:0;color:black}#version_impresion h1{font-size:19pt;color:black;margin-top:0}#version_impresion h2{font-size:13pt;color:black;break-after:avoid}#version_impresion p,#version_impresion li{orphans:3;widows:3}#version_impresion .revision_impresa{background:none;border:1px solid #bbb;padding:8pt}#controles_impresion{display:none!important}#version_impresion a{color:black;text-decoration:none}#version_impresion .referencia_impresa{font-size:9pt;overflow-wrap:anywhere}}
+
+.revision_obligatoria{border-left:4px solid #b45309;background:#fff7ed;padding:.5rem 1rem .5rem 2rem}
+.barra_usuario{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;font-size:14px;border-bottom:1px solid #d7e3e0;padding-bottom:10px;margin-bottom:6px}.barra_usuario a{color:#176b62;margin-right:10px}button.enlace{width:auto;display:inline;background:none;border:none;color:#176b62;text-decoration:underline;padding:0;margin:0;cursor:pointer;font-size:14px}
+@media print{.barra_usuario{display:none}}
+</style>
+</head>
+<body><main>
+<div id="barra_usuario" class="barra_usuario"><span id="nombre_usuario">…</span><span><a id="enlace_admin" href="/administracion" hidden>Administración</a> <a href="/ingresar?cambiar=1">Cambiar contraseña</a> <button id="salir" type="button" class="enlace">Cerrar sesión</button></span></div>
+<h1>TecnoGUIA</h1>
+<p>Elegí grado, eje y contenido. Indicá el tema y seleccioná tus materiales para que la IA genere una actividad completa.</p><p class="aviso">Primer grupo: <span id="cantidad_proyectos">…</span> proyectos vinculados y <span id="cantidad_guias">…</span> guías en borrador. Las asociaciones son propuestas didácticas para revisión docente; el banco completo conserva las 100 fichas.</p>
+<form id="form">
+<label for="flujo">¿Qué querés preparar?</label><select id="flujo"><option value="crear" selected>Generar una actividad nueva con IA</option><option value="catalogo">Buscar una guía existente</option></select>
+<label for="grado">Grado</label><select id="grado"><option value="5">5.º grado</option><option value="6">6.º grado</option></select>
+<label for="eje">Eje de los NAP</label><select id="eje" required></select>
+<label for="contenido">Contenido</label><select id="contenido" required></select><p id="referencia" class="etiqueta"></p>
+<section id="creacion">
+<label for="tema">Tema o propósito de la actividad</label><textarea id="tema" maxlength="1400" placeholder="Ejemplo: explorar cómo la forma influye en la resistencia de una estructura."></textarea>
+<label for="materiales_libres">Materiales y herramientas disponibles</label><textarea id="materiales_libres" rows="4" maxlength="10000" placeholder="Cartón, papel, lápices, cinta adhesiva, tijeras"></textarea>
+<p id="vista_recursos" class="etiqueta" role="status"></p><p class="etiqueta">Separá cada recurso con una coma, punto y coma o una nueva línea. Incluí las herramientas. Si usás silicona, indicá si es fría o caliente; para la caliente, incluí también la pistola.</p>
+</section>
+<label for="conocimientos_previos">Conocimientos previos</label><textarea id="conocimientos_previos" maxlength="2000" placeholder="Ejemplo: usaron una regla y compararon mecanismos sencillos."></textarea>
+<div class="fila"><div><label for="modalidad">Modalidad de trabajo</label><select id="modalidad"><option value="grupos">En grupos</option><option value="parejas">En parejas</option><option value="individual">Individual</option></select></div><div><label for="dificultad">Dificultad y acompañamiento</label><select id="dificultad"><option value="inicial">Inicial</option><option value="intermedia" selected>Intermedia</option><option value="avanzada">Avanzada</option></select></div></div>
+<label for="tamano_grupo">Estudiantes por grupo</label><input id="tamano_grupo" type="number" min="1" max="10" value="4">
+<div class="fila"><div><label for="duracion">Minutos disponibles</label><input id="duracion" type="number" min="1" value="80" required></div><div><label for="alumnos">Cantidad de alumnos</label><input id="alumnos" type="number" min="1" value="25" required></div></div>
+<section id="busqueda_catalogo"><label for="materiales">Materiales disponibles, separados por comas</label><textarea id="materiales">papel, lápiz, cinta adhesiva</textarea>
+<button id="buscar_actividades" type="button">Buscar actividades con estos materiales</button>
+<p id="estado_busqueda" role="status" aria-live="polite"></p><section id="faltantes"></section>
+<label for="actividad">Actividad compatible</label><select id="actividad" required disabled></select>
+<p id="requisitos" class="etiqueta"></p>
+<label for="modo_preparacion">Preparación de la propuesta</label><select id="modo_preparacion"><option value="catalogo">Guía del catálogo</option><option value="ia">Adaptar con IA local</option></select>
+</section><button id="comprobar_ia" type="button">Comprobar IA local</button><p id="estado_ia" role="status">IA local: conexión sin comprobar.</p>
+<button id="generar" disabled>Preparar actividad</button></form>
+<p id="estado" role="status" aria-live="polite"></p><article id="resultado"></article>
+<hr><h2 id="titulo_guardadas">Mis propuestas guardadas</h2>
+<label for="guardadas">Elegí una propuesta</label><select id="guardadas"></select>
+<div class="fila"><button id="recuperar" type="button">Abrir propuesta</button><button id="actualizar_guardadas" type="button">Actualizar lista</button></div>
+<p id="estado_guardado" role="status" aria-live="polite"></p>
+<hr><h2>100 propuestas del PDF</h2>
+<p>Banco de ideas importado. Abrí cada ficha para revisar sus materiales y principios técnicos originales.</p>
+<p class="aviso">Estas propuestas todavía requieren revisión y desarrollo antes de prepararlas como guías de clase. El nuevo PDF aporta materiales y principios técnicos; los pasos de construcción aún deben desarrollarse.</p>
+<label for="buscar">Buscar por título o material</label><input id="buscar" type="search" placeholder="Ejemplo: brazo, motor, cartón">
+<p id="cantidad" role="status"></p><section id="banco"></section>
+<script>
+const $=id=>document.getElementById(id);let usuarioActual=null;let catalogo=[],proyectos=[],curriculo={ejes:[],contenidos:[]},opciones=[],propuestaActual=null;let revision=0;
+async function pedir(url,opciones={},tiempo=20000){
+ const controlador=new AbortController();const reloj=setTimeout(()=>controlador.abort(),tiempo);
+ try{const r=await fetch(url,{...opciones,headers:{...(opciones.headers||{}),'X-TecnoGUIA':'1'},signal:controlador.signal});
+ if(r.status===401){location.href='/ingresar';throw new Error('La sesión venció. Volvé a ingresar.');}
+ const d=await r.json();
+ if(r.status===403&&d.detail?.cambiar_clave){location.href='/ingresar';throw new Error(d.detail.mensaje);}
+ if(!r.ok){const e=d.detail;let mensaje=typeof e==='string'?e:e?.mensaje||'Revisá los datos del formulario.';
+ if(e?.materiales_faltantes)mensaje+='\nFaltan: '+e.materiales_faltantes.join(', ');
+ throw new Error(mensaje);}return d;}finally{clearTimeout(reloj);}
+}
+function elemento(tag,texto,padre){const e=document.createElement(tag);e.textContent=texto;padre.append(e);return e;}
+function lista(titulo,textos){elemento('h3',titulo,$('resultado'));const ul=elemento('ul','',$('resultado'));for(const t of textos)elemento('li',t,ul);}
+function limpiar(){document.body.classList.remove('vista_impresion');$('version_impresion').replaceChildren();propuestaActual=null;$('resultado').replaceChildren();$('estado').textContent='';}
+function elegido(){return opciones.find(o=>o.tipo+':'+o.recurso_id===$('actividad').value);}
+function requisitos(){const v=elegido();$('requisitos').textContent=v?`Mínimo ${v.duracion_minima} minutos · Materiales: ${v.materiales.map(m=>m.nombre).join(', ')}. Confirmá cantidades. Asociación pendiente de revisión docente.`:'';$('generar').textContent=$('flujo').value==='crear'?'Generar actividad con IA':'Preparar guía';}
+function invalidarBusqueda(){revision++;limpiar();opciones=[];$('actividad').replaceChildren();$('actividad').disabled=true;$('generar').disabled=$('flujo').value!=='crear';$('faltantes').replaceChildren();$('estado_busqueda').textContent='Ingresá los materiales y presioná Buscar actividades.';requisitos();}
+$('buscar_actividades').addEventListener('click',async()=>{
+ invalidarBusqueda();const actual=revision;const materiales=$('materiales').value.split(/[,;\n]/).map(m=>m.trim()).filter(Boolean);
+ if(!materiales.length||!$('contenido').value||!$('duracion').checkValidity()){$('estado_busqueda').textContent='Completá el contenido, los materiales y los minutos disponibles.';return;}
+ $('estado_busqueda').textContent='Buscando actividades compatibles…';
+ try{const r=await pedir('/actividades/buscar',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({grado:Number($('grado').value),contenido_nap_id:$('contenido').value,materiales,duracion_minutos:Number($('duracion').value),modalidad:$('modalidad').value})});if(actual!==revision)return;
+ opciones=r.compatibles;for(const v of opciones){const o=elemento('option',v.titulo+' — guía en borrador',$('actividad'));o.value=v.tipo+':'+v.recurso_id;}
+ $('actividad').disabled=!opciones.length;$('generar').disabled=$('flujo').value==='crear'?false:!opciones.length;requisitos();
+ $('estado_busqueda').textContent=opciones.length?`${opciones.length} actividad(es) compatible(s). ${r.mensaje}`:r.no_compatibles.length?'No hay guías compatibles con estos materiales, tiempo y modalidad. Revisá los requisitos siguientes.':'Todavía no hay guías desarrolladas vinculadas a este contenido. Podés consultar las fichas del banco de ideas.';
+ for(const v of r.no_compatibles){const d=elemento('details','',$('faltantes'));elemento('summary',v.titulo,d);for(const motivo of v.motivos)elemento('p',motivo,d);}
+ }catch(e){if(actual===revision)$('estado_busqueda').textContent=e.message;}
+});
+function cambiarGrado(){ $('eje').replaceChildren();for(const eje of curriculo.ejes){const o=elemento('option',eje.nombre,$('eje'));o.value=eje.id;}cambiarEje();}
+function cambiarEje(){ $('contenido').replaceChildren();for(const c of curriculo.contenidos.filter(c=>c.grado===Number($('grado').value)&&c.eje_id===$('eje').value)){const o=elemento('option',c.titulo,$('contenido'));o.value=c.id;}cambiarContenido();}
+function cambiarContenido(){limpiar();const c=curriculo.contenidos.find(c=>c.id===$('contenido').value);$('referencia').replaceChildren();if(c){elemento('span',c.sintesis+' · NAP, página impresa '+c.pagina_impresa+'. ', $('referencia'));const a=elemento('a','Consultar documento oficial',$('referencia'));a.href=c.fuente_url;a.target='_blank';a.rel='noopener';}invalidarBusqueda();}
+
+$('grado').addEventListener('change',cambiarGrado);$('eje').addEventListener('change',cambiarEje);$('contenido').addEventListener('change',cambiarContenido);$('actividad').addEventListener('change',()=>{limpiar();requisitos();});
+function enfoque(v){lista('Por qué se propone para este contenido',[v.justificacion]);lista('Consigna de enfoque',[v.consigna_enfoque]);lista('Evidencia para observar',[v.evidencia]);}
+for(const id of ['materiales','duracion'])$(id).addEventListener('input',invalidarBusqueda);
+$('modalidad').addEventListener('change',invalidarBusqueda);
+for(const id of ['alumnos','conocimientos_previos'])$(id).addEventListener('input',()=>{revision++;limpiar();$('generar').disabled=$('flujo').value==='crear'?false:!opciones.length;$('estado').textContent='Datos modificados. Prepará la guía otra vez.';});
+for(const id of ['dificultad','modo_preparacion'])$(id).addEventListener('change',()=>{revision++;limpiar();$('generar').disabled=$('flujo').value==='crear'?false:!opciones.length;$('estado').textContent='Contexto modificado. Prepará la guía otra vez.';});
+$('form').addEventListener('submit',async e=>{e.preventDefault();if($('flujo').value==='crear'){await crearActividad();return;}const v=elegido();if(!v)return;const a=catalogo.find(a=>a.id===v.recurso_id);if(v.tipo==='proyecto'){limpiar();const p=v.proyecto;elemento('h2',p.titulo,$('resultado'));enfoque(v);lista('Materiales del PDF',[p.materiales_originales]);lista('Principio técnico propuesto en el PDF',[p.principio_original]);lista('Falta desarrollar y revisar',p.revision_pendiente);$('estado').textContent='Proyecto para desarrollar: todavía no es una guía de construcción.';return;}limpiar();const actual=++revision;const usarIA=$('modo_preparacion').value==='ia';$('estado').textContent=usarIA?'La IA local está preparando sugerencias. Puede tardar hasta diez minutos según el equipo…':'Preparando…';$('generar').disabled=true;
+ try{const r=await pedir(usarIA?'/actividades/generar-ia':'/actividades/generar',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({grado:Number($('grado').value),contenido:v.contenido_generador,...(usarIA?{contenido_nap_id:$('contenido').value}:{}),duracion_minutos:Number($('duracion').value),cantidad_alumnos:Number($('alumnos').value),conocimientos_previos:$('conocimientos_previos').value.trim(),modalidad:$('modalidad').value,dificultad:$('dificultad').value,materiales:$('materiales').value.split(/[,;\n]/).map(m=>m.trim()).filter(Boolean)})},usarIA?620000:20000);
+ if(actual!==revision)return;abrirEditor(r,v);$('estado').textContent=r.ia?'Borrador con IA local listo para revisión docente.':'Borrador del catálogo listo. Podés editarlo, guardarlo o descargarlo.';
+ }catch(error){if(actual!==revision)return;$('estado').textContent=error.name==='AbortError'?'El pedido tardó demasiado. Comprobá que el servidor siga abierto.':error.message;}finally{if(actual===revision)$('generar').disabled=$('flujo').value==='crear'?false:!opciones.length;}});
+function mostrarBanco(){const texto=$('buscar').value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();const encontrados=proyectos.filter(p=>(p.titulo+' '+p.materiales_originales).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().includes(texto));$('banco').replaceChildren();$('cantidad').textContent=`${encontrados.length} de ${proyectos.length} propuestas`;
+ for(const p of encontrados){const d=elemento('details','',$('banco'));elemento('summary',`${p.numero}. ${p.titulo}`,d);elemento('p',`PDF · página ${p.pagina_pdf} · Pendiente de revisión`,d);elemento('h3','Materiales originales',d);elemento('p',p.materiales_originales,d);if(p.principio_original){elemento('h3','Principio técnico del PDF',d);elemento('p',p.principio_original,d);}else{elemento('h3','Pasos originales',d);const ul=elemento('ul','',d);for(const paso of p.pasos_originales)elemento('li',paso,ul);}const aviso=elemento('p',p.revision_pendiente.join(' '),d);aviso.className='aviso';}}
+$('buscar').addEventListener('input',mostrarBanco);
+(async()=>{try{[catalogo,curriculo]=await Promise.all([pedir('/catalogo'),pedir('/curriculo')]);$('cantidad_guias').textContent=catalogo.length;$('cantidad_proyectos').textContent=new Set(curriculo.contenidos.flatMap(c=>c.actividades.filter(v=>v.tipo==='proyecto').map(v=>v.recurso_id))).size;cambiarGrado();}catch(e){$('estado').textContent=e.message;}})();
+(async()=>{try{proyectos=await pedir('/proyectos');mostrarBanco();}catch(e){$('cantidad').textContent=e.message;}})();
+
+function abrirEditor(guia,v=null){
+ limpiar();propuestaActual=structuredClone(guia);if(v)propuestaActual.enfoque_didactico=structuredClone(v);
+ const r=propuestaActual;if(r.enfoque_didactico)enfoque(r.enfoque_didactico);
+ elemento('h2',r.titulo,$('resultado'));elemento('p',`${r.grado}.º grado · ${r.duracion_minutos} minutos · ${r.organizacion.cantidad_grupos} ${r.organizacion.etiqueta||'grupos'}`,$('resultado'));elemento('p',r.organizacion.indicacion,$('resultado'));if(r.contexto_clase)lista('Contexto de la clase',resumenContexto(r));if(r.contexto_local)lista('Contexto local',resumenLocal(r));if(r.orientaciones_contexto)lista('Orientaciones de trabajo',r.orientaciones_contexto);
+ {const urgentes=(r.avisos||[]).filter(a=>a.startsWith('ATENCIÓN'));if(urgentes.length){lista('Revisión obligatoria antes de usar',urgentes);$('resultado').lastElementChild.className='revision_obligatoria';}}if(r.plan_ia)lista('Plan de la actividad propuesto por IA',['Producto o proceso: '+r.plan_ia.producto_o_proceso,'Relación con el contenido: '+r.plan_ia.relacion_con_contenido,'Qué se observa al final: '+r.plan_ia.que_se_observa,'Alcance: '+r.plan_ia.alcance,...(r.plan_ia.conexion_local?['Conexión con el lugar: '+r.plan_ia.conexion_local]:[])]); if(r.justificacion_curricular)lista('Relación con el contenido curricular',[r.justificacion_curricular]);lista(r.ia?'Objetivos propuestos por IA':'Objetivos',r.objetivos);if(r.ia){lista('IA local utilizada',['Modelo: '+r.ia.modelo,'Propuesta pendiente de revisión docente.']);if(r.objetivos_base)lista('Objetivos de la guía base',r.objetivos_base);}if(r.aporte_ia){lista('Preguntas docentes propuestas por IA',r.aporte_ia.preguntas_docentes);lista('Orientaciones propuestas por IA',r.aporte_ia.orientaciones);}lista('Preparación docente',r.preparacion_docente);lista(r.etiqueta_materiales||'Materiales por grupo',r.materiales_por_grupo);elemento('h3','Consigna',$('resultado'));elemento('p',r.consigna,$('resultado'));
+ for(const e of r.etapas)lista(`${e.nombre} · ${e.minutos} minutos`,e.acciones);
+ if(r.problemas_frecuentes)lista('Si algo no funciona',r.problemas_frecuentes.map(p=>p.problema+' Revisar: '+p.revision+' Corregir: '+p.correccion));elemento('h3','Explicación',$('resultado'));elemento('p',r.explicacion,$('resultado'));lista('Seguridad',r.seguridad);lista('Evidencias',r.evidencias);lista('Criterios de evaluación',r.criterios_evaluacion);lista('Antes de usar la propuesta',r.avisos);
+ elemento('p',`Referencia: ${r.fuente.documento}, página impresa ${r.fuente.pagina_impresa}. ${r.fuente.verificada?'Cotejada.':'Pendiente de cotejo.'}`,$('resultado'));
+ const panel=elemento('details','',$('resultado'));elemento('summary','Editar esta propuesta',panel);elemento('p','En las listas, escribí un punto por línea. Las ediciones se guardan como una propuesta nueva. Si cambiás pasos o materiales, revisá nuevamente cantidades, recursos y seguridad; la edición no vuelve a ejecutar el control de recursos de la IA.',panel);
+ function campo(id,etiqueta,valor,multiple=false){const l=elemento('label',etiqueta,panel);l.htmlFor=id;const el=elemento(multiple?'textarea':'input','',panel);el.id=id;el.value=valor;if(multiple)el.rows=Math.min(8,Math.max(3,valor.split('\n').length));return el;}
+ campo('ed_titulo','Título',r.titulo);campo('ed_consigna','Consigna',r.consigna,true);campo('ed_explicacion','Explicación',r.explicacion,true);
+ for(const [key,label] of [['objetivos','Objetivos'],['preparacion_docente','Preparación docente'],['materiales_por_grupo','Materiales por grupo'],['seguridad','Seguridad'],['evidencias','Evidencias'],['criterios_evaluacion','Criterios de evaluación']])campo('ed_'+key,label,r[key].join('\n'),true);
+ if(r.aporte_ia){campo('ed_ia_preguntas','Preguntas docentes propuestas por IA',r.aporte_ia.preguntas_docentes.join('\n'),true);campo('ed_ia_orientaciones','Orientaciones propuestas por IA',r.aporte_ia.orientaciones.join('\n'),true);}
+ if(r.problemas_frecuentes)r.problemas_frecuentes.forEach((p,i)=>{for(const [k,label] of [['problema','Problema'],['revision','Qué revisar'],['correccion','Cómo corregirlo']])campo('ed_problema_'+i+'_'+k,label+' '+(i+1),p[k],true);});
+ r.etapas.forEach((e,i)=>{campo('ed_etapa_nombre_'+i,'Etapa '+(i+1)+': nombre',e.nombre);const minutos=campo('ed_etapa_minutos_'+i,'Minutos',e.minutos);minutos.type='number';minutos.min='1';campo('ed_etapa_acciones_'+i,'Acciones, una por línea',e.acciones.join('\n'),true);});
+ const vista=elemento('button','Actualizar vista previa',panel);vista.type='button';vista.onclick=()=>{try{const editada=leerEdicion();abrirEditor(editada);$('estado').textContent='Vista previa actualizada. Aún no está guardada.';}catch(e){$('estado').textContent=e.message;}};
+ const guardar=elemento('button','Guardar como nueva propuesta',$('resultado'));guardar.type='button';guardar.onclick=async()=>{guardar.disabled=true;try{const editada=leerEdicion();const guardada=await pedir('/propuestas',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(editada)});abrirEditor(editada);$('estado').textContent='Propuesta guardada: '+guardada.titulo;await cargarGuardadas(guardada.id);}catch(e){$('estado').textContent=e.message;}finally{guardar.disabled=false;}};
+ const ver=elemento('button','Ver versión para imprimir',$('resultado'));ver.type='button';ver.onclick=()=>{try{prepararImpresion(leerEdicion());document.body.classList.add('vista_impresion');window.scrollTo(0,0);}catch(e){$('estado').textContent=e.message;}};
+ const imprimir=elemento('button','Imprimir / guardar PDF',$('resultado'));imprimir.type='button';imprimir.onclick=()=>{try{prepararImpresion(leerEdicion());window.print();}catch(e){$('estado').textContent=e.message;}};
+ const descargar=elemento('button','Descargar guía en texto',$('resultado'));descargar.type='button';descargar.onclick=()=>{try{const editada=leerEdicion();const blob=new Blob([textoGuia(editada)],{type:'text/plain;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='TecnoGUIA_propuesta.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}catch(e){$('estado').textContent=e.message;}};
+}
+function leerEdicion(){
+ if(!propuestaActual)throw new Error('Primero prepará o abrí una guía.');const r=structuredClone(propuestaActual);
+ for(const key of ['titulo','consigna','explicacion']){r[key]=$('ed_'+key).value.trim();if(!r[key])throw new Error('Completá '+key+'.');}
+ for(const key of ['objetivos','preparacion_docente','materiales_por_grupo','seguridad','evidencias','criterios_evaluacion']){r[key]=$('ed_'+key).value.split('\n').map(t=>t.trim()).filter(Boolean);if(!r[key].length)throw new Error('Completá '+key.replaceAll('_',' ')+'.');}
+ if(r.aporte_ia){for(const [key,id] of [['preguntas_docentes','ed_ia_preguntas'],['orientaciones','ed_ia_orientaciones']]){r.aporte_ia[key]=$(id).value.split('\n').map(t=>t.trim()).filter(Boolean);if(!r.aporte_ia[key].length)throw new Error('Completá las sugerencias de IA o revisá la propuesta.');}}
+ r.etapas=r.etapas.map((e,i)=>({...e,nombre:$('ed_etapa_nombre_'+i).value.trim(),minutos:Number($('ed_etapa_minutos_'+i).value),acciones:$('ed_etapa_acciones_'+i).value.split('\n').map(t=>t.trim()).filter(Boolean)}));
+ if(r.etapas.some(e=>!e.nombre||!Number.isInteger(e.minutos)||e.minutos<=0||!e.acciones.length))throw new Error('Cada etapa necesita nombre, minutos positivos y acciones.');
+ if(r.problemas_frecuentes)r.problemas_frecuentes.forEach((p,i)=>{for(const k of ['problema','revision','correccion']){p[k]=$('ed_problema_'+i+'_'+k).value.trim();if(!p[k])throw new Error('Completá los problemas frecuentes.');}});if(r.etapas.reduce((n,e)=>n+e.minutos,0)!==r.duracion_minutos)throw new Error('Los minutos de las etapas deben sumar '+r.duracion_minutos+'.');return r;
+}
+function textoGuia(r){let lineas=[r.titulo,`${r.grado}.º grado · ${r.duracion_minutos} minutos`,r.organizacion.indicacion];if(r.ia)lineas.push('','IA LOCAL','Modelo: '+r.ia.modelo,'Aportes pendientes de revisión docente.');if(r.aporte_ia)lineas.push('','PREGUNTAS DOCENTES PROPUESTAS POR IA',...r.aporte_ia.preguntas_docentes,'','ORIENTACIONES PROPUESTAS POR IA',...r.aporte_ia.orientaciones);if(r.objetivos_base)lineas.push('','OBJETIVOS DE LA GUÍA BASE',...r.objetivos_base);if(r.contexto_clase)lineas.push('','CONTEXTO DE LA CLASE',...resumenContexto(r));if(r.contexto_local)lineas.push('','CONTEXTO LOCAL',...resumenLocal(r));if(r.plan_ia)lineas.push('','PLAN PROPUESTO POR IA','Producto o proceso: '+r.plan_ia.producto_o_proceso,'Relación con el contenido: '+r.plan_ia.relacion_con_contenido,'Qué se observa al final: '+r.plan_ia.que_se_observa,'Alcance: '+r.plan_ia.alcance,...(r.plan_ia.conexion_local?['Conexión con el lugar: '+r.plan_ia.conexion_local]:[]));if(r.orientaciones_contexto)lineas.push('','ORIENTACIONES',...r.orientaciones_contexto);
+ if(r.justificacion_curricular)lineas.push('','RELACIÓN CON EL CONTENIDO',r.justificacion_curricular);for(const [key,label] of [['objetivos','OBJETIVOS'],['preparacion_docente','PREPARACIÓN'],['materiales_por_grupo','MATERIALES']])lineas.push('',key==='materiales_por_grupo'?(r.etiqueta_materiales||label):label,...r[key]);lineas.push('','CONSIGNA',r.consigna);
+ for(const e of r.etapas)lineas.push('',`${e.nombre} (${e.minutos} minutos)`,...e.acciones);lineas.push('','EXPLICACIÓN',r.explicacion);if(r.problemas_frecuentes)lineas.push('','SI ALGO NO FUNCIONA',...r.problemas_frecuentes.map(p=>p.problema+' Revisar: '+p.revision+' Corregir: '+p.correccion));
+ for(const [key,label] of [['seguridad','SEGURIDAD'],['evidencias','EVIDENCIAS'],['criterios_evaluacion','EVALUACIÓN'],['avisos','REVISIÓN']])lineas.push('',label,...r[key]);lineas.push('',`Referencia: ${r.fuente.documento}, página ${r.fuente.pagina_impresa}.`);return lineas.join('\n');}
+async function cargarGuardadas(seleccion=null){try{const datos=await pedir('/propuestas');$('guardadas').replaceChildren();for(const p of datos){const o=elemento('option',`${p.titulo} · ${p.grado}.º · ${new Date(p.creada_en).toLocaleString('es-AR')}${usuarioActual?.perfil==='administrador'?' · '+(p.autor||'sin autor'):''}`,$('guardadas'));o.value=p.id;}if(seleccion)$('guardadas').value=seleccion;$('recuperar').disabled=!datos.length;$('estado_guardado').textContent=datos.length+' propuestas guardadas.';}catch(e){$('estado_guardado').textContent=e.message;$('recuperar').disabled=true;}}
+$('actualizar_guardadas').onclick=()=>cargarGuardadas();$('recuperar').onclick=async()=>{const id=$('guardadas').value;if(!id)return;try{const r=await pedir('/propuestas/'+encodeURIComponent(id));abrirEditor(r.guia);$('estado').textContent='Propuesta recuperada. Podés editarla y guardar una nueva copia.';$('resultado').scrollIntoView({behavior:'smooth',block:'start'});}catch(e){$('estado_guardado').textContent=e.message;}};
+cargarGuardadas();
+
+
+function resumenLocal(r){const c=r.contexto_local;return ['Localidad: '+c.localidad,...(c.contexto_escuela?['Contexto de la escuela: '+c.contexto_escuela]:[]),...(c.referencias||[]).map(x=>'Referencia enviada a la IA: '+x.referencia+' Fuente: '+x.fuente)];}
+function resumenContexto(r){const c=r.contexto_clase;const nombres={individual:'Individual',parejas:'En parejas',grupos:'En grupos',inicial:'Inicial',intermedia:'Intermedia',avanzada:'Avanzada'};return ['Conocimientos previos: '+(c.conocimientos_previos||'No informados'), 'Modalidad: '+nombres[c.modalidad], 'Dificultad: '+nombres[c.dificultad]];}
+function prepararImpresion(r){
+ const hoja=$('version_impresion');hoja.replaceChildren();const controles=elemento('div','',hoja);controles.id='controles_impresion';elemento('p','Vista para imprimir. Para obtener el PDF, elegí Guardar como PDF en la ventana de impresión del navegador.',controles);
+ const volver=elemento('button','Volver al formulario',controles);volver.type='button';volver.onclick=()=>{document.body.classList.remove('vista_impresion');$('resultado').scrollIntoView({behavior:'smooth',block:'start'});};
+ const imprimir=elemento('button','Imprimir / guardar PDF',controles);imprimir.type='button';imprimir.onclick=()=>window.print();
+ elemento('p','TecnoGUIA · Propuesta didáctica',hoja);elemento('h1',r.titulo,hoja);elemento('p',`${r.grado}.º grado · ${r.duracion_minutos} minutos · ${r.organizacion.cantidad_grupos} ${r.organizacion.etiqueta||'grupos'}`,hoja);elemento('p',r.organizacion.indicacion,hoja);
+ function seccion(nombre,textos){elemento('h2',nombre,hoja);const ul=elemento('ul','',hoja);for(const t of textos)elemento('li',t,ul);}
+ if(r.contexto_clase)seccion('Contexto de la clase',resumenContexto(r));if(r.contexto_local)seccion('Contexto local',resumenLocal(r));if(r.orientaciones_contexto)seccion('Orientaciones de trabajo',r.orientaciones_contexto);
+ const v=r.enfoque_didactico;if(v)seccion('Enfoque didáctico propuesto',[v.justificacion,v.consigna_enfoque,v.evidencia]);
+ if(r.ia)seccion('IA local utilizada',['Modelo: '+r.ia.modelo,'Aportes pendientes de revisión docente.']);if(r.objetivos_base)seccion('Objetivos de la guía base',r.objetivos_base);if(r.justificacion_curricular)seccion('Relación con el contenido curricular',[r.justificacion_curricular]);seccion(r.ia?'Objetivos propuestos por IA':'Objetivos',r.objetivos);if(r.aporte_ia){seccion('Preguntas docentes propuestas por IA',r.aporte_ia.preguntas_docentes);seccion('Orientaciones propuestas por IA',r.aporte_ia.orientaciones);}seccion('Preparación docente',r.preparacion_docente);seccion(r.etiqueta_materiales||'Materiales por grupo',r.materiales_por_grupo);elemento('h2','Consigna',hoja);elemento('p',r.consigna,hoja);
+ if(r.problemas_frecuentes)seccion('Si algo no funciona',r.problemas_frecuentes.map(p=>p.problema+' Revisar: '+p.revision+' Corregir: '+p.correccion));for(const e of r.etapas)seccion(`${e.nombre} · ${e.minutos} minutos`,e.acciones);elemento('h2','Explicación',hoja);elemento('p',r.explicacion,hoja);
+ seccion('Seguridad',r.seguridad);seccion('Evidencias de aprendizaje',r.evidencias);seccion('Criterios de evaluación',r.criterios_evaluacion);
+ const revision=elemento('section','',hoja);revision.className='revision_impresa';elemento('h2','Revisión antes de la clase',revision);for(const aviso of r.avisos)elemento('p',aviso,revision);
+ const fuente=elemento('p',`Referencia curricular: ${r.fuente.documento}, página impresa ${r.fuente.pagina_impresa}. ${r.fuente.verificada?'Referencia cotejada.':'Cotejo pendiente.'} La propuesta y sus ediciones requieren revisión docente.`,hoja);fuente.className='referencia_impresa';
+}
+window.addEventListener('beforeprint',()=>{try{if(!propuestaActual)throw new Error('Prepará o recuperá una guía antes de imprimir.');prepararImpresion(leerEdicion());}catch(e){$('version_impresion').replaceChildren();elemento('p',e.message,$('version_impresion'));$('estado').textContent=e.message;}});
+
+$('comprobar_ia').onclick=async()=>{const b=$('comprobar_ia');b.disabled=true;$('estado_ia').textContent='Comprobando…';try{const d=await pedir('/ia/estado');$('estado_ia').textContent=d.mensaje+' Modelo: '+d.modelo;}catch(e){$('estado_ia').textContent=e.message;}finally{b.disabled=false;}};
+
+function cambiarFlujo(){revision++;limpiar();const crear=$('flujo').value==='crear';$('creacion').hidden=!crear;$('busqueda_catalogo').hidden=crear;$('tema').required=crear;$('materiales_libres').required=crear;$('actividad').required=!crear;$('materiales').required=!crear;$('generar').disabled=crear?false:!opciones.length;$('generar').textContent=crear?'Generar actividad con IA':'Preparar guía';}
+function marcarCambio(){revision++;limpiar();$('generar').disabled=$('flujo').value==='crear'?false:!opciones.length;}
+$('flujo').addEventListener('change',cambiarFlujo);
+for(const id of ['tema','tamano_grupo','materiales_libres'])$(id).addEventListener('input',marcarCambio);
+$('materiales_libres').addEventListener('input',()=>{const recursos=$('materiales_libres').value.split(/[,;\n]/).map(x=>x.trim()).filter(Boolean);$('vista_recursos').textContent=recursos.length?'El programa lee '+recursos.length+' recurso(s): '+recursos.join(' | ')+'. Si ves dos materiales juntos, separalos con una coma.':'';});
+async function crearActividad(){
+ const nombres=$('materiales_libres').value.split(/[,;\n]/).map(m=>m.trim()).filter(Boolean);const vistos=new Set();const normal=t=>t.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/\s+/g,' ').trim();const materiales=nombres.filter(n=>{const clave=normal(n);if(vistos.has(clave))return false;vistos.add(clave);return true;}).map(nombre=>({nombre,cantidad:null,unidad:'unidad'}));
+ if(!materiales.length){$('estado').textContent='Escribí al menos un material o herramienta disponible.';return;}
+ if(materiales.some(m=>m.nombre.length>120)){$('estado').textContent='Separá los recursos con comas o por líneas; cada nombre puede tener hasta 120 caracteres.';return;}
+ limpiar();const actual=++revision;$('generar').disabled=true;const inicio=Date.now();const mensaje='La IA está generando una actividad completa. Límite de espera: diez minutos.';$('estado').textContent=mensaje;const relojGeneracion=setInterval(()=>{if(actual===revision)$('estado').textContent=mensaje+' Tiempo transcurrido: '+Math.floor((Date.now()-inicio)/1000)+' segundos. El tiempo no indica porcentaje de avance.';},5000);
+ try{const r=await pedir('/actividades/crear-ia',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({grado:Number($('grado').value),contenido_nap_id:$('contenido').value,tema:$('tema').value.trim(),duracion_minutos:Number($('duracion').value),cantidad_alumnos:Number($('alumnos').value),alumnos_por_grupo:Number($('tamano_grupo').value),conocimientos_previos:$('conocimientos_previos').value.trim(),modalidad:$('modalidad').value,dificultad:$('dificultad').value,materiales})},620000);if(actual!==revision)return;abrirEditor(r);$('estado').textContent='Actividad generada con IA. Revisá el montaje, las cantidades y la prueba final antes de usarla.';
+ }catch(e){if(actual===revision)$('estado').textContent=e.name==='AbortError'?'La generación tardó demasiado. Comprobá Ollama e intentá otra vez.':e.message;}finally{clearInterval(relojGeneracion);if(actual===revision)$('generar').disabled=false;}
+}
+document.addEventListener("DOMContentLoaded",cambiarFlujo);
+
+
+(async()=>{try{const d=await pedir('/sesion');usuarioActual=d.usuario;const perfiles={docente:'Docente',administrador:'Administrador'};$('nombre_usuario').textContent=usuarioActual.nombre+' · '+perfiles[usuarioActual.perfil];$('enlace_admin').hidden=usuarioActual.perfil!=='administrador';if(usuarioActual.perfil==='administrador')$('titulo_guardadas').textContent='Propuestas guardadas (todos los docentes)';cargarGuardadas();}catch(e){}})();
+$('salir').onclick=async()=>{try{await pedir('/sesion',{method:'DELETE'});}finally{location.href='/ingresar';}};
+</script></main><section id="version_impresion" aria-label="Guía para imprimir"></section></body></html>

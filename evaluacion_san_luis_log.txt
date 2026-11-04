@@ -1,0 +1,6 @@
+
+== energia_san_luis (N61) con qwen3:1.7b ...
+   generada en 304.0 s · revisión obligatoria: 0 · Actividad de Educación Tecnológica: Generación de energía del viento
+
+Listo. Resultados en C:\Users\MakerCompetencia\TecnoGUIA_API\evaluaciones\20261012_2210_qwen3-1.7b
+Completá las columnas de evaluación docente en planilla_docente.csv.

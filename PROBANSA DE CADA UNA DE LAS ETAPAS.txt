@@ -1,0 +1,29 @@
+Cómo lo vamos a comprobar
+Etapa	Evidencia que debe conservar Facundo
+Requisitos	Encuesta, inventario curricular y selección de actividades
+Fuentes	Fichas de actividades y registros curriculares identificados
+Desarrollo	Código, versiones y capturas de funcionamiento
+Pruebas	Entradas, resultados esperados y obtenidos, errores
+Evaluación	Formularios de docentes y correcciones realizadas
+Hay una modificación técnica importante: anteriormente el prototipo no contemplaba almacenamiento permanente. Ahora, al incorporar actividades nuevas, necesita alguna forma de guardarlas y recuperarlas después. No alcanza con que aparezcan durante la sesión.
+
+
+Una mejora que recomiendo incorporar
+Para evaluar el aporte específico del banco de experiencias, conviene agregar una comparación dentro de las pruebas.
+Utilizaríamos los mismos datos de una clase para generar dos propuestas:
+- Versión A: con documentos curriculares, pero sin consultar las actividades anteriores.
+- Versión B: con los mismos documentos curriculares y el banco de actividades habilitado.
+Los docentes podrían evaluar las propuestas sin conocer cuál utilizó el banco.
+Así no nos limitamos a comprobar que TecnoGuIA funciona. También empezamos a investigar si recuperar experiencias docentes anteriores mejora la adecuación de las actividades al contexto, que es precisamente el valor agregado que definimos.
+No sería una demostración concluyente con cuatro docentes, pero sí una comparación exploratoria defendible. Tendríamos que definir los criterios antes de efectuar las pruebas y conservar los resultados completos.
+Evidencias que Facundo deberá reunir
+El apartado necesita anexos o registros verificables: el formulario de encuesta, su base depurada, las fichas de actividades, la planilla de pruebas técnicas y el formulario previsto para los cuatro docentes.
+Con esto queda redactada Recolección de Datos. El siguiente apartado es Planificación del Proyecto, donde organizaremos el cronograma de cuatro meses que pide Pablo, con tareas, fechas, duraciones y dependencias, sin mezclarlo con los plazos administrativos de la universidad.
+
+
+
+
+Un punto importante para Pablo
+El relevamiento funcional no debe convertirse en una descripción de lo que hará TecnoGuIA. Esa es la propuesta tecnológica, que desarrollaremos después del diagnóstico.
+Ahora tenemos identificados los tres procesos que necesitamos representar. El siguiente apartado es Relevamiento de Documentación, donde inventariaremos los NAP, el Diseño Curricular de San Luis, las 36 actividades, la encuesta y el HTML de Facundo, registrando su procedencia y estado de verificación.
+Después construiremos el diagrama BPMN del proceso actual, incluyendo las dos formas de comenzar la planificación y el retorno cuando una actividad no puede realizarse.

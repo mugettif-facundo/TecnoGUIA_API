@@ -1,0 +1,52 @@
+TecnoGUIA — CÓMO REINSTALAR EN OTRA COMPUTADORA
+=================================================
+Tiempo estimado: 30 a 60 minutos, más la descarga del modelo de IA (~1,4 GB).
+
+QUÉ NECESITÁS TENER ANTES
+  - La carpeta del proyecto (copia en Drive, pendrive o repositorio Git).
+  - El último respaldo de la base: tecnoguia.db (o tecnoguia_respaldo_FECHA.db).
+    Sin ese archivo se pierden propuestas, usuarios y registro de accesos.
+  - Conexión a Internet para instalar Python, Ollama y el modelo.
+
+PASOS
+1. Instalar Python 3.13 desde python.org.
+   En el instalador, marcar "Add python.exe to PATH".
+
+2. Instalar Ollama desde ollama.com. Después, en una terminal:
+     ollama pull qwen3:1.7b
+
+3. Copiar la carpeta del proyecto, por ejemplo a:
+     C:\Users\<usuario>\TecnoGUIA_API
+   No copiar la carpeta .venv de la otra computadora: se crea de nuevo.
+
+4. Restaurar la base: copiar el respaldo dentro de la carpeta con el nombre
+     tecnoguia.db
+   (si el respaldo se llama tecnoguia_respaldo_FECHA.db, renombrarlo).
+
+5. En una terminal, dentro de la carpeta del proyecto:
+     py -3.13 -m venv .venv
+     .venv\Scripts\python.exe -m pip install -r requirements.txt
+
+6. Comprobar:
+     .venv\Scripts\python.exe comprobar_ia.py
+     .venv\Scripts\python.exe -m unittest pruebas.test_seguridad pruebas.test_generador
+
+7. Iniciar: doble clic en INICIAR_TECNOGUIA.bat
+   Los usuarios y contraseñas son los mismos: están dentro de tecnoguia.db.
+
+SI NO HAY RESPALDO DE LA BASE (último recurso)
+  Se reconstruye el contenido curricular y el catálogo, pero se pierden las
+  propuestas guardadas, los usuarios y el registro. En la carpeta del proyecto:
+     .venv\Scripts\python.exe crear_base.py
+     .venv\Scripts\python.exe importar_actividades.py
+     .venv\Scripts\python.exe agregar_actividades.py
+     .venv\Scripts\python.exe importar_unicos.py
+     .venv\Scripts\python.exe asociar_nap.py
+     .venv\Scripts\python.exe agregar_grua.py
+     .venv\Scripts\python.exe agregar_guias_nap.py
+     .venv\Scripts\python.exe preparar_guardado.py
+  Después: doble clic en CREAR_ADMINISTRADOR.bat y volver a crear a los docentes.
+
+REQUISITOS DE LA COMPUTADORA
+  Windows 10 u 11, 8 GB de RAM como mínimo para qwen3:1.7b, unos 5 GB libres
+  en disco. Con menos RAM la generación puede ser muy lenta o no funcionar.

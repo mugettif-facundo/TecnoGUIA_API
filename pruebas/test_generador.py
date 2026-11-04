@@ -11,6 +11,7 @@ from unittest import mock
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import ia_generadora as g, ia_local, motor
 
+REAL_CONTEXTO = g.cargar_contexto_local()
 MATS = ['cartón corrugado', 'sorbetes plásticos', 'palitos de madera', 'tijeras escolares', 'cinta de papel']
 
 
@@ -73,6 +74,17 @@ def correr(a, p=None):
 
 @unittest.skipUnless(motor.BASE.is_file(), 'Falta tecnoguia.db')
 class PruebasGenerador(unittest.TestCase):
+    # Por defecto, sin lugar de escuela: las pruebas no dependen de lo que el docente configure.
+    def setUp(self):
+        sin_escuela = {**REAL_CONTEXTO, 'localidad_escuela': ''}
+        p = mock.patch.object(g, 'cargar_contexto_local', return_value=sin_escuela)
+        p.start(); self.addCleanup(p.stop)
+
+    def usar_contexto_real(self):
+        mock.patch.stopall()
+        p = mock.patch.object(g, 'cargar_contexto_local', return_value=copy.deepcopy(REAL_CONTEXTO))
+        p.start(); self.addCleanup(p.stop)
+
     def test_caso_correcto_sin_revision_obligatoria(self):
         r, falso = correr(actividad())
         self.assertEqual(r['control_calidad']['revision_obligatoria'], [])
@@ -159,6 +171,67 @@ class PruebasGenerador(unittest.TestCase):
         g.PedidoGeneracion.model_validate(r['solicitud_generacion'])
         json.dumps(r, ensure_ascii=False)
 
+    # --- Contexto local (automático: el lugar de la escuela se configura en contexto_local.json) ---
+    def con_conexion(self, texto, **cambios):
+        a = actividad(**cambios)
+        a['plan'] = {'producto_o_proceso': a['plan']['producto_o_proceso'], 'conexion_local': texto,
+                     **{k: v for k, v in a['plan'].items() if k != 'producto_o_proceso'}}
+        return a
+
+    def test_contexto_local_completo(self):
+        datos = REAL_CONTEXTO
+        ids = set(g.cargar_orientaciones()['contenidos'])
+        self.assertIn(datos['localidad_escuela'], datos['localidades'])
+        for localidad, refs in datos['localidades'].items():
+            for r in refs:
+                self.assertEqual({'id', 'referencia', 'contenidos', 'palabras_clave', 'fuente', 'verificada'}, set(r), r.get('id'))
+                self.assertTrue(r['fuente'].startswith('https://'), r['id'])
+                self.assertTrue(set(r['contenidos']) <= ids, r['id'])
+
+    def test_sin_localidad_configurada_no_envia_contexto_local(self):
+        r, falso = correr(actividad())
+        self.assertNotIn('contexto_local', json.loads(falso.llamadas[0]['messages'][1]['content']))
+        self.assertIsNone(r['contexto_local'])
+
+    def test_localidad_de_la_escuela_se_aplica_sola(self):
+        self.usar_contexto_real()
+        a = self.con_conexion('¿Por qué hay aerogeneradores en Toro Negro? Nuestro molinete funciona igual a escala.')
+        r, falso = correr(a)  # el pedido no trae localidad, como el formulario
+        enviado = json.loads(falso.llamadas[0]['messages'][1]['content'])
+        self.assertIn('Toro Negro', enviado['contexto_local']['referencias'][0])
+        self.assertEqual(list(enviado)[-1], 'orientacion_del_contenido')  # la orientación sigue al final
+        self.assertIn('conexion_local', falso.llamadas[0]['format']['$defs']['PlanLocal']['properties'])
+        self.assertEqual(r['contexto_local']['localidad'], 'San Luis')
+        self.assertEqual([x['id'] for x in r['contexto_local']['referencias']], ['SL-01'])
+        self.assertFalse(any('no usó la referencia local' in o for o in r['control_calidad']['observaciones']))
+        g.PedidoGeneracion.model_validate(r['solicitud_generacion'])
+
+    def test_contenido_sin_referencia_no_agrega_nada(self):
+        self.usar_contexto_real()
+        a = actividad(titulo='Torre de cartón', plan={**actividad()['plan'], 'producto_o_proceso': 'Columnas de cartón plegado.'})
+        r, falso = correr(a, pedido(grado=5, contenido_nap_id='N57'))
+        self.assertNotIn('contexto_local', json.loads(falso.llamadas[0]['messages'][1]['content']))
+        self.assertIsNone(r['contexto_local'])
+        self.assertFalse(any('San Luis' in x for x in r['avisos']))
+
+    def test_referencia_local_no_usada_es_observacion(self):
+        self.usar_contexto_real()
+        r, _ = correr(self.con_conexion('En nuestra provincia hay mucho viento.'))
+        self.assertTrue(any('no usó la referencia local' in o for o in r['control_calidad']['observaciones']))
+
+    def test_referencia_no_verificada_no_se_envia(self):
+        # SL-02 (N62) está marcada como no verificada: no debe llegar a la IA.
+        self.usar_contexto_real()
+        refs, _, localidad = g.referencias_locales('', 'N62')
+        self.assertEqual((refs, localidad), ([], 'San Luis'))
+
+    def test_localidad_desconocida_no_llama_al_modelo(self):
+        falso = OllamaFalso(actividad())
+        with mock.patch.object(ia_local, 'consultar', falso):
+            with self.assertRaises(ia_local.ErrorIA) as e:
+                g.generar(pedido(localidad='Atlantis'))
+        self.assertEqual(e.exception.codigo, 422)
+        self.assertEqual(falso.llamadas, [])
 
 if __name__ == '__main__':
     unittest.main()

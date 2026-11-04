@@ -3,13 +3,209 @@ from typing import Annotated, Literal
 import sqlite3
 import json
 
-from fastapi import FastAPI, HTTPException, Query
-from fastapi.responses import FileResponse
+import os
+
+from fastapi import Depends, FastAPI, HTTPException, Query, Request, Response
+from fastapi.responses import FileResponse, RedirectResponse
 from pydantic import BaseModel, Field, StringConstraints
 
 import motor
+import seguridad
 
-app = FastAPI(title='API de TecnoGUIA', version='0.7.1')
+app = FastAPI(title='API de TecnoGUIA', version='0.10.0')
+CARPETA = Path(__file__).resolve().parent
+# Con HTTPS (por ejemplo, si se publica en un servidor) poner TECNOGUIA_HTTPS=1
+# para que la cookie de sesión viaje solo cifrada.
+COOKIE_SEGURA = os.environ.get('TECNOGUIA_HTTPS') == '1'
+
+
+# ---------------- Seguridad: sesión y perfiles ----------------
+
+def conexion_seguridad():
+    if not motor.BASE.is_file():
+        raise HTTPException(503, 'Falta tecnoguia.db.')
+    con = seguridad.conectar(motor.BASE)
+    try:
+        if not seguridad.esta_preparada(con):
+            raise HTTPException(503, 'Falta preparar los usuarios. Ejecutá crear_admin.py.')
+        yield con
+    finally:
+        con.close()
+
+
+def ip_cliente(request: Request):
+    return request.client.host if request.client else None
+
+
+def comprobar_origen(request: Request):
+    # Las pantallas de TecnoGUIA envían este encabezado; un formulario de otro sitio no puede hacerlo.
+    if request.method not in ('GET', 'HEAD') and request.headers.get('x-tecnoguia') != '1':
+        raise HTTPException(403, 'Solicitud rechazada por seguridad. Recargá la página.')
+
+
+def usuario_con_sesion(request: Request, con=Depends(conexion_seguridad)):
+    """Usuario con sesión vigente, aunque deba cambiar su contraseña."""
+    comprobar_origen(request)
+    usuario = seguridad.usuario_de_sesion(con, request.cookies.get(seguridad.COOKIE))
+    if not usuario:
+        raise HTTPException(401, 'Iniciá sesión para continuar.')
+    return usuario
+
+
+def usuario_actual(usuario=Depends(usuario_con_sesion)):
+    """Perfil docente o administrador, con la contraseña ya cambiada."""
+    if usuario['debe_cambiar_clave']:
+        raise HTTPException(403, {'mensaje': 'Tenés que cambiar tu contraseña antes de continuar.', 'cambiar_clave': True})
+    return usuario
+
+
+def solo_administrador(request: Request, usuario=Depends(usuario_actual), con=Depends(conexion_seguridad)):
+    if usuario['perfil'] != 'administrador':
+        seguridad.registrar(con, 'acceso_denegado', usuario['usuario'], request.url.path, ip_cliente(request))
+        raise HTTPException(403, 'Esta sección es solo para administradores.')
+    return usuario
+
+
+def error_seguridad(exc):
+    return HTTPException(exc.codigo, exc.mensaje)
+
+
+class Credenciales(BaseModel):
+    usuario: str = Field(max_length=80)
+    clave: str = Field(max_length=200)
+
+
+class CambioClave(BaseModel):
+    actual: str = Field(max_length=200)
+    nueva: str = Field(max_length=200)
+
+
+class NuevoUsuario(BaseModel):
+    usuario: str = Field(max_length=80)
+    nombre: str = Field(max_length=80)
+    perfil: Literal['docente', 'administrador'] = 'docente'
+    clave_temporal: str = Field(max_length=200)
+
+
+class CambioUsuario(BaseModel):
+    nombre: str | None = Field(default=None, max_length=80)
+    perfil: Literal['docente', 'administrador'] | None = None
+    activo: bool | None = None
+
+
+class ClaveTemporal(BaseModel):
+    clave_temporal: str = Field(max_length=200)
+
+
+@app.post('/sesion')
+def iniciar_sesion(datos: Credenciales, request: Request, response: Response, con=Depends(conexion_seguridad)):
+    comprobar_origen(request)
+    try:
+        token, usuario = seguridad.ingresar(con, datos.usuario, datos.clave, ip_cliente(request))
+    except seguridad.ErrorSeguridad as exc:
+        raise error_seguridad(exc) from exc
+    response.set_cookie(seguridad.COOKIE, token, httponly=True, samesite='strict', secure=COOKIE_SEGURA,
+                        max_age=int(seguridad.DURACION_SESION.total_seconds()), path='/')
+    return {'usuario': usuario}
+
+
+@app.get('/sesion')
+def ver_sesion(usuario=Depends(usuario_con_sesion)):
+    return {'usuario': usuario}
+
+
+@app.delete('/sesion')
+def cerrar_sesion(request: Request, response: Response, con=Depends(conexion_seguridad)):
+    comprobar_origen(request)
+    token = request.cookies.get(seguridad.COOKIE)
+    usuario = seguridad.usuario_de_sesion(con, token)
+    seguridad.cerrar_sesion(con, token, usuario['usuario'] if usuario else None)
+    response.delete_cookie(seguridad.COOKIE, path='/')
+    return {'mensaje': 'Sesión cerrada.'}
+
+
+@app.post('/sesion/clave')
+def cambiar_mi_clave(datos: CambioClave, request: Request, usuario=Depends(usuario_con_sesion), con=Depends(conexion_seguridad)):
+    try:
+        seguridad.cambiar_clave_propia(con, usuario['id'], datos.actual, datos.nueva, request.cookies.get(seguridad.COOKIE))
+    except seguridad.ErrorSeguridad as exc:
+        raise error_seguridad(exc) from exc
+    return {'mensaje': 'Contraseña actualizada.'}
+
+
+@app.get('/usuarios')
+def listar_usuarios(admin=Depends(solo_administrador), con=Depends(conexion_seguridad)):
+    return seguridad.listar_usuarios(con)
+
+
+@app.post('/usuarios', status_code=201)
+def crear_usuario(datos: NuevoUsuario, admin=Depends(solo_administrador), con=Depends(conexion_seguridad)):
+    try:
+        return seguridad.crear_usuario(con, datos.usuario, datos.nombre, datos.perfil, datos.clave_temporal, True, admin['usuario'])
+    except seguridad.ErrorSeguridad as exc:
+        raise error_seguridad(exc) from exc
+
+
+@app.patch('/usuarios/{usuario_id}')
+def modificar_usuario(usuario_id: int, datos: CambioUsuario, admin=Depends(solo_administrador), con=Depends(conexion_seguridad)):
+    if usuario_id == admin['id'] and (datos.activo is False or datos.perfil == 'docente'):
+        raise HTTPException(409, 'No podés desactivarte ni quitarte el perfil de administrador a vos mismo.')
+    try:
+        return seguridad.modificar_usuario(con, usuario_id, admin['usuario'], datos.nombre, datos.perfil, datos.activo)
+    except seguridad.ErrorSeguridad as exc:
+        raise error_seguridad(exc) from exc
+
+
+@app.post('/usuarios/{usuario_id}/clave')
+def restablecer_clave(usuario_id: int, datos: ClaveTemporal, admin=Depends(solo_administrador), con=Depends(conexion_seguridad)):
+    try:
+        seguridad.restablecer_clave(con, usuario_id, datos.clave_temporal, admin['usuario'])
+    except seguridad.ErrorSeguridad as exc:
+        raise error_seguridad(exc) from exc
+    return {'mensaje': 'Contraseña temporal asignada. El usuario deberá cambiarla al ingresar.'}
+
+
+@app.get('/registro')
+def ver_registro(limite: Annotated[int, Query(ge=1, le=1000)] = 200, admin=Depends(solo_administrador), con=Depends(conexion_seguridad)):
+    return seguridad.leer_registro(con, limite)
+
+
+def pagina(nombre):
+    archivo = CARPETA / nombre
+    if not archivo.is_file():
+        raise HTTPException(404, 'Falta ' + nombre + ' en la carpeta del proyecto.')
+    return FileResponse(archivo, media_type='text/html', headers={'Cache-Control': 'no-store', 'X-Frame-Options': 'DENY'})
+
+
+def sesion_para_pagina(request: Request):
+    """Usuario de la sesión para servir páginas, sin lanzar error (redirige en su lugar)."""
+    if not motor.BASE.is_file():
+        return None
+    con = seguridad.conectar(motor.BASE)
+    try:
+        if not seguridad.esta_preparada(con):
+            return None
+        return seguridad.usuario_de_sesion(con, request.cookies.get(seguridad.COOKIE))
+    finally:
+        con.close()
+
+
+@app.get('/ingresar', include_in_schema=False)
+def pagina_ingreso():
+    return pagina('ingresar.html')
+
+
+@app.get('/administracion', include_in_schema=False)
+def pagina_administracion(request: Request):
+    usuario = sesion_para_pagina(request)
+    if not usuario or usuario['debe_cambiar_clave']:
+        return RedirectResponse('/ingresar', status_code=303)
+    if usuario['perfil'] != 'administrador':
+        return RedirectResponse('/formulario', status_code=303)
+    return pagina('administracion.html')
+
+
+PROTEGIDO = [Depends(usuario_actual)]
 Texto = Annotated[str, StringConstraints(strip_whitespace=True, min_length=1)]
 
 
@@ -33,19 +229,19 @@ def inicio():
 
 
 @app.get('/formulario', include_in_schema=False)
-def formulario():
-    archivo = Path(__file__).resolve().parent / 'formulario_multi.html'
-    if not archivo.is_file():
-        raise HTTPException(404, 'Falta formulario_multi.html en la carpeta del proyecto.')
-    return FileResponse(archivo, media_type='text/html')
+def formulario(request: Request):
+    usuario = sesion_para_pagina(request)
+    if not usuario or usuario['debe_cambiar_clave']:
+        return RedirectResponse('/ingresar', status_code=303)
+    return pagina('formulario_multi.html')
 
 
-@app.post('/solicitudes')
+@app.post('/solicitudes', dependencies=PROTEGIDO)
 def recibir(datos: SolicitudActividad):
     return {'mensaje': 'Solicitud recibida correctamente', 'datos': datos.model_dump()}
 
 
-@app.get('/catalogo')
+@app.get('/catalogo', dependencies=PROTEGIDO)
 def catalogo(grado: Annotated[int | None, Query(ge=5,le=6)] = None):
     try:
         return motor.catalogo(grado)
@@ -53,7 +249,7 @@ def catalogo(grado: Annotated[int | None, Query(ge=5,le=6)] = None):
         raise HTTPException(503, 'No se pudo leer la base. Ejecutá crear_base.py y agregar_actividades.py.') from exc
 
 
-@app.get('/proyectos')
+@app.get('/proyectos', dependencies=PROTEGIDO)
 def proyectos():
     try:
         con = motor.abrir_base()
@@ -80,7 +276,7 @@ class SolicitudBusqueda(BaseModel):
     modalidad: Literal['individual', 'parejas', 'grupos'] = 'grupos'
 
 
-@app.post('/actividades/buscar')
+@app.post('/actividades/buscar', dependencies=PROTEGIDO)
 def buscar_actividades(datos: SolicitudBusqueda):
     try:
         return motor.buscar(datos.model_dump())
@@ -90,7 +286,7 @@ def buscar_actividades(datos: SolicitudBusqueda):
         raise HTTPException(503, 'No se pudo consultar el catálogo y sus relaciones con los NAP.') from exc
 
 
-@app.post('/actividades/generar')
+@app.post('/actividades/generar', dependencies=PROTEGIDO)
 def generar(datos: SolicitudActividad):
     try:
         return motor.generar(datos.model_dump())
@@ -99,7 +295,7 @@ def generar(datos: SolicitudActividad):
     except (sqlite3.Error, ValueError, KeyError) as exc:
         raise HTTPException(503, 'No se pudo cargar la actividad. Revisá la base y su estructura.') from exc
 
-@app.get('/curriculo')
+@app.get('/curriculo', dependencies=PROTEGIDO)
 def curriculo(grado: Annotated[int | None, Query(ge=5,le=6)] = None):
     try:
         with motor.abrir_base() as con:
@@ -176,7 +372,7 @@ def conexion_guardado():
 
 
 @app.post('/propuestas', status_code=201)
-def guardar_propuesta(guia: GuiaEditable):
+def guardar_propuesta(guia: GuiaEditable, usuario=Depends(usuario_actual)):
     try:
         catalogo=motor.catalogo(guia.grado)
         if guia.id.startswith('IA-'):
@@ -197,28 +393,38 @@ def guardar_propuesta(guia: GuiaEditable):
         identificador=str(uuid4())
         fecha=datetime.now(timezone.utc).isoformat()
         with conexion_guardado() as con:
-            con.execute('INSERT INTO propuestas_guardadas VALUES (?,?,?,?,?)',
-                (identificador,guia.titulo,guia.grado,fecha,json.dumps(guia.model_dump(),ensure_ascii=False)))
+            con.execute('INSERT INTO propuestas_guardadas(id,titulo,grado,creada_en,guia_json,usuario_id) VALUES (?,?,?,?,?,?)',
+                (identificador,guia.titulo,guia.grado,fecha,json.dumps(guia.model_dump(),ensure_ascii=False),usuario['id']))
+            con.execute('INSERT INTO registro_accesos(fecha,usuario,evento,detalle) VALUES (?,?,?,?)',
+                (fecha,usuario['usuario'],'propuesta_guardada',guia.titulo[:200]))
         return {'id':identificador,'titulo':guia.titulo,'creada_en':fecha}
     except sqlite3.Error as exc:
         raise HTTPException(503,'Ejecutá preparar_guardado.py para habilitar el guardado.') from exc
 
 
 @app.get('/propuestas')
-def listar_propuestas():
+def listar_propuestas(usuario=Depends(usuario_actual)):
+    # Docente: solo sus propuestas. Administrador: todas, con su autor.
     try:
         with conexion_guardado() as con:
-            return [dict(r) for r in con.execute('SELECT id,titulo,grado,creada_en FROM propuestas_guardadas ORDER BY creada_en DESC,id')]
+            consulta='''SELECT p.id,p.titulo,p.grado,p.creada_en,u.nombre AS autor FROM propuestas_guardadas p
+                        LEFT JOIN usuarios u ON u.id=p.usuario_id'''
+            if usuario['perfil']=='administrador':
+                filas=con.execute(consulta+' ORDER BY p.creada_en DESC,p.id')
+            else:
+                filas=con.execute(consulta+' WHERE p.usuario_id=? ORDER BY p.creada_en DESC,p.id',(usuario['id'],))
+            return [dict(r) for r in filas]
     except sqlite3.Error as exc:
         raise HTTPException(503,'Ejecutá preparar_guardado.py para habilitar el guardado.') from exc
 
 
 @app.get('/propuestas/{identificador}')
-def recuperar_propuesta(identificador: str):
+def recuperar_propuesta(identificador: str, usuario=Depends(usuario_actual)):
     try:
         with conexion_guardado() as con:
             r=con.execute('SELECT * FROM propuestas_guardadas WHERE id=?',(identificador,)).fetchone()
-        if r is None:
+        # A un docente, una propuesta ajena se le informa como inexistente.
+        if r is None or (usuario['perfil']!='administrador' and r['usuario_id']!=usuario['id']):
             raise HTTPException(404,'No se encontró esa propuesta guardada.')
         return {'id':r['id'],'creada_en':r['creada_en'],'guia':json.loads(r['guia_json'])}
     except sqlite3.Error as exc:
@@ -229,11 +435,11 @@ import ia_local
 class SolicitudIA(SolicitudActividad):
     contenido_nap_id: Annotated[str, StringConstraints(min_length=2,max_length=20)] | None = None
 
-@app.get('/ia/estado')
+@app.get('/ia/estado', dependencies=PROTEGIDO)
 def estado_ia():
     return ia_local.estado()
 
-@app.post('/actividades/generar-ia')
+@app.post('/actividades/generar-ia', dependencies=PROTEGIDO)
 def generar_ia(datos: SolicitudIA):
     try:
         return ia_local.adaptar(datos.model_dump(),datos.contenido_nap_id)
@@ -248,12 +454,13 @@ def generar_ia(datos: SolicitudIA):
 
 import ia_generadora
 
-@app.get('/materiales')
+@app.get('/materiales', dependencies=PROTEGIDO)
 def materiales_disponibles():
     return ia_generadora.catalogo_materiales()
 
 @app.post('/actividades/crear-ia')
-def crear_actividad_ia(datos: ia_generadora.PedidoGeneracion):
+def crear_actividad_ia(datos: ia_generadora.PedidoGeneracion, request: Request, usuario=Depends(usuario_actual), con=Depends(conexion_seguridad)):
+    seguridad.registrar(con, 'generacion_ia', usuario['usuario'], datos.contenido_nap_id, ip_cliente(request))
     try:
         return ia_generadora.generar(datos)
     except motor.PedidoNoDisponible as exc:
@@ -262,3 +469,7 @@ def crear_actividad_ia(datos: ia_generadora.PedidoGeneracion):
         raise HTTPException(exc.codigo,exc.mensaje) from exc
     except sqlite3.Error as exc:
         raise HTTPException(503,'No se pudo recuperar el contenido curricular. Revisá la base y asociar_nap.py.') from exc
+
+# --- Planificador con fuentes curriculares (integración 0.10.0) ---
+import planificador
+planificador.montar(app, usuario_actual, solo_administrador, sesion_para_pagina)
