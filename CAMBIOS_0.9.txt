@@ -1,0 +1,95 @@
+TecnoGUIA 0.9.0 — PERFILES DE USUARIO Y SEGURIDAD (27/10/2026)
+=============================================================
+
+QUÉ AGREGA
+----------
+Ahora hay que iniciar sesión para usar TecnoGUIA. Existen dos perfiles:
+
+  DOCENTE
+    - Genera actividades con IA y prepara guías del catálogo.
+    - Edita, guarda, imprime y descarga sus propuestas.
+    - Ve SOLO sus propias propuestas guardadas.
+    - Cambia su propia contraseña.
+
+  ADMINISTRADOR
+    - Todo lo del docente.
+    - Ve las propuestas de todos los docentes, con su autor.
+    - Crea usuarios, cambia su perfil, los activa o desactiva y les asigna
+      contraseñas temporales (pantalla "Administración").
+    - Consulta el registro de accesos.
+
+ARCHIVOS
+--------
+  Nuevos:      seguridad.py, crear_admin.py, ingresar.html, administracion.html,
+               pruebas/test_seguridad.py, CAMBIOS_0.9.txt
+  Modificados: main.py (rutas protegidas y rutas nuevas) y formulario_multi.html
+               (barra con usuario, perfil, Administración, cambiar contraseña y
+               cerrar sesión). Las versiones anteriores quedaron en respaldo_0.8.
+  Base de datos: tablas nuevas usuarios, sesiones y registro_accesos; columna
+               nueva usuario_id (autor) en propuestas_guardadas. No se borra nada.
+  No requiere instalar paquetes nuevos (usa la biblioteca estándar de Python).
+
+CÓMO ACTIVARLO (una sola vez)
+-----------------------------
+1. Detené Uvicorn (Ctrl+C).
+2. Ejecutá:
+     .venv\Scripts\python.exe crear_admin.py
+   Hace un respaldo de la base, crea las tablas y te pide usuario, nombre y
+   contraseña del primer administrador. Las propuestas que ya tenías quedan a
+   nombre de ese administrador.
+3. Iniciá Uvicorn como siempre y entrá en  http://127.0.0.1:8000/ingresar
+4. Para sumar docentes: Administración > Crear usuario, con una contraseña
+   temporal. Al ingresar por primera vez, el sistema les obliga a cambiarla.
+
+PRUEBAS
+-------
+     .venv\Scripts\python.exe -m pip install httpx      (solo la primera vez)
+     .venv\Scripts\python.exe -m unittest pruebas.test_seguridad -v
+16 pruebas sobre una copia temporal de la base (la real no se toca).
+
+DATOS TÉCNICOS PARA LA SECCIÓN SEGURIDAD (referencia, no texto para copiar)
+---------------------------------------------------------------------------
+Autenticación
+  - Usuario y contraseña. Mensaje genérico ante un error ("Usuario o contraseña
+    incorrectos"), sin revelar si el usuario existe.
+  - Contraseñas: PBKDF2-HMAC-SHA256, 600.000 iteraciones, sal aleatoria de
+    16 bytes por usuario. Se guarda solo el resultado (hash), nunca la
+    contraseña. Comparación en tiempo constante.
+  - Política: mínimo 8 caracteres; letras combinadas con números o símbolos;
+    no puede contener el nombre de usuario.
+  - Bloqueo de 15 minutos tras 5 intentos fallidos seguidos.
+  - Contraseña temporal asignada por el administrador: cambio obligatorio en
+    el primer ingreso; hasta entonces no se puede usar ninguna función.
+Sesiones
+  - Token aleatorio de 256 bits en una cookie HttpOnly (no accesible desde
+    JavaScript) y SameSite=Strict. En la base se guarda solo su huella SHA-256.
+  - Duración máxima: 8 horas. Se invalidan al cerrar sesión, al desactivar el
+    usuario, al cambiar su perfil o al restablecer su contraseña.
+  - Al cambiar la contraseña se cierran las demás sesiones del usuario.
+  - Variable TECNOGUIA_HTTPS=1 para exigir cookie "Secure" si se publica con HTTPS.
+Autorización (control de acceso)
+  - Se verifica en el servidor, en cada ruta de la API (no solo ocultando
+    botones). Sin sesión: 401. Perfil insuficiente: 403.
+  - Propuestas: un docente solo lista y abre las suyas; una ajena responde
+    "no encontrada" (no revela que existe).
+  - Siempre debe quedar al menos un administrador activo; un administrador
+    no puede desactivarse ni quitarse el perfil a sí mismo.
+Protección de pedidos
+  - Las pantallas envían un encabezado propio (X-TecnoGUIA); se rechazan los
+    pedidos que modifican datos sin él (defensa contra pedidos falsificados
+    desde otros sitios, CSRF), además de SameSite=Strict.
+  - Páginas con X-Frame-Options: DENY (no pueden incrustarse en otro sitio) y
+    sin caché.
+  - Los datos se muestran como texto (textContent), no como HTML.
+Registro de accesos (tabla registro_accesos)
+  - Fecha, usuario, evento, detalle e IP de: ingresos, ingresos fallidos y
+    bloqueados, salidas, usuarios creados o modificados, contraseñas cambiadas
+    o restablecidas, accesos denegados, generaciones con IA y propuestas
+    guardadas. No se registran contraseñas ni contenido de las actividades.
+Datos personales
+  - Del docente: usuario, nombre y apellido. No se piden datos de alumnos.
+  - La IA corre localmente (Ollama): los pedidos no salen de la computadora.
+Límites del prototipo
+  - Pensado para uso local o en una red de confianza; sin HTTPS propio.
+  - Sin recuperación de contraseña por correo: la restablece el administrador.
+  - La documentación automática /docs sigue visible, pero sus rutas exigen sesión.

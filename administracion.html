@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TecnoGUIA · Administración</title>
+<style>
+body{margin:0;background:#eef4f3;color:#213d37;font:16px/1.6 Arial,sans-serif;padding:24px}
+main{max-width:1000px;margin:auto;background:white;padding:28px;border-radius:14px}
+h1{color:#176b62;margin-top:0}h2{margin-top:32px;border-top:1px solid #d7e3e0;padding-top:16px}
+label{display:block;font-weight:bold;margin-top:12px}
+input,select,button{box-sizing:border-box;padding:10px;font:inherit;border:1px solid #bbcbc6;border-radius:7px;margin-top:5px}
+input,select{width:100%}button{background:#176b62;color:white;border:none;cursor:pointer;font-weight:bold}
+button.secundario{background:white;color:#176b62;border:1px solid #176b62;font-weight:normal;padding:6px 10px;margin:2px}
+.fila{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.tabla{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px;margin-top:10px}
+th,td{border-bottom:1px solid #e1ebe8;padding:8px;text-align:left;vertical-align:top}th{background:#f3f8f7}
+.barra{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:14px}.barra a{color:#176b62}
+.estado{min-height:1.4em;font-weight:bold}.inactivo{color:#8a8a8a}.etiqueta{font-size:14px;color:#4a635d}
+[hidden]{display:none!important}
+</style>
+</head>
+<body><main>
+<div class="barra"><span id="quien">…</span><span><a href="/planificador/admin">Actividades del planificador</a> <a href="/formulario">Volver al generador</a></span></div>
+<h1>Administración</h1>
+<p class="etiqueta">Perfiles: <b>Docente</b> genera, edita y guarda actividades y ve solo sus propuestas. <b>Administrador</b> además gestiona usuarios, ve todas las propuestas y consulta el registro de accesos.</p>
+
+<h2>Crear usuario</h2>
+<form id="form_nuevo">
+<div class="fila">
+<div><label for="n_usuario">Usuario</label><input id="n_usuario" required maxlength="40" placeholder="ej.: mgomez"></div>
+<div><label for="n_nombre">Nombre y apellido</label><input id="n_nombre" required maxlength="80"></div>
+<div><label for="n_perfil">Perfil</label><select id="n_perfil"><option value="docente">Docente</option><option value="administrador">Administrador</option></select></div>
+<div><label for="n_clave">Contraseña temporal</label><input id="n_clave" required minlength="8" maxlength="200"></div>
+</div>
+<p class="etiqueta">Comunicale la contraseña temporal en persona. Al ingresar por primera vez, el sistema le pedirá cambiarla.</p>
+<button>Crear usuario</button>
+</form>
+<p id="estado_usuarios" class="estado" role="status"></p>
+
+<h2>Usuarios</h2>
+<div class="tabla"><table><thead><tr><th>Usuario</th><th>Nombre</th><th>Perfil</th><th>Estado</th><th>Último ingreso</th><th>Acciones</th></tr></thead><tbody id="usuarios"></tbody></table></div>
+
+<h2>Registro de accesos</h2>
+<p class="etiqueta">Últimos 200 eventos: ingresos, intentos fallidos, cambios de usuarios, generaciones y propuestas guardadas.</p>
+<button id="actualizar_registro" class="secundario">Actualizar</button>
+<div class="tabla"><table><thead><tr><th>Fecha</th><th>Usuario</th><th>Evento</th><th>Detalle</th><th>IP</th></tr></thead><tbody id="registro"></tbody></table></div>
+<script>
+const $=id=>document.getElementById(id);let yo=null;
+const PERFILES={docente:'Docente',administrador:'Administrador'};
+async function pedir(url,opciones={}){
+ const r=await fetch(url,{...opciones,headers:{'Content-Type':'application/json','X-TecnoGUIA':'1'}});
+ if(r.status===401){location.href='/ingresar';throw new Error('Sesión vencida.');}
+ let d={};try{d=await r.json();}catch(e){}
+ if(!r.ok){const e=d.detail;throw new Error(typeof e==='string'?e:e?.mensaje||(Array.isArray(e)?'Revisá los datos ingresados.':'No se pudo completar la operación.'));}
+ return d;
+}
+function celda(fila,texto,clase){const td=document.createElement('td');td.textContent=texto??'';if(clase)td.className=clase;fila.append(td);return td;}
+function fecha(t){return t?new Date(t).toLocaleString('es-AR'):'—';}
+function boton(td,texto,accion){const b=document.createElement('button');b.type='button';b.className='secundario';b.textContent=texto;b.onclick=accion;td.append(b);}
+function aviso(t){$('estado_usuarios').textContent=t;}
+async function ejecutar(accion,mensaje){try{await accion();aviso(mensaje);await cargarUsuarios();await cargarRegistro();}catch(e){aviso(e.message);}}
+async function cargarUsuarios(){
+ const lista=await pedir('/usuarios');$('usuarios').replaceChildren();
+ for(const u of lista){
+  const tr=document.createElement('tr');if(!u.activo)tr.className='inactivo';
+  celda(tr,u.usuario);celda(tr,u.nombre);celda(tr,PERFILES[u.perfil]);
+  celda(tr,(u.activo?'Activo':'Desactivado')+(u.debe_cambiar_clave?' · debe cambiar contraseña':''));celda(tr,fecha(u.ultimo_ingreso));
+  const td=celda(tr,'');
+  if(u.id!==yo.id){
+   boton(td,u.perfil==='docente'?'Hacer administrador':'Hacer docente',()=>{const p=u.perfil==='docente'?'administrador':'docente';if(confirm(`¿Cambiar el perfil de ${u.nombre} a ${PERFILES[p]}?`))ejecutar(()=>pedir('/usuarios/'+u.id,{method:'PATCH',body:JSON.stringify({perfil:p})}),'Perfil actualizado.');});
+   boton(td,u.activo?'Desactivar':'Activar',()=>{if(confirm(`¿${u.activo?'Desactivar':'Activar'} a ${u.nombre}?`))ejecutar(()=>pedir('/usuarios/'+u.id,{method:'PATCH',body:JSON.stringify({activo:!u.activo})}),u.activo?'Usuario desactivado; se cerraron sus sesiones.':'Usuario activado.');});
+  }
+  boton(td,'Contraseña temporal',()=>{const c=prompt(`Contraseña temporal para ${u.nombre} (mínimo 8 caracteres, letras y números):`);if(c)ejecutar(()=>pedir('/usuarios/'+u.id+'/clave',{method:'POST',body:JSON.stringify({clave_temporal:c})}),'Contraseña temporal asignada. Deberá cambiarla al ingresar.');});
+  $('usuarios').append(tr);
+ }
+}
+async function cargarRegistro(){
+ const lista=await pedir('/registro?limite=200');$('registro').replaceChildren();
+ for(const r of lista){const tr=document.createElement('tr');celda(tr,fecha(r.fecha));celda(tr,r.usuario);celda(tr,r.evento.replaceAll('_',' '));celda(tr,r.detalle);celda(tr,r.ip);$('registro').append(tr);}
+}
+$('form_nuevo').onsubmit=ev=>{ev.preventDefault();ejecutar(async()=>{await pedir('/usuarios',{method:'POST',body:JSON.stringify({usuario:$('n_usuario').value.trim(),nombre:$('n_nombre').value.trim(),perfil:$('n_perfil').value,clave_temporal:$('n_clave').value})});$('form_nuevo').reset();},'Usuario creado.');};
+$('actualizar_registro').onclick=()=>cargarRegistro().catch(e=>aviso(e.message));
+(async()=>{try{yo=(await pedir('/sesion')).usuario;if(yo.perfil!=='administrador'){location.href='/formulario';return;}$('quien').textContent=yo.nombre+' · Administrador';await cargarUsuarios();await cargarRegistro();}catch(e){aviso(e.message);}})();
+</script>
+</main></body></html>

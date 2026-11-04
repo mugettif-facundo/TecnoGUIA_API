@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TecnoGuIA</title>
+<style>
+  :root { --verde: #165c50; --verde2: #104a40; --naranja: #b4711f; --fondo: #f0f4f3; --borde: #d3ddd8; --texto: #203b34; --suave: #52665f;
+          --azul: #eef4fb; --azulb: #35628f; --aviso: #fff5e1; --error: #fdecea; --errorb: #b3261e; --ok: #e7f4ec; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fondo); color: var(--texto); font: 16px/1.5 Arial, Helvetica, sans-serif; }
+  header { background: var(--verde); color: #fff; padding: 16px 24px; }
+  .sesion { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-top: 8px; font-size: 14px; }
+  .sesion a, .sesion button { color: #fff; background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.5); border-radius: 6px; padding: 4px 10px; font: inherit; cursor: pointer; text-decoration: none; }
+  header h1 { margin: 0; font-size: 24px; } header p { margin: 2px 0 0; font-size: 14px; opacity: .9; }
+  nav { display: flex; gap: 4px; flex-wrap: wrap; background: #fff; border-bottom: 1px solid var(--borde); padding: 0 16px; position: sticky; top: 0; z-index: 2; }
+  nav button { background: none; border: 0; border-bottom: 3px solid transparent; padding: 12px 14px; font: inherit; font-weight: bold; color: var(--suave); cursor: pointer; }
+  nav button[aria-selected="true"] { color: var(--verde); border-bottom-color: var(--verde); }
+  main { max-width: 1000px; margin: 20px auto; padding: 0 16px 40px; }
+  section.panel { background: #fff; border: 1px solid var(--borde); border-radius: 12px; padding: 22px; margin-bottom: 18px; }
+  h2 { margin: 0 0 12px; font-size: 20px; color: var(--verde); } h3 { margin: 18px 0 8px; font-size: 16px; }
+  label { display: block; margin-top: 12px; font-weight: bold; font-size: 14px; }
+  input, select, textarea { width: 100%; margin-top: 4px; padding: 9px 10px; border: 1px solid #bdcec6; border-radius: 6px; font: inherit; color: var(--texto); background: #fff; }
+  textarea { resize: vertical; }
+  input[type="radio"], input[type="checkbox"] { width: auto; margin: 4px 0 0; flex: none; }
+  .fila { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; } .fila2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .botones { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+  button.b { padding: 10px 16px; border: 0; border-radius: 6px; background: var(--verde); color: #fff; font: inherit; font-weight: bold; cursor: pointer; }
+  button.b:hover { background: var(--verde2); } button.b.sec { background: var(--naranja); } button.b.gris { background: #6b7d77; }
+  button.b:disabled { background: #a7b6b1; cursor: not-allowed; }
+  :focus-visible { outline: 3px solid #d58b35; outline-offset: 2px; }
+  .nota { color: var(--suave); font-size: 13px; margin: 6px 0 0; }
+  .caja { padding: 12px 14px; border-radius: 6px; font-size: 14px; margin-top: 12px; }
+  .fuente { background: var(--azul); border-left: 4px solid var(--azulb); } .aviso { background: var(--aviso); border-left: 4px solid #d58b35; }
+  .error { background: var(--error); border-left: 4px solid var(--errorb); } .ok { background: var(--ok); border-left: 4px solid var(--verde); }
+  .exp { border: 1px solid var(--borde); border-radius: 8px; padding: 10px 12px; margin-top: 8px; font-size: 14px; }
+  .exp label { display: flex; gap: 8px; align-items: flex-start; margin: 0; font-weight: normal; } .exp input { width: auto; margin-top: 4px; }
+  .etq { display: inline-block; font-size: 12px; padding: 1px 8px; border-radius: 10px; background: #e3ebe7; color: var(--verde); font-weight: bold; margin-right: 4px; }
+  .etq.propia { background: #fde9cf; color: #8a5414; }
+  textarea#borrador { min-height: 520px; font-family: Consolas, "Courier New", monospace; font-size: 13.5px; line-height: 1.45; }
+  .estado { min-height: 22px; font-size: 14px; color: var(--suave); margin-top: 10px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-top: 10px; }
+  th, td { border: 1px solid var(--borde); padding: 6px 8px; text-align: left; vertical-align: top; } th { background: #e9f0ed; }
+  td.ok { color: var(--verde); font-weight: bold; } td.mal { color: var(--errorb); font-weight: bold; }
+  .oculto { display: none !important; }
+  .conexion { display: inline-block; margin-top: 6px !important; padding: 2px 10px; border-radius: 10px; background: rgba(255,255,255,.18); font-size: 13px !important; }
+  .ind { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 8px; margin-top: 8px; }
+  .ind div { border: 1px solid var(--borde); border-radius: 8px; padding: 8px 10px; font-size: 13.5px; }
+  .ind b { display: block; font-size: 12px; color: var(--suave); font-weight: normal; }
+  .ind .bien { border-left: 4px solid var(--verde); } .ind .medio { border-left: 4px solid #d58b35; } .ind .mal { border-left: 4px solid var(--errorb); }
+  .val { display: grid; grid-template-columns: 1fr 190px; gap: 8px 12px; align-items: center; font-size: 14px; }
+  .val select { margin: 0; }
+  details summary { cursor: pointer; color: var(--suave); font-size: 14px; margin-top: 12px; }
+  @media (max-width: 760px) { .fila { grid-template-columns: 1fr 1fr; } .fila2 { grid-template-columns: 1fr; } section.panel { padding: 16px; } }
+  @media (max-width: 420px) { .fila { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>TecnoGuIA</h1>
+  <p>Apoyo a la planificación de Educación Tecnológica · Procesos tecnológicos · 5.º y 6.º grado · San Luis · funciona sin Internet</p>
+  <p id="conexion" class="conexion" role="status"></p> <p id="version" class="conexion"></p>
+  <div id="sesion" class="sesion" role="navigation" aria-label="Sesión"></div>
+</header>
+<nav role="tablist" aria-label="Secciones">
+  <button role="tab" aria-selected="true" data-panel="planificar">Planificar</button>
+  <button role="tab" aria-selected="false" data-panel="propias">Mis actividades</button>
+  <button role="tab" aria-selected="false" data-panel="banco">Banco de experiencias</button>
+  <button role="tab" aria-selected="false" data-panel="pruebas">Evaluación</button>
+</nav>
+<main>
+
+<!-- ============ PLANIFICAR ============ -->
+<div id="planificar" class="vista">
+  <section class="panel" aria-labelledby="t-datos">
+    <h2 id="t-datos">1. Datos de la clase</h2>
+    <form id="form" novalidate>
+      <div class="fila">
+        <div><label for="grado">Grado *</label>
+          <select id="grado" required><option value="">Elegí…</option><option value="4">4.º grado</option><option value="5">5.º grado</option><option value="6">6.º grado</option><option value="7">7.º grado</option></select></div>
+        <div><label for="duracion">Duración</label>
+          <select id="duracion"><option value="40">40 minutos</option><option value="80" selected>80 minutos</option><option value="120">120 minutos</option></select></div>
+        <div><label for="estudiantes">Estudiantes</label><input id="estudiantes" type="number" min="1" max="60" value="25"></div>
+        <div><label for="dificultad">Dificultad</label>
+          <select id="dificultad"><option>Inicial</option><option selected>Intermedia</option><option>Avanzada</option></select></div>
+      </div>
+      <label for="contenido">Contenido o tema que querés trabajar *</label>
+      <input id="contenido" required maxlength="200" placeholder="Ej.: organizar una línea de producción de señaladores">
+      <label for="materiales">Materiales y herramientas disponibles</label>
+      <textarea id="materiales" rows="2" maxlength="600" placeholder="Separalos con comas. Ej.: cartulina, tijeras, reglas, lápices"></textarea>
+      <label for="contexto">Contexto e intereses del grupo (opcional)</label>
+      <textarea id="contexto" rows="2" maxlength="600" placeholder="Ej.: escuela de La Punta; les interesa el parque industrial. No escribas nombres ni datos de estudiantes."></textarea>
+      <p class="nota">* Obligatorio. El corpus piloto cubre el eje Procesos tecnológicos de 5.º y 6.º grado.</p>
+      <div class="botones"><button class="b" type="submit">Buscar fuentes y experiencias</button></div>
+      <div id="estado-busqueda" class="estado" role="status" aria-live="polite"></div>
+    </form>
+  </section>
+
+  <section class="panel oculto" id="panel-fuentes" aria-labelledby="t-fuentes">
+    <h2 id="t-fuentes">2. Fuente curricular y experiencias docentes</h2>
+    <div id="fuentes"></div>
+    <h3>Experiencias docentes relacionadas</h3>
+    <p class="nota">Marcá las que querés usar como antecedente. Se citan en el borrador con su procedencia.</p>
+    <div id="experiencias"></div>
+  </section>
+
+  <section class="panel oculto" id="panel-generar" aria-labelledby="t-generar">
+    <h2 id="t-generar">3. Generar el borrador</h2>
+    <div class="botones">
+      <button class="b" type="button" id="btn-plantilla">Generar con plantilla local (sin IA)</button>
+      <button class="b sec" type="button" id="btn-ia">Generar con IA local (Ollama)</button>
+    </div>
+    <details>
+      <summary>Opciones de IA local</summary>
+      <div class="fila2">
+        <div><label for="modelo">Modelo instalado en Ollama</label><select id="modelo"><option value="qwen3:1.7b">qwen3:1.7b</option></select></div>
+        <div><label for="url-ollama">Ollama (a través del servidor de TecnoGuIA)</label><input id="url-ollama" value="/planificador/api/ollama"></div>
+      </div>
+      <div class="botones"><button class="b gris" type="button" id="btn-estado-ia">Comprobar Ollama</button></div>
+      <p class="nota">Ollama corre en esta computadora; no se envían datos a Internet. Con un modelo chico la generación puede tardar varios minutos.</p>
+    </details>
+    <div id="estado-gen" class="estado" role="status" aria-live="polite"></div>
+  </section>
+
+  <section class="panel oculto" id="panel-borrador" aria-labelledby="t-borrador">
+    <h2 id="t-borrador">4. Borrador editable</h2>
+    <div id="avisos-borrador"></div>
+    <label for="borrador">Podés modificar todo el texto. La decisión final es del docente.</label>
+    <textarea id="borrador"></textarea>
+    <div class="botones">
+      <button class="b" type="button" id="btn-copiar">Copiar</button>
+      <button class="b gris" type="button" id="btn-descargar">Descargar .txt</button>
+      <button class="b sec" type="button" id="btn-guardar-derivada">Guardar como actividad propia</button>
+      <button class="b gris" type="button" id="btn-valorar">Valorar este borrador (docente)</button>
+    </div>
+    <div id="estado-borrador" class="estado" role="status" aria-live="polite"></div>
+    <h3>Indicadores automáticos (objetivo 5)</h3>
+    <p class="nota">Orientan la revisión: buscan palabras del registro curricular y del contexto en la consigna, los objetivos, los pasos y la prueba. No reemplazan el juicio docente.</p>
+    <div id="indicadores"></div>
+  </section>
+  <p class="caja aviso"><b>Advertencia.</b> TecnoGuIA produce borradores. Pertinencia curricular, materiales, tiempos y seguridad deben ser revisados por el docente. Las páginas de los documentos curriculares se cotejaron con los PDF oficiales el 18/10/2026; ante cualquier duda, verificá en el documento.</p>
+</div>
+
+<!-- ============ MIS ACTIVIDADES ============ -->
+<div id="propias" class="vista oculto">
+  <section class="panel" aria-labelledby="t-alta">
+    <h2 id="t-alta">Registrar una actividad propia</h2>
+    <p class="nota">Se guarda en el servidor de TecnoGuIA, en tu cuenta (SQLite); no depende del navegador. Igual conviene tener una copia: usá «Exportar copia» para respaldarla. No incluyas datos personales ni fotos de estudiantes.</p>
+    <form id="form-alta" novalidate>
+      <input type="hidden" id="a-id">
+      <div class="fila2">
+        <div><label for="a-titulo">Título *</label><input id="a-titulo" maxlength="150"></div>
+        <div><label for="a-autoria">Autoría y procedencia *</label><input id="a-autoria" maxlength="250" placeholder="Ej.: docente autor; adaptación de…; asistida por IA"></div>
+      </div>
+      <div class="fila">
+        <div><label for="a-grado">Grado *</label><select id="a-grado"><option value="5">5.º grado</option><option value="6">6.º grado</option></select></div>
+        <div><label for="a-registro">Registro curricular *</label><select id="a-registro"></select></div>
+        <div><label for="a-duracion">Duración (min)</label><input id="a-duracion" type="number" min="10" max="480" value="80"></div>
+        <div><label for="a-aplicacion">Aplicación anterior</label><input id="a-aplicacion" maxlength="200" placeholder="Año y tipo de institución, o «sin registro»"></div>
+      </div>
+      <label for="a-objetivo">Objetivo y contenido</label><textarea id="a-objetivo" rows="2" maxlength="800"></textarea>
+      <label for="a-materiales">Materiales (separados por comas) *</label><textarea id="a-materiales" rows="2" maxlength="800"></textarea>
+      <label for="a-consigna">Consigna</label><textarea id="a-consigna" rows="2" maxlength="1500"></textarea>
+      <label for="a-procedimiento">Procedimiento (un paso por línea) *</label><textarea id="a-procedimiento" rows="5" maxlength="6000"></textarea>
+      <label for="a-seguridad">Precauciones</label><textarea id="a-seguridad" rows="2" maxlength="800"></textarea>
+      <label for="a-contexto">Contexto y adaptaciones</label><textarea id="a-contexto" rows="2" maxlength="1000"></textarea>
+      <label for="a-revision">Revisión docente</label><input id="a-revision" maxlength="300" placeholder="Cambios sugeridos antes de reutilizarla">
+      <div class="botones">
+        <button class="b" type="submit" id="btn-alta">Guardar actividad</button>
+        <button class="b gris" type="button" id="btn-alta-limpiar">Limpiar formulario</button>
+      </div>
+      <div id="estado-alta" class="estado" role="status" aria-live="polite"></div>
+    </form>
+  </section>
+  <section class="panel" aria-labelledby="t-lista">
+    <h2 id="t-lista">Mis actividades guardadas</h2>
+    <div id="lista-propias"></div>
+    <div class="botones">
+      <button class="b gris" type="button" id="btn-exportar">Exportar copia (.json)</button>
+      <label class="b gris" for="importar" style="margin:0;font-size:16px">Importar copia<input id="importar" type="file" accept=".json,application/json" class="oculto"></label>
+    </div>
+    <div id="estado-lista" class="estado" role="status" aria-live="polite"></div>
+  </section>
+</div>
+
+<!-- ============ BANCO ============ -->
+<div id="banco" class="vista oculto">
+  <section class="panel" aria-labelledby="t-banco">
+    <h2 id="t-banco">Banco de experiencias docentes</h2>
+    <p class="caja aviso">Subconjunto inicial <b>provisorio</b>: guías desarrolladas para TecnoGUIA y fichas de un PDF de proyectos. Debe reemplazarse o completarse con las 36 actividades docentes de origen (A01–A36), documentadas según la ficha del Anexo C.</p>
+    <div id="lista-banco"></div>
+  </section>
+</div>
+
+<!-- ============ PRUEBAS ============ -->
+<div id="pruebas" class="vista oculto">
+  <section class="panel" aria-labelledby="t-ev">
+    <h2 id="t-ev">Evaluación del prototipo (objetivo específico 5)</h2>
+    <p>Pruebas técnicas y valoración exploratoria docente, incluyendo <b>adecuación curricular</b>, <b>contexto</b> y <b>funcionamiento sin Internet</b>.</p>
+    <table><thead><tr><th>Aspecto</th><th>Cómo se evalúa en TecnoGuIA</th></tr></thead><tbody>
+      <tr><td>Adecuación curricular</td><td>36 consultas P01–P36 (recuperación del registro correcto y rechazo sin cobertura) · indicador de vocabulario curricular en cada borrador · V02 de la valoración docente.</td></tr>
+      <tr><td>Contexto</td><td>Casos G01–G06 con y sin contexto · indicador de contexto incorporado en consigna o pasos · V05 de la valoración docente.</td></tr>
+      <tr><td>Funcionamiento sin Internet</td><td>Prueba sin Internet (F07): sin conexión externa, sin recursos de Internet y con Ollama local respondiendo; generación posterior registrada.</td></tr>
+      <tr><td>Funcionamiento general</td><td>Comprobaciones F01–F09 · registro de cada generación (modo, modelo, tiempo, avisos).</td></tr>
+      <tr><td>Valoración docente</td><td>Instrumento V01–V08 y preguntas abiertas (Anexo D), asociado al borrador revisado.</td></tr>
+    </tbody></table>
+  </section>
+  <section class="panel" aria-labelledby="t-off">
+    <h2 id="t-off">1. Prueba sin Internet (F07)</h2>
+    <p class="nota">Desconectá el wifi o el cable de red y presioná el botón. Después generá un borrador con IA en «Planificar»: queda registrado con el estado de la conexión.</p>
+    <div class="botones"><button class="b" type="button" id="btn-offline">Comprobar funcionamiento sin Internet</button></div>
+    <div id="resultado-offline"></div>
+  </section>
+  <section class="panel" aria-labelledby="t-p36">
+    <h2 id="t-p36">2. Adecuación curricular: 36 consultas de recuperación (Anexo A)</h2>
+    <p class="nota">Ejecuta P01–P36 sobre el corpus cargado. Recuperación pertinente = sobre los 30 casos con cobertura; rechazo correcto = sobre los 6 sin cobertura (no se combinan los denominadores).</p>
+    <div class="botones"><button class="b" type="button" id="btn-p36">Ejecutar las 36 consultas</button><button class="b gris" type="button" id="btn-p36-csv" disabled>Descargar resultados (.csv)</button></div>
+    <div id="resumen-p36"></div><div id="tabla-p36"></div>
+  </section>
+  <section class="panel" aria-labelledby="t-g">
+    <h2 id="t-g">3. Contexto y calidad de generación: casos G01–G06</h2>
+    <p class="nota">Seis pedidos fijos (5.º y 6.º, con y sin contexto, con pocos materiales) generados con IA uno tras otro. Con qwen3:1.7b tarda unos 3 minutos por caso. No uses la IA en otra pestaña mientras corre.</p>
+    <div class="botones"><button class="b" type="button" id="btn-g">Ejecutar los 6 casos con IA</button><button class="b gris" type="button" id="btn-g-parar" disabled>Detener</button><button class="b gris" type="button" id="btn-g-csv" disabled>Descargar resultados (.csv)</button></div>
+    <div id="estado-g" class="estado" role="status" aria-live="polite"></div>
+    <div id="tabla-g"></div>
+  </section>
+  <section class="panel" aria-labelledby="t-f">
+    <h2 id="t-f">4. Comprobaciones funcionales F01–F09 (Anexo B)</h2>
+    <p class="nota">Se realizan a mano. Registrá el resultado observado; queda guardado en tu cuenta.</p>
+    <div id="tabla-f"></div>
+  </section>
+  <section class="panel" aria-labelledby="t-val">
+    <h2 id="t-val">5. Valoración exploratoria docente (Anexo D)</h2>
+    <p class="nota">Cada docente revisa un borrador generado y valora de 1 (no se cumple) a 5 (se cumple claramente). «No puedo valorarlo» se registra aparte, no como cero. Sin nombres ni datos de estudiantes.</p>
+    <form id="form-val" novalidate>
+      <div class="fila">
+        <div><label for="v-codigo">Código del docente *</label><input id="v-codigo" maxlength="10" placeholder="Ej.: D5"></div>
+        <div><label for="v-rol">Función</label><select id="v-rol"><option>Docente de Educación Tecnológica</option><option>Docente de grado</option><option>Otra función docente</option></select></div>
+        <div><label for="v-grado">Grado en que trabaja</label><select id="v-grado"><option>5.º</option><option>6.º</option><option>5.º y 6.º</option><option>Otro</option></select></div>
+        <div><label for="v-borrador">Borrador revisado</label><input id="v-borrador" readonly placeholder="Generá un borrador primero"></div>
+      </div>
+      <h3>Criterios</h3><div id="v-criterios" class="val"></div>
+      <h3>Preguntas abiertas</h3><div id="v-abiertas"></div>
+      <div class="botones"><button class="b" type="submit">Guardar valoración</button><button class="b gris" type="button" id="btn-val-csv">Descargar valoraciones (.csv)</button></div>
+      <div id="estado-val" class="estado" role="status" aria-live="polite"></div>
+    </form>
+    <div id="resumen-val"></div>
+  </section>
+  <section class="panel" aria-labelledby="t-reg">
+    <h2 id="t-reg">6. Registro de generaciones</h2>
+    <p class="nota">Cada borrador generado queda registrado con fecha, versión, consulta, registros obtenidos, modo, modelo y tiempo.</p>
+    <div class="botones"><button class="b gris" type="button" id="btn-reg-csv">Descargar registro (.csv)</button><button class="b gris" type="button" id="btn-ficha">Ficha técnica del equipo</button></div>
+    <div id="tabla-reg"></div>
+  </section>
+</div>
+</main>
+
+<script src="datos/corpus.js"></script>
+<script src="datos/banco.js"></script>
+<script src="datos/pruebas.js"></script>
+<script src="js/motor.js"></script>
+<script src="js/app.js"></script>
+<script src="js/sesion.js"></script>
+</body>
+</html>

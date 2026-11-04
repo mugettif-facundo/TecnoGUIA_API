@@ -1,0 +1,1473 @@
+[
+ {
+  "nombre": "Energía del viento (6.º)",
+  "pedido": {
+   "grado": 6,
+   "contenido_nap_id": "N61",
+   "tema": "Cómo se obtiene energía del viento: construir un molinete y relacionarlo con los aerogeneradores",
+   "duracion_minutos": 80,
+   "cantidad_alumnos": 25,
+   "alumnos_por_grupo": 4,
+   "conocimientos_previos": "Conocen molinos de viento del campo",
+   "modalidad": "grupos",
+   "dificultad": "intermedia",
+   "materiales": [
+    {
+     "nombre": "cartón corrugado",
+     "cantidad": null,
+     "unidad": "unidad"
+    },
+    {
+     "nombre": "sorbetes plásticos",
+     "cantidad": null,
+     "unidad": "unidad"
+    },
+    {
+     "nombre": "palitos de madera",
+     "cantidad": null,
+     "unidad": "unidad"
+    },
+    {
+     "nombre": "tijeras de papel",
+     "cantidad": null,
+     "unidad": "unidad"
+    },
+    {
+     "nombre": "cinta de papel",
+     "cantidad": null,
+     "unidad": "unidad"
+    }
+   ]
+  },
+  "datos": {
+   "id": "IA-be3613c8-0fcc-45f0-b776-7c16682d4a10",
+   "titulo": "Molinete eólico: construir un dispositivo para obtener energía del viento",
+   "grado": 6,
+   "duracion_minutos": 80,
+   "metodo": "Generación completa por IA local con recuperación curricular exacta y orientación didáctica por contenido",
+   "objetivos": [
+    "Identificar en el modelo el recurso (viento), la parte que capta (aspas), la transformación (girar el eje) y el uso (generar movimiento).",
+    "Comparar cómo el diseño de las aspas afecta el giro del molinete.",
+    "Explicar cómo el viento se convierte en energía mecánica y su uso en un sistema."
+   ],
+   "preparacion_docente": [
+    "Recortar y unir los palitos de madera para formar el eje.",
+    "Preparar los sorbetes plásticos y el cartón corrugado para la estructura del molinete.",
+    "Comprobar que los palitos de madera puedan soportar el peso de las aspas."
+   ],
+   "consigna": "Los alumnos deben construir un molinete con aspas de sorbetes plásticos que giren con el viento (soplido). Comparar diseños de aspas y observar cómo el diseño afecta el giro del eje.",
+   "explicacion": "El molinete representa la captación del viento, su transformación en energía mecánica y su uso en un sistema eléctrico. Se comparan diseños de aspas y se observa el impacto del diseño en el giro del eje. La seguridad incluye el uso de tijeras de papel con supervisión y el control del viento artificial.",
+   "seguridad": [
+    "Usar tijeras de papel con supervisión.",
+    "No usar tensión de red, fuego ni sustancias peligrosas."
+   ],
+   "evidencias": [
+    "El molinete gira con soplido.",
+    "Las aspas mueven con el diseño adecuado.",
+    "El LED se enciende si hay motor."
+   ],
+   "criterios_evaluacion": [
+    "El molinete gira con soplido.",
+    "Las aspas mueven con el diseño adecuado.",
+    "El LED se enciende si hay motor."
+   ],
+   "etapas": [
+    {
+     "nombre": "Preparación del molinete",
+     "minutos": 16,
+     "acciones": [
+      "Unir los palitos de madera para formar el eje.",
+      "Doblar las aspas de sorbetes plásticos al medio."
+     ]
+    },
+    {
+     "nombre": "Construcción del molinete",
+     "minutos": 32,
+     "acciones": [
+      "Colocar el cartón corrugado en el centro del molinete.",
+      "Unir las aspas de sorbetes plásticos al eje con cinta de papel."
+     ]
+    },
+    {
+     "nombre": "Prueba del molinete",
+     "minutos": 16,
+     "acciones": [
+      "Colocar el molinete en un viento artificial (soplido) y observar si gira.",
+      "Comparar el giro de las aspas con diseños diferentes."
+     ]
+    },
+    {
+     "nombre": "Puesta en común",
+     "minutos": 16,
+     "acciones": [
+      "Explicar cómo el viento se convierte en energía mecánica y su uso en un sistema.",
+      "Revisar si el molinete gira con soplido y comparar diseños de aspas.",
+      "Prueba final: 1. Colocar el molinete en un viento artificial (soplido). 2. Observar si el molinete gira. 3. Comparar el giro de las aspas con diferentes diseños. 4. Si hay motor, LED o tester, observar si la luz se enciende. Criterio de éxito: El molinete gira con soplido, las aspas mueven con el diseño adecuado, y si hay motor, el LED se enciende."
+     ]
+    }
+   ],
+   "ajuste_tiempos": {
+    "total_original": 50,
+    "total_ajustado": 80,
+    "criterio": "Distribución proporcional con un mínimo de un minuto por etapa; estimación para revisión docente.",
+    "etapas": [
+     {
+      "nombre": "Preparación del molinete",
+      "minutos_ia": 10,
+      "minutos_ajustados": 16
+     },
+     {
+      "nombre": "Construcción del molinete",
+      "minutos_ia": 20,
+      "minutos_ajustados": 32
+     },
+     {
+      "nombre": "Prueba del molinete",
+      "minutos_ia": 10,
+      "minutos_ajustados": 16
+     },
+     {
+      "nombre": "Puesta en común",
+      "minutos_ia": 10,
+      "minutos_ajustados": 16
+     }
+    ]
+   },
+   "prueba_final": {
+    "procedimiento": "1. Colocar el molinete en un viento artificial (soplido). 2. Observar si el molinete gira. 3. Comparar el giro de las aspas con diferentes diseños. 4. Si hay motor, LED o tester, observar si la luz se enciende.",
+    "criterio_exito": "El molinete gira con soplido, las aspas mueven con el diseño adecuado, y si hay motor, el LED se enciende.",
+    "recursos": [
+     "L001",
+     "L002",
+     "L003"
+    ]
+   },
+   "plan_ia": {
+    "producto_o_proceso": "Molinete de cartón con aspas de sorbetes plásticos que gira con el viento (soplido)",
+    "conexion_local": "En el Parque Eólico San Luis Norte, los aerogeneradores captan el viento para generar energía eléctrica. Este molinete simula el proceso de conversión del viento en energía.",
+    "relacion_con_contenido": "El molinete representa la captación del viento, su transformación en energía mecánica y su uso en un sistema eléctrico.",
+    "que_se_observa": "El molinete gira con soplido, las aspas se mueven, y se compara cómo el diseño de las aspas afecta el giro del eje. Si hay motor, LED o tester, se observa si la luz se enciende.",
+    "alcance": "No se puede comprobar si el molinete genera electricidad o si el LED se enciende sin motor. No se puede evaluar la eficiencia del molinete en condiciones reales."
+   },
+   "justificacion_curricular": "El molinete representa la captación del viento, su transformación en energía mecánica y su uso en un sistema eléctrico. Se comparan diseños de aspas y se observa el impacto del diseño en el giro del eje.",
+   "problemas_frecuentes": [
+    {
+     "problema": "El molinete no gira con soplido.",
+     "revision": "Verificar si el eje está bien unido y si las aspas están bien colocadas.",
+     "correccion": "Reunir las aspas con cinta de papel y asegurar que el eje esté bien unido."
+    },
+    {
+     "problema": "Las aspas no mueven con el diseño adecuado.",
+     "revision": "Verificar si el diseño de las aspas es adecuado y si el eje está bien unido.",
+     "correccion": "Cambiar el diseño de las aspas o ajustar la posición de las aspas."
+    }
+   ],
+   "organizacion": {
+    "cantidad_grupos": 7,
+    "cantidad_unidades": 7,
+    "alumnos_por_unidad": 4,
+    "modalidad": "grupos",
+    "etiqueta": "grupos",
+    "indicacion": "Organizar 7 unidades de trabajo de hasta 4 estudiantes; ajustar la última si queda incompleta."
+   },
+   "materiales_por_grupo": [
+    "cartón corrugado: 25 unidad por unidad de trabajo; total: 175 unidad. Cartón corrugado de 10 x 20 cm para la estructura.",
+    "sorbetes plásticos: 25 unidad por unidad de trabajo; total: 175 unidad. Sorbetes plásticos de 10 x 20 cm para las aspas.",
+    "palitos de madera: 25 unidad por unidad de trabajo; total: 175 unidad. Palitos de madera de 10 x 20 cm para el eje."
+   ],
+   "etiqueta_materiales": "Materiales y herramientas requeridos",
+   "recursos_utilizados": [
+    {
+     "id": "L001",
+     "cantidad": 25.0,
+     "distribucion": "por_unidad_trabajo",
+     "detalle": "Cartón corrugado de 10 x 20 cm para la estructura.",
+     "nombre": "cartón corrugado",
+     "unidad": "unidad",
+     "total_requerido": 175.0,
+     "total_disponible": null
+    },
+    {
+     "id": "L002",
+     "cantidad": 25.0,
+     "distribucion": "por_unidad_trabajo",
+     "detalle": "Sorbetes plásticos de 10 x 20 cm para las aspas.",
+     "nombre": "sorbetes plásticos",
+     "unidad": "unidad",
+     "total_requerido": 175.0,
+     "total_disponible": null
+    },
+    {
+     "id": "L003",
+     "cantidad": 25.0,
+     "distribucion": "por_unidad_trabajo",
+     "detalle": "Palitos de madera de 10 x 20 cm para el eje.",
+     "nombre": "palitos de madera",
+     "unidad": "unidad",
+     "total_requerido": 175.0,
+     "total_disponible": null
+    }
+   ],
+   "solicitud_generacion": {
+    "grado": 6,
+    "contenido_nap_id": "N61",
+    "tema": "Cómo se obtiene energía del viento: construir un molinete y relacionarlo con los aerogeneradores",
+    "duracion_minutos": 80,
+    "cantidad_alumnos": 25,
+    "alumnos_por_grupo": 4,
+    "conocimientos_previos": "Conocen molinos de viento del campo",
+    "modalidad": "grupos",
+    "dificultad": "intermedia",
+    "localidad": "San Luis",
+    "contexto_escuela": "",
+    "materiales": [
+     {
+      "id": null,
+      "nombre": "cartón corrugado",
+      "cantidad": null,
+      "unidad": "unidad"
+     },
+     {
+      "id": null,
+      "nombre": "sorbetes plásticos",
+      "cantidad": null,
+      "unidad": "unidad"
+     },
+     {
+      "id": null,
+      "nombre": "palitos de madera",
+      "cantidad": null,
+      "unidad": "unidad"
+     },
+     {
+      "id": null,
+      "nombre": "tijeras de papel",
+      "cantidad": null,
+      "unidad": "unidad"
+     },
+     {
+      "id": null,
+      "nombre": "cinta de papel",
+      "cantidad": null,
+      "unidad": "unidad"
+     }
+    ]
+   },
+   "contexto_clase": {
+    "conocimientos_previos": "Conocen molinos de viento del campo",
+    "modalidad": "grupos",
+    "dificultad": "intermedia"
+   },
+   "contexto_local": {
+    "localidad": "San Luis",
+    "contexto_escuela": "",
+    "version": "2026-10-12.1",
+    "referencias": [
+     {
+      "id": "SL-01",
+      "referencia": "Parque Eólico San Luis Norte, en Toro Negro (departamento General Belgrano): 25 aerogeneradores que aprovechan el viento del norte de la provincia. Luego se le sumó una planta solar y se convirtió en el primer parque híbrido eólico-solar del país.",
+      "fuente": "https://econojournal.com.ar/destacada/pcr-y-arcelormittal-acindar-inauguraron-el-parque-eolico-san-luis-norte/"
+     }
+    ]
+   },
+   "aporte_ia": {
+    "preguntas_docentes": [
+     "¿Cómo afecta el diseño de las aspas al giro del molinete?",
+     "¿Qué sucede si modificamos el diseño de las aspas?",
+     "¿Cómo se puede mejorar el rendimiento del molinete?"
+    ],
+    "orientaciones": [
+     "Fomentar la comparación de diseños de aspas.",
+     "Observar el impacto del diseño en el giro del eje.",
+     "Revisar si el molinete genera energía mecánica."
+    ]
+   },
+   "avisos": [
+    "Borrador generado por IA: revisar pertinencia curricular, montaje, cantidades, seguridad y prueba antes de la clase. Los controles automáticos revisan estructura, recursos, tiempos y vocabulario del contenido; no comprueban físicamente la actividad.",
+    "Se corrigieron identificadores de recursos escritos con su nombre (L001: Cartón corrugado, L002: Sorbetes plásticos, L003: Palitos de madera).",
+    "Alcance indicado por la IA: No se puede comprobar si el molinete genera electricidad o si el LED se enciende sin motor. No se puede evaluar la eficiencia del molinete en condiciones reales.",
+    "Se ajustó la distribución de 50 a 80 minutos. Confirmá que cada paso es realizable en su nuevo tiempo y revisá las duraciones mencionadas dentro de las instrucciones.",
+    "Hay cantidades disponibles sin informar. Confirmá que alcanzan para la clase antes de usar la propuesta.",
+    "Referencia local enviada a la IA (San Luis): Parque Eólico San Luis Norte, en Toro Negro (departamento General Belgrano): 25 aerogeneradores que aprovechan el viento del norte de la provincia. Luego se le sumó una planta solar y se convirtió en el primer parque híbrido eólico-solar del país. Fuente: https://econojournal.com.ar/destacada/pcr-y-arcelormittal-acindar-inauguraron-el-parque-eolico-san-luis-norte/. Comprobá que la actividad la use sin agregar datos."
+   ],
+   "fuente": {
+    "documento": "NAP Educación Primaria, Segundo Ciclo",
+    "contenido_id": "N61",
+    "contenido": "Generación de energía",
+    "eje": "Procesos tecnológicos",
+    "pagina_impresa": 77,
+    "pagina_pdf": 78,
+    "fuente_url": "https://www.educ.ar/recursos/adjuntos/descarga/22424/nap-educacion-primaria-segundo-ciclo?disposition=inline",
+    "verificada": true
+   },
+   "control_calidad": {
+    "revision_obligatoria": [],
+    "observaciones": [
+     "Se corrigieron identificadores de recursos escritos con su nombre (L001: Cartón corrugado, L002: Sorbetes plásticos, L003: Palitos de madera)."
+    ],
+    "version_prompt": "2026-10-12.2",
+    "version_orientaciones": "2026-10-10.1"
+   },
+   "ia": {
+    "tipo": "generacion_completa",
+    "proveedor": "Ollama local",
+    "modelo": "qwen3:1.7b",
+    "version_prompt": "2026-10-12.2",
+    "generada_en": "2026-10-31T22:10:49.897792+00:00",
+    "rendimiento": {
+     "total_duration": 393646382200,
+     "load_duration": 302512900,
+     "prompt_eval_count": 1729,
+     "prompt_eval_duration": 196199000,
+     "eval_count": 1870,
+     "eval_duration": 324620272000
+    },
+    "estado": "pendiente_revision",
+    "contenido_recuperado": {
+     "id": "N61",
+     "grado": 6,
+     "eje_id": "PT",
+     "titulo": "Generación de energía",
+     "pagina_impresa": 77,
+     "pagina_pdf": 78,
+     "sintesis": "Analizar recursos y operaciones para obtener energía.",
+     "fuente_url": "https://www.educ.ar/recursos/adjuntos/descarga/22424/nap-educacion-primaria-segundo-ciclo?disposition=inline",
+     "tipo_texto": "Paráfrasis didáctica; título de organización propio",
+     "referencia_cotejada": true,
+     "eje": "Procesos tecnológicos"
+    },
+    "salida_cruda": {
+     "titulo": "Molinete eólico: construir un dispositivo para obtener energía del viento",
+     "plan": {
+      "producto_o_proceso": "Molinete de cartón con aspas de sorbetes plásticos que gira con el viento (soplido)",
+      "conexion_local": "En el Parque Eólico San Luis Norte, los aerogeneradores captan el viento para generar energía eléctrica. Este molinete simula el proceso de conversión del viento en energía.",
+      "relacion_con_contenido": "El molinete representa la captación del viento, su transformación en energía mecánica y su uso en un sistema eléctrico.",
+      "que_se_observa": "El molinete gira con soplido, las aspas se mueven, y se compara cómo el diseño de las aspas afecta el giro del eje. Si hay motor, LED o tester, se observa si la luz se enciende.",
+      "alcance": "No se puede comprobar si el molinete genera electricidad o si el LED se enciende sin motor. No se puede evaluar la eficiencia del molinete en condiciones reales."
+     },
+     "prueba_final": {
+      "procedimiento": "1. Colocar el molinete en un viento artificial (soplido). 2. Observar si el molinete gira. 3. Comparar el giro de las aspas con diferentes diseños. 4. Si hay motor, LED o tester, observar si la luz se enciende.",
+      "criterio_exito": "El molinete gira con soplido, las aspas mueven con el diseño adecuado, y si hay motor, el LED se enciende.",
+      "recursos": [
+       "L001: Cartón corrugado",
+       "L002: Sorbetes plásticos",
+       "L003: Palitos de madera"
+      ]
+     },
+     "objetivos": [
+      "Identificar en el modelo el recurso (viento), la parte que capta (aspas), la transformación (girar el eje) y el uso (generar movimiento).",
+      "Comparar cómo el diseño de las aspas afecta el giro del molinete.",
+      "Explicar cómo el viento se convierte en energía mecánica y su uso en un sistema."
+     ],
+     "justificacion_curricular": "El molinete representa la captación del viento, su transformación en energía mecánica y su uso en un sistema eléctrico. Se comparan diseños de aspas y se observa el impacto del diseño en el giro del eje.",
+     "materiales": [
+      {
+       "id": "L001",
+       "cantidad": 25.0,
+       "distribucion": "por_unidad_trabajo",
+       "detalle": "Cartón corrugado de 10 x 20 cm para la estructura."
+      },
+      {
+       "id": "L002",
+       "cantidad": 25.0,
+       "distribucion": "por_unidad_trabajo",
+       "detalle": "Sorbetes plásticos de 10 x 20 cm para las aspas."
+      },
+      {
+       "id": "L003",
+       "cantidad": 25.0,
+       "distribucion": "por_unidad_trabajo",
+       "detalle": "Palitos de madera de 10 x 20 cm para el eje."
+      }
+     ],
+     "preparacion_docente": [
+      "Recortar y unir los palitos de madera para formar el eje.",
+      "Preparar los sorbetes plásticos y el cartón corrugado para la estructura del molinete.",
+      "Comprobar que los palitos de madera puedan soportar el peso de las aspas."
+     ],
+     "consigna": "Los alumnos deben construir un molinete con aspas de sorbetes plásticos que giren con el viento (soplido). Comparar diseños de aspas y observar cómo el diseño afecta el giro del eje.",
+     "etapas": [
+      {
+       "nombre": "Preparación del molinete",
+       "minutos": 10,
+       "acciones": [
+        {
+         "descripcion": "Unir los palitos de madera para formar el eje.",
+         "recursos": [
+          "L003"
+         ]
+        },
+        {
+         "descripcion": "Doblar las aspas de sorbetes plásticos al medio.",
+         "recursos": [
+          "L002"
+         ]
+        }
+       ]
+      },
+      {
+       "nombre": "Construcción del molinete",
+       "minutos": 20,
+       "acciones": [
+        {
+         "descripcion": "Colocar el cartón corrugado en el centro del molinete.",
+         "recursos": [
+          "L001"
+         ]
+        },
+        {
+         "descripcion": "Unir las aspas de sorbetes plásticos al eje con cinta de papel.",
+         "recursos": [
+          "L002"
+         ]
+        }
+       ]
+      },
+      {
+       "nombre": "Prueba del molinete",
+       "minutos": 10,
+       "acciones": [
+        {
+         "descripcion": "Colocar el molinete en un viento artificial (soplido) y observar si gira.",
+         "recursos": [
+          "L001",
+          "L002"
+         ]
+        },
+        {
+         "descripcion": "Comparar el giro de las aspas con diseños diferentes.",
+         "recursos": [
+          "L002"
+         ]
+        }
+       ]
+      },
+      {
+       "nombre": "Puesta en común",
+       "minutos": 10,
+       "acciones": [
+        {
+         "descripcion": "Explicar cómo el viento se convierte en energía mecánica y su uso en un sistema.",
+         "recursos": [
+          "L001",
+          "L002"
+         ]
+        },
+        {
+         "descripcion": "Revisar si el molinete gira con soplido y comparar diseños de aspas.",
+         "recursos": [
+          "L002"
+         ]
+        }
+       ]
+      }
+     ],
+     "explicacion": "El molinete representa la captación del viento, su transformación en energía mecánica y su uso en un sistema eléctrico. Se comparan diseños de aspas y se observa el impacto del diseño en el giro del eje. La seguridad incluye el uso de tijeras de papel con supervisión y el control del viento artificial.",
+     "seguridad": [
+      "Usar tijeras de papel con supervisión.",
+      "No usar tensión de red, fuego ni sustancias peligrosas."
+     ],
+     "evidencias": [
+      "El molinete gira con soplido.",
+      "Las aspas mueven con el diseño adecuado.",
+      "El LED se enciende si hay motor."
+     ],
+     "criterios_evaluacion": [
+      "El molinete gira con soplido.",
+      "Las aspas mueven con el diseño adecuado.",
+      "El LED se enciende si hay motor."
+     ],
+     "preguntas_docentes": [
+      "¿Cómo afecta el diseño de las aspas al giro del molinete?",
+      "¿Qué sucede si modificamos el diseño de las aspas?",
+      "¿Cómo se puede mejorar el rendimiento del molinete?"
+     ],
+     "orientaciones": [
+      "Fomentar la comparación de diseños de aspas.",
+      "Observar el impacto del diseño en el giro del eje.",
+      "Revisar si el molinete genera energía mecánica."
+     ],
+     "problemas_frecuentes": [
+      {
+       "problema": "El molinete no gira con soplido.",
+       "revision": "Verificar si el eje está bien unido y si las aspas están bien colocadas.",
+       "correccion": "Reunir las aspas con cinta de papel y asegurar que el eje esté bien unido."
+      },
+      {
+       "problema": "Las aspas no mueven con el diseño adecuado.",
+       "revision": "Verificar si el diseño de las aspas es adecuado y si el eje está bien unido.",
+       "correccion": "Cambiar el diseño de las aspas o ajustar la posición de las aspas."
+      }
+     ]
+    }
+   }
+  },
+  "estado": "ok",
+  "segundos": 394
+ },
+ {
+  "nombre": "Mecanismos con poleas (5.º)",
+  "pedido": {
+   "grado": 5,
+   "contenido_nap_id": "N52",
+   "tema": "Transmitir el giro de una manivela a otra rueda con poleas y elásticos",
+   "duracion_minutos": 80,
+   "cantidad_alumnos": 24,
+   "alumnos_por_grupo": 4,
+   "conocimientos_previos": "Reconocen ruedas y ejes",
+   "modalidad": "grupos",
+   "dificultad": "intermedia",
+   "materiales": [
+    {
+     "nombre": "tapitas de plástico",
+     "cantidad": null,
+     "unidad": "unidad"
+    },
+    {
+     "nombre": "bandas elásticas",
+     "cantidad": null,
+     "unidad": "unidad"
+    },
+    {
+     "nombre": "varillas de madera",
+     "cantidad": null,
+     "unidad": "unidad"
+    },
+    {
+     "nombre": "cartón corrugado",
+     "cantidad": null,
+     "unidad": "unidad"
+    },
+    {
+     "nombre": "tijeras de papel",
+     "cantidad": null,
+     "unidad": "unidad"
+    },
+    {
+     "nombre": "cinta de papel",
+     "cantidad": null,
+     "unidad": "unidad"
+    }
+   ]
+  },
+  "datos": {
+   "id": "IA-86c07cfe-8ac3-4a1f-b390-acb5c3626311",
+   "titulo": "Mecanismos y movimientos",
+   "grado": 5,
+   "duracion_minutos": 80,
+   "metodo": "Generación completa por IA local con recuperación curricular exacta y orientación didáctica por contenido",
+   "objetivos": [
+    "Identificar la entrada y la salida del movimiento en un mecanismo.",
+    "Comparar el sentido y la cantidad de vueltas entre entrada y salida.",
+    "Explicar cómo el elástico transmite el giro de una manivela a otra rueda."
+   ],
+   "preparacion_docente": [
+    "Recortar las tapitas de plástico y las varillas de madera.",
+    "Unir las bandas elásticas a las varillas con cinta de papel.",
+    "Asegurar que los elementos estén preparados para la construcción."
+   ],
+   "consigna": "Construir un mecanismo con tapitas de plástico, varillas de madera y bandas elásticas que transmita el giro de una manivela a otra rueda.",
+   "explicacion": "El mecanismo construido permite observar cómo el giro de una manivela se transmite a una rueda mediante el uso de bandas elásticas. Los alumnos comparan el sentido y la cantidad de vueltas entre entrada y salida, lo que ayuda a entender el concepto de transmisión de movimiento.",
+   "seguridad": [
+    "Usar tijeras de papel con supervisión.",
+    "No usar herramientas que no estén disponibles."
+   ],
+   "evidencias": [
+    "Registro de vueltas de salida por cada vuelta de entrada.",
+    "Comparación del sentido del movimiento entre entrada y salida."
+   ],
+   "criterios_evaluacion": [
+    "Observación del cambio de movimiento entre entrada y salida.",
+    "Registro de la cantidad de vueltas de salida por cada vuelta de entrada."
+   ],
+   "etapas": [
+    {
+     "nombre": "Construcción del mecanismo",
+     "minutos": 41,
+     "acciones": [
+      "Colocar la varilla de madera en el centro de la tapita de plástico.",
+      "Unir la banda elástica a la varilla con cinta de papel."
+     ]
+    },
+    {
+     "nombre": "Prueba del mecanismo",
+     "minutos": 30,
+     "acciones": [
+      "Girar la manivela y observar el movimiento de salida.",
+      "Registrar en un cuaderno la cantidad de vueltas de salida por cada vuelta de entrada."
+     ]
+    },
+    {
+     "nombre": "Puesta en común",
+     "minutos": 9,
+     "acciones": [
+      "Comparar el sentido y la cantidad de vueltas entre entrada y salida.",
+      "Prueba final: 1. Girar la manivela y observar el movimiento de salida. 2. Registrar en un cuaderno la cantidad de vueltas de salida por cada vuelta de entrada. 3. Comparar el sentido del movimiento. Criterio de éxito: Se observa un cambio de movimiento entre entrada y salida, y se registra la cantidad de vueltas."
+     ]
+    }
+   ],
+   "ajuste_tiempos": {
+    "total_original": 40,
+    "total_ajustado": 80,
+    "criterio": "Distribución proporcional con un mínimo de un minuto por etapa; estimación para revisión docente.",
+    "etapas": [
+     {
+      "nombre": "Construcción del mecanismo",
+      "minutos_ia": 20,
+      "minutos_ajustados": 41
+     },
+     {
+      "nombre": "Prueba del mecanismo",
+      "minutos_ia": 15,
+      "minutos_ajustados": 30
+     },
+     {
+      "nombre": "Puesta en común",
+      "minutos_ia": 5,
+      "minutos_ajustados": 9
+     }
+    ]
+   },
+   "prueba_final": {
+    "procedimiento": "1. Girar la manivela y observar el movimiento de salida. 2. Registrar en un cuaderno la cantidad de vueltas de salida por cada vuelta de entrada. 3. Comparar el sentido del movimiento.",
+    "criterio_exito": "Se observa un cambio de movimiento entre entrada y salida, y se registra la cantidad de vueltas.",
+    "recursos": [
+     "L001",
+     "L002",
+     "L003",
+     "L004",
+     "L005",
+     "L006"
+    ]
+   },
+   "plan_ia": {
+    "producto_o_proceso": "Construir un mecanismo con tapitas de plástico, varillas de madera y bandas elásticas que transmita el giro de una manivela a otra rueda.",
+    "relacion_con_contenido": "Relacionar las partes de un mecanismo con el cambio de movimiento.",
+    "que_se_observa": "Al accionar la entrada (girar una manivela), se produce un movimiento de salida observable (subir o girar). Los alumnos describen entrada, transmisión y salida, comparando vueltas o sentido.",
+    "alcance": "No se puede evaluar la estabilidad del mecanismo ni el tipo de movimiento en ausencia de un eje o un punto de apoyo."
+   },
+   "justificacion_curricular": "Construir un mecanismo con elementos básicos permite comprender cómo se transmiten los movimientos en sistemas tecnológicos.",
+   "problemas_frecuentes": [
+    {
+     "problema": "La banda elástica se desplaza al girar la manivela.",
+     "revision": "Verificar que la banda esté bien unida y que la varilla esté centrada.",
+     "correccion": "Reunir la banda con cinta de papel y ajustar la posición de la varilla."
+    },
+    {
+     "problema": "El movimiento de salida no cambia de sentido.",
+     "revision": "Verificar que la manivela esté bien girada y que la banda esté en la posición correcta.",
+     "correccion": "Reorientar la manivela o ajustar la banda para cambiar el sentido del movimiento."
+    }
+   ],
+   "organizacion": {
+    "cantidad_grupos": 6,
+    "cantidad_unidades": 6,
+    "alumnos_por_unidad": 4,
+    "modalidad": "grupos",
+    "etiqueta": "grupos",
+    "indicacion": "Organizar 6 unidades de trabajo de hasta 4 estudiantes; ajustar la última si queda incompleta."
+   },
+   "materiales_por_grupo": [
+    "tapitas de plástico: 24 unidad por unidad de trabajo; total: 144 unidad. 2 tapitas de plástico de 10 x 20 cm para la manivela.",
+    "bandas elásticas: 24 unidad por unidad de trabajo; total: 144 unidad. 2 bandas elásticas de 50 cm de largo para transmitir el giro.",
+    "varillas de madera: 24 unidad por unidad de trabajo; total: 144 unidad. 2 varillas de madera de 30 cm de largo para el eje.",
+    "cartón corrugado: 1 unidad compartido para la clase; total: 1 unidad. Agregado por el control automático porque un paso lo utiliza; confirmar cantidad y uso.",
+    "tijeras de papel: 1 unidad compartido para la clase; total: 1 unidad. Agregado por el control automático porque un paso lo utiliza; confirmar cantidad y uso.",
+    "cinta de papel: 1 unidad compartido para la clase; total: 1 unidad. Agregado por el control automático porque un paso lo utiliza; confirmar cantidad y uso."
+   ],
+   "etiqueta_materiales": "Materiales y herramientas requeridos",
+   "recursos_utilizados": [
+    {
+     "id": "L001",
+     "cantidad": 24.0,
+     "distribucion": "por_unidad_trabajo",
+     "detalle": "2 tapitas de plástico de 10 x 20 cm para la manivela.",
+     "nombre": "tapitas de plástico",
+     "unidad": "unidad",
+     "total_requerido": 144.0,
+     "total_disponible": null
+    },
+    {
+     "id": "L002",
+     "cantidad": 24.0,
+     "distribucion": "por_unidad_trabajo",
+     "detalle": "2 bandas elásticas de 50 cm de largo para transmitir el giro.",
+     "nombre": "bandas elásticas",
+     "unidad": "unidad",
+     "total_requerido": 144.0,
+     "total_disponible": null
+    },
+    {
+     "id": "L003",
+     "cantidad": 24.0,
+     "distribucion": "por_unidad_trabajo",
+     "detalle": "2 varillas de madera de 30 cm de largo para el eje.",
+     "nombre": "varillas de madera",
+     "unidad": "unidad",
+     "total_requerido": 144.0,
+     "total_disponible": null
+    },
+    {
+     "id": "L004",
+     "cantidad": 1,
+     "distribucion": "compartido",
+     "detalle": "Agregado por el control automático porque un paso lo utiliza; confirmar cantidad y uso.",
+     "nombre": "cartón corrugado",
+     "unidad": "unidad",
+     "total_requerido": 1,
+     "total_disponible": null
+    },
+    {
+     "id": "L005",
+     "cantidad": 1,
+     "distribucion": "compartido",
+     "detalle": "Agregado por el control automático porque un paso lo utiliza; confirmar cantidad y uso.",
+     "nombre": "tijeras de papel",
+     "unidad": "unidad",
+     "total_requerido": 1,
+     "total_disponible": null
+    },
+    {
+     "id": "L006",
+     "cantidad": 1,
+     "distribucion": "compartido",
+     "detalle": "Agregado por el control automático porque un paso lo utiliza; confirmar cantidad y uso.",
+     "nombre": "cinta de papel",
+     "unidad": "unidad",
+     "total_requerido": 1,
+     "total_disponible": null
+    }
+   ],
+   "solicitud_generacion": {
+    "grado": 5,
+    "contenido_nap_id": "N52",
+    "tema": "Transmitir el giro de una manivela a otra rueda con poleas y elásticos",
+    "duracion_minutos": 80,
+    "cantidad_alumnos": 24,
+    "alumnos_por_grupo": 4,
+    "conocimientos_previos": "Reconocen ruedas y ejes",
+    "modalidad": "grupos",
+    "dificultad": "intermedia",
+    "localidad": "San Luis",
+    "contexto_escuela": "",
+    "materiales": [
+     {
+      "id": null,
+      "nombre": "tapitas de plástico",
+      "cantidad": null,
+      "unidad": "unidad"
+     },
+     {
+      "id": null,
+      "nombre": "bandas elásticas",
+      "cantidad": null,
+      "unidad": "unidad"
+     },
+     {
+      "id": null,
+      "nombre": "varillas de madera",
+      "cantidad": null,
+      "unidad": "unidad"
+     },
+     {
+      "id": null,
+      "nombre": "cartón corrugado",
+      "cantidad": null,
+      "unidad": "unidad"
+     },
+     {
+      "id": null,
+      "nombre": "tijeras de papel",
+      "cantidad": null,
+      "unidad": "unidad"
+     },
+     {
+      "id": null,
+      "nombre": "cinta de papel",
+      "cantidad": null,
+      "unidad": "unidad"
+     }
+    ]
+   },
+   "contexto_clase": {
+    "conocimientos_previos": "Reconocen ruedas y ejes",
+    "modalidad": "grupos",
+    "dificultad": "intermedia"
+   },
+   "contexto_local": null,
+   "aporte_ia": {
+    "preguntas_docentes": [
+     "¿Qué ocurre cuando se gira la manivela? ¿Cómo se transmite el movimiento?",
+     "¿Qué diferencia hay entre la entrada y la salida del movimiento?"
+    ],
+    "orientaciones": [
+     "Usar el eje de la varilla de madera para guiar el movimiento.",
+     "Asegurar que la banda elástica esté bien unida para evitar desplazamientos."
+    ]
+   },
+   "avisos": [
+    "ATENCIÓN: Se agregaron a materiales recursos que los pasos usaban sin declararlos: cartón corrugado, tijeras de papel, cinta de papel. Confirmá cantidades.",
+    "Borrador generado por IA: revisar pertinencia curricular, montaje, cantidades, seguridad y prueba antes de la clase. Los controles automáticos revisan estructura, recursos, tiempos y vocabulario del contenido; no comprueban físicamente la actividad.",
+    "Alcance indicado por la IA: No se puede evaluar la estabilidad del mecanismo ni el tipo de movimiento en ausencia de un eje o un punto de apoyo.",
+    "Se ajustó la distribución de 40 a 80 minutos. Confirmá que cada paso es realizable en su nuevo tiempo y revisá las duraciones mencionadas dentro de las instrucciones.",
+    "Hay cantidades disponibles sin informar. Confirmá que alcanzan para la clase antes de usar la propuesta."
+   ],
+   "fuente": {
+    "documento": "NAP Educación Primaria, Segundo Ciclo",
+    "contenido_id": "N52",
+    "contenido": "Mecanismos y movimientos",
+    "eje": "Medios técnicos",
+    "pagina_impresa": 74,
+    "pagina_pdf": 75,
+    "fuente_url": "https://www.educ.ar/recursos/adjuntos/descarga/22424/nap-educacion-primaria-segundo-ciclo?disposition=inline",
+    "verificada": true
+   },
+   "control_calidad": {
+    "revision_obligatoria": [
+     "Se agregaron a materiales recursos que los pasos usaban sin declararlos: cartón corrugado, tijeras de papel, cinta de papel. Confirmá cantidades."
+    ],
+    "observaciones": [],
+    "version_prompt": "2026-10-12.2",
+    "version_orientaciones": "2026-10-10.1"
+   },
+   "ia": {
+    "tipo": "generacion_completa",
+    "proveedor": "Ollama local",
+    "modelo": "qwen3:1.7b",
+    "version_prompt": "2026-10-12.2",
+    "generada_en": "2026-10-31T22:14:37.817655+00:00",
+    "rendimiento": {
+     "total_duration": 227933191900,
+     "load_duration": 9243900,
+     "prompt_eval_count": 1568,
+     "prompt_eval_duration": 158762000,
+     "eval_count": 1451,
+     "eval_duration": 227010579000
+    },
+    "estado": "pendiente_revision",
+    "contenido_recuperado": {
+     "id": "N52",
+     "grado": 5,
+     "eje_id": "MT",
+     "titulo": "Mecanismos y movimientos",
+     "pagina_impresa": 74,
+     "pagina_pdf": 75,
+     "sintesis": "Relacionar partes de máquinas con cambios del movimiento.",
+     "fuente_url": "https://www.educ.ar/recursos/adjuntos/descarga/22424/nap-educacion-primaria-segundo-ciclo?disposition=inline",
+     "tipo_texto": "Paráfrasis didáctica; título de organización propio",
+     "referencia_cotejada": true,
+     "eje": "Medios técnicos"
+    },
+    "salida_cruda": {
+     "titulo": "Mecanismos y movimientos",
+     "plan": {
+      "producto_o_proceso": "Construir un mecanismo con tapitas de plástico, varillas de madera y bandas elásticas que transmita el giro de una manivela a otra rueda.",
+      "relacion_con_contenido": "Relacionar las partes de un mecanismo con el cambio de movimiento.",
+      "que_se_observa": "Al accionar la entrada (girar una manivela), se produce un movimiento de salida observable (subir o girar). Los alumnos describen entrada, transmisión y salida, comparando vueltas o sentido.",
+      "alcance": "No se puede evaluar la estabilidad del mecanismo ni el tipo de movimiento en ausencia de un eje o un punto de apoyo."
+     },
+     "prueba_final": {
+      "procedimiento": "1. Girar la manivela y observar el movimiento de salida. 2. Registrar en un cuaderno la cantidad de vueltas de salida por cada vuelta de entrada. 3. Comparar el sentido del movimiento.",
+      "criterio_exito": "Se observa un cambio de movimiento entre entrada y salida, y se registra la cantidad de vueltas.",
+      "recursos": [
+       "L001",
+       "L002",
+       "L003",
+       "L004",
+       "L005",
+       "L006"
+      ]
+     },
+     "objetivos": [
+      "Identificar la entrada y la salida del movimiento en un mecanismo.",
+      "Comparar el sentido y la cantidad de vueltas entre entrada y salida.",
+      "Explicar cómo el elástico transmite el giro de una manivela a otra rueda."
+     ],
+     "justificacion_curricular": "Construir un mecanismo con elementos básicos permite comprender cómo se transmiten los movimientos en sistemas tecnológicos.",
+     "materiales": [
+      {
+       "id": "L001",
+       "cantidad": 24.0,
+       "distribucion": "por_unidad_trabajo",
+       "detalle": "2 tapitas de plástico de 10 x 20 cm para la manivela."
+      },
+      {
+       "id": "L002",
+       "cantidad": 24.0,
+       "distribucion": "por_unidad_trabajo",
+       "detalle": "2 bandas elásticas de 50 cm de largo para transmitir el giro."
+      },
+      {
+       "id": "L003",
+       "cantidad": 24.0,
+       "distribucion": "por_unidad_trabajo",
+       "detalle": "2 varillas de madera de 30 cm de largo para el eje."
+      }
+     ],
+     "preparacion_docente": [
+      "Recortar las tapitas de plástico y las varillas de madera.",
+      "Unir las bandas elásticas a las varillas con cinta de papel.",
+      "Asegurar que los elementos estén preparados para la construcción."
+     ],
+     "consigna": "Construir un mecanismo con tapitas de plástico, varillas de madera y bandas elásticas que transmita el giro de una manivela a otra rueda.",
+     "etapas": [
+      {
+       "nombre": "Construcción del mecanismo",
+       "minutos": 20,
+       "acciones": [
+        {
+         "descripcion": "Colocar la varilla de madera en el centro de la tapita de plástico.",
+         "recursos": [
+          "L003"
+         ]
+        },
+        {
+         "descripcion": "Unir la banda elástica a la varilla con cinta de papel.",
+         "recursos": [
+          "L002"
+         ]
+        }
+       ]
+      },
+      {
+       "nombre": "Prueba del mecanismo",
+       "minutos": 15,
+       "acciones": [
+        {
+         "descripcion": "Girar la manivela y observar el movimiento de salida.",
+         "recursos": [
+          "L001"
+         ]
+        },
+        {
+         "descripcion": "Registrar en un cuaderno la cantidad de vueltas de salida por cada vuelta de entrada.",
+         "recursos": [
+          "L001"
+         ]
+        }
+       ]
+      },
+      {
+       "nombre": "Puesta en común",
+       "minutos": 5,
+       "acciones": [
+        {
+         "descripcion": "Comparar el sentido y la cantidad de vueltas entre entrada y salida.",
+         "recursos": [
+          "L001"
+         ]
+        }
+       ]
+      }
+     ],
+     "explicacion": "El mecanismo construido permite observar cómo el giro de una manivela se transmite a una rueda mediante el uso de bandas elásticas. Los alumnos comparan el sentido y la cantidad de vueltas entre entrada y salida, lo que ayuda a entender el concepto de transmisión de movimiento.",
+     "seguridad": [
+      "Usar tijeras de papel con supervisión.",
+      "No usar herramientas que no estén disponibles."
+     ],
+     "evidencias": [
+      "Registro de vueltas de salida por cada vuelta de entrada.",
+      "Comparación del sentido del movimiento entre entrada y salida."
+     ],
+     "criterios_evaluacion": [
+      "Observación del cambio de movimiento entre entrada y salida.",
+      "Registro de la cantidad de vueltas de salida por cada vuelta de entrada."
+     ],
+     "preguntas_docentes": [
+      "¿Qué ocurre cuando se gira la manivela? ¿Cómo se transmite el movimiento?",
+      "¿Qué diferencia hay entre la entrada y la salida del movimiento?"
+     ],
+     "orientaciones": [
+      "Usar el eje de la varilla de madera para guiar el movimiento.",
+      "Asegurar que la banda elástica esté bien unida para evitar desplazamientos."
+     ],
+     "problemas_frecuentes": [
+      {
+       "problema": "La banda elástica se desplaza al girar la manivela.",
+       "revision": "Verificar que la banda esté bien unida y que la varilla esté centrada.",
+       "correccion": "Reunir la banda con cinta de papel y ajustar la posición de la varilla."
+      },
+      {
+       "problema": "El movimiento de salida no cambia de sentido.",
+       "revision": "Verificar que la manivela esté bien girada y que la banda esté en la posición correcta.",
+       "correccion": "Reorientar la manivela o ajustar la banda para cambiar el sentido del movimiento."
+      }
+     ]
+    }
+   }
+  },
+  "estado": "ok",
+  "segundos": 228
+ },
+ {
+  "nombre": "Producción en serie (5.º)",
+  "pedido": {
+   "grado": 5,
+   "contenido_nap_id": "N55",
+   "tema": "Fabricar tarjetas iguales organizando una línea de producción con plantilla",
+   "duracion_minutos": 80,
+   "cantidad_alumnos": 24,
+   "alumnos_por_grupo": 4,
+   "conocimientos_previos": "Recortaron y plegaron papel",
+   "modalidad": "grupos",
+   "dificultad": "inicial",
+   "materiales": [
+    {
+     "nombre": "cartulina",
+     "cantidad": null,
+     "unidad": "unidad"
+    },
+    {
+     "nombre": "tijeras de papel",
+     "cantidad": null,
+     "unidad": "unidad"
+    },
+    {
+     "nombre": "lápices",
+     "cantidad": null,
+     "unidad": "unidad"
+    },
+    {
+     "nombre": "regla",
+     "cantidad": null,
+     "unidad": "unidad"
+    }
+   ]
+  },
+  "datos": {
+   "id": "IA-e4997693-a8c7-4a50-84b8-34b19f2eaf54",
+   "titulo": "Fabricar tarjetas iguales organizando una línea de producción",
+   "grado": 5,
+   "duracion_minutos": 80,
+   "metodo": "Generación completa por IA local con recuperación curricular exacta y orientación didáctica por contenido",
+   "objetivos": [
+    "Organizar las operaciones en puestos para fabricar unidades iguales",
+    "Aplicar un control de calidad con la plantilla y registrar cuántas unidades lo cumplen",
+    "Comparar la producción en línea con la artesanal"
+   ],
+   "preparacion_docente": [
+    "Recortar y plegar cartulina según la plantilla",
+    "Organizar los recursos en puestos para la clase",
+    "Comprobar que los alumnos puedan marcar y plegar con la plantilla"
+   ],
+   "consigna": "Organizar una línea de producción con puestos en línea, comparando con la producción artesanal, y registrar cuántas tarjetas cumplen con la plantilla",
+   "explicacion": "La actividad busca que los alumnos organizen tareas en puestos, corten, pleguen y controle con la plantilla, comparando con la producción artesanal. Se evalúa la organización, la repetición y la calidad de las tarjetas.",
+   "seguridad": [
+    "Usar tijeras con supervisión",
+    "No usar herramientas que no estén disponibles"
+   ],
+   "evidencias": [
+    "Número de tarjetas que cumplen con la plantilla",
+    "Comparación entre producción en línea y artesanal"
+   ],
+   "criterios_evaluacion": [
+    "Número de tarjetas que cumplen con la plantilla",
+    "Comparación entre producción en línea y artesanal"
+   ],
+   "etapas": [
+    {
+     "nombre": "Marcar tareas",
+     "minutos": 16,
+     "acciones": [
+      "Marcar tareas en puestos"
+     ]
+    },
+    {
+     "nombre": "Cortar con tijeras",
+     "minutos": 16,
+     "acciones": [
+      "Cortar con tijeras de papel"
+     ]
+    },
+    {
+     "nombre": "Plegar con la plantilla",
+     "minutos": 16,
+     "acciones": [
+      "Plegar con la plantilla"
+     ]
+    },
+    {
+     "nombre": "Controlar con la plantilla",
+     "minutos": 16,
+     "acciones": [
+      "Controlar con la plantilla"
+     ]
+    },
+    {
+     "nombre": "Registrar resultados",
+     "minutos": 16,
+     "acciones": [
+      "Registrar resultados",
+      "Prueba final: 1. Marcar tareas en puestos. 2. Cortar con tijeras de papel. 3. Plegar con la plantilla. 4. Controlar con la plantilla. 5. Registrar resultados Criterio de éxito: Se cuentan las tarjetas que cumplen con la plantilla y se comparan con la producción artesanal"
+     ]
+    }
+   ],
+   "ajuste_tiempos": {
+    "total_original": 50,
+    "total_ajustado": 80,
+    "criterio": "Distribución proporcional con un mínimo de un minuto por etapa; estimación para revisión docente.",
+    "etapas": [
+     {
+      "nombre": "Marcar tareas",
+      "minutos_ia": 10,
+      "minutos_ajustados": 16
+     },
+     {
+      "nombre": "Cortar con tijeras",
+      "minutos_ia": 10,
+      "minutos_ajustados": 16
+     },
+     {
+      "nombre": "Plegar con la plantilla",
+      "minutos_ia": 10,
+      "minutos_ajustados": 16
+     },
+     {
+      "nombre": "Controlar con la plantilla",
+      "minutos_ia": 10,
+      "minutos_ajustados": 16
+     },
+     {
+      "nombre": "Registrar resultados",
+      "minutos_ia": 10,
+      "minutos_ajustados": 16
+     }
+    ]
+   },
+   "prueba_final": {
+    "procedimiento": "1. Marcar tareas en puestos. 2. Cortar con tijeras de papel. 3. Plegar con la plantilla. 4. Controlar con la plantilla. 5. Registrar resultados",
+    "criterio_exito": "Se cuentan las tarjetas que cumplen con la plantilla y se comparan con la producción artesanal",
+    "recursos": [
+     "L001",
+     "L002",
+     "L003"
+    ]
+   },
+   "plan_ia": {
+    "producto_o_proceso": "Fabricar tarjetas iguales usando una plantilla y organizando una línea de producción con puestos en línea",
+    "relacion_con_contenido": "Reorganizar tareas para fabricar unidades semejantes, comparando con la producción artesanal",
+    "que_se_observa": "Los alumnos observan si las tarjetas son iguales, si se cumplen con la plantilla y si hay un control de calidad en el proceso",
+    "alcance": "No se puede comprobar la resistencia de las tarjetas ni la habilidad individual de los alumnos"
+   },
+   "justificacion_curricular": "Reorganizar tareas para fabricar unidades semejantes, comparando con la producción artesanal, desarrollando habilidades de organización y control de calidad",
+   "problemas_frecuentes": [
+    {
+     "problema": "No se cumplen con la plantilla",
+     "revision": "Verificar la precisión en el plegado",
+     "correccion": "Repetir el plegado con atención"
+    },
+    {
+     "problema": "Se fabrican tarjetas de forma diferente",
+     "revision": "Verificar la organización en puestos",
+     "correccion": "Reorganizar tareas y marcar con la plantilla"
+    }
+   ],
+   "organizacion": {
+    "cantidad_grupos": 6,
+    "cantidad_unidades": 6,
+    "alumnos_por_unidad": 4,
+    "modalidad": "grupos",
+    "etiqueta": "grupos",
+    "indicacion": "Organizar 6 unidades de trabajo de hasta 4 estudiantes; ajustar la última si queda incompleta."
+   },
+   "materiales_por_grupo": [
+    "cartulina: 24 unidad por unidad de trabajo; total: 144 unidad. Cartulina de 10 x 20 cm para la base",
+    "tijeras de papel: 24 unidad por unidad de trabajo; total: 144 unidad. Tijeras de papel para cortar",
+    "lápices: 24 unidad por unidad de trabajo; total: 144 unidad. Lápices para marcar y plegar"
+   ],
+   "etiqueta_materiales": "Materiales y herramientas requeridos",
+   "recursos_utilizados": [
+    {
+     "id": "L001",
+     "cantidad": 24.0,
+     "distribucion": "por_unidad_trabajo",
+     "detalle": "Cartulina de 10 x 20 cm para la base",
+     "nombre": "cartulina",
+     "unidad": "unidad",
+     "total_requerido": 144.0,
+     "total_disponible": null
+    },
+    {
+     "id": "L002",
+     "cantidad": 24.0,
+     "distribucion": "por_unidad_trabajo",
+     "detalle": "Tijeras de papel para cortar",
+     "nombre": "tijeras de papel",
+     "unidad": "unidad",
+     "total_requerido": 144.0,
+     "total_disponible": null
+    },
+    {
+     "id": "L003",
+     "cantidad": 24.0,
+     "distribucion": "por_unidad_trabajo",
+     "detalle": "Lápices para marcar y plegar",
+     "nombre": "lápices",
+     "unidad": "unidad",
+     "total_requerido": 144.0,
+     "total_disponible": null
+    }
+   ],
+   "solicitud_generacion": {
+    "grado": 5,
+    "contenido_nap_id": "N55",
+    "tema": "Fabricar tarjetas iguales organizando una línea de producción con plantilla",
+    "duracion_minutos": 80,
+    "cantidad_alumnos": 24,
+    "alumnos_por_grupo": 4,
+    "conocimientos_previos": "Recortaron y plegaron papel",
+    "modalidad": "grupos",
+    "dificultad": "inicial",
+    "localidad": "San Luis",
+    "contexto_escuela": "",
+    "materiales": [
+     {
+      "id": null,
+      "nombre": "cartulina",
+      "cantidad": null,
+      "unidad": "unidad"
+     },
+     {
+      "id": null,
+      "nombre": "tijeras de papel",
+      "cantidad": null,
+      "unidad": "unidad"
+     },
+     {
+      "id": null,
+      "nombre": "lápices",
+      "cantidad": null,
+      "unidad": "unidad"
+     },
+     {
+      "id": null,
+      "nombre": "regla",
+      "cantidad": null,
+      "unidad": "unidad"
+     }
+    ]
+   },
+   "contexto_clase": {
+    "conocimientos_previos": "Recortaron y plegaron papel",
+    "modalidad": "grupos",
+    "dificultad": "inicial"
+   },
+   "contexto_local": null,
+   "aporte_ia": {
+    "preguntas_docentes": [
+     "¿Cómo organizan las tareas en puestos?",
+     "¿Qué se ve al final que demuestra el aprendizaje?",
+     "¿Qué se puede mejorar en la producción artesanal?"
+    ],
+    "orientaciones": [
+     "Usar la plantilla para garantizar igualdad",
+     "Comparar con la producción artesanal",
+     "Registrar resultados"
+    ]
+   },
+   "avisos": [
+    "Borrador generado por IA: revisar pertinencia curricular, montaje, cantidades, seguridad y prueba antes de la clase. Los controles automáticos revisan estructura, recursos, tiempos y vocabulario del contenido; no comprueban físicamente la actividad.",
+    "Se corrigieron identificadores de recursos escritos con su nombre (L001 - Cartulina, L002 - Tijeras de papel, L003 - Lápices).",
+    "Alcance indicado por la IA: No se puede comprobar la resistencia de las tarjetas ni la habilidad individual de los alumnos",
+    "Se ajustó la distribución de 50 a 80 minutos. Confirmá que cada paso es realizable en su nuevo tiempo y revisá las duraciones mencionadas dentro de las instrucciones.",
+    "Hay cantidades disponibles sin informar. Confirmá que alcanzan para la clase antes de usar la propuesta."
+   ],
+   "fuente": {
+    "documento": "NAP Educación Primaria, Segundo Ciclo",
+    "contenido_id": "N55",
+    "contenido": "Producción en serie",
+    "eje": "Procesos tecnológicos",
+    "pagina_impresa": 73,
+    "pagina_pdf": 74,
+    "fuente_url": "https://www.educ.ar/recursos/adjuntos/descarga/22424/nap-educacion-primaria-segundo-ciclo?disposition=inline",
+    "verificada": true
+   },
+   "control_calidad": {
+    "revision_obligatoria": [],
+    "observaciones": [
+     "Se corrigieron identificadores de recursos escritos con su nombre (L001 - Cartulina, L002 - Tijeras de papel, L003 - Lápices)."
+    ],
+    "version_prompt": "2026-10-12.2",
+    "version_orientaciones": "2026-10-10.1"
+   },
+   "ia": {
+    "tipo": "generacion_completa",
+    "proveedor": "Ollama local",
+    "modelo": "qwen3:1.7b",
+    "version_prompt": "2026-10-12.2",
+    "generada_en": "2026-10-31T22:17:57.947293+00:00",
+    "rendimiento": {
+     "total_duration": 200118149000,
+     "load_duration": 11409000,
+     "prompt_eval_count": 1410,
+     "prompt_eval_duration": 157825000,
+     "eval_count": 1372,
+     "eval_duration": 199392766000
+    },
+    "estado": "pendiente_revision",
+    "contenido_recuperado": {
+     "id": "N55",
+     "grado": 5,
+     "eje_id": "PT",
+     "titulo": "Producción en serie",
+     "pagina_impresa": 73,
+     "pagina_pdf": 74,
+     "sintesis": "Reorganizar tareas para fabricar unidades semejantes.",
+     "fuente_url": "https://www.educ.ar/recursos/adjuntos/descarga/22424/nap-educacion-primaria-segundo-ciclo?disposition=inline",
+     "tipo_texto": "Paráfrasis didáctica; título de organización propio",
+     "referencia_cotejada": true,
+     "eje": "Procesos tecnológicos"
+    },
+    "salida_cruda": {
+     "titulo": "Fabricar tarjetas iguales organizando una línea de producción",
+     "plan": {
+      "producto_o_proceso": "Fabricar tarjetas iguales usando una plantilla y organizando una línea de producción con puestos en línea",
+      "relacion_con_contenido": "Reorganizar tareas para fabricar unidades semejantes, comparando con la producción artesanal",
+      "que_se_observa": "Los alumnos observan si las tarjetas son iguales, si se cumplen con la plantilla y si hay un control de calidad en el proceso",
+      "alcance": "No se puede comprobar la resistencia de las tarjetas ni la habilidad individual de los alumnos"
+     },
+     "prueba_final": {
+      "procedimiento": "1. Marcar tareas en puestos. 2. Cortar con tijeras de papel. 3. Plegar con la plantilla. 4. Controlar con la plantilla. 5. Registrar resultados",
+      "criterio_exito": "Se cuentan las tarjetas que cumplen con la plantilla y se comparan con la producción artesanal",
+      "recursos": [
+       "L001 - Cartulina",
+       "L002 - Tijeras de papel",
+       "L003 - Lápices"
+      ]
+     },
+     "objetivos": [
+      "Organizar las operaciones en puestos para fabricar unidades iguales",
+      "Aplicar un control de calidad con la plantilla y registrar cuántas unidades lo cumplen",
+      "Comparar la producción en línea con la artesanal"
+     ],
+     "justificacion_curricular": "Reorganizar tareas para fabricar unidades semejantes, comparando con la producción artesanal, desarrollando habilidades de organización y control de calidad",
+     "materiales": [
+      {
+       "id": "L001",
+       "cantidad": 24.0,
+       "distribucion": "por_unidad_trabajo",
+       "detalle": "Cartulina de 10 x 20 cm para la base"
+      },
+      {
+       "id": "L002",
+       "cantidad": 24.0,
+       "distribucion": "por_unidad_trabajo",
+       "detalle": "Tijeras de papel para cortar"
+      },
+      {
+       "id": "L003",
+       "cantidad": 24.0,
+       "distribucion": "por_unidad_trabajo",
+       "detalle": "Lápices para marcar y plegar"
+      }
+     ],
+     "preparacion_docente": [
+      "Recortar y plegar cartulina según la plantilla",
+      "Organizar los recursos en puestos para la clase",
+      "Comprobar que los alumnos puedan marcar y plegar con la plantilla"
+     ],
+     "consigna": "Organizar una línea de producción con puestos en línea, comparando con la producción artesanal, y registrar cuántas tarjetas cumplen con la plantilla",
+     "etapas": [
+      {
+       "nombre": "Marcar tareas",
+       "minutos": 10,
+       "acciones": [
+        {
+         "descripcion": "Marcar tareas en puestos",
+         "recursos": [
+          "L003"
+         ]
+        }
+       ]
+      },
+      {
+       "nombre": "Cortar con tijeras",
+       "minutos": 10,
+       "acciones": [
+        {
+         "descripcion": "Cortar con tijeras de papel",
+         "recursos": [
+          "L002"
+         ]
+        }
+       ]
+      },
+      {
+       "nombre": "Plegar con la plantilla",
+       "minutos": 10,
+       "acciones": [
+        {
+         "descripcion": "Plegar con la plantilla",
+         "recursos": [
+          "L001"
+         ]
+        }
+       ]
+      },
+      {
+       "nombre": "Controlar con la plantilla",
+       "minutos": 10,
+       "acciones": [
+        {
+         "descripcion": "Controlar con la plantilla",
+         "recursos": [
+          "L001"
+         ]
+        }
+       ]
+      },
+      {
+       "nombre": "Registrar resultados",
+       "minutos": 10,
+       "acciones": [
+        {
+         "descripcion": "Registrar resultados",
+         "recursos": [
+          "L003"
+         ]
+        }
+       ]
+      }
+     ],
+     "explicacion": "La actividad busca que los alumnos organizen tareas en puestos, corten, pleguen y controle con la plantilla, comparando con la producción artesanal. Se evalúa la organización, la repetición y la calidad de las tarjetas.",
+     "seguridad": [
+      "Usar tijeras con supervisión",
+      "No usar herramientas que no estén disponibles"
+     ],
+     "evidencias": [
+      "Número de tarjetas que cumplen con la plantilla",
+      "Comparación entre producción en línea y artesanal"
+     ],
+     "criterios_evaluacion": [
+      "Número de tarjetas que cumplen con la plantilla",
+      "Comparación entre producción en línea y artesanal"
+     ],
+     "preguntas_docentes": [
+      "¿Cómo organizan las tareas en puestos?",
+      "¿Qué se ve al final que demuestra el aprendizaje?",
+      "¿Qué se puede mejorar en la producción artesanal?"
+     ],
+     "orientaciones": [
+      "Usar la plantilla para garantizar igualdad",
+      "Comparar con la producción artesanal",
+      "Registrar resultados"
+     ],
+     "problemas_frecuentes": [
+      {
+       "problema": "No se cumplen con la plantilla",
+       "revision": "Verificar la precisión en el plegado",
+       "correccion": "Repetir el plegado con atención"
+      },
+      {
+       "problema": "Se fabrican tarjetas de forma diferente",
+       "revision": "Verificar la organización en puestos",
+       "correccion": "Reorganizar tareas y marcar con la plantilla"
+      }
+     ]
+    }
+   }
+  },
+  "estado": "ok",
+  "segundos": 200
+ }
+]

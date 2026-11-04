@@ -1,0 +1,51 @@
+TecnoGUIA 0.10.0 — se suma el PLANIFICADOR CON FUENTES CURRICULARES (3/11/2026)
+==============================================================================
+Qué es: la página de la versión 0.12.1-web (búsqueda curricular C01–C13 con documento y página,
+experiencias del banco, plantilla local o IA con Ollama, controles posteriores, borrador editable,
+actividades propias, evaluación) ahora vive DENTRO de TecnoGUIA, detrás del mismo ingreso.
+Tu generador de siempre (/formulario, con catálogo de guías, 249 materiales, 100 proyectos) no se tocó.
+
+Qué ganás
+  * Un solo ingreso y una sola base (tecnoguia.db) para las dos pantallas.
+  * Lo que cada docente guarda en el planificador (actividades propias A-N01…, registro de
+    generaciones, pruebas funcionales, valoraciones) queda en SQLite por usuario, no en el navegador.
+  * El administrador ve las actividades de todos los docentes y puede publicarlas en un BANCO
+    COMPARTIDO (aparecen como experiencias en el planificador de todos): /planificador/admin.
+  * Ollama se consulta a través de la API (misma PC), con la misma sesión.
+  * Los accesos y acciones quedan en el registro de accesos que ya tenías (Administración).
+
+Cómo instalarlo (5 minutos)
+  1. Cerrá TecnoGUIA (Ctrl+C en la ventana negra). Si usás git, hacé un commit antes.
+  2. Copiá TODO el contenido de este paquete dentro de C:\Users\MakerCompetencia\TecnoGUIA_API
+     (planificador.py, la carpeta planificador, aplicar_integracion.py, CAMBIOS_0.10.txt y pruebas\test_planificador.py).
+  3. En esa carpeta ejecutá:
+         .venv\Scripts\python.exe aplicar_integracion.py
+     Agrega 3 líneas a main.py y un enlace en formulario_multi.html y administracion.html;
+     deja copias *.bak_integracion de los tres archivos. Se puede repetir sin problema.
+  4. Iniciá TecnoGUIA como siempre (INICIAR_TECNOGUIA.bat). Ingresá, y en el generador aparece el
+     enlace «Planificador con fuentes curriculares» (o entrá a http://127.0.0.1:8000/planificador/).
+  Para deshacer: restaurá los tres archivos desde las copias .bak_integracion.
+
+No hace falta instalar paquetes nuevos ni correr nada sobre la base: las dos tablas nuevas
+(planificador_datos y planificador_compartidas) se crean solas la primera vez que se usa.
+
+Pruebas
+  .venv\Scripts\python.exe -m unittest pruebas.test_planificador -v     (8 pruebas, usan una base temporal)
+  .venv\Scripts\python.exe -m unittest pruebas.test_seguridad -v        (tus 16 de siempre: conviene correrlas de nuevo)
+
+Qué se probó antes de armar el paquete
+  * Contra tu main.py, seguridad.py y motor.py reales, con una base temporal: las 8 pruebas nuevas
+    pasan (sesión obligatoria, clave temporal bloquea, datos separados por usuario, banco
+    compartido solo administrador, puente a Ollama, tablas existentes intactas).
+  * En un navegador real: ingreso con tu pantalla, pasar al planificador, buscar, generar con
+    plantilla y con IA (Ollama simulado), guardar, recargar, ver y compartir como administrador,
+    verlo como docente, cerrar sesión; y que tu generador original sigue abriendo.
+  * NO se probó: en Windows, con Ollama real, ni tus 16 pruebas de seguridad ni tu generador
+    de actividades (necesitan tu tecnoguia.db real, que no copié).
+
+Para el TFG
+  * El planificador usa el mismo motor.js y los mismos datos que la 0.12.1-web (evaluada).
+    Lo que cambia es el almacenamiento y el ingreso. Si esta combinación se va a describir como
+    versión evaluada, hay que repetir el acta con ella.
+  * Los archivos de datos curriculares y el código de la pantalla (/planificador/js, /datos) se
+    sirven sin ingreso; todo lo que guarda o consulta datos de usuarios exige sesión.

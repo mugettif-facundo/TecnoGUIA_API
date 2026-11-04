@@ -1,0 +1,26 @@
+{
+  "version": "2026-10-12.1",
+  "estado": "propuesta_pendiente_revision_docente",
+  "nota": "Referencias locales que la IA puede usar. localidad_escuela es el lugar de la escuela: se aplica solo, en cada actividad, sin campos en el formulario (dejarlo vacío para desactivar). Solo se envían las que tienen \"verificada\": true y están etiquetadas con el contenido elegido. Editar con el Bloc de notas guardando en UTF-8 y reiniciar Uvicorn. palabras_clave no se envía a la IA: sirve para comprobar si la actividad usó la referencia (raíces sin tildes, en minúscula).",
+  "localidad_escuela": "San Luis",
+  "localidades": {
+    "San Luis": [
+      {
+        "id": "SL-01",
+        "referencia": "Parque Eólico San Luis Norte, en Toro Negro (departamento General Belgrano): 25 aerogeneradores que aprovechan el viento del norte de la provincia. Luego se le sumó una planta solar y se convirtió en el primer parque híbrido eólico-solar del país.",
+        "contenidos": ["N61"],
+        "palabras_clave": ["toro negro", "aerogenerador", "parque eolico", "eolic"],
+        "fuente": "https://econojournal.com.ar/destacada/pcr-y-arcelormittal-acindar-inauguraron-el-parque-eolico-san-luis-norte/",
+        "verificada": true
+      },
+      {
+        "id": "SL-02",
+        "referencia": "La planta solar del parque de Toro Negro usa paneles con seguidores: un sistema automático que va girando los paneles para seguir al sol durante el día.",
+        "contenidos": ["N62"],
+        "palabras_clave": ["toro negro", "seguidor", "panel", "sigue al sol", "seguir al sol"],
+        "fuente": "https://econojournal.com.ar/renovables-te/inauguraron-el-primer-parque-renovable-hibrido-del-pais/",
+        "verificada": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+TecnoGUIA — constancia de la versión integrada (API 0.9 + planificador 0.12.1-web)
+Fecha: 03/11/2026 23:15
+
+Equipo: DESKTOP-O7M86UI · Windows-11-10.0.26100-SP0
+Procesador: Intel64 Family 6 Model 126 Stepping 5, GenuineIntel
+Memoria RAM: 7.8 GB
+Python: 3.13.7
+Node: v24.21.0
+Ollama: ollama version is 0.40.14
+
+Git commit: e93c18c402cff66dab6f7f1d9c6a317691ee3237
+Git etiqueta: v0.10.0
+Árbol de trabajo: SIN CAMBIOS pendientes
+
+Huellas SHA-256 (Get-FileHash <archivo> -Algorithm SHA256 debe dar lo mismo):
+d586eb5154bcb21958ea8b0944db56e521ba15ca8f87f573e15076841cfb8aca  main.py
+f112f86c9792f217b52def5a2589c5ab214e1cd5eaf2959c3259a0ce71163388  seguridad.py
+5571b3ca15fae3dfe6a726fd60ecec9fa20b31bee9e994ae1d7c32ca861c5598  motor.py
+706f3b8625a5a82be3a9d80c7386674bd318ec7c0c9dc8553e392a6661b22969  ia_local.py
+8a8927fe813323d2eb47431dc84862cd94a5c13f18eb4e36ad71a29d528c47fa  ia_generadora.py
+d1daad7466c3f87e7377bd61bba5de8faaa0d7b0e7b0c2436a98e7b73e93c732  planificador.py
+e1f2027e87e08e72d44e4e6e8785677042419b26226abaa5d56ae5d593e33092  ingresar.html
+fc881aad78e98be2a97db929d1d2d9145e31f28deb474a3713162f78e7ed3c54  administracion.html
+1aacd6a06ec68762bf010c83f53cbac3d1d0824042482bb85c68942ae5889698  formulario_multi.html
+5bf0ed81b255e7b9954233e9d6b252f8b1917f912fe8b8964dfc78409b7e6d3f  planificador/web/index.html
+6e72af1485e1e82a7804b3d844406095a0b3198c4fb17c3ad589dc5541e7b9d6  planificador/web/admin.html
+d4a50de65b1a075c18df47c59c21461a8b9393b6fe3424a1a0dd07aff9bddc7d  planificador/web/js/app.js
+2a1ff9cb0d22f1ea4f8fab76fe92a9bab3c6e95f837f43055c3188aa495345c2  planificador/web/js/sesion.js
+511eed92ee80c60310b23b1f6817f5f01afa18ed1946c17cbe8b0f479ff51ad3  planificador/web/js/motor.js
+89a21de3355b15a4c2f185d2e75cc5317a2555c26cb6ff1bbd6037487067ecfc  planificador/web/datos/corpus.js
+8da9d6acbe0b0603b1f32d152edf0f2296e710945b0979d1d33a8e1ee34ab859  planificador/web/datos/banco.js
+302a5f0323be19f0bb9a277f831886e166cb01df4d5aaa077977730aa0ae5bad  planificador/web/datos/pruebas.js
+
+Referencia de la versión evaluada 0.12.1-web (deben coincidir las tres del planificador/web/js y datos):
+511eed92ee80c60310b23b1f6817f5f01afa18ed1946c17cbe8b0f479ff51ad3  js/motor.js
+89a21de3355b15a4c2f185d2e75cc5317a2555c26cb6ff1bbd6037487067ecfc  datos/corpus.js
+8da9d6acbe0b0603b1f32d152edf0f2296e710945b0979d1d33a8e1ee34ab859  datos/banco.js
+302a5f0323be19f0bb9a277f831886e166cb01df4d5aaa077977730aa0ae5bad  datos/pruebas.js

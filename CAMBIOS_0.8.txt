@@ -1,0 +1,63 @@
+TecnoGUIA 0.8 — CONTEXTO LOCAL AUTOMÁTICO (12/10/2026)
+======================================================
+
+QUÉ CAMBIA
+----------
+El formulario NO cambia. El lugar de la escuela se configura una sola vez en
+contexto_local.json ("localidad_escuela": "San Luis") y se aplica solo en
+cada actividad generada con IA.
+
+Cómo funciona:
+  1. Las referencias locales están en contexto_local.json, con su fuente.
+  2. A la IA le llegan SOLO las referencias con "verificada": true y
+     etiquetadas con el contenido elegido. Ej.: Toro Negro va en Generación de
+     energía (N61); en Resistencia de estructuras no se envía nada y la
+     actividad sale como antes.
+  3. Con una referencia, el plan incluye un campo obligatorio "Conexión con el
+     lugar" que la IA escribe antes que el resto (en una primera prueba real,
+     qwen3:1.7b ignoró la referencia cuando era solo una instrucción; con el
+     campo obligatorio la usó). Se le pide no agregar cifras, nombres ni
+     lugares. Sin referencia, se le pide no nombrar lugares ni empresas reales.
+  4. La propuesta registra qué referencia se envió, con su fuente. Se ve en
+     pantalla ("Contexto local"), en la versión para imprimir y en el texto
+     descargable.
+  5. Si la IA no usó la referencia, aparece una observación para que la
+     agregues vos.
+
+¿POR QUÉ NO BUSCA EN INTERNET?
+El modelo local (qwen3:1.7b) no puede buscar, y si se le pide "contexto de
+San Luis" inventa parques, ríos y empresas. Por eso usa solo datos que vos
+cargás y verificás.
+
+REFERENCIAS CARGADAS (para revisar)
+  SL-01 Parque Eólico San Luis Norte, Toro Negro -> N61. Verificada.
+  SL-02 Seguidores solares de la planta de Toro Negro -> N62 (Control manual
+        y automático). Marcada "verificada": false: no se usa hasta que
+        revises la fuente y la cambies a true.
+
+CÓMO AGREGAR REFERENCIAS
+Abrí contexto_local.json con el Bloc de notas (guardar en UTF-8) y copiá un
+bloque. Campos:
+  id             código propio, ej. SL-03
+  referencia     el dato, en una o dos frases, tal como querés que lo use la IA
+  contenidos     IDs donde tiene sentido: N51…N57, N61…N65
+  palabras_clave raíces sin tildes para comprobar si la IA la usó
+  fuente         enlace https de donde lo verificaste
+  verificada     true solo cuando lo comprobaste
+Para desactivar el contexto local, dejá "localidad_escuela": "".
+Reiniciá Uvicorn después de editar.
+
+ARCHIVOS
+  contexto_local.json (nuevo), ia_generadora.py, formulario_multi.html (solo
+  muestra el contexto en el resultado), pruebas\test_generador.py (18 pruebas),
+  evaluar_casos.py (caso energia_san_luis).
+  La API acepta además "localidad" y "contexto_escuela" opcionales, para uso
+  futuro; el formulario no los envía.
+La base tecnoguia.db no cambia. Las propuestas guardadas se siguen abriendo.
+Nota: los casos de N61 en evaluar_casos.py ahora reciben la referencia de
+San Luis; tenelo en cuenta al comparar con la evaluación anterior.
+
+LÍMITES
+El control de uso de la referencia busca palabras clave; no comprueba que la
+IA no haya agregado datos falsos alrededor. Leé la conexión con el lugar, la
+consigna y la explicación.
